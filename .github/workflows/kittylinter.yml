@@ -53,14 +53,14 @@ jobs:
           done
 
       - name: Upload to FTP
-        if: success()  # Only run this step if the previous step succeeded
+        if: success()  
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: temp_upload/  # Use the temporary directory
+          local-dir: temp_upload/ 
           server-dir: /dayzxb_missions/  # Adjust as necessary
 
       - name: Clean up
-        run: rm -rf temp_upload  # Remove the temporary directory
+        run: rm -rf temp_upload/
