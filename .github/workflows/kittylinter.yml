@@ -34,4 +34,7 @@ jobs:
           DEFAULT_BRANCH: main  # Specify the default branch
           DISABLE_LINTING: "false"  # Disable linting, set to "true" to skip
           ENABLE_LINTER: "eslint,LibXML"  # Specify which linters to enable (comma-separated)
-          DISABLE_LINTER: "JSCPD,CHECKOV"  # Specify which linters to disable (comma-separated)
+          VALIDATE_XML: "true"
+          VALIDATE_JSON: "true"
+          VALIDATE_JSON_PRETTIER: "false"
+          
