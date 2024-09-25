@@ -1,42 +1,40 @@
 name: Kitty Linter
 
-on: 
+on:
   push:
     branches:
-      - main  # Change to your default branch if needed
+      - main
+
+permissions: {}
 
 jobs:
-  validate:
-    name: Validate Files
+  build:
+    name: Lint
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
 
-      - name: Run Linter
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Super-linter
         uses: super-linter/super-linter@v7.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          run-linter: true
-          run-format: false  # Set to true if you want to run formatting checks
 
-  upload:
-    name: Upload to FTP
-    runs-on: ubuntu-latest
-    needs: validate  # This ensures the upload job runs only after validation
-
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      - name: FTP Upload
+        if: success()  # Only run this step if previous steps succeeded
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: .  # Specify the directory to upload (e.g., the root)
-          server-dir: /path/on/ftp  # Specify the target directory on the FTP server
+          local-dir: .  # Use the root of the repository
+          server-dir: /path/on/server  # Adjust this to your server's path
 
