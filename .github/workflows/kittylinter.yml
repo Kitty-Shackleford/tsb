@@ -56,7 +56,7 @@ jobs:
         if: success()  # Only run this step if the previous step succeeded
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp.example.com
+          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: temp_upload/  # Use the temporary directory
