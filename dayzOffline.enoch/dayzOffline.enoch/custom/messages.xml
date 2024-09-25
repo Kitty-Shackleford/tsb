@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages>
+	<message>
+		<delay>1</delay>
+		<onconnect>1</onconnect>
+		<text> [ TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB ] | YOU ARE RIDING THE SHORT BUS | JOIN THE DISCORD | https://discord.gg/jvDrNT6aCx | YOU ARE RIDING THE SHORT BUS | [ TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB ] </text>
+	</message>
+	<message>
+		<repeat>6</repeat>
+		<text> [ TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB ] | LEADERBOARD | https://player.killfeed.xyz/dashboard/global/statistics/ | SHOP | https://shop.killfeed.xyx | JOIN THE DISCORD | https://discord.gg/jvDrNT6aCx | [ TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB ] </text>
+	</message>
+	<message>
+		<repeat>90</repeat>
+		<text> [So dark you can smell the moon.] </text>
+	</message>
+	<message>
+		<repeat>69</repeat>
+		<text> [Out on the corner working as a Monkey Grinder.] </text>
+	</message>
+	<message>
+		<repeat>33</repeat>
+		<text> [We are seeing too many loose noodles] </text>
+	</message>
+	<message>
+		<repeat>13</repeat>
+		<text> [This is really difficult for me to grasp my head around] </text>
+	</message>
+</messages>
