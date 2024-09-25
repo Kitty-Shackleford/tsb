@@ -49,6 +49,27 @@
 		<active>0</active>
 		<children><child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/></children>
 	</event>
+	<event name="InfectedC130J">
+        <nominal>30</nominal>
+        <min>0</min>
+        <max>30</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="20" min="0" type="ZmbM_PrisonerSkinny"/>
+			<child lootmax="5" lootmin="0" max="3" min="0" type="ZmbM_NBC_Yellow"/>
+			<child lootmax="5" lootmin="0" max="1" min="0" type="ZmbM_DoctorFat"/>
+			<child lootmax="5" lootmin="0" max="6" min="0" type="ZmbM_usSoldier_Heavy_Woodland"/>
+        </children>
+    </event>
+	
 	<!-- Not Working
 	<event name="VehicleTransitBus">
         <waves>0</waves>

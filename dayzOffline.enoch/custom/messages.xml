@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
 	<message>
-		<deadline>120</deadline>
-		<shutdown>1</shutdown>
-		<text> [ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ]  [ SERVER: Lonestar | https://discord.gg/jvDrNT6aCx ]  WILL REBOOT IN #tmin MINS PARK AND EXIT YOUR VEHICLE |  https://shop.killfeed.xyx | [ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ] </text>
-	</message>
-	<message>
 		<delay>1</delay>
 		<onconnect>1</onconnect>
-		<text> [ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ] | Enjoy Lonestar | UNLINKED ACCOUNTS BANNED | JOIN THE DISCORD | https://discord.gg/jvDrNT6aCx | [ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ] </text>
+		<text> [ TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB ] | YOU ARE RIDING THE SHORT BUS | JOIN THE DISCORD | https://discord.gg/jvDrNT6aCx | YOU ARE RIDING THE SHORT BUS | [ TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB ] </text>
 	</message>
 	<message>
 		<repeat>6</repeat>
-		<text> [ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ] UNLINKED ACCOUNTS BANNED | JOIN THE DISCORD | https://discord.gg/jvDrNT6aCx | LEADERBOARD | https://player.killfeed.xyz/dashboard/global/statistics/ | SHOP | https://shop.killfeed.xyx [ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ] </text>
+		<text> [ TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB ] | LEADERBOARD | https://player.killfeed.xyz/dashboard/global/statistics/ | SHOP | https://shop.killfeed.xyx | JOIN THE DISCORD | https://discord.gg/jvDrNT6aCx | [ TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB ] </text>
 	</message>
 	<message>
 		<repeat>90</repeat>
-		<text> [ВОТ КИС КИС КИС КИС...] </text>
+		<text> [So dark you can smell the moon.] </text>
 	</message>
 	<message>
 		<repeat>69</repeat>
-		<text> [ЕШЬТЕ ГРИБЫ...] </text>
+		<text> [Out on the corner working as a Monkey Grinder.] </text>
 	</message>
 	<message>
 		<repeat>33</repeat>
-		<text> [ОСТЕРЕГАЙТЕСЬ КАННИБАЛОВ...] </text>
+		<text> [We are seeing too many loose noodles] </text>
 	</message>
 	<message>
 		<repeat>13</repeat>
-		<text> [Глаза боятся, а руки делают] </text>
+		<text> [This is really difficult for me to grasp my head around] </text>
 	</message>
 </messages>

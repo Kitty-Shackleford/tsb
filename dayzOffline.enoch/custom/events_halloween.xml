@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
 	<event name="AnimalGoatSpooky">
-		<nominal>27</nominal>
-		<min>26</min>
-		<max>27</max>
+		<nominal>13</nominal>
+		<min>6</min>
+		<max>13</max>
 		<lifetime>180</lifetime>
 		<restock>0</restock>
 		<saferadius>200</saferadius>
@@ -14,7 +14,7 @@
 		<limit>child</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="0" lootmin="0" max="27" min="26" type="Animal_CapraHircus_Spooky"/>
+			<child lootmax="0" lootmin="0" max="6" min="1" type="Animal_CapraHircus_Spooky"/>
 		</children>
 	</event>
 	<event name="InfectedMummy">
@@ -23,8 +23,8 @@
         <max>100</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>50</distanceradius>
+        <saferadius>5</saferadius>
+        <distanceradius>5</distanceradius>
         <cleanupradius>100</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
@@ -49,9 +49,9 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>fixed</position>
 		<limit>child</limit>
-		<active>1</active>
+		<active>0</active>
 		<children>
-			<child lootmax="8" lootmin="7" max="27" min="27" type="Bonfire"/>
+			<child lootmax="13" lootmin="6" max="27" min="27" type="Bonfire"/>
 		</children>
 	</event>
 </events>
