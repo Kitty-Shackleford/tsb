@@ -59,7 +59,7 @@ jobs:
           server: ftp.example.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: temp_upload  # Use the temporary directory
+          local-dir: temp_upload/  # Use the temporary directory
           server-dir: /dayzxb_missions/  # Adjust as necessary
 
       - name: Clean up
