@@ -75,7 +75,7 @@
 			]
 		},
 		{
-			"slotName": "Headgear",
+			"slotName": "Mask",
 			"discreteItemSets": [
 				{
 					"itemType": "PaydayMask_Hoxton",
@@ -152,7 +152,7 @@
 								"quantityMin": 1.0,
 								"quantityMax": 1.0
 							},
-							"quickBarSlot": -1
+							"quickBarSlot": -1,
 							"simpleChildrenUseDefaultAttributes": false,
 							"simpleChildrenTypes": [
 								"Mag_M14_20Rnd"
