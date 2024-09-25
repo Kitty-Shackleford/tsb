@@ -49,7 +49,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>fixed</position>
 		<limit>child</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="13" lootmin="6" max="27" min="27" type="Bonfire"/>
 		</children>
