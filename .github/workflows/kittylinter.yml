@@ -1,9 +1,8 @@
 name: Kitty Linter
 
-on:
-  push:
-    branches:
-      - main
+on: # yamllint disable-line rule:truthy
+  push: null
+  pull_request: null
 
 permissions: {}
 
@@ -15,26 +14,24 @@ jobs:
     permissions:
       contents: read
       packages: read
+      # To report GitHub Actions status checks
       statuses: write
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          # super-linter needs the full git history to get the
+          # list of files that changed across commits
           fetch-depth: 0
 
       - name: Super-linter
-        uses: super-linter/super-linter@v7.1.0
+        uses: super-linter/super-linter@v7.1.0 # x-release-please-version
         env:
+          # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: FTP Upload
-        if: success()  # Only run this step if previous steps succeeded
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: .  # Use the root of the repository
-          server-dir: /path/on/server  # Adjust this to your server's path
-
+          RUN_LOCAL: false  # Set to false to indicate this is a GitHub Action
+          DEFAULT_BRANCH: main  # Specify the default branch
+          LINTER_RULES_PATH: .github/linters.yml  # Path to custom rules, if any
+          DISABLE_LINTING: "false"  # Disable linting, set to "true" to skip
+          ENABLE_LINTER: "eslint,LibXML"  # Specify which linters to enable (comma-separated)
