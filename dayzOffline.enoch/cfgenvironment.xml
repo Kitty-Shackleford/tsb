@@ -108,6 +108,9 @@
 		<territory type="Herd" name="CowCustom" behavior="DZdomesticGroupBeh">
 			<file usable="cattle_custom_territories" />
 		</territory>
+		<territory type="Herd" name="GoatSpooky" behavior="DZSheepGroupBeh">
+			<file usable="sheep_goat_spooky_territories" />
+		</territory>
 		<!-- HEN -->
 		<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">
 			<file usable="hen_territories" />

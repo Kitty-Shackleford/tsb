@@ -22,12 +22,12 @@
 		<damage min="0.0" max="0.0"/>
 	</type>
 	<type name="PersonalRadio">
-		<attachments chance="1.00">
+		<attachments chance="0.30">
 			<item name="Battery9V" chance="1.00"/>
 		</attachments>
 	</type>
 	<type name="GPSReceiver">
-		<attachments chance="1.00">
+		<attachments chance="0.30">
 			<item name="Battery9V" chance="1.00"/>
 		</attachments>
 	</type>

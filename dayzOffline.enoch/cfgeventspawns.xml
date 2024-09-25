@@ -755,49 +755,5 @@
 	<event name="AnimalBearCustom"/>
 	<event name="AnimalWolfCustom"/>
 	<!-- MODS -->
-	<event name="VehicleNWAFGarage">
-		<pos x="3556" z="9934" a="150"/>
-		<pos x="3554" z="9930" a="150"/>
-		<pos x="3551" z="9928" a="150"/>
-		<pos x="3548" z="9925" a="150"/>
-		<pos x="3560" z="9937" a="150"/>
-		<pos x="3572" z="9949" a="150"/>
-		<pos x="3569" z="9945" a="150"/>
-		<pos x="3566" z="9943" a="150"/>
-		<pos x="3563" z="9940" a="150"/>
-		<pos x="3575" z="9952" a="150"/>
-		<pos x="3588" z="9965" a="150"/>
-		<pos x="3586" z="9962" a="150"/>
-		<pos x="3582" z="9959" a="150"/>
-		<pos x="3579" z="9956" a="150"/>
-		<pos x="3592" z="9969" a="150"/>
-		<pos x="3603" z="9981" a="150"/>
-		<pos x="3601" z="9978" a="150"/>
-		<pos x="3598" z="9975" a="150"/>
-		<pos x="3596" z="9972" a="150"/>
-		<pos x="3606" z="9984" a="150"/>
-	</event>
-	<event name="VehicleNWAFTrucks">
-		<pos x="4189" z="10552" a="315"/>
-		<pos x="4186" z="10549" a="315"/>
-		<pos x="4185" z="10561" a="315"/>
-		<pos x="4182" z="10558" a="315"/>
-		<pos x="4178" z="10555" a="315"/>
-		<pos x="4198" z="10550" a="315"/>
-		<pos x="4195" z="10546" a="315"/>
-		<pos x="4192" z="10543" a="315"/>
-		<pos x="4191" z="10556" a="315"/>
-	</event>
-	<event name="StaticStore">
-		<pos x="4191" z="10944" a="126" y="261" group="specialstore"/>
-		<pos x="4570" z="10459" a="40" y="261" group="specialstore"/>
-		<pos x="3493" z="9850" a="221" y="261" group="specialstore"/>
-		<pos x="3469" z="10335" a="222" y="261" group="specialstore"/>
-	</event>
-	<event name="StaticBoobyTwaps">
-		<pos x="4010.2" z="10368.4" a="0" y="238.1"/>
-		<pos x="4014.2" z="10373.0" a="0" y="238.1"/>
-		<pos x="4001.0" z="10359.5" a="0" y="238.1"/>
-		<pos x="3996.5" z="10355.0" a="0" y="238.1"/>
-	</event>
+	<event name="StaticBuriedStash"/>
 </eventposdef>

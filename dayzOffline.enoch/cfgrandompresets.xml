@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
 		<!-- MODS -->
+		<cargo chance="1.00" name="BuriedStash">
+			<item name="AgaricusMushroom" chance="0.1"/>
+		</cargo>
 		<cargo chance="1.00" name="SantaBeard">
 			<item name="SantasBeard" chance="1.00"/>
 		</cargo>
@@ -9,22 +12,17 @@
 			<item name="Ammo_40mm_Explosive" chance="0.50"/>
 		</cargo>
 		<attachments chance="1.00" name="MummyHat">
-			<item name="PumpkinHelmet" chance="0.14"/>
-			<item name="WitchHat" chance="0.14"/>
-			<item name="DarkMotoHelmet_YellowScarred" chance="0.14"/>
-			<item name="MorozkoHat" chance="0.14"/>
-			<item name="SantasHat" chance="0.14"/>
-			<item name="NorseHelm" chance="0.14"/>
-			<item name="GreatHelm" chance="0.14"/>
+			<item name="PumpkinHelmet" chance="0.20"/>
+			<item name="WitchHat" chance="0.20"/>
+			<item name="DarkMotoHelmet_YellowScarred" chance="0.20"/>
+			<item name="NorseHelm" chance="0.20"/>
+			<item name="GreatHelm" chance="0.20"/>
 		</attachments>
 		<attachments chance="1.00" name="PriestHat">
 			<item name="WitchHood_Black" chance="0.70"/>
 		</attachments>
-		<attachments chance="1.00" name="MummyVest">
-			<item name="Chestplate" chance="1.00"/>
-		</attachments>
-		<attachments chance="1.00" name="MummySuit">
-			<item name="Chainmail" chance="1.00"/>
+		<attachments chance="0.30" name="MummyVest">
+			<item name="PlateCarrierVest" chance="1.00"/>
 		</attachments>
 		<cargo chance="0.25" name="mushroomInfected">
 			<item name="AgaricusMushroom" chance="0.1"/>
@@ -65,6 +63,26 @@
 			<item name="CigarettePack_Partyzanka" chance="0.14"/>
 			<item name="HumanSteakMeat" chance="0.14"/>
 			<item name="InjectionVial" chance="0.14"/>
+		</cargo>
+		<cargo chance="1.00" name="BonfireStash">
+			<item name="PumpkinHelmet" chance="0.0556" />
+			<item name="FNX45_arrow" chance="0.0556" />
+			<item name="Winchester70_Green" chance="0.0556" />
+			<item name="Mosin9130_Green" chance="0.0556" />
+			<item name="SKS_Green" chance="0.0556" />
+			<item name="AK74_Green" chance="0.0556" />
+			<item name="AKS74U_Green" chance="0.0556" />
+			<item name="AK101_Green" chance="0.0556" />
+			<item name="M4A1_Green" chance="0.0556" />
+			<item name="CZ527_Green" chance="0.0556" />
+			<item name="Winchester70_Black" chance="0.0556" />
+			<item name="Mosin9130_Black" chance="0.0556" />
+			<item name="SKS_Black" chance="0.0556" />
+			<item name="AK74_Black" chance="0.0556" />
+			<item name="AKS74U_Black" chance="0.0556" />
+			<item name="AK101_Black" chance="0.0556" />
+			<item name="M4A1_Black" chance="0.0556" />
+			<item name="CZ527_Black" chance="0.0556" />
 		</cargo>
 		<!-- END OF MODS -->
 		<cargo chance="0.15" name="foodHermit">
@@ -559,6 +577,22 @@
 			<item name="Headtorch_Grey" chance="0.5" />
 			<item name="Headtorch_Black" chance="0.5" />
 		</attachments>
+		
+		<!-- Halloween -->
+		<cargo chance="1.00" name="halloween_01">
+			<item name="AKS74U" chance="0.50" />
+			<item name="AK74" chance="0.50" />
+		</cargo>
+		<cargo chance="1.00" name="halloween_02">
+			<item name="Mag_AK74_30Rnd" chance="0.50" />
+			<item name="Mag_AK74_45Rnd" chance="0.50" />
+		</cargo>
+		<cargo chance="1.00" name="halloween_03">
+			<item name="Zagorky" chance="0.30" />
+			<item name="ZagorkyChocolate" chance="0.30" />
+			<item name="ZagorkyPeanuts" chance="0.30" />
+		</cargo>
+	
 		<!--Xmas Clothing-->
 		<attachments chance="1.00" name="SantaHat">
 			<item name="SantasHat" chance="1.00" />

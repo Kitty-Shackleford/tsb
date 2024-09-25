@@ -59,9 +59,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="custom">
 		<file name="types_halloween.xml" type="types"/>
 	</ce>
-	<ce folder="custom">
-		<file name="types_test.xml" type="types"/>
-	</ce>
 	<!-- GLOBALS -->
 	<ce folder="custom">
 		<file name="globals.xml" type="globals"/>
@@ -102,19 +99,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 	
 	<ce folder="custom">
-		<file name="cfgspawnabletypes_green_weapons" type="spawnabletypes"/>
-	</ce>
-	
-	<ce folder="custom">
-		<file name="cfgspawnabletypes_black_weapons" type="spawnabletypes"/>
-	</ce>
-	
-	<ce folder="custom">
 		<file name="cfgspawnabletypes_zombies.xml" type="spawnabletypes"/>
-	</ce>
-	
-	<ce folder="custom">
-		<file name="cfgspawnabletypes_boobytwaps.xml" type="spawnabletypes"/>
 	</ce>
 	
 	<!-- EVENTS -->
