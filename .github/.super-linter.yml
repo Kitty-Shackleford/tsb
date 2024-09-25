@@ -1,0 +1,20 @@
+# .github/.super-linter.yml
+
+# This allows you to specify which linters to run
+linter: "json,xml"
+
+# Specify which linters to exclude
+disable:
+  - CHECKOV
+  - CLANG_FORMAT
+  - CPP
+  - JSCPD
+
+# Specify the file types to lint
+languages:
+  json:
+    # Enable linting for JSON files
+    lint: true
+  xml:
+    # Enable linting for XML files
+    lint: true
