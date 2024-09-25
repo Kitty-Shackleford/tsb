@@ -32,6 +32,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUN_LOCAL: false  # Set to false to indicate this is a GitHub Action
           DEFAULT_BRANCH: main  # Specify the default branch
-          LINTER_RULES_PATH: .github/linters.yml  # Path to custom rules, if any
           DISABLE_LINTING: "false"  # Disable linting, set to "true" to skip
           ENABLE_LINTER: "eslint,LibXML"  # Specify which linters to enable (comma-separated)
+          DISABLE_LINTER: "JSCPD,CHECKOV"  # Specify which linters to disable (comma-separated)
