@@ -29,7 +29,7 @@ jobs:
       - name: Get changed files
         id: get_changed_files
         run: |
-          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -Ev '(^\.github|cfgeffectarea\.json|cfgeventspawns\.xml|db/events\.xml$)')
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
           if [ -z "$files" ]; then
             echo "No changed files detected. Exiting."
             exit 0  # Exit gracefully if no changed files
@@ -57,7 +57,10 @@ jobs:
       - name: Copy files for FTP upload
         run: |
           for file in ${{ steps.get_changed_files.outputs.files }}; do
-            cp "$file" temp_upload/
+            # Check if the file is one of the ignored ones
+            if [[ ! "$file" =~ ^\.github/ && "$file" != "cfgeffectarea.json" && "$file" != "cfgeventspawns.xml" && "$file" != "db/events.xml" ]]; then
+              cp "$file" temp_upload/
+            fi
           done
 
       - name: Upload to FTP
