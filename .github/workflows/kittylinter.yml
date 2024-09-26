@@ -30,7 +30,12 @@ jobs:
         id: get_changed_files
         run: |
           files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -Ev '(^\.github|cfgeffectarea\.json|cfgeventspawns\.xml|db/events\.xml$)')
-          echo "files=${files}" >> $GITHUB_OUTPUT
+          if [ -z "$files" ]; then
+            echo "No files changed, skipping linter."
+            echo "files=" >> $GITHUB_OUTPUT  # Set output to empty
+          else
+            echo "files=${files}" >> $GITHUB_OUTPUT
+          fi
 
       - name: Run Super Linter
         id: linter
