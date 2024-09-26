@@ -89,7 +89,7 @@ jobs:
           git commit -m "Format files with Prettier" || echo "No changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
 
       - name: Clean up
         run: rm -rf temp_upload/
