@@ -80,6 +80,16 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: temp_upload/ 
           server-dir: /dayzxb_missions/  # Adjust as necessary
+          
+      - name: Commit formatted changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Format files with Prettier" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Clean up
         run: rm -rf temp_upload/
