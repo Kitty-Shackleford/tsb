@@ -50,7 +50,7 @@ jobs:
         id: linter
         uses: super-linter/super-linter@v7.1.0
         env:
-          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUN_LOCAL: false
           DEFAULT_BRANCH: main
           DISABLE_LINTING: "false"
