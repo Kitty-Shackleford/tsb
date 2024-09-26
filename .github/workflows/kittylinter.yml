@@ -34,7 +34,9 @@ jobs:
             echo "No files changed, skipping linter."
             echo "files=" >> $GITHUB_OUTPUT  # Set output to empty
           else
-            echo "files=${files}" >> $GITHUB_OUTPUT
+            echo "files<<EOF" >> $GITHUB_OUTPUT
+            echo "${files}" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
           fi
 
       - name: Run Super Linter
