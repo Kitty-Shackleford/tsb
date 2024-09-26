@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
+      contents: write
       packages: read
       statuses: write
 
@@ -84,7 +84,7 @@ jobs:
       - name: Commit formatted changes
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.name "Kitty Linter"
           git add .
           git commit -m "Format files with Prettier" || echo "No changes to commit"
           git push
