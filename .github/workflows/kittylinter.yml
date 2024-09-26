@@ -29,12 +29,8 @@ jobs:
       - name: Get changed files
         id: get_changed_files
         run: |
-          echo "files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})" >> $GITHUB_OUTPUT
-
-      - name: Filter files for linter
-        id: filter_files
-        run: |
-          echo "filtered_files=$(echo "${{ steps.get_changed_files.outputs.files }}" | grep -Ev '(^\.github|cfgeffectarea.json|cfgeventspawns.xml|db/events.xml$)')" >> $GITHUB_OUTPUT
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -Ev '(^\.github|cfgeffectarea\.json|cfgeventspawns\.xml|db/events\.xml$)')
+          echo "files=${files}" >> $GITHUB_OUTPUT
 
       - name: Run Super Linter
         id: linter
@@ -48,17 +44,19 @@ jobs:
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
         with:
-          FILES: ${{ steps.filter_files.outputs.filtered_files }}
+          FILES: ${{ steps.get_changed_files.outputs.files }}
 
       - name: Create temporary directory
+        run: mkdir temp_upload
+
+      - name: Copy files for FTP upload
         run: |
-          mkdir temp_upload
-          for file in ${{ steps.filter_files.outputs.filtered_files }}; do
+          for file in ${{ steps.get_changed_files.outputs.files }}; do
             cp "$file" temp_upload/
           done
 
       - name: Upload to FTP
-        if: success()
+        if: success()  
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ${{ secrets.FTP_SERVER }}
