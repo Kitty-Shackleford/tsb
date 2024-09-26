@@ -59,6 +59,20 @@ jobs:
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
 
+      - name: Commit formatted changes
+        run: |
+          git config --local user.email "kittylinter@github.com"
+          git config --local user.name "Kitty Linter"
+          git add .
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Format files with Prettier"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
+
       - name: Create temporary directory
         run: mkdir temp_upload
 
@@ -80,16 +94,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: temp_upload/ 
           server-dir: /dayzxb_missions/  # Adjust as necessary
-          
-      - name: Commit formatted changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "Kitty Linter"
-          git add .
-          git commit -m "Format files with Prettier" || echo "No changes to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
 
       - name: Clean up
         run: rm -rf temp_upload/
