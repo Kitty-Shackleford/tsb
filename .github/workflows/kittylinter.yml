@@ -37,6 +37,12 @@ jobs:
             echo "files=${files}" >> $GITHUB_OUTPUT
           fi
 
+      - name: Format files with Prettier
+        run: |
+          for file in ${{ steps.get_changed_files.outputs.files }}; do
+            npx prettier --write "$file"
+          done
+
       - name: Run Super Linter
         id: linter
         uses: super-linter/super-linter@v7.1.0
@@ -48,6 +54,7 @@ jobs:
           ENABLE_LINTER: "eslint,LibXML"
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
+          FIX_JSON_PRETTIER: "true"  # Fix JSON files using Prettier
         with:
           FILES: ${{ steps.get_changed_files.outputs.files }}
 
