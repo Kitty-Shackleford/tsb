@@ -54,7 +54,6 @@ jobs:
           ENABLE_LINTER: "eslint,LibXML"
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
-          FIX_JSON_PRETTIER: "true"  # Fix JSON files using Prettier
         with:
           FILES: ${{ steps.get_changed_files.outputs.files }}
 
