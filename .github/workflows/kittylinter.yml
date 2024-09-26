@@ -37,10 +37,14 @@ jobs:
             echo "files=${files}" >> $GITHUB_OUTPUT
           fi
 
+      - name: Install Prettier and XML Plugin
+        run: |
+          npm install --save-dev prettier prettier-plugin-xml
+          
       - name: Format files with Prettier
         run: |
           for file in ${{ steps.get_changed_files.outputs.files }}; do
-            npx prettier --write "$file"
+            npx prettier --write "**/*.{json,yml,xml}"
           done
 
       - name: Run Super Linter
@@ -51,11 +55,10 @@ jobs:
           RUN_LOCAL: false
           DEFAULT_BRANCH: main
           DISABLE_LINTING: "false"
-          ENABLE_LINTER: "eslint,LibXML"
+          ENABLE_LINTER: "eslint,LibXML,YamlLint"
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
-        with:
-          FILES: ${{ steps.get_changed_files.outputs.files }}
+          VALIDATE_YAML: "true"
 
       - name: Create temporary directory
         run: mkdir temp_upload
