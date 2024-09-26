@@ -26,26 +26,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get changed files
-        id: get_changed_files
-        run: |
-          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
-          if [ -z "$files" ]; then
-            echo "No changed files detected. Exiting."
-            exit 0  # Exit gracefully if no changed files
-          else
-            echo "files=${files}" >> $GITHUB_OUTPUT
-          fi
-
       - name: Install Prettier and XML Plugin
         run: |
-          npm install --save-dev prettier prettier-plugin-xml
-          
-      - name: Format files with Prettier
+          npm install --save-dev prettier @prettier/plugin-xml
+
+      - name: Format specific files with Prettier
         run: |
-          for file in ${{ steps.get_changed_files.outputs.files }}; do
-            npx prettier --write "**/*.{json,yml,xml}"
-          done
+          npx prettier --write "**/*.{json,yml,xml}"  # Specify file types to format
 
       - name: Run Super Linter
         id: linter
@@ -59,28 +46,3 @@ jobs:
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
           VALIDATE_YAML: "true"
-
-      - name: Create temporary directory
-        run: mkdir temp_upload
-
-      - name: Copy files for FTP upload
-        run: |
-          for file in ${{ steps.get_changed_files.outputs.files }}; do
-            # Check if the file is one of the ignored ones
-            if [[ ! "$file" =~ ^\.github/ && "$file" != "cfgeffectarea.json" && "$file" != "cfgeventspawns.xml" && "$file" != "db/events.xml" ]]; then
-              cp "$file" temp_upload/
-            fi
-          done
-
-      - name: Upload to FTP
-        if: success()  
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: temp_upload/ 
-          server-dir: /dayzxb_missions/  # Adjust as necessary
-
-      - name: Clean up
-        run: rm -rf temp_upload/
