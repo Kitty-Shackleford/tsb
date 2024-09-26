@@ -70,7 +70,7 @@ jobs:
             echo "No changes to commit"
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create temporary directory
         run: mkdir temp_upload
