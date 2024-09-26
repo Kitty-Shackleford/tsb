@@ -1,0 +1,71 @@
+name: Kitty Linter
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions: {}
+
+jobs:
+  build:
+    name: Kitty Linter
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: get_changed_files
+        run: |
+          echo "files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})" >> $GITHUB_OUTPUT
+
+      - name: Filter files for linter
+        id: filter_files
+        run: |
+          echo "filtered_files=$(echo "${{ steps.get_changed_files.outputs.files }}" | grep -Ev '(^\.github|cfgeffectarea.json|cfgeventspawns.xml|db/events.xml$)')" >> $GITHUB_OUTPUT
+
+      - name: Run Super Linter
+        id: linter
+        uses: super-linter/super-linter@v7.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_LOCAL: false
+          DEFAULT_BRANCH: main
+          DISABLE_LINTING: "false"
+          ENABLE_LINTER: "eslint,LibXML"
+          VALIDATE_XML: "true"
+          VALIDATE_JSON: "true"
+        with:
+          FILES: ${{ steps.filter_files.outputs.filtered_files }}
+
+      - name: Create temporary directory
+        run: |
+          mkdir temp_upload
+          for file in ${{ steps.filter_files.outputs.filtered_files }}; do
+            cp "$file" temp_upload/
+          done
+
+      - name: Upload to FTP
+        if: success()
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: temp_upload/ 
+          server-dir: /dayzxb_missions/  # Adjust as necessary
+
+      - name: Clean up
+        run: rm -rf temp_upload/
