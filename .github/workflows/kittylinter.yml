@@ -32,19 +32,21 @@ jobs:
           files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
           if [ -z "$files" ]; then
             echo "No changed files detected. Exiting."
-            exit 0  # Exit gracefully if no changed files
+            echo "files=" >> $GITHUB_OUTPUT  # Ensure files variable is set
+            exit 0
           else
-            echo "files=${files}" >> $GITHUB_OUTPUT
+            echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT  # Replace newlines with spaces
           fi
 
       - name: Install Prettier and XML Plugin
-        run: |
-          npm install --save-dev prettier @prettier/plugin-xml
+        run: npm install --save-dev prettier @prettier/plugin-xml
 
       - name: Format files with Prettier
         run: |
           for file in ${{ steps.get_changed_files.outputs.files }}; do
-            npx prettier --write "$file"
+            if [ -f "$file" ]; then  # Check if the file exists
+              npx prettier --write "$file" || exit 1  # Exit on error
+            fi
           done
 
       - name: Run Super Linter
@@ -65,12 +67,10 @@ jobs:
           git config --local user.name "Kitty Linter"
           git add .
           if ! git diff-index --quiet HEAD --; then
-            git commit -m "Format files with Prettier"
-            git push
+            git commit -m "Format files with Prettier" || echo "Commit failed"
           else
             echo "No changes to commit"
           fi
-          
 
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -78,17 +78,24 @@ jobs:
           github_token: ${{ secrets.PAT_TOKEN }}
           repository: Test/test
           force_with_lease: true
+
       - name: Create temporary directory
         run: mkdir temp_upload
 
       - name: Copy files for FTP upload
         run: |
           for file in ${{ steps.get_changed_files.outputs.files }}; do
-            # Check if the file is one of the ignored ones
             if [[ ! "$file" =~ ^\.github/ && "$file" != "cfgeffectarea.json" && "$file" != "cfgeventspawns.xml" && "$file" != "db/events.xml" ]]; then
               cp "$file" temp_upload/
             fi
           done
+
+      - name: Check for files to upload
+        run: |
+          if [ -z "$(ls -A temp_upload/)" ]; then
+            echo "No files to upload. Exiting."
+            exit 0
+          fi
 
       - name: Upload to FTP
         if: success()
@@ -98,7 +105,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: temp_upload/
-          server-dir: /dayzxb_missions/ # Adjust as necessary
+          server-dir: /dayzxb_missions/
 
       - name: Clean up
         run: rm -rf temp_upload/
