@@ -43,11 +43,17 @@ class NitradoAPI:
 
     def health_check(self):
         response = requests.get(f'{self.base_url}/services', headers=self._get_headers())
-        return response.status_code == 200
+        return response  # Return the full response object for inspection
 
 api = NitradoAPI(os.environ['API_KEY'])
-if api.health_check():
-    print('API is healthy.')
+response = api.health_check()
+
+if response.status_code == 200:
+    health_data = response.json()
+    print(f'API Status: {health_data['status']}')
+    print(f'Message: {health_data['message']}')
 else:
-    print('API is not healthy.')
-            "
+    print('API Health Check Failed!')
+    print(f'Status Code: {response.status_code}')
+    print(f'Response Content: {response.text}')
+          "
