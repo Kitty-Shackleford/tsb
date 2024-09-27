@@ -72,7 +72,14 @@ jobs:
           else
             echo "No changes to commit"
           fi
+          
 
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PAT_TOKEN }}
+          repository: Test/test
+          force_with_lease: true
       - name: Create temporary directory
         run: mkdir temp_upload
 
