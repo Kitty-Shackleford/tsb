@@ -41,7 +41,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Specify the desired Node.js version
+          node-version: '16'
 
       - name: Cache node modules
         uses: actions/cache@v3
@@ -60,7 +60,22 @@ jobs:
           IFS=' ' read -r -a files <<< "${{ steps.get_changed_files.outputs.files }}"
           for file in "${files[@]}"; do
             if [ -f "$file" ]; then
-              npx prettier --write "$file" || { echo "Failed to format $file"; exit 1; }
+              case "$file" in
+                *.xml)
+                  npx prettier --write "$file" --parser xml || { echo "Failed to format $file"; exit 1; }
+                  ;;
+                *.json)
+                  npx prettier --write "$file" --parser json || { echo "Failed to format $file"; exit 1; }
+                  ;;
+                *.yaml|*.yml)
+                  npx prettier --write "$file" --parser yaml || { echo "Failed to format $file"; exit 1; }
+                  ;;
+                *)
+                  echo "Skipping $file (not an XML, JSON, or YAML file)"
+                  ;;
+              esac
+            else
+              echo "$file does not exist."
             fi
           done
 
