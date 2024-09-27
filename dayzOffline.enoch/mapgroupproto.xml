@@ -16,7 +16,7 @@
 	<!-- MODS -->
 	<!-- RADIOS -->
 	<group name="Land_Radio_PanelPAS">
-		<dispatch dechance="1.0">
+		<dispatch dechance="0.0">
 			<proxy type="TruckBattery" pos="0.265625 0.098328 1.191406" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
 		</dispatch>
 	</group>
