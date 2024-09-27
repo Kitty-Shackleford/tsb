@@ -1,12 +1,15 @@
 name: Kitty Linter
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  #push:
+  #  branches:
+  #    - main
+  #pull_request:
+  #  branches:
+  #    - main
+  workflow_dispatch:  # Manual trigger
+  #schedule:
+  #  - cron: '*/30 * * * *'  # Runs every 30 minutes
 
 jobs:
   build:
