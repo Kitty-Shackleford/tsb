@@ -38,14 +38,29 @@ jobs:
             echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT  # Replace newlines with spaces
           fi
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Specify the desired Node.js version
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Install Prettier and XML Plugin
-        run: npm install --save-dev prettier @prettier/plugin-xml
+        run: |
+          npm install --save-dev prettier @prettier/plugin-xml || { echo "Failed to install Prettier"; exit 1; }
 
       - name: Format files with Prettier
         run: |
-          for file in ${{ steps.get_changed_files.outputs.files }}; do
-            if [ -f "$file" ]; then  # Check if the file exists
-              npx prettier --write "$file" || exit 1  # Exit on error
+          IFS=' ' read -r -a files <<< "${{ steps.get_changed_files.outputs.files }}"
+          for file in "${files[@]}"; do
+            if [ -f "$file" ]; then
+              npx prettier --write "$file" || { echo "Failed to format $file"; exit 1; }
             fi
           done
 
@@ -108,4 +123,4 @@ jobs:
           server-dir: /dayzxb_missions/
 
       - name: Clean up
-        run: rm -rf temp_upload/ 
+        run: rm -rf temp_upload/
