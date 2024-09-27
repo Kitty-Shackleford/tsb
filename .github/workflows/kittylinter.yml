@@ -51,7 +51,7 @@ jobs:
         id: linter
         uses: super-linter/super-linter@v7.1.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
           RUN_LOCAL: false
           DEFAULT_BRANCH: main
           DISABLE_LINTING: "false"
@@ -60,6 +60,9 @@ jobs:
           VALIDATE_JSON: "true"
 
       - name: Commit formatted changes
+      env: 
+        CI_COMMIT_MESSAGE: Kitty Linter cleaned!
+        CI_COMMIT_AUTHOR: Kitty Linter
         run: |
           git config --local user.email "kittylinter@github.com"
           git config --local user.name "Kitty Linter"
@@ -70,8 +73,6 @@ jobs:
           else
             echo "No changes to commit"
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
 
       - name: Create temporary directory
         run: mkdir temp_upload
