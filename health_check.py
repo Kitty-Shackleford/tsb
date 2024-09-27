@@ -22,8 +22,8 @@ if __name__ == "__main__":
 
     if response.status_code == 200:
         health_data = response.json()
-        print(f"API Status: {health_data['status']}")
-        print(f"Message: {health_data['message']}")
+        print(f"API Status: {health_data.get('status', 'Unknown status')}")
+        print(f"Message: {health_data.get('message', 'No message available')}")
     else:
         print('API Health Check Failed!')
         print(f'Status Code: {response.status_code}')
