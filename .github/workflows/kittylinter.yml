@@ -38,19 +38,6 @@ jobs:
             echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT  # Replace newlines with spaces
           fi
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '16'
-
-      - name: Cache node modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
       - name: Install Prettier and XML Plugin
         run: |
           npm install --save-dev prettier @prettier/plugin-xml || { echo "Failed to install Prettier"; exit 1; }
