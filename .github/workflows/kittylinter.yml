@@ -108,4 +108,4 @@ jobs:
           server-dir: /dayzxb_missions/
 
       - name: Clean up
-        run: rm -rf temp_upload/ node_modules/ super-linter-output/
+        run: rm -rf temp_upload/ 
