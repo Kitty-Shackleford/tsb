@@ -61,7 +61,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="5" lootmin="0" max="20" min="0" type="ZmbM_PrisonerSkinny"/>
 			<child lootmax="5" lootmin="0" max="3" min="0" type="ZmbM_NBC_Yellow"/>
