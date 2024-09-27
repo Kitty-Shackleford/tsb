@@ -17,6 +17,7 @@ jobs:
       contents: write
       packages: write
       statuses: write
+      pull-requests: write
       actions: write
 
     steps:
