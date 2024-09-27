@@ -8,6 +8,8 @@ on:
     branches:
       - main
 
+
+
 jobs:
   build:
     name: Kitty Linter
@@ -17,14 +19,14 @@ jobs:
       contents: write
       packages: write
       statuses: write
-      pull-requests: write
-      actions: write
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.head_ref }}
           fetch-depth: 0
+          token: ${{ secrets.WORKFLOW_TOKEN }}
 
       - name: Get changed files
         id: get_changed_files
@@ -51,7 +53,7 @@ jobs:
         id: linter
         uses: super-linter/super-linter@v7.1.0
         env:
-          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUN_LOCAL: false
           DEFAULT_BRANCH: main
           DISABLE_LINTING: "false"
@@ -60,9 +62,6 @@ jobs:
           VALIDATE_JSON: "true"
 
       - name: Commit formatted changes
-      env: 
-        CI_COMMIT_MESSAGE: Kitty Linter cleaned!
-        CI_COMMIT_AUTHOR: Kitty Linter
         run: |
           git config --local user.email "kittylinter@github.com"
           git config --local user.name "Kitty Linter"
