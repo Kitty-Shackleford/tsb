@@ -8,8 +8,6 @@ on:
     branches:
       - main
 
-
-
 jobs:
   build:
     name: Kitty Linter
@@ -86,14 +84,14 @@ jobs:
           done
 
       - name: Upload to FTP
-        if: success()  
+        if: success()
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: temp_upload/ 
-          server-dir: /dayzxb_missions/  # Adjust as necessary
+          local-dir: temp_upload/
+          server-dir: /dayzxb_missions/ # Adjust as necessary
 
       - name: Clean up
         run: rm -rf temp_upload/
