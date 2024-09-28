@@ -17,7 +17,7 @@ async function getFileList() {
     });
 
     if (!response.ok) {
-        const errorMessage = await response.text(); // Get error response for debugging
+        const errorMessage = await response.text();
         throw new Error(`Failed to fetch file list: ${response.statusText} - ${errorMessage}`);
     }
 
@@ -25,8 +25,8 @@ async function getFileList() {
     return data.data.entries; // Return the entries from the response
 }
 
-async function downloadLogFile(username, logPath) {
-    const response = await fetch(`https://api.nitrado.net/services/${NITRADO_ID}/gameservers/file_server/download?file=/games/${username}/noftp/${logPath}`, {
+async function downloadLogFile(logPath) {
+    const response = await fetch(`https://api.nitrado.net/services/${NITRADO_ID}/gameservers/file_server/download?file=/games/${logPath}`, {
         method: 'GET',
         headers: {
             'Authorization': `Bearer ${API_TOKEN}`
@@ -34,12 +34,28 @@ async function downloadLogFile(username, logPath) {
     });
 
     if (!response.ok) {
-        throw new Error(`Failed to download log file: ${response.statusText}`);
+        throw new Error(`Failed to initiate download log file: ${response.statusText}`);
+    }
+
+    const downloadData = await response.json();
+
+    // Check if the response contains a valid download URL
+    if (downloadData.status !== "success" || !downloadData.data.token) {
+        throw new Error('Failed to retrieve download token.');
+    }
+
+    const downloadUrl = downloadData.data.token.url;
+
+    // Proceed to download the log file using the token URL
+    const logResponse = await fetch(downloadUrl);
+    
+    if (!logResponse.ok) {
+        throw new Error(`Failed to download log file from URL: ${logResponse.statusText}`);
     }
 
     const logFilePath = path.join(process.cwd(), 'recent_log.txt');
     const logStream = fs.createWriteStream(logFilePath);
-    response.body.pipe(logStream);
+    logResponse.body.pipe(logStream);
 
     return new Promise((resolve, reject) => {
         logStream.on('finish', () => {
@@ -77,7 +93,7 @@ async function run() {
         }
 
         // Download the log file
-        const downloadedLogFilePath = await downloadLogFile(username, logPath);
+        const downloadedLogFilePath = await downloadLogFile(logPath);
         core.setOutput('log-file', downloadedLogFilePath);
     } catch (error) {
         core.setFailed(error.message);
