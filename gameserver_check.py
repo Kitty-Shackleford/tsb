@@ -35,7 +35,7 @@ def format_summary(data):
 - **Current Players:** {current_players} / {max_slots}
 - **Game:** {gameserver['game_human']}
 """
-    return summary
+    return summary.strip()
 
 if __name__ == "__main__":
     all_summaries = []
@@ -66,3 +66,5 @@ if __name__ == "__main__":
         if errors:
             f.write("\n\n### Errors\n")
             f.write("\n".join(errors))
+
+    print("Output written to output.md")
