@@ -23,7 +23,6 @@ jobs:
         run: npm install  # Install npm packages listed in package.json
 
       - name: Send Discord Message
-        uses: ./.github/actions/discord_send_message/
         run: |
           node discord_send_message.js "${{ github.event.inputs.summary }}"
         env:
