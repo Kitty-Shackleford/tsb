@@ -13,4 +13,4 @@ inputs:
 
 runs:
   using: 'node16'
-  main: '.github/actions/nitrapi_player_list/get_players.js'
+  main: 'get_players.js'
