@@ -6,7 +6,12 @@ API_KEY = os.getenv("NITRADO_TOKEN")  # Get API key from environment variable
 def get_services():
     response = requests.get("https://api.nitrado.net/services", headers={"Authorization": f"Bearer {API_KEY}"})
     response.raise_for_status()
-    return response.json().get('data', [])
+    data = response.json().get('data', [])
+    
+    if not isinstance(data, list):
+        raise ValueError(f"The services data is not formatted correctly: {data}")  # Log the actual response
+    
+    return data
 
 def get_gameserver_details(service_id):
     response = requests.get(f"https://api.nitrado.net/services/{service_id}/gameservers", headers={"Authorization": f"Bearer {API_KEY}"})
@@ -38,9 +43,6 @@ if __name__ == "__main__":
 
     try:
         services = get_services()
-        if not isinstance(services, list):
-            raise ValueError("The services data is not formatted correctly: expected a list.")
-
         for service in services:
             service_id = service['id']
             try:
