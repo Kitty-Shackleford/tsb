@@ -2,7 +2,6 @@ import fs from 'fs';
 import path from 'path';
 import fetch from 'node-fetch';
 import * as core from '@actions/core';
-import * as github from '@actions/github';
 
 const NITRADO_ID = core.getInput('nitrado_id');
 const API_TOKEN = core.getInput('token');
@@ -18,14 +17,16 @@ async function getFileList() {
     });
 
     if (!response.ok) {
-        throw new Error(`Failed to fetch file list: ${response.statusText}`);
+        const errorMessage = await response.text(); // Get error response for debugging
+        throw new Error(`Failed to fetch file list: ${response.statusText} - ${errorMessage}`);
     }
 
-    return response.json();
+    const data = await response.json();
+    return data.data.entries; // Return the entries from the response
 }
 
-async function downloadLogFile(logPath) {
-    const response = await fetch(`https://api.nitrado.net/services/${NITRADO_ID}/gameservers/file_server/download?file=/games/${NITRADO_ID}/noftp/${logPath}`, {
+async function downloadLogFile(username, logPath) {
+    const response = await fetch(`https://api.nitrado.net/services/${NITRADO_ID}/gameservers/file_server/download?file=/games/${username}/noftp/${logPath}`, {
         method: 'GET',
         headers: {
             'Authorization': `Bearer ${API_TOKEN}`
@@ -55,19 +56,28 @@ async function run() {
     try {
         const fileList = await getFileList();
 
-        // Determine the log path based on the game type
+        // Determine the log path and extract the username
         let logPath = '';
+        let username = '';
+
         if (GAME_TYPE === 'dayzps') {
             logPath = 'dayzps/config/DayZServer_PS4_x64.ADM';
+            username = fileList.find(entry => entry.path.includes('/games/') && entry.type === 'dir')?.owner; // Extract username from the directory
         } else if (GAME_TYPE === 'dayzxb') {
             logPath = 'dayzxb/config/DayZServer_X1_x64.ADM';
+            username = fileList.find(entry => entry.path.includes('/games/') && entry.type === 'dir')?.owner; // Extract username from the directory
         } else {
             core.setFailed('This action only supports: DayZ PS4 and DayZ Xbox');
             return;
         }
 
+        if (!username) {
+            core.setFailed('Username not found for the specified game type.');
+            return;
+        }
+
         // Download the log file
-        const downloadedLogFilePath = await downloadLogFile(logPath);
+        const downloadedLogFilePath = await downloadLogFile(username, logPath);
         core.setOutput('log-file', downloadedLogFilePath);
     } catch (error) {
         core.setFailed(error.message);
@@ -76,5 +86,3 @@ async function run() {
 
 // Run the action
 run();
-
-
