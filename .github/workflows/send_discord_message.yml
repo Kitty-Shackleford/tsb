@@ -8,12 +8,33 @@ on:
     types:
       - completed
 
-inputs:
-  summary:
-    description: 'The summary message to send'
-    required: true
+jobs:
+  send_message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord Message
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const axios = require('axios');
+            const summary = '${{ github.event.inputs.summary }}';  // Read input summary
+            const webhookUrl = process.env.DISCORD_WEBHOOK_URL;  // Ensure this is set in your repo secrets
 
-runs:
-  using: 'node16'  # or node12, node20
-  main: 'send_discord_message.js'
+            if (!summary) {
+              throw new Error('No summary provided.');
+            }
+
+            if (!webhookUrl) {
+              throw new Error('DISCORD_WEBHOOK_URL is not set.');
+            }
+
+            await axios.post(webhookUrl, {
+              content: summary
+            });
+
+            console.log('Message sent successfully!');
+
+      env:
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}  # Set the webhook URL from secrets
+
 
