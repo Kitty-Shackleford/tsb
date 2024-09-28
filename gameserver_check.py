@@ -1,6 +1,8 @@
+import os
 import requests
 
-API_KEY = "YOUR_API_KEY"  # Replace with your actual API key
+# Get the API key from the environment variable
+API_KEY = os.getenv("NITRADO_TOKEN")  # Your GitHub secret should be set as NITRADO_TOKEN
 
 def get_services():
     response = requests.get("https://api.nitrado.net/services", headers={"Authorization": f"Bearer {API_KEY}"})
@@ -65,6 +67,9 @@ def format_summary(data):
     return summary
 
 if __name__ == "__main__":
+    if API_KEY is None:
+        raise ValueError("API key is not set. Make sure the NITRADO_TOKEN environment variable is set.")
+    
     services = get_services()
     all_summaries = []
 
