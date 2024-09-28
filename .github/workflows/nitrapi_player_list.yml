@@ -1,0 +1,18 @@
+name: Nitrado Player Check
+
+on:
+  workflow_dispatch:  # Manual trigger for this workflow
+
+jobs:
+  get_players:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get Nitrado Game Server Players
+        uses: ./path/to/your/action  # Adjust the path as necessary
+        with:
+          nitrado_id: ${{ secrets.NITRADO_ID }}
+          nitrado_token: ${{ secrets.NITRADO_TOKEN }}
+          discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
