@@ -1,5 +1,5 @@
-name: 'Send Discord Message'
-description: 'Sends a message to a Discord channel via webhook'
+name: Send Discord Message
+description: Sends a message to a Discord channel via webhook
 
 on:
   workflow_dispatch:  # Manual trigger for this workflow
@@ -16,5 +16,4 @@ inputs:
 runs:
   using: 'node16'  # or node12, node20
   main: 'send_discord_message.js'
-
 
