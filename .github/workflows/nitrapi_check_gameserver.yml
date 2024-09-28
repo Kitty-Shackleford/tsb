@@ -26,6 +26,7 @@ jobs:
         id: gameserver_check
         env:
           NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Your API key
+          NITRADO_ID: ${{ secrets.NITRADO_ID }}  # Your Nitrado Server ID
         run: |
           python gameserver_check.py > output.md
           echo "## Summary of Gameserver Details" >> $GITHUB_STEP_SUMMARY
