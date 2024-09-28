@@ -2,7 +2,7 @@
   "name": "get-nitrado-players",
   "version": "1.0.0",
   "description": "GitHub Action to get players from a Nitrado game server",
-  "main": "./.github/actions/nitrapi_player_list/get_players.js",
+  "main": ".github/actions/nitrapi_player_list/get_players.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

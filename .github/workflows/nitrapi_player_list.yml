@@ -19,7 +19,7 @@ jobs:
         run: npm install  # Install npm packages listed in package.json
 
       - name: Get Nitrado Game Server Players
-        uses: ./.github/actions/nitrapi_player_list/
+        uses: .github/actions/nitrapi_player_list/
         with:
           nitrado_id: ${{ secrets.NITRADO_ID }}
           nitrado_token: ${{ secrets.NITRADO_TOKEN }}
