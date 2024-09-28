@@ -1,4 +1,4 @@
-name: Check Gameserver Details
+name: Check All Gameserver Details
 
 on:
   workflow_dispatch:  # Manual trigger
