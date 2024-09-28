@@ -26,5 +26,5 @@ jobs:
           NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}
           NITRADO_ID: ${{ secrets.NITRADO_ID }}
         run: |
-          keepalive.py
+          python keepalive.py
 
