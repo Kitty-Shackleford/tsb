@@ -1,0 +1,23 @@
+name: Download Logs Workflow
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  download-logs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Download recent log file
+        uses: ./.github/actions/nitrapi_logger
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Use log file
+        run: |
+          echo "Log file path is ${{ steps.download-logs.outputs.log-file }}"
+          # Add your logic here to process the log file
