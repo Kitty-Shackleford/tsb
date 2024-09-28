@@ -36,6 +36,9 @@ jobs:
       - name: Display Summary
         run: cat $GITHUB_STEP_SUMMARY
 
+      - name: Check Summary
+        run: echo "Summary: ${{ env.summary }}"
+
       - name: Trigger Discord Message Workflow
         uses: peter-evans/workflow-dispatch@v1
         with:
