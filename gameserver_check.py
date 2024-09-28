@@ -19,7 +19,7 @@ def get_gameserver_details(service_id):
     return response.json()
 
 def clean_text(text):
-    return text.replace('\u0001', ' ').strip()  # Replace control character with a space and strip whitespace
+    return text.replace('\u0001', ' ').replace('\x01', ' ').strip()  # Replace both control characters with a space and strip whitespace
 
 def format_summary(data):
     gameserver = data['data']['gameserver']
