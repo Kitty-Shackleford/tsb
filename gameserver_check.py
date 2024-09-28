@@ -27,15 +27,11 @@ def get_gameserver_details(service_id):
         print(f"Error fetching gameserver details for service ID {service_id}: {response.status_code} - {response.text}")
         return {}
 
-# Function to sanitize player names for Markdown
-def sanitize_player_name(name):
-    return html.escape(name)  # Escape HTML characters for safe display
+# Prepare Markdown output
+markdown_output = "# Gameserver Details\n\n"
 
 # Fetch all services
 services = get_services()
-
-# Prepare Markdown output
-markdown_output = "# Gameserver Details\n\n"
 
 # Loop through each service and fetch its gameserver details
 for service in services:
@@ -59,21 +55,13 @@ for service in services:
         properties = {
             "Status": gameserver.get("status"),
             "Player Count": f"{player_count}/{max_slots}",
-            "Last Update": gameserver.get("game_specific", {}).get("last_update"),
-            "Comment": service.get("comment", "No comment provided"),
+            "Last Update": gameserver.get("game_specific", {}).get("last_update", "None"),
+            "Comment": service.get("comment", "None"),
             "Banned Users": ", ".join(gameserver.get("general", {}).get("bans", "").splitlines() if gameserver.get("general", {}).get("bans") else []),
         }
 
-        # Get player names
-        players = gameserver.get("query", {}).get("players", [])
-        player_names = [sanitize_player_name(player.get("name", "Unknown")) for player in players]  # Sanitize player names
-        player_names_str = ", ".join(player_names) if player_names else "No players online"
-
         for key, value in properties.items():
             markdown_output += f"| {key} | {value} |\n"
-
-        # Add player names under the comment section
-        markdown_output += f"| Player Names | {player_names_str} |\n"
 
         markdown_output += "\n"
 
