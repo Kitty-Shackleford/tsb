@@ -1,7 +1,7 @@
 name: NitrAPI Check Gameserver Details
 
 on:
-  workflow_dispatch: {} # Manual trigger
+  workflow_dispatch: {}  # Manual trigger
   schedule:
     - cron: '*/10 * * * *'  # Runs every 10 minutes
 
@@ -31,6 +31,7 @@ jobs:
           python gameserver_check.py > output.md
           echo "## Summary of Gameserver Details" >> $GITHUB_STEP_SUMMARY
           cat output.md >> $GITHUB_STEP_SUMMARY
+          echo "summary=$(cat output.md)" >> $GITHUB_ENV  # Set summary output
 
       - name: Display Summary
         run: cat $GITHUB_STEP_SUMMARY
@@ -40,7 +41,5 @@ jobs:
         with:
           workflow: send_discord_message.yml
           inputs:
-            summary: ${{ steps.gameserver_check.outputs.summary || 'No summary available.' }}
-
-
+            summary: ${{ env.summary || 'No summary available.' }}  # Use env instead of steps
 
