@@ -1,4 +1,4 @@
-name: Global Health Check for Nitrado API
+name: Global Health Check for NitrAPI
 
 on:
   workflow_dispatch:  # Manual trigger
