@@ -4,37 +4,21 @@ description: Sends a message to a Discord channel via webhook
 on:
   workflow_dispatch:  # Manual trigger for this workflow
   workflow_run:  # Triggered by another workflow completion
-    workflows: ["NitrAPI Check Gameserver Details"]  # Ensure this matches the name of your main workflow
+    workflows: ["NitrAPI Check Gameserver Details"]
     types:
       - completed
+
+inputs:
+  summary:
+    description: 'The summary message to send'
+    required: true
 
 jobs:
   send_message:
     runs-on: ubuntu-latest
     steps:
       - name: Send Discord Message
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const axios = require('axios');
-            const summary = '${{ github.event.inputs.summary }}';  // Read input summary
-            const webhookUrl = process.env.DISCORD_WEBHOOK_URL;  // Ensure this is set in your repo secrets
-
-            if (!summary) {
-              throw new Error('No summary provided.');
-            }
-
-            if (!webhookUrl) {
-              throw new Error('DISCORD_WEBHOOK_URL is not set.');
-            }
-
-            await axios.post(webhookUrl, {
-              content: summary
-            });
-
-            console.log('Message sent successfully!');
-
-      env:
-        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}  # Set the webhook URL from secrets
-
-
+        run: |
+          node send_discord_message.js "${{ github.event.inputs.summary }}"
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}  # Set the webhook URL from secrets
