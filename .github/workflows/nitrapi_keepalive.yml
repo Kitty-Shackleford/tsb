@@ -32,5 +32,3 @@ jobs:
         run: |
           echo "## Summary of Server Status" >> $GITHUB_STEP_SUMMARY
           cat summary.md >> $GITHUB_STEP_SUMMARY
-
-

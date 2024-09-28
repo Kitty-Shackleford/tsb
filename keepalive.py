@@ -1,30 +1,6 @@
 import os
 import requests
 import sys
-from datetime import datetime, timedelta
-
-# Ensure the API key and ID are set
-API_KEY = os.getenv("NITRADO_TOKEN")
-NITRADO_ID = os.getenv("NITRADO_ID")
-
-if not API_KEY or not NITRADO_ID:
-    print("Error: NITRADO_TOKEN or NITRADO_ID environment variable is not set.")
-    sys.exit(1)
-
-# Function to get server details
-def get_server_details():
-    url = f"https://api.nitrado.net/services/{NITRADO_ID}/gameservers"
-    response = requests.get(url, headers={'Authorization': f'Bearer {API_KEY}'})
-    
-    if response.ok:
-        return response.json().get("data", {}).get("gameserver", {})
-    else:
-        print(f"Error fetching server details: {response.status_code} - {response.text}")
-        sys.exit(1)
-
-import os
-import requests
-import sys
 from datetime import datetime
 
 # Ensure the API key and ID are set
@@ -84,15 +60,8 @@ if __name__ == "__main__":
         print(f"Unexpected server status: {status}")
 
     # Markdown Summary Output
-    summary = f"""
-## Summary
-- **Status**: {status}
-- **Last Restart**: {last_restart if last_restart != 'unknown' else 'N/A'}
-- **Uptime**: {str(uptime) if last_restart != 'unknown' else 'N/A'}
-"""
-
-    # Output the summary to GitHub Actions summary
-    with open(os.getenv("GITHUB_STEP_SUMMARY", "summary.md"), "w") as f:
-        f.write(summary)
-
-
+    with open("summary.md", "w") as summary_file:
+        summary_file.write("## Summary\n")
+        summary_file.write(f"- **Status**: {status}\n")
+        summary_file.write(f"- **Last Restart**: {last_restart if last_restart != 'unknown' else 'N/A'}\n")
+        summary_file.write(f"- **Uptime**: {str(uptime) if last_restart != 'unknown' else 'N/A'}\n")
