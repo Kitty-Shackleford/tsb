@@ -1,6 +1,7 @@
 import json
 import os
 import requests
+import html
 
 # Ensure the API key is set
 API_KEY = os.getenv("NITRADO_TOKEN")
@@ -25,6 +26,10 @@ def get_gameserver_details(service_id):
     else:
         print(f"Error fetching gameserver details for service ID {service_id}: {response.status_code} - {response.text}")
         return {}
+
+# Function to sanitize player names for Markdown
+def sanitize_player_name(name):
+    return html.escape(name)  # Escape HTML characters for safe display
 
 # Fetch all services
 services = get_services()
@@ -61,13 +66,14 @@ for service in services:
 
         # Get player names
         players = gameserver.get("query", {}).get("players", [])
-        player_names = ", ".join([player.get("name", "Unknown") for player in players])
+        player_names = [sanitize_player_name(player.get("name", "Unknown")) for player in players]  # Sanitize player names
+        player_names_str = ", ".join(player_names) if player_names else "No players online"
 
         for key, value in properties.items():
             markdown_output += f"| {key} | {value} |\n"
 
         # Add player names under the comment section
-        markdown_output += f"| Player Names | {player_names if player_names else 'No players online'} |\n"
+        markdown_output += f"| Player Names | {player_names_str} |\n"
 
         markdown_output += "\n"
 
