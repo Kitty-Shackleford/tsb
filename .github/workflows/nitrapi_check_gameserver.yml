@@ -34,3 +34,8 @@ jobs:
 
       - name: Display Summary
         run: cat $GITHUB_STEP_SUMMARY
+
+      - name: Send summary to Discord
+        uses: ./.github/workflows/raven.yml
+        with:
+          summary: $SUMMARY
