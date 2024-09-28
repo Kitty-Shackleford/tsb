@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           pip install requests
 
@@ -35,7 +35,11 @@ jobs:
       - name: Display Summary
         run: cat $GITHUB_STEP_SUMMARY
 
-      - name: Send summary to Discord
-        uses: ./.github/actions/send_discord_message  # Local action
+      - name: Trigger Discord Message Workflow
+        uses: peter-evans/workflow-dispatch@v1
         with:
-          summary: ${{ steps.gameserver_check.outputs.summary || 'No summary available.' }}
+          workflow: send_discord_message.yml
+          inputs:
+            summary: ${{ steps.gameserver_check.outputs.summary || 'No summary available.' }}
+
+

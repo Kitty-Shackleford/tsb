@@ -1,10 +1,35 @@
-name: 'Send Discord Message'
-description: 'Sends a message to a Discord channel via webhook'
-inputs:
-  summary:
-    description: 'The summary message to send'
-    required: true
-runs:
-  using: 'node16'  # or node12, node20
-  main: 'send_discord_message.js'
+name: Send Discord Message
+
+on:
+  workflow_dispatch:  # Manual trigger for this workflow
+  workflow_run:  # Triggered by another workflow completion
+    workflows: ["NitrAPI Check Gameserver Details"]  # Replace with your workflow name
+    types:
+      - completed
+
+jobs:
+  send_message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # or your preferred version
+
+      - name: Install JavaScript dependencies
+        run: |
+          cd .github/actions/send_discord_message
+          npm install
+
+      - name: Send summary to Discord
+        uses: ./.github/actions/send_discord_message  # Local action
+        with:
+          summary: ${{ github.event.inputs.summary || 'No summary available.' }}
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK }}
+
   
