@@ -39,23 +39,30 @@ for service in services:
 
     if gameserver:
         markdown_output += f"## Service ID: {service_id}\n\n"
-        markdown_output += "| Property | Value |\n"
-        markdown_output += "|----------|-------|\n"
+        markdown_output += "| Property        | Value                   |\n"
+        markdown_output += "|-----------------|-------------------------|\n"
+
+        # Calculate player count
+        player_count = gameserver.get("query", {}).get("player_current", 0)
+        max_slots = gameserver.get("slots", 0)
 
         properties = {
-            "Username": service.get("username"),
             "Status": gameserver.get("status"),
-            "IP Address": gameserver.get("ip"),
-            "Port": gameserver.get("port"),
-            "Game": gameserver.get("game_human"),
-            "Slots": gameserver.get("slots"),
-            "Location": service.get("location_id"),
-            "Start Date": service.get("start_date"),
-            "Comment": service.get("comment"),
+            "Player Count": f"{player_count}/{max_slots}",
+            "Last Update": gameserver.get("game_specific", {}).get("last_update"),
+            "Comment": service.get("comment", "No comment provided"),
+            "Banned Users": ", ".join(gameserver.get("general", {}).get("bans", "").splitlines() if gameserver.get("general", {}).get("bans") else []),
         }
+
+        # Get player names
+        players = gameserver.get("query", {}).get("players", [])
+        player_names = ", ".join([player.get("name", "Unknown") for player in players])
 
         for key, value in properties.items():
             markdown_output += f"| {key} | {value} |\n"
+
+        # Add player names under the comment section
+        markdown_output += f"| Player Names | {player_names if player_names else 'No players online'} |\n"
 
         markdown_output += "\n"
 
