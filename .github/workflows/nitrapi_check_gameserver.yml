@@ -3,7 +3,7 @@ name: Check Gameserver Details
 on:
   workflow_dispatch:  # Manual trigger
   schedule:
-    - cron: '*/6 * * * *'  # Runs every 6 minutes
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
 
 jobs:
   check_gameserver:

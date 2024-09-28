@@ -1,80 +1,82 @@
 import requests
-import os
 
-class NitradoAPI:
-    def __init__(self, api_key):
-        self.api_key = api_key
-        self.base_url = 'https://api.nitrado.net/gameserver/details'
+API_KEY = "YOUR_API_KEY"  # Replace with your actual API key
 
-    def _get_headers(self):
-        return {
-            'Authorization': f'Bearer {self.api_key}',
-            'Content-Type': 'application/json'
-        }
+def get_services():
+    response = requests.get("https://api.nitrado.net/services", headers={"Authorization": f"Bearer {API_KEY}"})
+    response.raise_for_status()  # Raise an error for bad responses
+    return response.json()['data']
 
-    def get_gameserver_details(self):
-        response = requests.get(self.base_url, headers=self._get_headers())
-        return response.json()
+def get_gameserver_details(service_id):
+    response = requests.get(f"https://api.nitrado.net/services/{service_id}/gameservers", headers={"Authorization": f"Bearer {API_KEY}"})
+    response.raise_for_status()  # Raise an error for bad responses
+    return response.json()
 
-# Map for status codes and their descriptions
-status_descriptions = {
-    "started": "The Server is up and running.",
-    "stopped": "The Server is stopped.",
-    "stopping": "The Server is currently stopping.",
-    "restarting": "The Server is currently restarting. This can take some minutes.",
-    "suspended": "The server is suspended, which means it needs to be reactivated on the website.",
-    "guardian_locked": "Your services are guardian protected, you are currently outside of the allowed times.",
-    "gs_installation": "The server is currently performing a game switching action.",
-    "backup_restore": "A backup will be restored now.",
-    "backup_creation": "A new backup will be created now.",
-    "chunkfix": "The Server is running a Minecraft chunkfix.",
-    "overviewmap_render": "The Server is running a Minecraft Overview Map rendering."
-}
-
-api = NitradoAPI(os.environ['NITRADO_TOKEN'])
-gameserver_data = api.get_gameserver_details()
-
-# Generate markdown output
-if gameserver_data['status'] == "success":
-    gameserver = gameserver_data['data']['gameserver']
-    
-    markdown_output = "### Gameserver Details\n\n"
-    
-    # Server basic info
-    markdown_output += f"- **Service ID**: {gameserver['service_id']}\n"
-    markdown_output += f"- **Username**: {gameserver['username']}\n"
-    markdown_output += f"- **Status**: {gameserver['status']} - {status_descriptions.get(gameserver['status'], 'Unknown status.')}\n"
-    markdown_output += f"- **IP**: {gameserver['ip']} (IPv6: {gameserver['ipv6']})\n"
-    markdown_output += f"- **Game**: {gameserver['game_human']} ({gameserver['game']})\n"
-    markdown_output += f"- **Type**: {gameserver['type']}\n"
-    markdown_output += f"- **Memory**: {gameserver['memory']} ({gameserver['memory_mb']} MB)\n"
-    
-    # Player info
+def format_summary(data):
+    gameserver = data['data']['gameserver']
     current_players = gameserver['query']['player_current']
     max_slots = gameserver['slots']
-    markdown_output += f"- **Slots**: {current_players}/{max_slots}\n"
-    markdown_output += f"- **Location**: {gameserver['location']}\n"
+    
+    summary = f"""
+## Gameserver Details
 
-    markdown_output += "#### Players:\n"
-    if current_players > 0:
-        for player in gameserver['query']['players']:
-            markdown_output += f"- **Player ID**: {player['id']}, Name: {player['name']}, Score: {player['score']}, Time: {player['time']} seconds, Ping: {player['ping']} ms\n"
-    else:
-        markdown_output += "No players currently online.\n"
+- **Service ID:** {data['data']['service_id']}
+- **Status:** {gameserver['status']}
+- **Username:** {gameserver['username']}
+- **IP Address:** {gameserver['ip']}
+- **Port:** {gameserver['port']}
+- **Slots:** {max_slots}
+- **Current Players:** {current_players} / {max_slots}
+- **Game:** {gameserver['game_human']}
 
-    # Features
-    markdown_output += "#### Features:\n"
-    features = gameserver['game_specific']['features']
-    for feature, available in features.items():
-        markdown_output += f"- **{feature.replace('_', ' ').title()}**: {'Yes' if available else 'No'}\n"
+### Host Systems
+"""
+    for os_type, details in gameserver['hostsystems'].items():
+        summary += f"- **{os_type.capitalize()}:**\n"
+        summary += f"  - Hostname: {details['hostname']}\n"
+        summary += f"  - Status: {details['status']}\n"
 
-    # Quota
-    markdown_output += "#### Quota:\n"
-    quota = gameserver['quota']
-    markdown_output += f"- **Block Usage**: {quota['block_usage']} / {quota['block_hardlimit']} bytes\n"
-    markdown_output += f"- **File Usage**: {quota['file_usage']} / {quota['file_hardlimit']} files\n"
+    summary += f"""
+### Memory
+- **Type:** {gameserver['memory']}
+- **Memory (MB):** {gameserver['memory_mb']}
 
-else:
-    markdown_output = f"Error fetching gameserver details: {gameserver_data.get('message', 'Unknown error')}"
+### Game Specific Details
+- **Path:** {gameserver['game_specific']['path']}
+- **Update Status:** {gameserver['game_specific']['update_status']}
+- **Last Update:** {gameserver['game_specific']['last_update']}
+- **Features:**
+  - Backups: {'Yes' if gameserver['game_specific']['features']['has_backups'] else 'No'}
+  - RCON: {'Yes' if gameserver['game_specific']['features']['has_rcon'] else 'No'}
+  - FTP: {'Yes' if gameserver['game_specific']['features']['has_ftp'] else 'No'}
+  - Database: {'Yes' if gameserver['game_specific']['features']['has_database'] else 'No'}
 
-print(markdown_output)
+### Settings
+- **Hostname:** (obfuscated)
+- **Admin Password:** (obfuscated)
+- **Mission:** {gameserver['settings']['general']['mission']}
+
+### Query Information
+- **Server Name:** (obfuscated)
+- **Connect IP:** {gameserver['query']['connect_ip']}
+- **Map:** {gameserver['query']['map']}
+- **Version:** {gameserver['query']['version']}
+"""
+    return summary
+
+if __name__ == "__main__":
+    services = get_services()
+    all_summaries = []
+
+    for service in services:
+        service_id = service['id']
+        try:
+            gameserver_data = get_gameserver_details(service_id)
+            summary = format_summary(gameserver_data)
+            all_summaries.append(summary)
+        except Exception as e:
+            print(f"Error fetching data for service ID {service_id}: {e}")
+
+    # Write all summaries to the output file
+    with open("output.md", "w") as f:
+        f.write("\n\n---\n\n".join(all_summaries))
