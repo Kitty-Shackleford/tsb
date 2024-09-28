@@ -1,8 +1,9 @@
 name: NitrAPI PSA
 
 on:
-  workflow_dispatch:  # Allows manual triggering of the workflow
-  - cron: '*/10 * * * *'  # Runs every 10 minutes
+  workflow_dispatch:  # Manual trigger
+  schedule:
+    - cron: '*/30 * * * *'  # Runs every 30 minutes
 
 jobs:
   fetch_notifications:
