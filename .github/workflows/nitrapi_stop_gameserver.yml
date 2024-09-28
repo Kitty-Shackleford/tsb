@@ -26,4 +26,9 @@ jobs:
         NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}
         NITRADO_ID: ${{ secrets.NITRADO_ID }}
       run: |
-        python gameserver_stop.py
+        python gameserver_stop.py 
+
+    - name: Output result to GitHub summary
+      run: |
+        echo "## Summary of Gameserver Stop" >> $GITHUB_STEP_SUMMARY
+        cat output.md >> $GITHUB_STEP_SUMMARY
