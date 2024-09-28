@@ -15,13 +15,17 @@ async function run() {
             }
         });
 
-        const players = response.data.data;
-
-        // Create a message for Discord
+        const players = response.data.data.players; // Access the players array
         let message = 'Player List:\n';
-        players.forEach(player => {
-            message += `- ${player.name} (ID: ${player.id})\n`;
-        });
+
+        // Check if players array is empty
+        if (players.length === 0) {
+            message += 'No players currently online.';
+        } else {
+            players.forEach(player => {
+                message += `- ${player.name} (ID: ${player.id})\n`;
+            });
+        }
 
         // Send the message to Discord
         await axios.post(discordWebhook, { content: message });
@@ -29,7 +33,7 @@ async function run() {
         console.log('Player list sent to Discord successfully!');
     } catch (error) {
         core.setFailed(`Error: ${error.message}`);
-        // Optionally, send error message to Discord if needed
+        // Send error message to Discord if the webhook is provided
         if (discordWebhook) {
             await axios.post(discordWebhook, { content: `Error: ${error.message}` });
         }
@@ -37,3 +41,4 @@ async function run() {
 }
 
 run();
+
