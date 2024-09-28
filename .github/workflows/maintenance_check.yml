@@ -1,0 +1,29 @@
+name: Global Maintenance Status Check
+
+on:
+  workflow_dispatch:  # Manual trigger
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+
+jobs:
+  maintenance_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Check Maintenance Status
+        env:
+          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}
+        run: |
+          python check_maintenance.py
