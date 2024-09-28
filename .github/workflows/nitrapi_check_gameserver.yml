@@ -32,3 +32,10 @@ jobs:
           echo "## Summary of Gameserver Details" >> output.md  # Append the header to the file
           cat output.md >> $GITHUB_STEP_SUMMARY
           echo "Summary written to output.md"  # Inform that the summary was written
+
+      - name: Trigger Discord Message Workflow
+        uses: peter-evans/workflow-dispatch@v1
+        with:
+          workflow: send_discord_message.yml
+          inputs:
+            summary: ${{ github.workspace }}/output.md  # Pass the file path to the next workflow
