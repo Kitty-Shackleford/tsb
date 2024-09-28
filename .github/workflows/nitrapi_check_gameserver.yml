@@ -1,7 +1,7 @@
 name: NitrAPI Check Gameserver Details
 
 on:
-  workflow_dispatch: {}  # Manual trigger
+  workflow_dispatch: {} # Manual trigger
   schedule:
     - cron: '*/10 * * * *'  # Runs every 10 minutes
 
@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: |
           pip install requests
 
@@ -41,5 +41,6 @@ jobs:
           workflow: send_discord_message.yml
           inputs:
             summary: ${{ steps.gameserver_check.outputs.summary || 'No summary available.' }}
+
 
 
