@@ -26,5 +26,5 @@ jobs:
           NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}
           NITRADO_ID: ${{ secrets.NITRADO_ID }}
         run: |
-          python your_script_name.py  # Make sure the script name matches
+          keepalive.py
 
