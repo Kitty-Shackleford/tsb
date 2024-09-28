@@ -31,7 +31,8 @@ jobs:
           python gameserver_check.py > output.md
           echo "## Summary of Gameserver Details" >> $GITHUB_STEP_SUMMARY
           cat output.md >> $GITHUB_STEP_SUMMARY
-          echo "summary=$(cat output.md)" >> $GITHUB_ENV  # Set summary output
+          summary=$(cat output.md | tr '\n' ' ')  # Replace newlines with spaces
+          echo "summary=$summary" >> $GITHUB_ENV  # Set summary output in the environment
 
       - name: Display Summary
         run: cat $GITHUB_STEP_SUMMARY
@@ -41,4 +42,5 @@ jobs:
         with:
           workflow: send_discord_message.yml
           inputs:
-            summary: ${{ env.summary || 'No summary available.' }}  # Use env instead of steps
+            summary: ${{ env.summary }}  # Use env for the summary
+
