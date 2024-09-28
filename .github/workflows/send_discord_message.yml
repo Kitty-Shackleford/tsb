@@ -1,47 +1,20 @@
-name: NitrAPI Check Gameserver Details
+name: 'Send Discord Message'
+description: 'Sends a message to a Discord channel via webhook'
 
 on:
-  workflow_dispatch: {}  # Manual trigger
-  schedule:
-    - cron: '*/10 * * * *'  # Runs every 10 minutes
+  workflow_dispatch:  # Manual trigger for this workflow
+  workflow_run:  # Triggered by another workflow completion
+    workflows: ["NitrAPI Check Gameserver Details"]  # Ensure this matches the name of your main workflow
+    types:
+      - completed
 
-jobs:
-  check_gameserver:
-    runs-on: ubuntu-latest
+inputs:
+  summary:
+    description: 'The summary message to send'
+    required: true
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+runs:
+  using: 'node16'  # or node12, node20
+  main: 'send_discord_message.js'
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
 
-      - name: Install dependencies
-        run: |
-          pip install requests
-
-      - name: Run Gameserver Details Check
-        id: gameserver_check
-        env:
-          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Your API key
-          NITRADO_ID: ${{ secrets.NITRADO_ID }}  # Your Nitrado Server ID
-        run: |
-          python gameserver_check.py > output.md
-          echo "## Summary of Gameserver Details" >> $GITHUB_STEP_SUMMARY
-          cat output.md >> $GITHUB_STEP_SUMMARY
-          echo "summary=$(cat output.md | tr '\n' ' ')" >> $GITHUB_ENV  # Capture summary, replacing newlines
-
-      - name: Display Summary
-        run: cat $GITHUB_STEP_SUMMARY
-
-      - name: Check Summary
-        run: echo "Summary: ${{ env.summary }}"
-
-      - name: Trigger Discord Message Workflow
-        uses: peter-evans/workflow-dispatch@v1
-        with:
-          workflow: send_discord_message.yml
-          inputs:
-            summary: ${{ env.summary || 'No summary available.' }}  # Use env for the summary
