@@ -1,8 +1,8 @@
-const core = require('@actions/core');
-const github = require('@actions/github');
-const fetch = require('node-fetch');
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import fetch from 'node-fetch';
+import * as core from '@actions/core';
+import * as github from '@actions/github';
 
 async function run() {
     try {
@@ -40,3 +40,4 @@ async function run() {
 }
 
 run();
+
