@@ -18,6 +18,9 @@ def get_gameserver_details(service_id):
     response.raise_for_status()
     return response.json()
 
+def clean_text(text):
+    return text.replace('\u0001', ' ').strip()  # Replace control character with a space and strip whitespace
+
 def format_summary(data):
     gameserver = data['data']['gameserver']
     current_players = gameserver['query']['player_current']
@@ -28,12 +31,12 @@ def format_summary(data):
 
 - **Service ID:** {data['data']['service_id']}
 - **Status:** {gameserver['status']}
-- **Username:** {gameserver['username']}
+- **Username:** {clean_text(gameserver['username'])}
 - **IP Address:** {gameserver['ip']}
 - **Port:** {gameserver['port']}
 - **Slots:** {max_slots}
 - **Current Players:** {current_players} / {max_slots}
-- **Game:** {gameserver['game_human']}
+- **Game:** {clean_text(gameserver['game_human'])}
 """
     return summary.strip()
 
