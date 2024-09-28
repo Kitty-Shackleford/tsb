@@ -1,0 +1,21 @@
+name: Get Changed Files
+
+on:
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  get_files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+
+      - name: Get changed files
+        id: get_changed_files
+        run: |
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT || echo "No changed files detected. Exiting."

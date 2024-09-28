@@ -1,0 +1,16 @@
+name: Install Dependencies
+
+on:
+  workflow_run:
+    workflows: ["Get Changed Files"]
+    types:
+      - completed
+
+jobs:
+  install_dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Prettier and XML Plugin
+        run: |
+          npm install --save-dev prettier @prettier/plugin-xml || { echo "Failed to install Prettier"; exit 1; }
