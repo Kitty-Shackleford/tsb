@@ -1,4 +1,4 @@
-name: Nitrado Player Check
+name: NitrAPI Player List
 
 on:
   workflow_dispatch:  # Manual trigger for this workflow
