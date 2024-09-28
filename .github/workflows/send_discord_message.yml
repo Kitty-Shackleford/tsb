@@ -11,6 +11,17 @@ jobs:
   send_message:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16'  # Specify the Node.js version you need
+
+      - name: Install Dependencies
+        run: npm install  # Install npm packages listed in package.json
+
       - name: Send Discord Message
         run: |
           node send_discord_message.js "${{ github.event.inputs.summary }}"
