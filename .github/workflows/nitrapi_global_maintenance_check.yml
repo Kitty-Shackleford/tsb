@@ -1,12 +1,12 @@
-name: Global Health Check for NitrAPI
+name: NitrAPI Global Maintenance Status
 
 on:
   workflow_dispatch:  # Manual trigger
   schedule:
-    - cron: '*/30 * * * *'  # Runs every 30 minutes
+    - cron: '0 * * * *'  # Runs every hour
 
 jobs:
-  health_check:
+  maintenance_check:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,11 +18,12 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Install dependencies
+      - name: Install requests library
         run: |
           pip install requests
 
-      - name: Run Health Check Script
+      - name: Run Maintenance Check Script
         env:
-          API_KEY: ${{ secrets.NITRADO_TOKEN }}  # Use the correct secret name
-        run: python health_check.py
+          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Use the secret for API key
+        run: |
+          python check_maintenance.py

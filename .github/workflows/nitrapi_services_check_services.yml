@@ -1,4 +1,4 @@
-name: Service List for Nitrado
+name: NitrAPI Service List
 
 on:
   workflow_dispatch:  # Manual trigger
