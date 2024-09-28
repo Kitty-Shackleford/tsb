@@ -3,6 +3,9 @@ import os
 
 API_KEY = os.getenv("NITRADO_TOKEN")  # Get API key from environment variable
 
+def clean_text(text):
+    return text.replace('\u0001', ' ').replace('\x01', ' ').strip()  # Replace control characters with a space
+
 def get_services():
     response = requests.get("https://api.nitrado.net/services", headers={"Authorization": f"Bearer {API_KEY}"})
     response.raise_for_status()
@@ -16,10 +19,15 @@ def get_services():
 def get_gameserver_details(service_id):
     response = requests.get(f"https://api.nitrado.net/services/{service_id}/gameservers", headers={"Authorization": f"Bearer {API_KEY}"})
     response.raise_for_status()
-    return response.json()
+    gameserver_data = response.json()
 
-def clean_text(text):
-    return text.replace('\u0001', ' ').replace('\x01', ' ').strip()  # Replace both control characters with a space
+    # Clean the gameserver details immediately after fetching
+    gameserver_data['data']['gameserver']['username'] = clean_text(gameserver_data['data']['gameserver']['username'])
+    gameserver_data['data']['gameserver']['game_human'] = clean_text(gameserver_data['data']['gameserver']['game_human'])
+    gameserver_data['data']['gameserver']['details']['address'] = clean_text(gameserver_data['data']['gameserver']['details']['address'])
+    gameserver_data['data']['gameserver']['details']['name'] = clean_text(gameserver_data['data']['gameserver']['details']['name'])
+    
+    return gameserver_data
 
 def format_summary(data):
     gameserver = data['data']['gameserver']
@@ -31,12 +39,13 @@ def format_summary(data):
 
 - **Service ID:** {data['data']['service_id']}
 - **Status:** {gameserver['status']}
-- **Username:** {clean_text(gameserver['username'])}
-- **IP Address:** {gameserver['ip']}
+- **Username:** {gameserver['username']}
+- **IP Address:** {gameserver['details']['address']}
 - **Port:** {gameserver['port']}
 - **Slots:** {max_slots}
 - **Current Players:** {current_players} / {max_slots}
-- **Game:** {clean_text(gameserver['game_human'])}
+- **Game:** {gameserver['game_human']}
+- **Server Name:** {gameserver['details']['name']}
 """
     return summary.strip()
 
