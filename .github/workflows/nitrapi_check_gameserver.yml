@@ -42,4 +42,3 @@ jobs:
           workflow: send_discord_message.yml
           inputs:
             summary: ${{ env.summary || 'No summary available.' }}  # Use env instead of steps
-

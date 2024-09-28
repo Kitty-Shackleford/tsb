@@ -1,35 +1,49 @@
-name: Send Discord Message
+name: NitrAPI Check Gameserver Details
 
 on:
-  workflow_dispatch:  # Manual trigger for this workflow
-  workflow_run:  # Triggered by another workflow completion
-    workflows: ["NitrAPI Check Gameserver Details"]  # Replace with your workflow name
-    types:
-      - completed
+  workflow_dispatch: {}  # Manual trigger
+  schedule:
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
 
 jobs:
-  send_message:
+  check_gameserver:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          node-version: '16'  # or your preferred version
+          python-version: '3.9'
 
-      - name: Install JavaScript dependencies
+      - name: Install dependencies
         run: |
-          cd .github/actions/send_discord_message
-          npm install
+          pip install requests
 
-      - name: Send summary to Discord
-        uses: ./.github/actions/send_discord_message  # Local action
-        with:
-          summary: ${{ github.event.inputs.summary || 'No summary available.' }}
+      - name: Run Gameserver Details Check
+        id: gameserver_check
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK }}
+          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Your API key
+          NITRADO_ID: ${{ secrets.NITRADO_ID }}  # Your Nitrado Server ID
+        run: |
+          python gameserver_check.py > output.md
+          echo "## Summary of Gameserver Details" >> $GITHUB_STEP_SUMMARY
+          cat output.md >> $GITHUB_STEP_SUMMARY
+          echo "summary<<EOF" >> $GITHUB_ENV
+          cat output.md >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Display Summary
+        run: cat $GITHUB_STEP_SUMMARY
+
+      - name: Trigger Discord Message Workflow
+        uses: peter-evans/workflow-dispatch@v1
+        with:
+          workflow: send_discord_message.yml
+          inputs:
+            summary: ${{ env.summary || 'No summary available.' }}  # Use env for the summary
+
 
   
