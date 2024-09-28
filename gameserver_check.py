@@ -38,7 +38,12 @@ for service in services:
     gameserver = get_gameserver_details(service_id)
 
     if gameserver:
-        markdown_output += f"## Service ID: {service_id}\n\n"
+        server_name = gameserver.get("details", {}).get("name", "")
+        if server_name:
+            markdown_output += f"## {server_name}\n\n"
+        else:
+            markdown_output += f"## \n\n"  # Empty header if no server name
+
         markdown_output += "| Property        | Value                   |\n"
         markdown_output += "|-----------------|-------------------------|\n"
 
