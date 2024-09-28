@@ -34,13 +34,11 @@ markdown_output = "# Gameserver Details\n\n"
 
 # Determine whether to use NITRADO_ID or fetch all services
 if NITRADO_ID:
+    # Fetch details for the specific NITRADO_ID
     gameserver = get_gameserver_details(NITRADO_ID)
     if gameserver:
         server_name = gameserver.get("details", {}).get("name", "")
-        if server_name:
-            markdown_output += f"## {server_name}\n\n"
-        else:
-            markdown_output += f"## \n\n"  # Empty header if no server name
+        markdown_output += f"## {server_name or 'Server Name Not Available'}\n\n"
 
         markdown_output += "| Property        | Value                   |\n"
         markdown_output += "|-----------------|-------------------------|\n"
@@ -61,6 +59,8 @@ if NITRADO_ID:
             markdown_output += f"| {key} | {value} |\n"
 
         markdown_output += "\n"
+    else:
+        print("No gameserver details found for the provided NITRADO_ID.")
 else:
     # Fetch all services if NITRADO_ID is not provided
     services = get_services()
@@ -72,10 +72,7 @@ else:
 
         if gameserver:
             server_name = gameserver.get("details", {}).get("name", "")
-            if server_name:
-                markdown_output += f"## {server_name}\n\n"
-            else:
-                markdown_output += f"## \n\n"  # Empty header if no server name
+            markdown_output += f"## {server_name or 'Server Name Not Available'}\n\n"
 
             markdown_output += "| Property        | Value                   |\n"
             markdown_output += "|-----------------|-------------------------|\n"
