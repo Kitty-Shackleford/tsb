@@ -1,13 +1,17 @@
 import os
 import requests
 
-# Get the API key from the environment variable
-API_KEY = os.getenv("NITRADO_TOKEN")  # Your GitHub secret should be set as NITRADO_TOKEN
+API_KEY = os.getenv("NITRADO_TOKEN")  # Your GitHub secret
 
 def get_services():
     response = requests.get("https://api.nitrado.net/services", headers={"Authorization": f"Bearer {API_KEY}"})
     response.raise_for_status()  # Raise an error for bad responses
-    return response.json()['data']
+    data = response.json()
+
+    # Debugging: Print the response structure
+    print("Response from get_services:", data)
+
+    return data['data']  # Ensure we're returning the correct data structure
 
 def get_gameserver_details(service_id):
     response = requests.get(f"https://api.nitrado.net/services/{service_id}/gameservers", headers={"Authorization": f"Bearer {API_KEY}"})
@@ -22,7 +26,7 @@ def format_summary(data):
     summary = f"""
 ## Gameserver Details
 
-- **Service ID:** {data['data']['service_id']}
+- **Service ID:** {gameserver['service_id']}
 - **Status:** {gameserver['status']}
 - **Username:** {gameserver['username']}
 - **IP Address:** {gameserver['ip']}
@@ -73,7 +77,17 @@ if __name__ == "__main__":
     services = get_services()
     all_summaries = []
 
+    # Ensure services is a list
+    if not isinstance(services, list):
+        print("Expected services to be a list, but got:", type(services))
+        raise ValueError("The services data is not formatted correctly.")
+
     for service in services:
+        # Ensure service is a dictionary
+        if not isinstance(service, dict):
+            print("Expected service to be a dictionary, but got:", type(service))
+            continue  # Skip this iteration if the format is not as expected
+
         service_id = service['id']
         try:
             gameserver_data = get_gameserver_details(service_id)
