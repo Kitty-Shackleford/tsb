@@ -32,19 +32,9 @@ def get_gameserver_details(service_id):
 # Prepare Markdown output
 markdown_output = "# Gameserver Details\n\n"
 
-# Fetch gameserver details using NITRADO_ID if available
+# Determine whether to use NITRADO_ID or fetch all services
 if NITRADO_ID:
     gameserver = get_gameserver_details(NITRADO_ID)
-    services = [{"id": NITRADO_ID, "comment": ""}]  # Create a dummy service entry for this ID
-else:
-    # Fetch all services
-    services = get_services()
-
-# Loop through each service and fetch its gameserver details
-for service in services:
-    service_id = service.get("id")
-    gameserver = get_gameserver_details(service_id)
-
     if gameserver:
         server_name = gameserver.get("details", {}).get("name", "")
         if server_name:
@@ -63,7 +53,7 @@ for service in services:
             "Status": gameserver.get("status"),
             "Player Count": f"{player_count}/{max_slots}",
             "Last Update": gameserver.get("game_specific", {}).get("last_update", "None"),
-            "Comment": service.get("comment", "None"),
+            "Comment": gameserver.get("comment", "None"),
             "Banned Users": ", ".join(gameserver.get("general", {}).get("bans", "").splitlines() if gameserver.get("general", {}).get("bans") else []),
         }
 
@@ -71,6 +61,41 @@ for service in services:
             markdown_output += f"| {key} | {value} |\n"
 
         markdown_output += "\n"
+else:
+    # Fetch all services if NITRADO_ID is not provided
+    services = get_services()
+
+    # Loop through each service and fetch its gameserver details
+    for service in services:
+        service_id = service.get("id")
+        gameserver = get_gameserver_details(service_id)
+
+        if gameserver:
+            server_name = gameserver.get("details", {}).get("name", "")
+            if server_name:
+                markdown_output += f"## {server_name}\n\n"
+            else:
+                markdown_output += f"## \n\n"  # Empty header if no server name
+
+            markdown_output += "| Property        | Value                   |\n"
+            markdown_output += "|-----------------|-------------------------|\n"
+
+            # Calculate player count
+            player_count = gameserver.get("query", {}).get("player_current", 0)
+            max_slots = gameserver.get("slots", 0)
+
+            properties = {
+                "Status": gameserver.get("status"),
+                "Player Count": f"{player_count}/{max_slots}",
+                "Last Update": gameserver.get("game_specific", {}).get("last_update", "None"),
+                "Comment": service.get("comment", "None"),
+                "Banned Users": ", ".join(gameserver.get("general", {}).get("bans", "").splitlines() if gameserver.get("general", {}).get("bans") else []),
+            }
+
+            for key, value in properties.items():
+                markdown_output += f"| {key} | {value} |\n"
+
+            markdown_output += "\n"
 
 # Output the Markdown formatted result
 print(markdown_output)
