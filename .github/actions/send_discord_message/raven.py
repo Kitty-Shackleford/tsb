@@ -2,28 +2,21 @@ import os
 import requests
 import sys
 
-# Get the Discord webhook URL from environment variable
-DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
+# Get summary from input
+summary = os.getenv('INPUT_SUMMARY')
 
-if not DISCORD_WEBHOOK_URL:
-    print("Error: DISCORD_WEBHOOK_URL environment variable is not set.")
-    sys.exit(1)
+# Discord webhook URL
+WEBHOOK_URL = os.getenv('DISCORD_WEBHOOK_URL')  # You can also pass this as an input
 
-# Get the summary message from the command-line argument
-if len(sys.argv) != 2:
-    print("Usage: python send_discord_message.py <summary_message>")
-    sys.exit(1)
+# Prepare the payload
+data = {
+    "content": summary
+}
 
-summary_message = sys.argv[1]
+# Send the message
+response = requests.post(WEBHOOK_URL, json=data)
 
-# Send the message to Discord
-response = requests.post(
-    DISCORD_WEBHOOK_URL,
-    json={"content": summary_message},
-)
-
-if response.status_code == 204:
-    print("Message sent to Discord successfully.")
-else:
+if response.status_code != 204:
     print(f"Failed to send message: {response.status_code} - {response.text}")
     sys.exit(1)
+

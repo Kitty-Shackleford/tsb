@@ -4,7 +4,7 @@ inputs:
   summary:
     description: 'The summary message to send'
     required: true
-    default: 'No summary provided.'
 runs:
   using: 'python'
   main: 'raven.py'
+
