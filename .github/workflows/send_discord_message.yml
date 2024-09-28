@@ -26,4 +26,4 @@ jobs:
         run: |
           node send_discord_message.js "${{ github.event.inputs.summary }}"
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}  # Set the webhook URL from secrets
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}  # Set the webhook URL from secrets
