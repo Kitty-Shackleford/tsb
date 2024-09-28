@@ -1,20 +1,10 @@
-name: Send Discord Message
-
-on:
-  workflow_call:
-    inputs:
-      summary:
-        required: true
-        type: string
-
-jobs:
-  send_message:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Send summary to Discord
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        run: |
-          curl -X POST -H "Content-Type: application/json" -d '{
-            "content": "${{ inputs.summary }}"
-          }' $DISCORD_WEBHOOK
+name: 'Send Discord Message'
+description: 'Sends a message to a Discord channel via webhook'
+inputs:
+  summary:
+    description: 'The summary message to send'
+    required: true
+runs:
+  using: 'node16'  # or node12, node20
+  main: 'send_discord_message.js'
+  
