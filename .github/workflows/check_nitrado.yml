@@ -3,7 +3,7 @@ name: Check Nitrado API
 on:
   workflow_dispatch:  # Manual trigger
   schedule:
-    - cron: '*/6 * * * *'  # Runs every 30 minutes
+    - cron: '*/6 * * * *'  # Runs every 6 minutes
 
 jobs:
   check_nitrado:
@@ -28,12 +28,8 @@ jobs:
           NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Use your secret for the API key
         run: |
           python nitrado_checks.py > output.md
-          echo "summary<<EOF" >> $GITHUB_ENV
-          cat output.md >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          echo "## Summary of Nitrado API Checks" >> $GITHUB_STEP_SUMMARY
+          cat output.md >> $GITHUB_STEP_SUMMARY
 
-      - name: Create Job Summary
-        run: |
-          echo "${{ env.summary }}" >> summary.md
-          echo "## Summary of Nitrado API Checks" >> summary.md
-          cat summary.md
+      - name: Display Summary
+        run: cat $GITHUB_STEP_SUMMARY
