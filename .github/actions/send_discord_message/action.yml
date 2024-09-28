@@ -1,0 +1,10 @@
+name: 'Send Discord Message'
+description: 'Sends a message to a Discord channel via webhook'
+inputs:
+  summary:
+    description: 'The summary message to send'
+    required: true
+    default: 'No summary provided.'
+runs:
+  using: 'python'
+  main: 'raven.py'
