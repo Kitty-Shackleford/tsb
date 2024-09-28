@@ -3,12 +3,8 @@ const axios = require('axios');
 
 async function run() {
     try {
-        const summary = core.getInput('summary');
+        const summary = core.getInput('summary') || 'No summary provided.';  // Default message if summary is empty
         const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
-
-        if (!summary) {
-            throw new Error('No summary provided.');
-        }
 
         if (!webhookUrl) {
             throw new Error('DISCORD_WEBHOOK_URL is not set.');
@@ -25,6 +21,13 @@ async function run() {
         console.log('Message sent successfully!');
     } catch (error) {
         core.setFailed(error.message);
+        // Send the error message to Discord as well
+        const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
+        if (webhookUrl) {
+            await axios.post(webhookUrl, {
+                content: `Error occurred: ${error.message}`
+            });
+        }
     }
 }
 
