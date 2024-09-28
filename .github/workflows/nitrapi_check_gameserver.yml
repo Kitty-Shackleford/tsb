@@ -31,15 +31,3 @@ jobs:
           python gameserver_check.py > output.md
           echo "## Summary of Gameserver Details" >> output.md
           cat output.md >> $GITHUB_STEP_SUMMARY
-
-      - name: Display Summary
-        run: cat output.md
-
-      - name: Trigger Discord Message Workflow
-        uses: peter-evans/workflow-dispatch@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          workflow: send_discord_message.yml
-          inputs:
-            summary: ${{ github.workspace }}/output.md  # Pass the file path to the next workflow
-
