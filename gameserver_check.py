@@ -18,14 +18,17 @@ if not NITRADO_ID:
 markdown_output = "# Gameserver Details\n\n"
 
 # Fetch gameserver details for the provided NITRADO_ID
-response = requests.get(f'https://api.nitrado.net/services/{NITRADO_ID}/gameservers', headers={'Authorization': f'Bearer {API_KEY}'})
+response = requests.get(
+    f'https://api.nitrado.net/services/{NITRADO_ID}/gameservers',
+    headers={'Authorization': f'Bearer {API_KEY}'}
+)
 
 if response.ok:
     gameserver = response.json().get("data", {}).get("gameserver", {})
     
     if gameserver:
-        server_name = gameserver.get("details", {}).get("name", "")
-        markdown_output += f"## {server_name or 'Server Name Not Available'}\n\n"
+        server_name = gameserver.get("details", {}).get("name", "Server Name Not Available")
+        markdown_output += f"## {server_name}\n\n"
 
         markdown_output += "| Property        | Value                   |\n"
         markdown_output += "|-----------------|-------------------------|\n"
