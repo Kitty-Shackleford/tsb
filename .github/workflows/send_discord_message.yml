@@ -1,5 +1,4 @@
 name: Send Discord Message
-description: Sends a message to a Discord channel via webhook
 
 on:
   workflow_dispatch:  # Manual trigger for this workflow
@@ -7,11 +6,6 @@ on:
     workflows: ["NitrAPI Check Gameserver Details"]
     types:
       - completed
-
-inputs:
-  summary:
-    description: 'The summary message to send'
-    required: true
 
 jobs:
   send_message:
