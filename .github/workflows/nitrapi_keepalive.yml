@@ -2,36 +2,29 @@ name: NitrAPI Keep Alive
 
 on:
   workflow_dispatch:  # Allows manual triggering of the workflow
-  schedule:
-    - cron: '*/1 * * * *'  # Runs every 1 minutes
 
 jobs:
   check_and_restart:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.9'  # Adjust as necessary
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests  # Install the requests library if needed
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
-    - name: Check server status
-      id: check_status
-      run: |
-        python keepalive_check.py > status.txt
-        STATUS=$(cat status.txt)
-        echo "Server Status: $STATUS"
-        echo "::set-output name=status::$STATUS"  # Set output for next step
+      - name: Check and restart gameserver
+        env:
+          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}
+          NITRADO_ID: ${{ secrets.NITRADO_ID }}
+        run: |
+          python your_script_name.py  # Make sure the script name matches
 
-    - name: Restart server if stopped
-      if: steps.check_status.outputs.status == 'stopped'
-      run: |
-        python restart_server.py
