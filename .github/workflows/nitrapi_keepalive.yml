@@ -28,3 +28,9 @@ jobs:
         run: |
           python keepalive.py
 
+      - name: Display summary
+        run: |
+          echo "## Summary of Server Status" >> $GITHUB_STEP_SUMMARY
+          cat summary.md >> $GITHUB_STEP_SUMMARY
+
+
