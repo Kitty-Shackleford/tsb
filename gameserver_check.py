@@ -1,13 +1,15 @@
 import json
 import os
 import requests
-import html
 
 # Ensure the API key is set
 API_KEY = os.getenv("NITRADO_TOKEN")
 if not API_KEY:
     print("Error: NITRADO_TOKEN environment variable is not set.")
     exit(1)
+
+# Check for NITRADO_ID
+NITRADO_ID = os.getenv("NITRADO_ID")
 
 # Function to get all services
 def get_services():
@@ -30,8 +32,13 @@ def get_gameserver_details(service_id):
 # Prepare Markdown output
 markdown_output = "# Gameserver Details\n\n"
 
-# Fetch all services
-services = get_services()
+# Fetch gameserver details using NITRADO_ID if available
+if NITRADO_ID:
+    gameserver = get_gameserver_details(NITRADO_ID)
+    services = [{"id": NITRADO_ID, "comment": ""}]  # Create a dummy service entry for this ID
+else:
+    # Fetch all services
+    services = get_services()
 
 # Loop through each service and fetch its gameserver details
 for service in services:
