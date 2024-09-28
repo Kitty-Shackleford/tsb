@@ -1,4 +1,4 @@
-name: Stop Nitrado Gameserver
+name: NitrAPI Stop Gameserver
 
 on:
   workflow_dispatch:  # Allows manual triggering of the workflow

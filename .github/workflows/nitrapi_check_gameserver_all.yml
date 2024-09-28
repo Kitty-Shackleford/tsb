@@ -1,4 +1,4 @@
-name: Check All Gameserver Details
+name: NitrAPI Check All Gameserver Details
 
 on:
   workflow_dispatch:  # Manual trigger
