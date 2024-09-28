@@ -19,7 +19,7 @@ def get_gameserver_details(service_id):
     return response.json()
 
 def clean_text(text):
-    return text.replace('\u0001', ' ').replace('\x01', ' ').strip()  # Replace both control characters with a space and strip whitespace
+    return text.replace('\u0001', ' ').replace('\x01', ' ').strip()  # Replace both control characters with a space
 
 def format_summary(data):
     gameserver = data['data']['gameserver']
@@ -46,6 +46,9 @@ if __name__ == "__main__":
 
     try:
         services = get_services()
+        if isinstance(services, dict) and 'services' in services:
+            services = services['services']  # Adjust this if necessary
+
         for service in services:
             service_id = service['id']
             try:
