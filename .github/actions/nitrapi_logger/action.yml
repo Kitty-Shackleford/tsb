@@ -2,4 +2,4 @@ name: Nitrapi Logger
 description: Downloads the most recent log file and makes it available for subsequent steps.
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'index.js'
