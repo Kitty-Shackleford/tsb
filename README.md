@@ -1,6 +1,6 @@
 # Gameserver Details
 
-## ServerNameNotAvailable
+## TSB
 
 | Property             | Value                        |
 |----------------------|------------------------------|
@@ -27,4 +27,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun Sep 29 04:42:54 UTC 2024
+Last updated: Sun Sep 29 04:47:36 UTC 2024
