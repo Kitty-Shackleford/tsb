@@ -1,4 +1,4 @@
-name: NitraAPI Log Downloader
+name: NitrAPI Log Downloader
 
 on: 
   workflow_dispatch:  # This makes the workflow manually triggered
