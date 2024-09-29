@@ -28,23 +28,18 @@ jobs:
           NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Your API key
           NITRADO_ID: ${{ secrets.NITRADO_ID }}  # Your Nitrado Server ID
         run: |
-          python gameserver_check.py > output.md
-          echo "## Summary of Gameserver Details" >> output.md
-          cat output.md >> $GITHUB_STEP_SUMMARY
+          python gameserver_check.py > README.md
+          echo "## Summary of Last Gameserver Check" >> README.md
+          echo "$summary" >> README.md
+          echo "" >> README.md
+          echo "Last updated: $(date)" >> README.md
+          cat README.md >> $GITHUB_STEP_SUMMARY
 
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.WORKFLOW_TOKEN }}
-
-      - name: Update README.md
-        run: |
-          summary=$(cat output.md)
-          echo "## Summary of Last Gameserver Check" >> README.md
-          echo "$summary" >> README.md
-          echo "" >> README.md
-          echo "Last updated: $(date)" >> README.md
 
           - name: Commit changes
             run: |
