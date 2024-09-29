@@ -138,7 +138,7 @@
             "hitDirectionOverrideEnabled": false,
             "hitDirectionBehaviour": 1,
             "hitDirectionStyle": 0,
-            "hitDirectionIndicatorColorStr": "#9900FF0",
+            "hitDirectionIndicatorColorStr": "#b00b69",
             "hitDirectionMaxDuration": 2.0,
             "hitDirectionBreakPointRelative": 0.2,
             "hitDirectionScatter": 10.0,
