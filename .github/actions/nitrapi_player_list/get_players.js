@@ -8,7 +8,7 @@ async function run() {
         const discordWebhook = core.getInput('discord_webhook');
 
         // Fetch players from the Nitrado API
-        const response = await axios.get(`https://api.nitrado.net/services/${nitradoId}/gameservers/games/players`, {
+        const response = await axios.get(`https://api.nitrado.net/services/${nitrado_id}/gameservers/games/players`, {
             headers: {
                 'Authorization': `Bearer ${nitradoToken}`,
                 'Accept': 'application/json',
