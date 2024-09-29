@@ -31,3 +31,23 @@ jobs:
           python gameserver_check.py > output.md
           echo "## Summary of Gameserver Details" >> output.md
           cat output.md >> $GITHUB_STEP_SUMMARY
+
+      - name: Update README.md
+        run: |
+          summary=$(cat output.md)
+          echo "## Summary of Last Gameserver Check" >> README.md
+          echo "$summary" >> README.md
+          echo "" >> README.md
+          echo "Last updated: $(date)" >> README.md
+
+          - name: Commit changes
+            run: |
+              git config --local user.email "kittylinter@github.com"
+              git config --local user.name "Kitty Linter"
+              git add README.md
+              git commit -m "Update README with gameserver check summary" || echo "No changes to commit"
+              git push
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      
