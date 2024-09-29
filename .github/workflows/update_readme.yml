@@ -1,9 +1,10 @@
 name: Update README
 
 on:
-  completion:
-    types: [success]    # Run this workflow when the previous workflow is successful
-    workflows: ["nitrapi_gameserver.yml"]  # Specify the workflow file name
+    workflow_run:
+      workflows: ["NitrAPI Check Gameserver Details"]
+      types:
+        - completed
 
 jobs:
   first-action:
