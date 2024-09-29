@@ -1,6 +1,7 @@
 import json
 import os
 import requests
+import re
 
 # Ensure the API key is set
 API_KEY = os.getenv("NITRADO_TOKEN")
@@ -32,8 +33,11 @@ for service in services:
         gameserver = response.json().get("data", {}).get("gameserver", {})
         
         if gameserver:
-            server_name = gameserver.get("details", {}).get("name", "")
-            markdown_output += f"## {server_name or 'Server Name Not Available'}\n\n"
+            # Get server name from the query section
+            server_name = gameserver.get("query", {}).get("server_name", "Server Name Not Available")
+            # Clean server name to exclude null characters and spaces
+            server_name = re.sub(r'[^a-zA-Z]', '', server_name) or "Server Name Not Available"
+            markdown_output += f"## {server_name}\n\n"
 
             markdown_output += "| Property        | Value                   |\n"
             markdown_output += "|-----------------|-------------------------|\n"
@@ -43,11 +47,23 @@ for service in services:
             max_slots = gameserver.get("slots", 0)
 
             properties = {
-                "Status": gameserver.get("status"),
+                "Status": gameserver.get("status", "Unknown"),
                 "Player Count": f"{player_count}/{max_slots}",
                 "Last Update": gameserver.get("game_specific", {}).get("last_update", "None"),
                 "Comment": service.get("comment", "None"),
                 "Banned Users": ", ".join(gameserver.get("general", {}).get("bans", "").splitlines() if gameserver.get("general", {}).get("bans") else []),
+                "Game": gameserver.get("game_human", "Unknown"),
+                "Mission": gameserver.get("settings", {}).get("config", {}).get("mission", "Unknown"),
+                "3rd Person": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("disable3rdPerson", "1") == "0" else "Disabled",
+                "Crosshair": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("disableCrosshair", "1") == "0" else "Disabled",
+                "Shot Validation": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("shotValidation", "0") == "1" else "Disabled",
+                "Mouse and Keyboard": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("enableMouseAndKeyboard", "1") == "1" else "Disabled",
+                "Whitelist": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("enableWhitelist", "1") == "1" else "Disabled",
+                "Base Damage": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("disableBaseDamage", "1") == "0" else "Disabled",
+                "Container Damage": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("disableContainerDamage", "1") == "0" else "Disabled",
+                "Priority": gameserver.get("settings", {}).get("general", {}).get("priority", "None").replace('\r\n', ', '),
+                "Whitelist": gameserver.get("settings", {}).get("general", {}).get("whitelist", "None").replace('\r\n', ', '),
+                "Version": gameserver.get("query", {}).get("version", "Unknown"),
             }
 
             for key, value in properties.items():

@@ -28,8 +28,14 @@ if response.ok:
     gameserver = response.json().get("data", {}).get("gameserver", {})
     
     if gameserver:
+        # Get server name from the query section
+        server_name = gameserver.get("query", {}).get("server_name", "Server Name Not Available")
+        
         # Clean the server name to exclude null characters and spaces
-        server_name = re.sub(r'[^a-zA-Z]', '', gameserver.get("details", {}).get("name", "Server Name Not Available"))
+        server_name = re.sub(r'[^a-zA-Z]', '', server_name)
+        if not server_name:  # Fallback in case it gets fully cleaned
+            server_name = "Server Name Not Available"
+        
         markdown_output += f"## {server_name}\n\n"
 
         markdown_output += "| Property             | Value                        |\n"
@@ -72,6 +78,6 @@ else:
     markdown_output += "Error fetching gameserver details.\n"
 
 # Output the Markdown formatted result
-with open("README.md", "w") as file:
+with open("output.md", "w") as file:
     file.write(markdown_output)
 print(markdown_output)
