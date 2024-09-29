@@ -5,19 +5,13 @@
 | Property        | Value                   |
 |-----------------|-------------------------|
 | Status | started |
-| Player Count | 17/50 |
-| Last Update | 2024-02-20T15:00:14 |
-| Comment | None |
-| Banned Users |  |
-
-## Server Name Not Available
-
-| Property        | Value                   |
-|-----------------|-------------------------|
-| Status | started |
 | Player Count | 3/10 |
 | Last Update | None |
 | Comment | None |
 | Banned Users |  |
 
 
+## Summary of Last Gameserver Check
+
+
+Last updated: Sun Sep 29 02:52:09 UTC 2024
