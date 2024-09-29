@@ -40,6 +40,12 @@ jobs:
           echo "" >> README.md
           echo "Last updated: $(date)" >> README.md
 
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+
       - name: Update README.md
         run: |
           summary=$(cat output.md)
