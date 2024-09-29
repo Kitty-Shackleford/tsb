@@ -11,8 +11,8 @@ if not all([FTP_HOST, FTP_USER, FTP_PASS]):
     print("Error: FTP credentials are not set.")
     exit(1)
 
-# Count of messages from the bottom up to modify
-MESSAGES_COUNTER = 4 
+# Set the number of last messages to modify
+MESSAGES_COUNTER = 4  # Change this value to modify a different number of last messages
 
 def download_file_via_ftp(remote_path, local_path):
     """Download a file from the FTP server."""
@@ -40,7 +40,7 @@ def fetch_random_quote():
                 return f"{quote} — {quote_data['author']}"
         except Exception as e:
             print(f"Error fetching quote: {e}")
-    return "Stay inspired!"  # Fallback quote
+    return "Stay inspired!"  # Fallback quote if all attempts fail
 
 def modify_messages_xml(file_path):
     """Modify the messages.xml file."""
@@ -67,7 +67,13 @@ def modify_messages_xml(file_path):
             original_text = text_element.text
             start_index = original_text.find('[')
             end_index = original_text.find(']') + 1
-            updated_text = original_text[:start_index] + new_quote + original_text[end_index:]
+            
+            # If brackets are found, replace them; otherwise, just update the text
+            if start_index != -1 and end_index != -1:
+                updated_text = original_text[:start_index] + new_quote + original_text[end_index:]
+            else:
+                updated_text = new_quote  # If no brackets, just set the quote
+            
             text_element.text = updated_text
 
     # Save the modified XML back to file
