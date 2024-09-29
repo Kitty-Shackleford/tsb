@@ -34,7 +34,7 @@ jobs:
       run: |
         git config --local user.email "kittylinter@github.com"
         git config --local user.name "Kitty Linter"
-        git add /dayzOffline.enoch/custom/messages.xml
+        git add messages.xml
 
     - name: Push Messages
       uses: ad-m/github-push-action@master
