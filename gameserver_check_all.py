@@ -13,8 +13,8 @@ if not API_KEY:
 def fetch_gameserver_details(service_id, api_key):
     """Fetch gameserver details from the Nitrado API."""
     response = requests.get(
-        f'https://api.nitrado.net/services/{service_id}/gameservers',
-        headers={'Authorization': f'Bearer {api_key}'}
+        'https://api.nitrado.net/services/{}/gameservers'.format(service_id),
+        headers={'Authorization': 'Bearer {}'.format(api_key)}
     )
     if response.ok:
         return response.json().get("data", {}).get("gameserver", {})
@@ -95,11 +95,11 @@ def generate_markdown(services, api_key):
 
 def get_services(api_key):
     """Fetch all services from the Nitrado API."""
-    response = requests.get('https://api.nitrado.net/services', headers={'Authorization': f'Bearer {api_key}'})
+    response = requests.get('https://api.nitrado.net/services', headers={'Authorization': 'Bearer {}'.format(api_key)})
     if response.ok:
         return response.json().get("data", {}).get("services", [])
     else:
-        print(f"Error fetching services: {response.status_code} - {response.text}")
+        print("Error fetching services: {} - {}".format(response.status_code, response.text))
         return []
 
 if __name__ == "__main__":
@@ -112,4 +112,3 @@ if __name__ == "__main__":
         file.write(markdown)
 
     print("Markdown output generated in README.md.")
-
