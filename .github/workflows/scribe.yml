@@ -22,20 +22,20 @@ jobs:
       run: |
         pip install requests
 
-    - name: Run modify_messages.py
+    - name: Run scribe.py
       env:
         FTP_SERVER: ${{ secrets.FTP_SERVER }}
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
       run: |
-        python modify_messages.py
+        python scribe.py
 
     - name: Commit Messages
       run: |
         git config --local user.email "kittylinter@github.com"
         git config --local user.name "Kitty Linter"
-        git add .
-  
+        git add /dayzOffline.enoch/custom/messages.xml
+
     - name: Push Messages
       uses: ad-m/github-push-action@master
       with:
