@@ -4,7 +4,7 @@ on:
   workflow_dispatch:  # This makes the workflow manually triggered
 
 jobs:
-  download-logs:
+  download_logs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -26,13 +26,13 @@ jobs:
           fi
 
       - name: Download recent log file
-        id: download-logs  # Add an ID to capture outputs
+        id: download_logs  # Add an ID to capture outputs
         uses: ./.github/actions/nitrapi_logger
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Use log file
         run: |
-          echo "Log file path is ${{ steps.download-logs.outputs.log-file }}"
+          echo "Log file path is ${{ steps.download_logs.outputs.log-file }}"
           # Add your logic here to process the log file
           
