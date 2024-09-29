@@ -53,6 +53,9 @@ if response.ok:
         print("No gameserver details found for the provided NITRADO_ID.")
 else:
     print(f"Error fetching gameserver details for NITRADO_ID {NITRADO_ID}: {response.status_code} - {response.text}")
+    markdown_output += "Error fetching gameserver details.\n"
 
 # Output the Markdown formatted result
+with open("output.md", "w") as file:
+    file.write(markdown_output)
 print(markdown_output)
