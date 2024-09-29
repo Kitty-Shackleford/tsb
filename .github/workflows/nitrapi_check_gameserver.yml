@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.WORKFLOW_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -35,7 +38,7 @@ jobs:
           echo "Last updated: $(date)" >> README.md
           cat README.md >> $GITHUB_STEP_SUMMARY
 
-      - name: Commit changes
+      - name: Commit 
         run: |
           git config --local user.email "kittylinter@github.com"
           git config --local user.name "Kitty Linter"
@@ -44,13 +47,6 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.WORKFLOW_TOKEN }}
-
 
       - name: Push changes
         uses: ad-m/github-push-action@master
