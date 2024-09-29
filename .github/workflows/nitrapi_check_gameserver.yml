@@ -32,14 +32,6 @@ jobs:
           echo "## Summary of Gameserver Details" >> output.md
           cat output.md >> $GITHUB_STEP_SUMMARY
 
-      - name: Update README.md
-        run: |
-          summary=$(cat output.md)
-          echo "## Summary of Last Gameserver Check" >> README.md
-          echo "$summary" >> README.md
-          echo "" >> README.md
-          echo "Last updated: $(date)" >> README.md
-
       - name: Checkout code
         uses: actions/checkout@v4
         with:
