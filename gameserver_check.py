@@ -16,7 +16,7 @@ if not NITRADO_ID:
     exit(1)
 
 # Prepare Markdown output
-markdown_output = "# Gameserver Details\n\n"
+markdown_output = "# 🎮 Gameserver Details\n\n"
 
 # Fetch gameserver details for the provided NITRADO_ID
 response = requests.get(
@@ -36,12 +36,13 @@ if response.ok:
         if not server_name:  # Fallback in case it gets fully cleaned
             server_name = "Server Name Not Available"
         
-        markdown_output += f"## {server_name}\n\n"
+        # Grouped Server Information
+        markdown_output += f"## 🖥️ {server_name}\n\n"
 
         # General Information Section
-        markdown_output += "### General Information\n\n"
-        markdown_output += "| Property             | Value                        |\n"
-        markdown_output += "|----------------------|------------------------------|\n"
+        markdown_output += "### 📋 General Information\n\n"
+        markdown_output += "| **Property**        | **Value**                  |\n"
+        markdown_output += "|---------------------|----------------------------|\n"
         
         general_properties = {
             "Status": gameserver.get("status", "Unknown"),
@@ -55,12 +56,12 @@ if response.ok:
         for key, value in general_properties.items():
             markdown_output += f"| {key} | {value} |\n"
         
-        markdown_output += "\n"
+        markdown_output += "\n---\n\n"
 
         # Player Information Section
-        markdown_output += "### Player Information\n\n"
-        markdown_output += "| Property             | Value                        |\n"
-        markdown_output += "|----------------------|------------------------------|\n"
+        markdown_output += "### 👥 Player Information\n\n"
+        markdown_output += "| **Property**        | **Value**                  |\n"
+        markdown_output += "|---------------------|----------------------------|\n"
         
         player_properties = {
             "Player Count": f"{gameserver.get('query', {}).get('player_current', 0)}/{gameserver.get('slots', 0)}",
@@ -70,21 +71,21 @@ if response.ok:
         for key, value in player_properties.items():
             markdown_output += f"| {key} | {value} |\n"
         
-        markdown_output += "\n"
+        markdown_output += "\n---\n\n"
 
         # Settings Section
-        markdown_output += "### Server Settings\n\n"
-        markdown_output += "| Property             | Value                        |\n"
-        markdown_output += "|----------------------|------------------------------|\n"
+        markdown_output += "### ⚙️ Server Settings\n\n"
+        markdown_output += "| **Property**        | **Value**                  |\n"
+        markdown_output += "|---------------------|----------------------------|\n"
         
         settings_properties = {
-            "3rd Person": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("disable3rdPerson", "1") == "0" else "Disabled",
-            "Crosshair": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("disableCrosshair", "1") == "0" else "Disabled",
-            "Shot Validation": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("shotValidation", "0") == "1" else "Disabled",
-            "Mouse and Keyboard": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("enableMouseAndKeyboard", "1") == "1" else "Disabled",
-            "Whitelist Feature": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("enableWhitelist", "1") == "1" else "Disabled",
-            "Base Damage": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("disableBaseDamage", "1") == "0" else "Disabled",
-            "Container Damage": "Enabled" if gameserver.get("settings", {}).get("config", {}).get("disableContainerDamage", "1") == "0" else "Disabled",
+            "3rd Person": "✅ Enabled" if gameserver.get("settings", {}).get("config", {}).get("disable3rdPerson", "1") == "0" else "❌ Disabled",
+            "Crosshair": "✅ Enabled" if gameserver.get("settings", {}).get("config", {}).get("disableCrosshair", "1") == "0" else "❌ Disabled",
+            "Shot Validation": "✅ Enabled" if gameserver.get("settings", {}).get("config", {}).get("shotValidation", "0") == "1" else "❌ Disabled",
+            "Mouse and Keyboard": "✅ Enabled" if gameserver.get("settings", {}).get("config", {}).get("enableMouseAndKeyboard", "1") == "1" else "❌ Disabled",
+            "Whitelist Feature": "✅ Enabled" if gameserver.get("settings", {}).get("config", {}).get("enableWhitelist", "1") == "1" else "❌ Disabled",
+            "Base Damage": "✅ Enabled" if gameserver.get("settings", {}).get("config", {}).get("disableBaseDamage", "1") == "0" else "❌ Disabled",
+            "Container Damage": "✅ Enabled" if gameserver.get("settings", {}).get("config", {}).get("disableContainerDamage", "1") == "0" else "❌ Disabled",
             "Priority": gameserver.get("settings", {}).get("general", {}).get("priority", "None").replace('\r\n', ', '),
             "Whitelist": gameserver.get("settings", {}).get("general", {}).get("whitelist", "None").replace('\r\n', ', '),
         }
@@ -92,12 +93,11 @@ if response.ok:
         for key, value in settings_properties.items():
             markdown_output += f"| {key} | {value} |\n"
 
-        markdown_output += "\n"
+        markdown_output += "\n---\n\n"
     else:
-        print("No gameserver details found for the provided NITRADO_ID.")
+        markdown_output += "No gameserver details found for the provided NITRADO_ID.\n"
 else:
-    print(f"Error fetching gameserver details for NITRADO_ID {NITRADO_ID}: {response.status_code} - {response.text}")
-    markdown_output += "Error fetching gameserver details.\n"
+    markdown_output += f"Error fetching gameserver details for NITRADO_ID {NITRADO_ID}: {response.status_code} - {response.text}\n"
 
 # Output the Markdown formatted result
 with open("output.md", "w") as file:
