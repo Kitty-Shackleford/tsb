@@ -40,6 +40,14 @@ jobs:
           echo "" >> README.md
           echo "Last updated: $(date)" >> README.md
 
+      - name: Update README.md
+        run: |
+          summary=$(cat output.md)
+          echo "## Summary of Last Gameserver Check" >> README.md
+          echo "$summary" >> README.md
+          echo "" >> README.md
+          echo "Last updated: $(date)" >> README.md
+
           - name: Commit changes
             run: |
               git config --local user.email "kittylinter@github.com"
@@ -50,4 +58,9 @@ jobs:
             env:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.WORKFLOW_TOKEN }}
+          repository: Kitty-Shackleford/tsb
+          force_with_lease: true
