@@ -26,15 +26,18 @@ def upload_file_via_ftp(local_path, remote_path):
             ftp.storbinary(f'STOR {remote_path}', local_file)
 
 def fetch_random_quote():
-    """Fetch a random quote from an online API."""
-    try:
-        response = requests.get("https://api.quotable.io/random")
-        response.raise_for_status()
-        quote_data = response.json()
-        return f"{quote_data['content']} — {quote_data['author']}"
-    except Exception as e:
-        print(f"Error fetching quote: {e}")
-        return "Stay inspired!"  # Fallback quote
+    """Fetch a random quote from an online API that is under 10 words."""
+    for _ in range(5):  # Try up to 5 times
+        try:
+            response = requests.get("https://api.quotable.io/random")
+            response.raise_for_status()
+            quote_data = response.json()
+            quote = quote_data['content']
+            if len(quote.split()) < 10:
+                return f"{quote} — {quote_data['author']}"
+        except Exception as e:
+            print(f"Error fetching quote: {e}")
+    return "Stay inspired!"  # Fallback quote
 
 def modify_messages_xml(file_path):
     """Modify the messages.xml file."""
@@ -53,7 +56,9 @@ def modify_messages_xml(file_path):
             new_quote = fetch_random_quote()
             # Replace content in brackets with the new quote
             original_text = text_element.text
-            updated_text = original_text.replace(original_text[original_text.find('['):original_text.find(']') + 1], new_quote)
+            start_index = original_text.find('[')
+            end_index = original_text.find(']') + 1
+            updated_text = original_text[:start_index] + new_quote + original_text[end_index:]
             text_element.text = updated_text
 
     # Save the modified XML back to file
@@ -69,4 +74,5 @@ if __name__ == "__main__":
     xml_file_path = '/dayzxb_missions/dayzOffline.enoch/custom/messages.xml'
     modify_messages_xml(xml_file_path)
     print("Successfully modified and uploaded messages.xml.")
+
 

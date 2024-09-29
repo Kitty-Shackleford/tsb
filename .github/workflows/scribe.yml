@@ -10,13 +10,13 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+        fetch-depth: 0
+        token: ${{ secrets.WORKFLOW_TOKEN }}
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'  # Specify the Python version you want to use
-        fetch-depth: 0
-        token: ${{ secrets.WORKFLOW_TOKEN }}
 
     - name: Install dependencies
       run: |
