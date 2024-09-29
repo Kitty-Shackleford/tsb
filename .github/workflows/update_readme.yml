@@ -1,7 +1,7 @@
 name: Update README
 
 on:
-  workflowdispatch:
+  workflow_dispatch:
     inputs:
       run_update:
         description: 'Run the update'
