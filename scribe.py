@@ -1,48 +1,32 @@
 import os
 import requests
-from ftplib import FTP
 import xml.etree.ElementTree as ET
 import random
 
-# Ensure the FTP credentials are set
-FTP_HOST = os.getenv("FTP_SERVER")
-FTP_USER = os.getenv("FTP_USERNAME")
-FTP_PASS = os.getenv("FTP_PASSWORD")
-if not all([FTP_HOST, FTP_USER, FTP_PASS]):
-    print("Error: FTP credentials are not set.")
-    exit(1)
-
-def upload_file_via_ftp(local_path, remote_path):
-    """Upload a file to the FTP server."""
-    with FTP(FTP_HOST) as ftp:
-        ftp.login(user=FTP_USER, passwd=FTP_PASS)
-        with open(local_path, 'rb') as local_file:
-            ftp.storbinary(f'STOR {remote_path}', local_file)
-
 def fetch_quote_from_kanye():
-    """Fetch a quote from Kanye's API."""
+    """Fetch a quote from the Kanye West API."""
     try:
         response = requests.get("https://api.kanye.rest/")
         response.raise_for_status()
         return response.json().get('quote', 'Kanye quote unavailable')
     except Exception as e:
         print(f"Error fetching quote from Kanye API: {e}")
-        return None
+        return "Kanye quote unavailable"
 
 def fetch_quote_from_api_ninja(category=None):
     """Fetch a quote from API Ninja."""
     try:
         url = "https://api.api-ninjas.com/v1/quotes"
-        headers = {'X-Api-Key': os.getenv('API_NINJA_KEY')}  # Make sure to set your API key in environment variables
+        headers = {'X-Api-Key': os.getenv('API_NINJA_KEY')}
         params = {}
         if category:
             params['category'] = category
         response = requests.get(url, headers=headers, params=params)
         response.raise_for_status()
-        return response.json()[0].get('quote', 'Ninja quote unavailable')  # Get the first quote
+        return response.json()[0].get('quote', 'Ninja quote unavailable')
     except Exception as e:
         print(f"Error fetching quote from API Ninja: {e}")
-        return None
+        return "Ninja quote unavailable"
 
 def create_messages_xml():
     """Create a new messages.xml file with server messages."""
@@ -75,13 +59,12 @@ def create_messages_xml():
     ]
 
     # Staggered repeat intervals in minutes for messages
-    stagger_intervals = [120, 119, 118, 117]  # Starting from the shutdown message
+    stagger_intervals = [120, 119, 118, 117]
 
     # Add messages to XML with staggered intervals
     all_messages = static_headers + [
         {"repeat": stagger_time, "text": f"[{quote}]"} 
         for stagger_time, quote in zip(stagger_intervals[1:], dynamic_quotes)
-        if quote
     ]
 
     # Add static headers to XML
