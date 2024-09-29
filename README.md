@@ -16,10 +16,8 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Crosshair | ✅ **Enabled** |
 | Shot Validation | ✅ **Enabled** |
 | Mouse and Keyboard | ❌ **Disabled** |
-| Whitelist | 📜 **Salt6199, Mr Purple7299, ImDaddy2300** |
 | Base Damage | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
-| Priority | 🔝 **Salt6199, Mr Purple7299** |
 | Version | 📅 **v1.25.158593** |
 
 ---
@@ -39,10 +37,8 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Crosshair | ✅ **Enabled** |
 | Shot Validation | ✅ **Enabled** |
 | Mouse and Keyboard | ❌ **Disabled** |
-| Whitelist | 📜 **Salt6199, Mr Purple7299** |
 | Base Damage | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
-| Priority | 🔝 **Salt6199, Mr Purple7299** |
 | Version | 📅 **v1.25.158593** |
 
 ---
