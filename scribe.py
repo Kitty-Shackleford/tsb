@@ -11,6 +11,9 @@ if not all([FTP_HOST, FTP_USER, FTP_PASS]):
     print("Error: FTP credentials are not set.")
     exit(1)
 
+# Count of messages from the bottom up to modify
+MESSAGES_COUNTER = 4 
+
 def download_file_via_ftp(remote_path, local_path):
     """Download a file from the FTP server."""
     with FTP(FTP_HOST) as ftp:
@@ -25,48 +28,19 @@ def upload_file_via_ftp(local_path, remote_path):
         with open(local_path, 'rb') as local_file:
             ftp.storbinary(f'STOR {remote_path}', local_file)
 
-def fetch_random_message():
-    """Fetch a random quote from multiple APIs."""
-    api_endpoints = [
-        "https://api.quotable.io/random",
-        "http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en",
-        "https://quotes.rest/qod",
-        "https://zenquotes.io/api/random"
-    ]
-
-    for endpoint in api_endpoints:
+def fetch_random_quote():
+    """Fetch a random quote from an online API that is under 10 words."""
+    for _ in range(5):  # Try up to 5 times
         try:
-            response = requests.get(endpoint)
+            response = requests.get("https://api.quotable.io/random")
             response.raise_for_status()
-
-            if endpoint == "https://api.quotable.io/random":
-                quote_data = response.json()
-                quote = quote_data['content']
-                if len(quote.split()) < 10:
-                    return f"{quote} — {quote_data['author']}"
-            
-            elif endpoint == "http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en":
-                quote_data = response.json()
-                quote = quote_data['quoteText']
-                if len(quote.split()) < 10:
-                    return f"{quote} — {quote_data['quoteAuthor']}"
-            
-            elif endpoint == "https://quotes.rest/qod":
-                quote_data = response.json()
-                quote = quote_data['contents']['quotes'][0]['quote']
-                if len(quote.split()) < 10:
-                    return f"{quote} — {quote_data['contents']['quotes'][0]['author']}"
-            
-            elif endpoint == "https://zenquotes.io/api/random":
-                quote_data = response.json()
-                quote = quote_data[0]['q']
-                if len(quote.split()) < 10:
-                    return f"{quote} — {quote_data[0]['a']}"
-
+            quote_data = response.json()
+            quote = quote_data['content']
+            if len(quote.split()) < 10:
+                return f"{quote} — {quote_data['author']}"
         except Exception as e:
-            print(f"Error fetching quote from {endpoint}: {e}")
-
-    return "Stay inspired!"  # Fallback message
+            print(f"Error fetching quote: {e}")
+    return "Stay inspired!"  # Fallback quote
 
 def modify_messages_xml(file_path):
     """Modify the messages.xml file."""
@@ -77,12 +51,18 @@ def modify_messages_xml(file_path):
     tree = ET.parse('messages.xml')
     root = tree.getroot()
 
-    # Change text within brackets for each message
-    for message in root.findall('message'):
+    # Get all messages
+    messages = root.findall('message')
+
+    # Determine how many messages to modify based on MESSAGES_COUNTER
+    num_messages_to_modify = min(MESSAGES_COUNTER, len(messages))  # Modify up to the last `MESSAGES_COUNTER` messages
+
+    # Modify only the last `num_messages_to_modify` messages
+    for message in messages[-num_messages_to_modify:]:  # Last `num_messages_to_modify` messages
         text_element = message.find('text')
         if text_element is not None:
             # Fetch a new random quote
-            new_quote = fetch_random_message()
+            new_quote = fetch_random_quote()
             # Replace content in brackets with the new quote
             original_text = text_element.text
             start_index = original_text.find('[')
