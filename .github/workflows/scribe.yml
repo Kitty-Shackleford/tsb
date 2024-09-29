@@ -30,15 +30,15 @@ jobs:
       run: |
         python modify_messages.py
 
-      - name: Commit Messages
-        run: |
-          git config --local user.email "kittylinter@github.com"
-          git config --local user.name "Kitty Linter"
-          git add 
-
-      - name: Push Messages
-        uses: ad-m/github-push-action@master
-        with:
+    - name: Commit Messages
+      run: |
+        git config --local user.email "kittylinter@github.com"
+        git config --local user.name "Kitty Linter"
+        git add .
+  
+    - name: Push Messages
+      uses: ad-m/github-push-action@master
+      with:
           github_token: ${{ secrets.WORKFLOW_TOKEN }}
           repository: Kitty-Shackleford/tsb
           force_with_lease: true
