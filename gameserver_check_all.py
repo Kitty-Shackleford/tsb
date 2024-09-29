@@ -76,11 +76,8 @@ def generate_markdown(services, api_key):
                 "Crosshair": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("disableCrosshair", "1") == "0" else "❌ **Disabled**",
                 "Shot Validation": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("shotValidation", "0") == "1" else "❌ **Disabled**",
                 "Mouse and Keyboard": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("enableMouseAndKeyboard", "1") == "1" else "❌ **Disabled**",
-                "Whitelist": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("enableWhitelist", "1") == "1" else "❌ **Disabled**",
                 "Base Damage": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("disableBaseDamage", "1") == "0" else "❌ **Disabled**",
                 "Container Damage": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("disableContainerDamage", "1") == "0" else "❌ **Disabled**",
-                "Priority": "🔝 **{}**".format(gameserver.get('settings', {}).get('general', {}).get('priority', 'None').replace('\n', ', ')),
-                "Whitelist": "📜 **{}**".format(gameserver.get('settings', {}).get('general', {}).get('whitelist', 'None').replace('\n', ', ')),
                 "Version": "📅 **{}**".format(gameserver.get('query', {}).get('version', 'Unknown')),
             }
 
