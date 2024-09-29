@@ -35,21 +35,22 @@ jobs:
           echo "Last updated: $(date)" >> README.md
           cat README.md >> $GITHUB_STEP_SUMMARY
 
+      - name: Commit changes
+        run: |
+          git config --local user.email "kittylinter@github.com"
+          git config --local user.name "Kitty Linter"
+          git add README.md
+          git commit -m "Update README with gameserver check summary" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.WORKFLOW_TOKEN }}
 
-          - name: Commit changes
-            run: |
-              git config --local user.email "kittylinter@github.com"
-              git config --local user.name "Kitty Linter"
-              git add README.md
-              git commit -m "Update README with gameserver check summary" || echo "No changes to commit"
-              git push
-            env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push changes
         uses: ad-m/github-push-action@master
