@@ -1,6 +1,6 @@
 # 🎮 Gameserver Details
 
-## 🖥️ TSB
+## 🖥️ ServerNameNotAvailable
 
 ### 📋 General Information
 
@@ -9,7 +9,7 @@
 | Status | started |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
-| Version | v1.25.158593 |
+| Version | Unknown |
 | Last Update | None |
 | Comment | None |
 
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Wed Oct  2 19:59:07 UTC 2024
+Last updated: Wed Oct  2 20:27:11 UTC 2024
