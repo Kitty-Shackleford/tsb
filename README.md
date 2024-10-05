@@ -17,7 +17,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 5/10 |
+| Player Count | 6/10 |
 | Banned Users | None |
 
 ### ⚙️ Server Settings
@@ -28,7 +28,7 @@
 | Crosshair | ✅ Enabled |
 | Shot Validation | ✅ Enabled |
 | Mouse and Keyboard | ❌ Disabled |
-| Whitelist Feature | ❌ Disabled |
+| Whitelist Feature | ✅ Enabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
 | Priority | Salt6199, Mr Purple7299 |
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sat Oct  5 22:40:11 UTC 2024
+Last updated: Sat Oct  5 22:52:23 UTC 2024
