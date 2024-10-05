@@ -1,6 +1,6 @@
 # 🎮 Gameserver Details
 
-## 🖥️ TSB
+## 🖥️ Server Name Not Available
 
 ### 📋 General Information
 
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Wed Oct  2 22:20:06 UTC 2024
+Last updated: Sat Oct  5 01:36:07 UTC 2024
