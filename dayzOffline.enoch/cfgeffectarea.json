@@ -1,5 +1,203 @@
 {
-    "Areas": [],
-
-	"SafePositions":[]
+  "Areas": [
+    {
+      "AreaName": "Area1",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4185.5537109375,
+          251.86146545410156,
+          10555.3759765625
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    },
+    {
+      "AreaName": "Area2",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4191.29052734375,
+          251.8659210205078,
+          10549.7822265625
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    },
+    {
+      "AreaName": "Area3",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4196.71875,
+          251.8614501953125,
+          10544.1279296875
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    },
+    {
+      "AreaName": "Area4",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4196.19,
+          251.86,
+          10549.43
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    },
+    {
+      "AreaName": "Area5",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4194.84,
+          251.86,
+          10552.66
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    },
+    {
+      "AreaName": "Area6",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4191.19,
+          251.86,
+          10554.43
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    },
+    {
+      "AreaName": "Area7",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4187.54,
+          251.86,
+          10552.66
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    },
+    {
+      "AreaName": "Area8",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4185.19,
+          251.86,
+          10549.43
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    },
+    {
+      "AreaName": "Area9",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4187.54,
+          251.86,
+          10546.2
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    },
+    {
+      "AreaName": "Area10",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4191.19,
+          251.86,
+          10544.43
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    },
+    {
+      "AreaName": "Area11",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4194.84,
+          251.86,
+          10546.2
+        ],
+        "ParticleName": "graphics/particles/fire_small_torch_01"
+      },
+      "PlayerData": {
+        "AroundPartName": "graphics/particles/",
+        "TinyPartName": "graphics/particles/",
+        "PPERequesterType": ""
+      }
+    }
+  ],
+  "SafePositions": []
 }

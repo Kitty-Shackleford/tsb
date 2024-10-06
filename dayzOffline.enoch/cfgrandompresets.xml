@@ -23,9 +23,6 @@
 		<attachments chance="1.00" name="MummyVest">
 			<item name="Chestplate" chance="1.00"/>
 		</attachments>
-		<attachments chance="1.00" name="MummySuit">
-			<item name="Chainmail" chance="1.00"/>
-		</attachments>
 		<cargo chance="0.25" name="mushroomInfected">
 			<item name="AgaricusMushroom" chance="0.1"/>
 			<item name="AuriculariaMushroom" chance="0.1"/>
