@@ -2129,8 +2129,4 @@
 	<type name="ChristmasTree"></type>
 	<type name="SeaChest"></type>
 	<type name="UndergroundStash"></type>
-	<type name="Land_Castle_Wall1_20"></type>
-	<type name="Land_Castle_Wall1_Corner2"></type>
-	<type name="StaticObj_Wall_TinCom_9"></type>
-	<type name="StaticObj_Wall_GarbCont"></type>
 </ignore>
