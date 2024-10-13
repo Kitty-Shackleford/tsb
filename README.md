@@ -28,7 +28,7 @@
 | Crosshair | ✅ Enabled |
 | Shot Validation | ✅ Enabled |
 | Mouse and Keyboard | ❌ Disabled |
-| Whitelist Feature | ❌ Disabled |
+| Whitelist Feature | ✅ Enabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
 | Priority | Salt6199, Mr Purple7299 |
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun Oct 13 06:44:55 UTC 2024
+Last updated: Sun Oct 13 06:57:18 UTC 2024
