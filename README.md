@@ -31,10 +31,10 @@
 | Whitelist Feature | ✅ Enabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
-| Priority | Salt6199, Mr Purple7299 |
-| Whitelist | Salt6199, Mr Purple7299 |
+| Priority | Salt6199, Mr Purple7299, FosterName420 |
+| Whitelist | Salt6199, Mr Purple7299, FosterName420 |
 
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun Oct 13 18:11:55 UTC 2024
+Last updated: Sun Oct 13 18:37:25 UTC 2024
