@@ -6,7 +6,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Status | restarting |
+| Status | started |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
 | Version | v1.25.158593 |
@@ -17,7 +17,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 1/10 |
+| Player Count | 0/10 |
 | Banned Users | None |
 
 ### ⚙️ Server Settings
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Tue Oct 15 04:49:54 UTC 2024
+Last updated: Tue Oct 15 05:10:20 UTC 2024
