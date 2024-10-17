@@ -8,7 +8,7 @@
 |---------------------|----------------------------|
 | Status | started |
 | Game | DayZ (Xbox One) |
-| Mission | dayzOffline.enoch |
+| Mission | dayzOffline.sakhal |
 | Version | v1.26.158777 |
 | Last Update | None |
 | Comment | None |
@@ -17,7 +17,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 7/10 |
+| Player Count | 8/10 |
 | Banned Users | None |
 
 ### ⚙️ Server Settings
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Wed Oct 16 23:50:53 UTC 2024
+Last updated: Thu Oct 17 01:37:56 UTC 2024
