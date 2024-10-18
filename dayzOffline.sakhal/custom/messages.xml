@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<messages>
+	<message>
+		<deadline>120</deadline>
+		<shutdown>1</shutdown>
+		<text>[TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB]  [ SERVER: TSB | https://discord.gg/jvDrNT6aCx ]  WILL REBOOT IN #tmin MINS PARK AND EXIT YOUR VEHICLE |  https://shop.killfeed.xyx | [TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB]</text>
+	</message>
+	<message>
+		<delay>1</delay>
+		<onconnect>1</onconnect>
+		<text>[TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB] | YOU ARE RIDING THE SHORT BUS | JOIN THE DISCORD | https://discord.gg/jvDrNT6aCx | YOU ARE RIDING THE SHORT BUS | [TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB]</text>
+	</message>
+	<message>
+		<repeat>6</repeat>
+		<text>[TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB] | LEADERBOARD | https://player.killfeed.xyz/dashboard/global/statistics/ | SHOP | https://shop.killfeed.xyx | JOIN THE DISCORD | https://discord.gg/jvDrNT6aCx | [TSB TSB TSB TSB TSB TSB TSB TSB TSB]</text>
+	</message>
+	<message>
+		<repeat>10</repeat>
+		<text>[TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB] JOIN OUR MAIN SERVER Lonestar [TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB TSB]</text>
+	</message>
+</messages>
