@@ -101,42 +101,46 @@ jobs:
           ftp_files=$(curl -s --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" ftp://${{ secrets.FTP_SERVER }} --list)
           echo "$ftp_files" > ftp_files.txt
           echo "FTP files listed: $ftp_files"
+
       - name: Create temporary directory
         run: |
           echo "Creating temporary directory for uploads..."
           mkdir temp_upload
+
       - name: Copy files for FTP upload
         run: |
           echo "Copying relevant files to the temp_upload directory..."
-          for file in $(git ls-files); do
-            if [[ "$file" == "areaflags.map" || "$file" == ".github/"* || "$file" == "cfgeffectarea.json" || "$file" == "cfgeventspawns.xml" || "$file" == "db/events.xml" ]]; then
-              echo "Skipping $file for upload"
-              continue
-            fi
-            # Get local file modification time
-            local_mtime=$(git log -1 --format="%ct" -- "$file")
-            echo "Checking file: $file with local modification time: $local_mtime"
-            # Check if the file exists on the FTP server
-            ftp_file_info=$(echo "$ftp_files" | grep "$file" || true)
-            if [[ -n "$ftp_file_info" ]]; then
-              # Extract FTP file's modification time
-              ftp_mtime=$(echo "$ftp_file_info" | awk '{print $6, $7, $8}' | xargs -I {} date -d "{}" +%s)
-              echo "FTP version found for $file with modification time: $ftp_mtime"
-              
-              # Compare modification times
-              if [[ $local_mtime -le $ftp_mtime ]]; then
-                echo "File $file is not newer than FTP version. Skipping upload."
+          for dir in dayzOffline.sakhal dayzOffline.enoch dayzOffline.chernarusplus; do
+            for file in $(git ls-files "$dir"); do
+              if [[ "$file" == "areaflags.map" || "$file" == ".github/"* || "$file" == "cfgeffectarea.json" || "$file" == "cfgeventspawns.xml" || "$file" == "db/events.xml" ]]; then
+                echo "Skipping $file for upload"
                 continue
               fi
-            else
-              echo "No FTP version found for $file."
-            fi
-            # Create directory structure in temp_upload
-            dir=$(dirname "$file")
-            mkdir -p "temp_upload/$dir"  # Create necessary directories
-            cp "$file" "temp_upload/$file" || { echo "Failed to copy $file"; exit 1; }
-            echo "Copied $file to temp_upload/$dir"
+              # Get local file modification time
+              local_mtime=$(git log -1 --format="%ct" -- "$file")
+              echo "Checking file: $file with local modification time: $local_mtime"
+              # Check if the file exists on the FTP server
+              ftp_file_info=$(echo "$ftp_files" | grep "$file" || true)
+              if [[ -n "$ftp_file_info" ]]; then
+                # Extract FTP file's modification time
+                ftp_mtime=$(echo "$ftp_file_info" | awk '{print $6, $7, $8}' | xargs -I {} date -d "{}" +%s)
+                echo "FTP version found for $file with modification time: $ftp_mtime"
+                
+                # Compare modification times
+                if [[ $local_mtime -le $ftp_mtime ]]; then
+                  echo "File $file is not newer than FTP version. Skipping upload."
+                  continue
+                fi
+              else
+                echo "No FTP version found for $file."
+              fi
+              # Create directory structure in temp_upload
+              mkdir -p "temp_upload/$(dirname "$file")"  # Create necessary directories
+              cp "$file" "temp_upload/$file" || { echo "Failed to copy $file"; exit 1; }
+              echo "Copied $file to temp_upload/$(dirname "$file")"
+            done
           done
+
       - name: Check for files to upload
         run: |
           echo "Checking for files to upload..."
@@ -146,6 +150,7 @@ jobs:
           else
             echo "Files to upload found."
           fi
+
       - name: Upload to FTP
         if: success()
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
@@ -158,17 +163,3 @@ jobs:
 
       - name: Clean up
         run: rm -rf temp_upload/
-
-      - name: Display Result
-        id: display_result
-        run: |
-          if [ "${{ job.status }}" == "success" ]; then
-            echo "summary=  \n\`\`\`  \n/\_/\  \n( o.o )  \n > ^ <  \n\`\`\`" >> $GITHUB_OUTPUT
-          else
-            echo "summary=  \n\`\`\`  \n/\_/\  \n( -.- )  \n > ^ <  \n\`\`\`" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Output Summary
-        run: |
-          echo "### Summary"
-          echo "${{ steps.display_result.outputs.summary }}"
