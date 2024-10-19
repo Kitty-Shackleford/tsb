@@ -108,7 +108,10 @@ jobs:
         run: |
           echo "Copying relevant files to the temp_upload directory..."
           IFS=$'\n' read -d '' -r -a ftp_files < ftp_files.txt  # Read the FTP file list into an array
+          
+          # Iterate over files in the repository
           for file in $(git ls-files); do
+            echo "Processing file: $file"
             if [[ "$file" == dayzOffline*/** ]]; then
               # Check for exclusions
               if [[ "$file" == "db/"* || "$file" == "cfgeffectarea.json" || "$file" == "cfgeventspawns.xml" ]]; then
@@ -139,12 +142,14 @@ jobs:
               # Create directory structure in temp_upload
               dir=$(dirname "$file")
               mkdir -p "temp_upload/$dir"  # Create necessary directories
+              echo "Copying $file to temp_upload/$dir"
               cp "$file" "temp_upload/$file" || { echo "Failed to copy $file"; exit 1; }
               echo "Copied $file to temp_upload/$dir"
             else
               echo "Skipping $file (not in a dayzOffline directory)"
             fi
           done
+
 
       - name: Check for files to upload
         run: |
