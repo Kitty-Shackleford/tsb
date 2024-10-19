@@ -25,11 +25,11 @@ jobs:
 
       - name: Format specific files with Prettier
         run: |
-          npx prettier --write "**/*.{json,xml}"
+          npx prettier --write "**/*.{json,yml,xml}"
 
       - name: Check Prettier formatting
         run: |
-          npx prettier --check "**/*.{json,xml}"
+          npx prettier --check "**/*.{json,yml,xml}"
 
       - name: Run Super Linter
         id: linter
@@ -75,72 +75,6 @@ jobs:
           git fetch origin
           git rebase origin/main || git merge origin/main
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.WORKFLOW_TOKEN }}
-          repository: Kitty-Shackleford/tsb
-          force_with_lease: true
-
-      - name: List files on FTP server
-        id: list_ftp_files
-        run: |
-          echo "Listing files on FTP server..."
-          ftp_files=$(curl -s --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" ftp://${{ secrets.FTP_SERVER }} --list)
-          echo "$ftp_files" > ftp_files.txt
-          echo "FTP files listed: $ftp_files"
-
-      - name: Create temporary directory
-        run: |
-          echo "Creating temporary directory for uploads..."
-          mkdir temp_upload
-
-      - name: Copy files for FTP upload
-        run: |
-          echo "Copying relevant files to the temp_upload directory..."
-          for file in $(git ls-files); do
-            if [[ "$file" == "areaflags.map" || "$file" == ".github/"* || "$file" == "cfgeffectarea.json" || "$file" == "cfgeventspawns.xml" || "$file" == "db/events.xml" ]]; then
-              echo "Skipping $file for upload"
-              continue
-            fi
-
-            # Get local file modification time
-            local_mtime=$(git log -1 --format="%ct" -- "$file")
-            echo "Checking file: $file with local modification time: $local_mtime"
-
-            # Check if the file exists on the FTP server
-            ftp_file_info=$(echo "$ftp_files" | grep "$file" || true)
-            if [[ -n "$ftp_file_info" ]]; then
-              # Extract FTP file's modification time
-              ftp_mtime=$(echo "$ftp_file_info" | awk '{print $6, $7, $8}' | xargs -I {} date -d "{}" +%s)
-              echo "FTP version found for $file with modification time: $ftp_mtime"
-              
-              # Compare modification times
-              if [[ $local_mtime -le $ftp_mtime ]]; then
-                echo "File $file is not newer than FTP version. Skipping upload."
-                continue
-              fi
-            else
-              echo "No FTP version found for $file."
-            fi
-
-            # Create directory structure in temp_upload
-            dir=$(dirname "$file")
-            mkdir -p "temp_upload/$dir"  # Create necessary directories
-            cp "$file" "temp_upload/$file" || { echo "Failed to copy $file"; exit 1; }
-            echo "Copied $file to temp_upload/$dir"
-          done
-
-      - name: Check for files to upload
-        run: |
-          echo "Checking for files to upload..."
-          if [ -z "$(ls -A temp_upload/)" ]; then
-            echo "No files to upload. Exiting."
-            exit 0
-          else
-            echo "Files to upload found."
-          fi
-
       - name: Upload to FTP
         if: success()
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
@@ -148,13 +82,15 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: temp_upload/
+          local-dir: .
           server-dir: /dayzxb_missions/
-
-      - name: Clean up
-        run: |
-          echo "Cleaning up temporary directory..."
-          rm -rf temp_upload/
+          exclude: |
+            *.map
+            db/events.xml
+            cfgeffectarea.json
+            cfgeventspawns.xml
+            !dayzOffline*/**  # Allow all files in dayzOffline directories
+          
       - name: Display Result
         run: |
           if [ "${{ job.status }}" == "success" ]; then
