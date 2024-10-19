@@ -73,7 +73,6 @@ jobs:
           RUN_LOCAL: false
           DEFAULT_BRANCH: main
           DISABLE_LINTING: "areaflags.map"  # Skip linting for this file
-          DISABLE_LINTING: "false"
           ENABLE_LINTER: "eslint,LibXML"
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
