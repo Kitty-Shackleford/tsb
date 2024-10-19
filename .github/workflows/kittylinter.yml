@@ -99,73 +99,53 @@ jobs:
         run: |
           echo "Listing files on FTP server..."
           ftp_files=$(curl -s --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" ftp://${{ secrets.FTP_SERVER }} --list)
-          if [[ $? -ne 0 ]]; then
-            echo "Failed to list files on FTP server."
-            exit 1
-          fi
-          echo "$ftp_files" > ftp_files.txt  # Store the list for later use
-
+          echo "$ftp_files" > ftp_files.txt
+          echo "FTP files listed: $ftp_files"
       - name: Create temporary directory
-        run: mkdir temp_upload
-
+        run: |
+          echo "Creating temporary directory for uploads..."
+          mkdir temp_upload
       - name: Copy files for FTP upload
         run: |
           echo "Copying relevant files to the temp_upload directory..."
-          IFS=$'\n' read -d '' -r -a ftp_files < ftp_files.txt  # Read the FTP file list into an array
-          
-          # Check if the FTP list is empty
-          if [ ${#ftp_files[@]} -eq 0 ]; then
-            echo "No files found on FTP server. Uploading all relevant files."
-          fi
-
-          # Iterate over files in the repository
           for file in $(git ls-files); do
-            echo "Processing file: $file"
-            if [[ "$file" == dayzOffline*/** ]]; then
-              # Check for exclusions
-              if [[ "$file" == "db/"* || "$file" == "cfgeffectarea.json" || "$file" == "cfgeventspawns.xml" ]]; then
-                echo "Skipping $file for upload"
+            if [[ "$file" == "areaflags.map" || "$file" == ".github/"* || "$file" == "cfgeffectarea.json" || "$file" == "cfgeventspawns.xml" || "$file" == "db/events.xml" ]]; then
+              echo "Skipping $file for upload"
+              continue
+            fi
+            # Get local file modification time
+            local_mtime=$(git log -1 --format="%ct" -- "$file")
+            echo "Checking file: $file with local modification time: $local_mtime"
+            # Check if the file exists on the FTP server
+            ftp_file_info=$(echo "$ftp_files" | grep "$file" || true)
+            if [[ -n "$ftp_file_info" ]]; then
+              # Extract FTP file's modification time
+              ftp_mtime=$(echo "$ftp_file_info" | awk '{print $6, $7, $8}' | xargs -I {} date -d "{}" +%s)
+              echo "FTP version found for $file with modification time: $ftp_mtime"
+              
+              # Compare modification times
+              if [[ $local_mtime -le $ftp_mtime ]]; then
+                echo "File $file is not newer than FTP version. Skipping upload."
                 continue
               fi
-
-              # Get local file modification time
-              local_mtime=$(git log -1 --format="%ct" -- "$file")
-              echo "Checking file: $file with local modification time: $local_mtime"
-
-              # Check if the file exists on the FTP server
-              ftp_file_info=$(echo "${ftp_files[@]}" | grep "$file" || true)
-              if [[ -n "$ftp_file_info" ]]; then
-                # Extract FTP file's modification time
-                ftp_mtime=$(echo "$ftp_file_info" | awk '{print $6, $7, $8}' | xargs -I {} date -d "{}" +%s)
-                echo "FTP version found for $file with modification time: $ftp_mtime"
-
-                # Compare modification times
-                if [[ $local_mtime -le $ftp_mtime ]]; then
-                  echo "File $file is not newer than FTP version. Skipping upload."
-                  continue
-                fi
-              else
-                echo "No FTP version found for $file."
-              fi
-
-              # Create directory structure in temp_upload
-              dir=$(dirname "$file")
-              mkdir -p "temp_upload/$dir"  # Create necessary directories
-              echo "Copying $file to temp_upload/$dir"
-              cp "$file" "temp_upload/$file" || { echo "Failed to copy $file"; exit 1; }
-              echo "Copied $file to temp_upload/$dir"
             else
-              echo "Skipping $file (not in a dayzOffline directory)"
+              echo "No FTP version found for $file."
             fi
+            # Create directory structure in temp_upload
+            dir=$(dirname "$file")
+            mkdir -p "temp_upload/$dir"  # Create necessary directories
+            cp "$file" "temp_upload/$file" || { echo "Failed to copy $file"; exit 1; }
+            echo "Copied $file to temp_upload/$dir"
           done
-
       - name: Check for files to upload
         run: |
+          echo "Checking for files to upload..."
           if [ -z "$(ls -A temp_upload/)" ]; then
             echo "No files to upload. Exiting."
             exit 0
+          else
+            echo "Files to upload found."
           fi
-
       - name: Upload to FTP
         if: success()
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
@@ -192,4 +172,3 @@ jobs:
         run: |
           echo "### Summary"
           echo "${{ steps.display_result.outputs.summary }}"
-
