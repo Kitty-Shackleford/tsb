@@ -2,6 +2,9 @@ name: Kitty Linter
 
 on:
   workflow_dispatch:  # Manual trigger
+  push:
+    branches:
+      - main  # Adjust this to your target branches if needed
 
 jobs:
   build:
@@ -17,21 +20,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
-          fetch-depth: 0
-          token: ${{ secrets.WORKFLOW_TOKEN }}
-
-      - name: Get changed files
-        id: get_changed_files
-        run: |
-          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
-          if [ -z "$files" ]; then
-            echo "No changed files detected. Exiting."
-            echo "files=" >> $GITHUB_OUTPUT  # Ensure files variable is set
-            exit 0
-          else
-            echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT  # Replace newlines with spaces
-          fi
+          fetch-depth: 0  # Fetch all history for all branches
 
       - name: Install Prettier and XML Plugin
         run: |
@@ -39,7 +28,8 @@ jobs:
 
       - name: Format files with Prettier
         run: |
-          IFS=' ' read -r -a files <<< "${{ steps.get_changed_files.outputs.files }}"
+          files=$(git diff --name-only HEAD^ HEAD)  # Get changed files since the last commit
+          IFS=' ' read -r -a files <<< "$files"
           for file in "${files[@]}"; do
             if [[ "$file" == "areaflags.map" ]]; then
               echo "Skipping formatting for areaflags.map"
@@ -76,6 +66,18 @@ jobs:
           ENABLE_LINTER: "eslint,LibXML"
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
+
+      - name: Get changed files after formatting and linting
+        id: get_changed_files
+        run: |
+          files=$(git diff --name-only HEAD^ HEAD)
+          if [ -z "$files" ]; then
+            echo "No changed files detected after formatting and linting. Exiting."
+            echo "files=" >> $GITHUB_OUTPUT  # Ensure files variable is set
+            exit 0
+          else
+            echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT  # Replace newlines with spaces
+          fi
 
       - name: Commit formatted changes
         run: |
