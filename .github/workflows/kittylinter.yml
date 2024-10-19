@@ -30,14 +30,23 @@ jobs:
       - name: Format files with Prettier
         run: |
           echo "Formatting files with Prettier..."
+          
+          # Check if Prettier is installed
+          if [ ! -f ./node_modules/.bin/prettier ]; then
+            echo "Prettier is not installed correctly. Exiting."
+            exit 1
+          fi
+
           files=$(git diff --name-only HEAD^ HEAD)  # Get changed files since the last commit
           IFS=' ' read -r -a files <<< "$files"
+          
           for file in "${files[@]}"; do
             if [[ "$file" == "areaflags.map" ]]; then
               echo "Skipping formatting for areaflags.map"
               continue
             fi
             if [ -f "$file" ]; then
+              echo "Processing file: $file"
               case "$file" in
                 *.xml)
                   npx prettier --write "$file" --parser xml || { echo "Failed to format $file"; exit 1; }
