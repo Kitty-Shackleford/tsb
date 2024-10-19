@@ -20,11 +20,13 @@ jobs:
           fetch-depth: 0  # Fetch all history for all branches
 
       - name: Run Prettier Action
-        uses: creyD/prettier_action@v4.3  # Use the Prettier Action from GitHub Marketplace
+        uses: creyD/prettier_action@v4.3
         with:
-          files: '**/*.{js,json,css,md,xml}'  # Specify the file types to format
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          file_pattern: '**/*.{js,json,css,md,xml}'  # Specify the file types to format
+          prettier_options: '--write'  # Run Prettier to write changes
+          commit_message: 'Prettified Code!'  # Custom commit message
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use the provided GitHub token
+          clean_node_folder: true  # Clean node_modules before committing
 
       - name: Run Super Linter
         id: linter
