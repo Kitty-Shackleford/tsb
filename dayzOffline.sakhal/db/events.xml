@@ -668,61 +668,7 @@
             <child lootmax="0" lootmin="0" max="15" min="10" type="PileOfWoodenPlanks"/>
         </children>
     </event>
-    <event name="InfectedHorde">
-		<nominal>0</nominal>
-		<min>0</min>
-		<max>0</max>
-		<lifetime>3</lifetime>
-		<restock>0</restock>
-		<saferadius>100</saferadius>
-		<distanceradius>50</distanceradius>
-		<cleanupradius>100</cleanupradius>
-		<flags deletable="0" init_random="0" remove_damaged="1"/>
-		<position>player</position>
-		<limit>custom</limit>
-		<active>1</active>
-		<children>
-			<child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_usSoldier_Heavy_Woodland"/>
-		</children>
-	</event>
-	<event name="InfectedHordeMummy">
-		<nominal>0</nominal>
-		<min>0</min>
-		<max>0</max>
-		<lifetime>3</lifetime>
-		<restock>0</restock>
-		<saferadius>100</saferadius>
-		<distanceradius>50</distanceradius>
-		<cleanupradius>100</cleanupradius>
-		<flags deletable="0" init_random="0" remove_damaged="1"/>
-		<position>player</position>
-		<limit>custom</limit>
-		<active>1</active>
-		<children>
-			<child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_Mummy"/>
-			<child lootmax="5" lootmin="0" max="0" min="9" type="ZmbM_priestPopSkinny"/>
-			<child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_MilkMaidOld_Black"/>
-		</children>
-	</event>
-	<event name="InfectedGas">
-		<nominal>0</nominal>
-		<min>0</min>
-		<max>0</max>
-		<lifetime>3</lifetime>
-		<restock>0</restock>
-		<saferadius>100</saferadius>
-		<distanceradius>50</distanceradius>
-		<cleanupradius>100</cleanupradius>
-		<flags deletable="0" init_random="0" remove_damaged="1"/>
-		<position>player</position>
-		<limit>custom</limit>
-		<active>1</active>
-		<children>
-			<child lootmax="5" lootmin="0" max="0" min="25" type="ZmbM_NBC_Grey"/>
-			<child lootmax="5" lootmin="0" max="0" min="25" type="ZmbM_NBC_Yellow"/>
-		</children>
-	</event>
-	<event name="Loot">
+    <event name="Loot">
         <nominal>0</nominal>
         <min>0</min>
         <max>0</max>
