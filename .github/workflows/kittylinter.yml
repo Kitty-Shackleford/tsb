@@ -22,9 +22,9 @@ jobs:
       - name: Format files with Prettier
         uses: creyD/prettier_action@v4.3
         with:
-          file_pattern: **/*.{js,json,css,md,xml}
-          prettier_options: "--write"  # This should work for XML too
-          commit_message: "Prettified Code!"
+          file_pattern: '**/*.{js,json,css,md,xml}'  # Ensure proper quotes
+          prettier_options: '--write'  # Use single quotes for consistency
+          commit_message: 'Prettified Code!'  # Single quotes are a good practice
           github_token: ${{ secrets.GITHUB_TOKEN }}
           clean_node_folder: true
           same_commit: false
@@ -38,10 +38,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUN_LOCAL: false
           DEFAULT_BRANCH: main
-          DISABLE_LINTING: "areaflags.map"  # Skip linting for this file
-          ENABLE_LINTER: "eslint,LibXML"
-          VALIDATE_XML: "true"
-          VALIDATE_JSON: "true"
+          DISABLE_LINTING: 'areaflags.map'  # Skip linting for this file
+          ENABLE_LINTER: 'eslint,LibXML'
+          VALIDATE_XML: 'true'
+          VALIDATE_JSON: 'true'
 
       - name: Get changed files after formatting and linting
         id: get_changed_files
