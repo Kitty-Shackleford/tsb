@@ -10,14 +10,14 @@
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.sakhal |
 | Version | v1.26.158901 |
-| Last Update | 2024-02-20T15:00:14 |
+| Last Update | None |
 | Comment | None |
 
 ### 👥 Player Information
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 6/50 |
+| Player Count | 0/10 |
 | Banned Users | None |
 
 ### ⚙️ Server Settings
@@ -27,14 +27,14 @@
 | 3rd Person | ✅ Enabled |
 | Crosshair | ✅ Enabled |
 | Shot Validation | ✅ Enabled |
-| Mouse and Keyboard | ✅ Enabled |
-| Whitelist Feature | ❌ Disabled |
+| Mouse and Keyboard | ❌ Disabled |
+| Whitelist Feature | ✅ Enabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
 | Priority | Salt6199, Mr Purple7299, FosterName420 |
-| Whitelist | Salt6199, Mr Purple7299, ImDaddy2300, FosterName420 |
+| Whitelist | Salt6199, Mr Purple7299, FosterName420 |
 
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sat Oct 19 00:00:10 UTC 2024
+Last updated: Sat Oct 19 03:20:50 UTC 2024
