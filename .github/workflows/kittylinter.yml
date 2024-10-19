@@ -31,8 +31,11 @@ jobs:
         run: |
           echo "Formatting files with Prettier..."
           
+          # Add node_modules/.bin to PATH
+          export PATH=$PATH:./node_modules/.bin
+
           # Check if Prettier is installed
-          if ! npx prettier --version > /dev/null 2>&1; then
+          if ! command -v prettier > /dev/null 2>&1; then
             echo "Prettier is not installed correctly. Exiting."
             exit 1
           fi
