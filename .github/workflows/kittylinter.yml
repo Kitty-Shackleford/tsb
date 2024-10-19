@@ -75,6 +75,34 @@ jobs:
           git fetch origin
           git rebase origin/main || git merge origin/main
 
+      - name: Create temporary directory
+        run: mkdir temp_upload
+
+      - name: Copy files for FTP upload
+        run: |
+          IFS=' ' read -r -a files <<< "${{ steps.get_changed_files.outputs.files }}"
+          for file in "${files[@]}"; do
+            if [[ "$file" == "areaflags.map" || "$file" == "db/events.xml" || "$file" == "cfgeffectarea.json" || "$file" == "cfgeventspawns.xml" ]]; then
+              echo "Skipping $file for upload"
+              continue
+            fi
+            
+            if [[ "$file" == dayzOffline*/** ]]; then
+              # Create directory structure in temp_upload
+              dir=$(dirname "$file")
+              mkdir -p "temp_upload/$dir"  # Create necessary directories
+              cp "$file" "temp_upload/$file" || { echo "Failed to copy $file"; exit 1; }
+              echo "Copied $file to temp_upload/$dir"  # Debugging line
+            fi
+          done
+
+      - name: Check for files to upload
+        run: |
+          if [ -z "$(ls -A temp_upload/)" ]; then
+            echo "No files to upload. Exiting."
+            exit 0
+          fi
+
       - name: Upload to FTP
         if: success()
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
@@ -89,8 +117,7 @@ jobs:
             db/events.xml
             cfgeffectarea.json
             cfgeventspawns.xml
-            !dayzOffline*/**  # Allow all files in dayzOffline directories
-          
+
       - name: Display Result
         run: |
           if [ "${{ job.status }}" == "success" ]; then
