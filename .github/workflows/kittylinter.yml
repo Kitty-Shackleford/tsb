@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0  # Fetch all history for all branches
 
       - name: Run Prettier Action
-        uses: prettier-action/prettier-action@v2  # Use the Prettier Action from GitHub Marketplace
+        uses: creyD/prettier_action@v4.3  # Use the Prettier Action from GitHub Marketplace
         with:
           files: '**/*.{js,json,css,md,xml}'  # Specify the file types to format
         env:
