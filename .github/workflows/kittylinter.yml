@@ -19,14 +19,17 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for all branches
 
-      - name: Run Prettier Action
+      - name: Format files with Prettier
         uses: creyD/prettier_action@v4.3
         with:
-          file_pattern: '**/*.{js,json,css,md,xml}'  # Specify the file types to format
-          prettier_options: '--write'  # Run Prettier to write changes
-          commit_message: 'Prettified Code!'  # Custom commit message
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use the provided GitHub token
-          clean_node_folder: true  # Clean node_modules before committing
+          file_pattern: **/*.{js,json,css,md,xml}
+          prettier_options: "--write"  # This should work for XML too
+          commit_message: "Prettified Code!"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          clean_node_folder: true
+          same_commit: false
+          dry: false
+          only_changed: false
 
       - name: Run Super Linter
         id: linter
