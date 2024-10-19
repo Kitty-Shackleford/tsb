@@ -29,18 +29,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.WORKFLOW_TOKEN }}
 
-      - name: Get changed files
-        id: get_changed_files
-        run: |
-          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
-          if [ -z "$files" ]; then
-            echo "No changed files detected. Exiting."
-            echo "files=" >> $GITHUB_OUTPUT  # Ensure files variable is set
-            exit 0
-          else
-            echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT  # Replace newlines with spaces
-          fi
-
       - name: Install Prettier and XML Plugin
         run: |
           npm install --save-dev prettier @prettier/plugin-xml || { echo "Failed to install Prettier"; exit 1; }
