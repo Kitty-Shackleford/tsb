@@ -2,9 +2,9 @@ name: Kitty Linter
 
 on:
   workflow_dispatch:  # Manual trigger
-  push:
-    branches:
-      - main  # Adjust this to your target branches if needed
+  #push:
+    #branches:
+      #- main  # Adjust this to your target branches if needed
 
 jobs:
   build:
@@ -42,9 +42,6 @@ jobs:
                   ;;
                 *.json)
                   npx prettier --write "$file" --parser json || { echo "Failed to format $file"; exit 1; }
-                  ;;
-                *.yaml|*.yml)
-                  npx prettier --write "$file" --parser yaml || { echo "Failed to format $file"; exit 1; }
                   ;;
                 *)
                   echo "Skipping $file (not an XML, JSON, or YAML file)"
