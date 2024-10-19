@@ -12,7 +12,6 @@ jobs:
       contents: write
       packages: write
       statuses: write
-      workflows: write
 
     steps:
       - name: Checkout code
@@ -26,11 +25,11 @@ jobs:
 
       - name: Format specific files with Prettier
         run: |
-          npx prettier --write "**/*.{json,yml,xml}"
+          npx prettier --write "**/*.{json,xml}"
 
       - name: Check Prettier formatting
         run: |
-          npx prettier --check "**/*.{json,yml,xml}"
+          npx prettier --check "**/*.{json,xml}"
 
       - name: Run Super Linter
         id: linter
