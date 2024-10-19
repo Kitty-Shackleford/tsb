@@ -22,7 +22,7 @@ jobs:
       - name: Format files with Prettier
         uses: creyD/prettier_action@v4.3
         with:
-          file_pattern: '**/*.{js,json,css,md,xml}'  # Ensure proper quotes
+          file_pattern: '**/*.{js,json,css,md}'  # Ensure proper quotes
           prettier_options: '--write'  # Use single quotes for consistency
           commit_message: 'Prettified Code!'  # Single quotes are a good practice
           github_token: ${{ secrets.GITHUB_TOKEN }}
