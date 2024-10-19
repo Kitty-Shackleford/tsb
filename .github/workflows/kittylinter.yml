@@ -2,9 +2,9 @@ name: Kitty Linter
 
 on:
   workflow_dispatch:  # Manual trigger
-  push:
-    branches:
-      - main  # Adjust this to your target branches if needed
+  #push:
+    #branches:
+      #- main  # Adjust this to your target branches if needed
 
 jobs:
   build:
