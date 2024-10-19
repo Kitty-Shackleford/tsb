@@ -19,17 +19,17 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for all branches
 
-      - name: Format files with Prettier
-        uses: creyD/prettier_action@v4.3
-        with:
-          file_pattern: '**/*.{js,json,css,md}'  # Ensure proper quotes
-          prettier_options: '--write'  # Use single quotes for consistency
-          commit_message: 'Prettified Code!'  # Single quotes are a good practice
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          clean_node_folder: true
-          same_commit: false
-          dry: false
-          only_changed: false
+      - name: Install Prettier and XML Plugin
+        run: |
+          npm install --save-dev prettier @prettier/plugin-xml
+
+      - name: Format specific files with Prettier
+        run: |
+          npx prettier --write "**/*.{json,yml,xml}"
+
+      - name: Check Prettier formatting
+        run: |
+          npx prettier --check "**/*.{json,yml,xml}"
 
       - name: Run Super Linter
         id: linter
