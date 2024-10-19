@@ -1,15 +1,7 @@
 name: Kitty Linter
 
 on:
-  #push:
-  #  branches:
-  #    - main
-  #pull_request:
-  #  branches:
-  #    - main
   workflow_dispatch:  # Manual trigger
-  #schedule:
-  #  - cron: '*/30 * * * *'  # Runs every 30 minutes
 
 jobs:
   build:
@@ -29,6 +21,19 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.WORKFLOW_TOKEN }}
 
+      - name: Get changed files
+        id: get_changed_files
+        run: |
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          echo "Changed files: $files"  # Debugging line
+          if [ -z "$files" ]; then
+            echo "No changed files detected. Exiting."
+            echo "files=" >> $GITHUB_OUTPUT
+            exit 0
+          else
+            echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT
+          fi
+
       - name: Install Prettier and XML Plugin
         run: |
           npm install --save-dev prettier @prettier/plugin-xml || { echo "Failed to install Prettier"; exit 1; }
@@ -37,6 +42,7 @@ jobs:
         run: |
           IFS=' ' read -r -a files <<< "${{ steps.get_changed_files.outputs.files }}"
           for file in "${files[@]}"; do
+            echo "Processing file: $file"  # Debugging line
             if [ -f "$file" ]; then
               case "$file" in
                 *.xml)
@@ -71,8 +77,8 @@ jobs:
 
       - name: Commit formatted changes
         run: |
-          git config --local user.email "kittylinter@github.com"
-          git config --local user.name "Kitty Linter"
+          git config --local user.email "74373243+Kitty-Shackleford@users.noreply.github.com"
+          git config --local user.name "Kitty-Shackleford"
           git add .
           if ! git diff-index --quiet HEAD --; then
             git commit -m "Format files with Prettier" || echo "Commit failed"
@@ -92,14 +98,20 @@ jobs:
 
       - name: Copy files for FTP upload
         run: |
+          echo "Changed files to copy: ${{ steps.get_changed_files.outputs.files }}"  # Debugging line
           for file in ${{ steps.get_changed_files.outputs.files }}; do
+            echo "Checking file: $file"  # Debugging line
             if [[ ! "$file" =~ ^\.github/ && "$file" != "cfgeffectarea.json" && "$file" != "cfgeventspawns.xml" && "$file" != "db/events.xml" ]]; then
-              cp "$file" temp_upload/
+              cp "$file" temp_upload/ || { echo "Failed to copy $file"; exit 1; }
+              echo "Copied $file to temp_upload/"  # Debugging line
+            else
+              echo "Skipping $file (excluded from upload)"
             fi
           done
 
       - name: Check for files to upload
         run: |
+          echo "Files in temp_upload before upload: $(ls -A temp_upload/)"  # Debugging line
           if [ -z "$(ls -A temp_upload/)" ]; then
             echo "No files to upload. Exiting."
             exit 0
