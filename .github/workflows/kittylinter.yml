@@ -24,7 +24,7 @@ jobs:
       - name: Get changed files
         id: get_changed_files
         run: |
-          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          files=$(git diff --name-only HEAD^ HEAD)
           echo "Changed files: $files"  # Debugging line
           if [ -z "$files" ]; then
             echo "No changed files detected. Exiting."
@@ -101,11 +101,11 @@ jobs:
           echo "Changed files to copy: ${{ steps.get_changed_files.outputs.files }}"  # Debugging line
           for file in ${{ steps.get_changed_files.outputs.files }}; do
             echo "Checking file: $file"  # Debugging line
-            if [[ ! "$file" =~ ^\.github/ && "$file" != "cfgeffectarea.json" && "$file" != "cfgeventspawns.xml" && "$file" != "db/events.xml" ]]; then
+            if [[ "$file" =~ ^(dayzOffline\.sakhal|dayzOffline\.enoch|dayzOffline\.chernarusplus) ]]; then
               cp "$file" temp_upload/ || { echo "Failed to copy $file"; exit 1; }
               echo "Copied $file to temp_upload/"  # Debugging line
             else
-              echo "Skipping $file (excluded from upload)"
+              echo "Skipping $file (not in specified directories)"
             fi
           done
 
