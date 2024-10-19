@@ -1,0 +1,29 @@
+name: NitrAPI Global Maintenance Status
+
+on:
+  workflow_dispatch:  # Manual trigger
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+
+jobs:
+  maintenance_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install requests library
+        run: |
+          pip install requests
+
+      - name: Run Maintenance Check Script
+        env:
+          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Use the secret for API key
+        run: |
+          python check_maintenance.py

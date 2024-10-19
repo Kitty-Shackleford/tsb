@@ -1,0 +1,29 @@
+name: Commit Changes
+
+on:
+  workflow_run:
+    workflows: ["Run Linter"]
+    types:
+      - completed
+
+jobs:
+  commit_changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+
+      - name: Commit formatted changes
+        run: |
+          git config --local user.email "kittylinter@github.com"
+          git config --local user.name "Kitty Linter"
+          git add .
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Format files with Prettier" || echo "Commit failed"
+          else
+            echo "No changes to commit"
+          fi

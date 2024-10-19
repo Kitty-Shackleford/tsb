@@ -1,0 +1,33 @@
+name: Install Dependencies
+
+on:
+  workflow_run:
+    workflows: ["Get Changed Files"]
+    types:
+      - completed
+
+jobs:
+  install_dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install Prettier and XML Plugin
+        run: |
+          if [ ! -d "node_modules" ]; then
+            npm install --save-dev prettier @prettier/plugin-xml || { echo "Failed to install Prettier"; exit 1; }
+          else
+            echo "Dependencies already installed."
+          fi
+
+
+      - name: List installed packages
+        run: npm list --depth=0
+

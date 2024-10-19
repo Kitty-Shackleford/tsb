@@ -1,0 +1,45 @@
+name: Update README
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_update:
+        description: 'Run the update'
+        required: true
+        default: 'true'
+
+jobs:
+  first-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      # Replace this with your actual action
+      - name: Run some action
+        run: echo "This is a summary of the action" > summary.txt
+
+  update-readme:
+    runs-on: ubuntu-latest
+    needs: first-action  # Ensure this runs after the first action
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Update README.md
+        run: |
+          summary=$(cat summary.txt)
+          echo "## Summary of Last Action" >> README.md
+          echo "$summary" >> README.md
+          echo "" >> README.md
+          echo "Last updated: $(date)" >> README.md
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "kittylinter@github.com"
+          git config --local user.name "Kitty Linter"
+          git add README.md
+          git commit -m "Update README with action summary" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

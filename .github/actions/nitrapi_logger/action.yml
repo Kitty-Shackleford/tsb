@@ -1,0 +1,19 @@
+name: Nitrapi Logger
+description: Checks server info and grabs the most recent logs.
+inputs:
+  nitrado_id:
+    description: 'Nitrado service ID'
+    required: true
+  token:
+    description: 'Nitrado API token for authentication'
+    required: true
+  game:
+    description: 'Game type (dayzps or dayzxb)'
+    required: true
+outputs:
+  log-file:
+    description: 'The path to the downloaded log file'
+
+runs:
+  using: 'node12'
+  main: 'index.js'

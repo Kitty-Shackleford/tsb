@@ -1,0 +1,16 @@
+name: Get Nitrado Game Server Players
+description: Fetches player information from a Nitrado game server and sends it to a Discord channel.
+inputs:
+  nitrado_id:
+    description: 'Nitrado Server ID'
+    required: true
+  nitrado_token:
+    description: 'Nitrado API Token'
+    required: true
+  discord_webhook:
+    description: 'Discord Webhook URL for notifications'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'get_players.js'

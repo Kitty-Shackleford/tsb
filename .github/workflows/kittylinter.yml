@@ -1,0 +1,137 @@
+name: Kitty Linter
+
+on:
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  build:
+    name: Kitty Linter
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      packages: write
+      statuses: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+
+      - name: Get changed files
+        id: get_changed_files
+        run: |
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          if [ -z "$files" ]; then
+            echo "No changed files detected. Exiting."
+            echo "files=" >> $GITHUB_OUTPUT  # Ensure files variable is set
+            exit 0
+          else
+            echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT  # Replace newlines with spaces
+          fi
+
+      - name: Install Prettier and XML Plugin
+        run: |
+          npm install --save-dev prettier @prettier/plugin-xml || { echo "Failed to install Prettier"; exit 1; }
+
+      - name: Format files with Prettier
+        run: |
+          IFS=' ' read -r -a files <<< "${{ steps.get_changed_files.outputs.files }}"
+          for file in "${files[@]}"; do
+            if [[ "$file" == "areaflags.map" ]]; then
+              echo "Skipping formatting for areaflags.map"
+              continue
+            fi
+            if [ -f "$file" ]; then
+              case "$file" in
+                *.xml)
+                  npx prettier --write "$file" --parser xml || { echo "Failed to format $file"; exit 1; }
+                  ;;
+                *.json)
+                  npx prettier --write "$file" --parser json || { echo "Failed to format $file"; exit 1; }
+                  ;;
+                *.yaml|*.yml)
+                  npx prettier --write "$file" --parser yaml || { echo "Failed to format $file"; exit 1; }
+                  ;;
+                *)
+                  echo "Skipping $file (not an XML, JSON, or YAML file)"
+                  ;;
+              esac
+            else
+              echo "$file does not exist."
+            fi
+          done
+
+      - name: Run Super Linter
+        id: linter
+        uses: super-linter/super-linter@v7.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_LOCAL: false
+          DEFAULT_BRANCH: main
+          DISABLE_LINTING: "areaflags.map"  # Skip linting for this file
+          DISABLE_LINTING: "false"
+          ENABLE_LINTER: "eslint,LibXML"
+          VALIDATE_XML: "true"
+          VALIDATE_JSON: "true"
+
+      - name: Commit formatted changes
+        run: |
+          git config --local user.email "74373243+Kitty-Shackleford@users.noreply.github.com"
+          git config --local user.name "Kitty-Shackleford"
+          git add .
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Format files with Prettier" || echo "Commit failed"
+          else
+            echo "No changes to commit"
+          fi
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.WORKFLOW_TOKEN }}
+          repository: Kitty-Shackleford/tsb
+          force_with_lease: true
+
+      - name: Create temporary directory
+        run: mkdir temp_upload
+
+      - name: Copy files for FTP upload
+        run: |
+          IFS=' ' read -r -a files <<< "${{ steps.get_changed_files.outputs.files }}"
+          for file in "${files[@]}"; do
+            if [[ "$file" == "areaflags.map" ]]; then
+              echo "Skipping areaflags.map file for upload"
+              continue
+            fi
+            if [[ ! "$file" =~ ^\.github/ && "$file" != "cfgeffectarea.json" && "$file" != "cfgeventspawns.xml" && "$file" != "db/events.xml" ]]; then
+              # Create directory structure in temp_upload
+              dir=$(dirname "$file")
+              mkdir -p "temp_upload/$dir"  # Create necessary directories
+              cp "$file" "temp_upload/$file" || { echo "Failed to copy $file"; exit 1; }
+              echo "Copied $file to temp_upload/$dir"  # Debugging line
+            fi
+          done
+
+      - name: Check for files to upload
+        run: |
+          if [ -z "$(ls -A temp_upload/)" ]; then
+            echo "No files to upload. Exiting."
+            exit 0
+          fi
+
+      - name: Upload to FTP
+        if: success()
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: temp_upload/
+          server-dir: /dayzxb_missions/
+
+      - name: Clean up
+        run: rm -rf temp_upload/

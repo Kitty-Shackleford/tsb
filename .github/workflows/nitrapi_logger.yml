@@ -1,0 +1,38 @@
+name: NitrAPI Log Downloader
+
+on: 
+  workflow_dispatch:  # This makes the workflow manually triggered
+
+jobs:
+  download_logs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'  # Specify the Node.js version you want to use
+
+      - name: Check and install dependencies
+        run: |
+          cd ./.github/actions/nitrapi_logger
+          if [ ! -d "node_modules" ]; then
+            echo "node_modules directory not found. Installing dependencies..."
+            npm install
+          else
+            echo "node_modules directory already exists. Skipping installation."
+          fi
+
+      - name: Download recent log file
+        id: download_logs  # Add an ID to capture outputs
+        uses: ./.github/actions/nitrapi_logger
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Use log file
+        run: |
+          echo "Log file path is ${{ steps.download_logs.outputs.log-file }}"
+          # Add your logic here to process the log file
+          

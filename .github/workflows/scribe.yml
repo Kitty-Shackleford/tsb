@@ -1,0 +1,45 @@
+name: Dynamic Messages
+
+on:
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  modify-messages:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.WORKFLOW_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'  # Specify the Python version you want to use
+
+    - name: Install dependencies
+      run: |
+        pip install requests
+
+    - name: Run scribe.py
+      env:
+        FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      run: |
+        python scribe.py
+
+    - name: Commit Messages
+      run: |
+        git config --local user.email "kittylinter@github.com"
+        git config --local user.name "Kitty Linter"
+        git add dayzOffline.enoch/custom/messages.xml
+
+    - name: Push Messages
+      uses: ad-m/github-push-action@master
+      with:
+          github_token: ${{ secrets.WORKFLOW_TOKEN }}
+          repository: Kitty-Shackleford/tsb
+          force_with_lease: true

@@ -1,0 +1,14 @@
+name: 'Send Discord Message'
+description: 'Sends a message to a Discord channel via webhook'
+author: 'Your Name'
+inputs:
+  summary:
+    description: 'The summary message to send'
+    required: true
+runs:
+  using: 'node16'  # or node12, node20
+  main: '.github/actions/discord_send_message/discord_send_message.js'
+branding:
+  icon: 'mail'  # Optional: Choose an icon for your action
+  color: 'blue'  # Optional: Choose a color for your action
+

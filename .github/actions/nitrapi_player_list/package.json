@@ -1,0 +1,13 @@
+{
+  "name": "get-nitrado-players",
+  "version": "1.0.0",
+  "description": "GitHub Action to get players from a Nitrado game server",
+  "main": "get_players.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "axios": "^0.21.1"
+  }
+}
