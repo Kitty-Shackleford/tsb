@@ -49,12 +49,15 @@ jobs:
               echo "Processing file: $file"
               case "$file" in
                 *.xml)
+                  echo "Formatting XML file: $file"
                   npx prettier --write "$file" --parser xml || { echo "Failed to format $file"; exit 1; }
                   ;;
                 *.json)
+                  echo "Formatting JSON file: $file"
                   npx prettier --write "$file" --parser json || { echo "Failed to format $file"; exit 1; }
                   ;;
                 *.yaml|*.yml)
+                  echo "Formatting YAML file: $file"
                   npx prettier --write "$file" --parser yaml || { echo "Failed to format $file"; exit 1; }
                   ;;
                 *)
