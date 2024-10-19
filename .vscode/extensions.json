@@ -1,5 +1,3 @@
 {
-    "recommendations": [
-        "alphaxek.github-actions-locally"
-    ]
+  "recommendations": ["alphaxek.github-actions-locally"]
 }
