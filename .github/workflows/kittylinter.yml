@@ -24,14 +24,13 @@ jobs:
       - name: Get changed files
         id: get_changed_files
         run: |
-          files=$(git diff --name-only HEAD^ HEAD)
-          echo "Changed files: $files"  # Debugging line
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
           if [ -z "$files" ]; then
             echo "No changed files detected. Exiting."
-            echo "files=" >> $GITHUB_OUTPUT
+            echo "files=" >> $GITHUB_OUTPUT  # Ensure files variable is set
             exit 0
           else
-            echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT
+            echo "files=$(echo "$files" | tr '\n' ' ')" >> $GITHUB_OUTPUT  # Replace newlines with spaces
           fi
 
       - name: Install Prettier and XML Plugin
@@ -42,7 +41,10 @@ jobs:
         run: |
           IFS=' ' read -r -a files <<< "${{ steps.get_changed_files.outputs.files }}"
           for file in "${files[@]}"; do
-            echo "Processing file: $file"  # Debugging line
+            if [[ "$file" == "areaflags.map" ]]; then
+              echo "Skipping formatting for areaflags.map"
+              continue
+            fi
             if [ -f "$file" ]; then
               case "$file" in
                 *.xml)
@@ -70,6 +72,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUN_LOCAL: false
           DEFAULT_BRANCH: main
+          DISABLE_LINTING: "areaflags.map"  # Skip linting for this file
           DISABLE_LINTING: "false"
           ENABLE_LINTER: "eslint,LibXML"
           VALIDATE_XML: "true"
@@ -98,20 +101,23 @@ jobs:
 
       - name: Copy files for FTP upload
         run: |
-          echo "Changed files to copy: ${{ steps.get_changed_files.outputs.files }}"  # Debugging line
-          for file in ${{ steps.get_changed_files.outputs.files }}; do
-            echo "Checking file: $file"  # Debugging line
-            if [[ "$file" =~ ^(dayzOffline\.sakhal|dayzOffline\.enoch|dayzOffline\.chernarusplus) ]]; then
-              cp "$file" temp_upload/ || { echo "Failed to copy $file"; exit 1; }
-              echo "Copied $file to temp_upload/"  # Debugging line
-            else
-              echo "Skipping $file (not in specified directories)"
+          IFS=' ' read -r -a files <<< "${{ steps.get_changed_files.outputs.files }}"
+          for file in "${files[@]}"; do
+            if [[ "$file" == "areaflags.map" ]]; then
+              echo "Skipping areaflags.map file for upload"
+              continue
+            fi
+            if [[ ! "$file" =~ ^\.github/ && "$file" != "cfgeffectarea.json" && "$file" != "cfgeventspawns.xml" && "$file" != "db/events.xml" ]]; then
+              # Create directory structure in temp_upload
+              dir=$(dirname "$file")
+              mkdir -p "temp_upload/$dir"  # Create necessary directories
+              cp "$file" "temp_upload/$file" || { echo "Failed to copy $file"; exit 1; }
+              echo "Copied $file to temp_upload/$dir"  # Debugging line
             fi
           done
 
       - name: Check for files to upload
         run: |
-          echo "Files in temp_upload before upload: $(ls -A temp_upload/)"  # Debugging line
           if [ -z "$(ls -A temp_upload/)" ]; then
             echo "No files to upload. Exiting."
             exit 0
