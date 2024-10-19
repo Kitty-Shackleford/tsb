@@ -155,3 +155,20 @@ jobs:
         run: |
           echo "Cleaning up temporary directory..."
           rm -rf temp_upload/
+      - name: Display Result
+        run: |
+          if [ "${{ job.status }}" == "success" ]; then
+            echo " 😺  All done! Everything passed!"
+            echo '```
+            /\_/\  
+           ( o.o ) 
+            > ^ <  
+            ```'
+          else
+            echo " 😿  Oh no! Something went wrong!"
+            echo '```
+            /\_/\  
+           ( -.- ) 
+            > ^ <  
+            ```'
+          fi
