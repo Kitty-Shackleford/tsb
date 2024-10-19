@@ -99,6 +99,10 @@ jobs:
         run: |
           echo "Listing files on FTP server..."
           ftp_files=$(curl -s --user "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" ftp://${{ secrets.FTP_SERVER }} --list)
+          if [[ $? -ne 0 ]]; then
+            echo "Failed to list files on FTP server."
+            exit 1
+          fi
           echo "$ftp_files" > ftp_files.txt  # Store the list for later use
 
       - name: Create temporary directory
@@ -109,6 +113,11 @@ jobs:
           echo "Copying relevant files to the temp_upload directory..."
           IFS=$'\n' read -d '' -r -a ftp_files < ftp_files.txt  # Read the FTP file list into an array
           
+          # Check if the FTP list is empty
+          if [ ${#ftp_files[@]} -eq 0 ]; then
+            echo "No files found on FTP server. Uploading all relevant files."
+          fi
+
           # Iterate over files in the repository
           for file in $(git ls-files); do
             echo "Processing file: $file"
@@ -150,7 +159,6 @@ jobs:
             fi
           done
 
-
       - name: Check for files to upload
         run: |
           if [ -z "$(ls -A temp_upload/)" ]; then
@@ -172,19 +180,16 @@ jobs:
         run: rm -rf temp_upload/
 
       - name: Display Result
+        id: display_result
         run: |
           if [ "${{ job.status }}" == "success" ]; then
-            echo " 😺  All done! Everything passed!"
-            echo '```
-            /\_/\  
-           ( o.o ) 
-            > ^ <  
-            ```'
+            echo "summary=  \n\`\`\`  \n/\_/\  \n( o.o )  \n > ^ <  \n\`\`\`" >> $GITHUB_OUTPUT
           else
-            echo " 😿  Oh no! Something went wrong!"
-            echo '```
-            /\_/\  
-           ( -.- ) 
-            > ^ <  
-            ```'
+            echo "summary=  \n\`\`\`  \n/\_/\  \n( -.- )  \n > ^ <  \n\`\`\`" >> $GITHUB_OUTPUT
           fi
+
+      - name: Output Summary
+        run: |
+          echo "### Summary"
+          echo "${{ steps.display_result.outputs.summary }}"
+
