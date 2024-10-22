@@ -820,7 +820,7 @@
   </group>
   <group name="specialstore">
     <child
-      type="Land_Village_store"
+      type="Land_Village_Store_East"
       deloot="0"
       lootmax="1"
       lootmin="1"

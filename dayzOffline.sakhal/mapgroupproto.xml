@@ -9625,7 +9625,7 @@
   <!-- GUN RACKS -->
   <group name="StaticObj_Misc_Gunrack" />
   <!-- STORE -->
-  <group name="Land_Village_store">
+  <group name="Land_Village_Store_East">
     <dispatch dechance="1.0">
       <proxy
         type="AliceBag_Black"
@@ -14191,7 +14191,7 @@
     </dispatch>
   </group>
   <!-- END MODS -->
-  <group name="Vanilla_Land_Roadblock_Table" lootmax="1">
+  <group name="PVP_Land_Roadblock_Table" lootmax="1">
     <usage name="Military" />
     <usage name="Police" />
     <usage name="Medic" />
@@ -14232,7 +14232,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Roadblock_WoodenCrate" lootmax="1">
+  <group name="PVP_Land_Roadblock_WoodenCrate" lootmax="1">
     <usage name="Military" />
     <usage name="Police" />
     <usage name="Medic" />
@@ -14253,7 +14253,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_M1" lootmax="2">
+  <group name="PVP_Land_Shed_M1" lootmax="2">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="2">
@@ -14281,7 +14281,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_M3" lootmax="2">
+  <group name="PVP_Land_Shed_M3" lootmax="2">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="2">
@@ -14321,7 +14321,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_M4" lootmax="3">
+  <group name="PVP_Land_Shed_M4" lootmax="3">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -14360,7 +14360,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_W1" lootmax="2">
+  <group name="PVP_Land_Shed_W1" lootmax="2">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="2">
@@ -14394,7 +14394,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_W2" lootmax="2">
+  <group name="PVP_Land_Shed_W2" lootmax="2">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="2">
@@ -14422,7 +14422,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_W3" lootmax="2">
+  <group name="PVP_Land_Shed_W3" lootmax="2">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="2">
@@ -14480,7 +14480,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_W4" lootmax="3">
+  <group name="PVP_Land_Shed_W4" lootmax="3">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="3">
@@ -14514,7 +14514,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_W5" lootmax="3">
+  <group name="PVP_Land_Shed_W5" lootmax="3">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="3">
@@ -14549,7 +14549,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_W6">
+  <group name="PVP_Land_Shed_W6">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="6">
@@ -14594,7 +14594,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_Closed">
+  <group name="PVP_Land_Shed_Closed">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -14723,7 +14723,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_1F1">
+  <group name="PVP_Land_HouseBlock_1F1">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -14879,7 +14879,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_1F2">
+  <group name="PVP_Land_HouseBlock_1F2">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -14995,7 +14995,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_1F3">
+  <group name="PVP_Land_HouseBlock_1F3">
     <usage name="Town" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -15061,7 +15061,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_1F4">
+  <group name="PVP_Land_HouseBlock_1F4">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -15147,7 +15147,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_1F_Corner" lootmax="7">
+  <group name="PVP_Land_HouseBlock_1F_Corner" lootmax="7">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -15393,7 +15393,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_2F1">
+  <group name="PVP_Land_HouseBlock_2F1">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -15589,7 +15589,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_2F2">
+  <group name="PVP_Land_HouseBlock_2F2">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -15775,7 +15775,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_2F3" lootmax="7">
+  <group name="PVP_Land_HouseBlock_2F3" lootmax="7">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -15996,7 +15996,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_2F4" lootmax="7">
+  <group name="PVP_Land_HouseBlock_2F4" lootmax="7">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -16202,7 +16202,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_2F5">
+  <group name="PVP_Land_HouseBlock_2F5">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -16363,7 +16363,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_2F6">
+  <group name="PVP_Land_HouseBlock_2F6">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -16554,7 +16554,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_2F7">
+  <group name="PVP_Land_HouseBlock_2F7">
     <usage name="Town" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -16645,7 +16645,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_2F8">
+  <group name="PVP_Land_HouseBlock_2F8">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -16806,7 +16806,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_2F9">
+  <group name="PVP_Land_HouseBlock_2F9">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -16952,7 +16952,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_2F_Corner">
+  <group name="PVP_Land_HouseBlock_2F_Corner">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -17033,7 +17033,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_3F1" lootmax="8">
+  <group name="PVP_Land_HouseBlock_3F1" lootmax="8">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -17139,7 +17139,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_3F2" lootmax="10">
+  <group name="PVP_Land_HouseBlock_3F2" lootmax="10">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -17360,7 +17360,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_3F_Corner1" lootmax="10">
+  <group name="PVP_Land_HouseBlock_3F_Corner1" lootmax="10">
     <usage name="Town" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -17692,7 +17692,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_3F_Corner2" lootmax="10">
+  <group name="PVP_Land_HouseBlock_3F_Corner2" lootmax="10">
     <usage name="Town" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -17928,7 +17928,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_HouseBlock_5F" lootmax="8">
+  <group name="PVP_Land_HouseBlock_5F" lootmax="8">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -18134,7 +18134,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Hotel_Damaged" lootmax="10">
+  <group name="PVP_Land_Hotel_Damaged" lootmax="10">
     <usage name="Town" />
     <container name="lootFloor" lootmax="5">
       <category name="tools" />
@@ -18372,7 +18372,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Hotel" lootmax="10">
+  <group name="PVP_Land_Hotel" lootmax="10">
     <usage name="Town" />
     <container name="lootFloor" lootmax="5">
       <category name="tools" />
@@ -18675,7 +18675,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Office1" lootmax="20">
+  <group name="PVP_Land_Office1" lootmax="20">
     <usage name="Town" />
     <usage name="Office" />
     <container name="lootFloor" lootmax="12">
@@ -19336,7 +19336,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Office2" lootmax="20">
+  <group name="PVP_Land_Office2" lootmax="20">
     <usage name="Town" />
     <usage name="Office" />
     <container name="lootFloor" lootmax="10">
@@ -19967,7 +19967,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Office_Municipal2" lootmax="0">
+  <group name="PVP_Land_Office_Municipal2" lootmax="0">
     <usage name="Town" />
     <usage name="Office" />
     <container name="lootFloor" lootmax="0">
@@ -19986,7 +19986,7 @@
       <category name="explosives" />
     </container>
   </group>
-  <group name="Vanilla_Land_City_Store" lootmax="25">
+  <group name="PVP_Land_City_Store" lootmax="25">
     <usage name="Town" />
     <usage name="Office" />
     <usage name="School" />
@@ -20559,7 +20559,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_Store_WithStairs" lootmax="25">
+  <group name="PVP_Land_City_Store_WithStairs" lootmax="25">
     <usage name="Town" />
     <usage name="Office" />
     <usage name="School" />
@@ -21357,7 +21357,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tenement_Small" lootmax="0">
+  <group name="PVP_Land_Tenement_Small" lootmax="0">
     <usage name="Town" />
     <container name="lootFloor" lootmax="0">
       <category name="tools" />
@@ -21375,7 +21375,7 @@
       <category name="explosives" />
     </container>
   </group>
-  <group name="Vanilla_Land_Tenement_Big" lootmax="0">
+  <group name="PVP_Land_Tenement_Big" lootmax="0">
     <usage name="Town" />
     <container name="lootFloor" lootmax="0">
       <category name="tools" />
@@ -21393,7 +21393,7 @@
       <category name="explosives" />
     </container>
   </group>
-  <group name="Vanilla_Land_City_Stand_News1">
+  <group name="PVP_Land_City_Stand_News1">
     <usage name="Town" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -21499,7 +21499,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_Stand_News2">
+  <group name="PVP_Land_City_Stand_News2">
     <usage name="Town" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -21570,7 +21570,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_Stand_FastFood">
+  <group name="PVP_Land_City_Stand_FastFood">
     <usage name="Town" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -21676,7 +21676,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_Stand_Grocery">
+  <group name="PVP_Land_City_Stand_Grocery">
     <usage name="Town" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -21812,7 +21812,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_BusStation_building">
+  <group name="PVP_Land_BusStation_building">
     <usage name="Town" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -21873,7 +21873,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_BusStation_wall_bench" lootmax="2">
+  <group name="PVP_Land_BusStation_wall_bench" lootmax="2">
     <usage name="Town" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -21931,7 +21931,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_BusStop_City" lootmax="4">
+  <group name="PVP_Land_BusStop_City" lootmax="4">
     <usage name="Town" />
     <container name="lootFloor">
       <category name="tools" />
@@ -21968,7 +21968,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1B01_Pub" lootmax="8">
+  <group name="PVP_Land_House_1B01_Pub" lootmax="8">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -22205,7 +22205,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2B01">
+  <group name="PVP_Land_House_2B01">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -22346,7 +22346,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2B02">
+  <group name="PVP_Land_House_2B02">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -22452,7 +22452,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2B03">
+  <group name="PVP_Land_House_2B03">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -22588,7 +22588,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2B04">
+  <group name="PVP_Land_House_2B04">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -22719,7 +22719,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W01">
+  <group name="PVP_Land_House_1W01">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -22830,7 +22830,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W01_Red">
+  <group name="PVP_Land_House_1W01_Red">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -22941,7 +22941,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W02">
+  <group name="PVP_Land_House_1W02">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -23047,7 +23047,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W02_Blue">
+  <group name="PVP_Land_House_1W02_Blue">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -23193,7 +23193,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W03">
+  <group name="PVP_Land_House_1W03">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -23289,7 +23289,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W03_Yellow">
+  <group name="PVP_Land_House_1W03_Yellow">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -23405,7 +23405,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W04">
+  <group name="PVP_Land_House_1W04">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -23486,7 +23486,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W04_Yellow">
+  <group name="PVP_Land_House_1W04_Yellow">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -23597,7 +23597,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W05">
+  <group name="PVP_Land_House_1W05">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -23738,7 +23738,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W05_Yellow">
+  <group name="PVP_Land_House_1W05_Yellow">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -23864,7 +23864,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W06">
+  <group name="PVP_Land_House_1W06">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -23998,7 +23998,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W06_Blue">
+  <group name="PVP_Land_House_1W06_Blue">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -24112,7 +24112,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W07">
+  <group name="PVP_Land_House_1W07">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -24333,7 +24333,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W07_Green">
+  <group name="PVP_Land_House_1W07_Green">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -24604,7 +24604,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W08">
+  <group name="PVP_Land_House_1W08">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -24730,7 +24730,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W08_Brown">
+  <group name="PVP_Land_House_1W08_Brown">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -24871,7 +24871,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W09">
+  <group name="PVP_Land_House_1W09">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -25007,7 +25007,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W09_Yellow">
+  <group name="PVP_Land_House_1W09_Yellow">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -25163,7 +25163,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W10">
+  <group name="PVP_Land_House_1W10">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -25248,7 +25248,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W10_Brown">
+  <group name="PVP_Land_House_1W10_Brown">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -25358,7 +25358,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W11">
+  <group name="PVP_Land_House_1W11">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -25489,7 +25489,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W11_Blue">
+  <group name="PVP_Land_House_1W11_Blue">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -25610,7 +25610,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W12">
+  <group name="PVP_Land_House_1W12">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -25756,7 +25756,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W12_Brown">
+  <group name="PVP_Land_House_1W12_Brown">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -25932,7 +25932,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2W01">
+  <group name="PVP_Land_House_2W01">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -26078,7 +26078,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2W01_Yellow">
+  <group name="PVP_Land_House_2W01_Yellow">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -26304,7 +26304,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2W02">
+  <group name="PVP_Land_House_2W02">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -26485,7 +26485,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2W03">
+  <group name="PVP_Land_House_2W03">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -26566,7 +26566,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2W03_Brown">
+  <group name="PVP_Land_House_2W03_Brown">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -26752,7 +26752,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2W04">
+  <group name="PVP_Land_House_2W04">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -26863,7 +26863,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2W04_Blue">
+  <group name="PVP_Land_House_2W04_Blue">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -26984,7 +26984,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_2W04_Yellow">
+  <group name="PVP_Land_House_2W04_Yellow">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -27120,7 +27120,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Village_store" lootmax="10">
+  <group name="PVP_Land_Village_store" lootmax="10">
     <usage name="Farm" />
     <usage name="Village" />
     <usage name="Hunting" />
@@ -27450,7 +27450,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Village_Pub">
+  <group name="PVP_Land_Village_Pub">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -27622,7 +27622,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_Well_Pump_Blue" lootmax="2">
+  <group name="PVP_Land_Misc_Well_Pump_Blue" lootmax="2">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -27656,7 +27656,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_Well_Pump_Yellow" lootmax="2">
+  <group name="PVP_Land_Misc_Well_Pump_Yellow" lootmax="2">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -27680,7 +27680,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_Toilet_Dry" lootmax="1">
+  <group name="PVP_Land_Misc_Toilet_Dry" lootmax="1">
     <usage name="Farm" />
     <usage name="Village" />
     <container name="lootshelves" lootmax="1">
@@ -27720,7 +27720,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Caravan_MGreen" lootmax="2">
+  <group name="PVP_Land_Wreck_Caravan_MGreen" lootmax="2">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -27760,7 +27760,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Caravan_MRust" lootmax="2">
+  <group name="PVP_Land_Wreck_Caravan_MRust" lootmax="2">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -27800,7 +27800,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Caravan_WBrown" lootmax="2">
+  <group name="PVP_Land_Wreck_Caravan_WBrown" lootmax="2">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -27840,7 +27840,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Caravan_WGreen" lootmax="2">
+  <group name="PVP_Land_Wreck_Caravan_WGreen" lootmax="2">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -27880,7 +27880,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_C130J_Cargo">
+  <group name="PVP_Land_Wreck_C130J_Cargo">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="clothes" />
@@ -27980,7 +27980,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_S1023_Blue" lootmax="4">
+  <group name="PVP_Land_Wreck_S1023_Blue" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootshelves">
@@ -28013,7 +28013,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_S1023_Red" lootmax="4">
+  <group name="PVP_Land_Wreck_S1023_Red" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootshelves">
@@ -28051,7 +28051,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_S1023_Beige" lootmax="4">
+  <group name="PVP_Land_Wreck_S1023_Beige" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootshelves">
@@ -28089,7 +28089,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Ikarus" lootmax="4">
+  <group name="PVP_Land_Wreck_Ikarus" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootshelves">
@@ -28152,7 +28152,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Volha_Grey" lootmax="4">
+  <group name="PVP_Land_Wreck_Volha_Grey" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootshelves">
@@ -28235,7 +28235,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Volha_Blue" lootmax="4">
+  <group name="PVP_Land_Wreck_Volha_Blue" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootshelves">
@@ -28318,7 +28318,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Lada_Green" lootmax="4">
+  <group name="PVP_Land_Wreck_Lada_Green" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootshelves">
@@ -28406,7 +28406,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Lada_Red" lootmax="4">
+  <group name="PVP_Land_Wreck_Lada_Red" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootshelves">
@@ -28474,7 +28474,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Workshop1" lootmax="3">
+  <group name="PVP_Land_Workshop1" lootmax="3">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
@@ -28566,7 +28566,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Workshop2" lootmax="3">
+  <group name="PVP_Land_Workshop2" lootmax="3">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -28597,7 +28597,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Workshop3">
+  <group name="PVP_Land_Workshop3">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
@@ -28759,7 +28759,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Workshop4">
+  <group name="PVP_Land_Workshop4">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
@@ -28856,7 +28856,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Workshop5" lootmax="3">
+  <group name="PVP_Land_Workshop5" lootmax="3">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
@@ -28948,7 +28948,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tower_TC1">
+  <group name="PVP_Land_Tower_TC1">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -29017,7 +29017,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tower_TC2_Base">
+  <group name="PVP_Land_Tower_TC2_Base">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -29066,7 +29066,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Guardhouse" lootmax="3">
+  <group name="PVP_Land_Guardhouse" lootmax="3">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -29131,7 +29131,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Garage_Small" lootmax="3">
+  <group name="PVP_Land_Garage_Small" lootmax="3">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -29201,7 +29201,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Garage_Big">
+  <group name="PVP_Land_Garage_Big">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -29293,7 +29293,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Garage_Row_Small">
+  <group name="PVP_Land_Garage_Row_Small">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -29634,7 +29634,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Garage_Row_Big">
+  <group name="PVP_Land_Garage_Row_Big">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -29920,7 +29920,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Garage_Office">
+  <group name="PVP_Land_Garage_Office">
     <usage name="Industrial" />
     <usage name="Town" />
     <usage name="Village" />
@@ -30228,7 +30228,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Factory_Lathes">
+  <group name="PVP_Land_Factory_Lathes">
     <usage name="Industrial" />
     <container name="lootFactory" lootmax="6">
       <category name="tools" />
@@ -30585,7 +30585,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Factory_Small" lootmax="8">
+  <group name="PVP_Land_Factory_Small" lootmax="8">
     <usage name="Industrial" />
     <container name="lootGround" lootmax="6">
       <category name="tools" />
@@ -30863,7 +30863,7 @@
       <category name="explosives" />
     </container>
   </group>
-  <group name="Vanilla_Land_Sawmill_Building">
+  <group name="PVP_Land_Sawmill_Building">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -30995,7 +30995,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mine_Building">
+  <group name="PVP_Land_Mine_Building">
     <usage name="Industrial" />
     <container name="lootGround" lootmax="2">
       <category name="tools" />
@@ -31110,7 +31110,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Quarry_Main">
+  <group name="PVP_Land_Quarry_Main">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -31265,7 +31265,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CementWorks_ExpeditionA">
+  <group name="PVP_Land_CementWorks_ExpeditionA">
     <usage name="Industrial" />
     <container name="lootGround" lootmax="2">
       <category name="tools" />
@@ -31512,7 +31512,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CementWorks_ExpeditionB">
+  <group name="PVP_Land_CementWorks_ExpeditionB">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -31555,7 +31555,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CementWorks_ExpeditionC">
+  <group name="PVP_Land_CementWorks_ExpeditionC">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -31668,7 +31668,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CementWorks_Hall1" lootmax="10">
+  <group name="PVP_Land_CementWorks_Hall1" lootmax="10">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -31849,7 +31849,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CoalPlant_Main" lootmax="10">
+  <group name="PVP_Land_CoalPlant_Main" lootmax="10">
     <usage name="Industrial" />
     <container name="lootFactory" lootmax="3">
       <category name="tools" />
@@ -32256,7 +32256,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CementWorks_Hall2_Brick">
+  <group name="PVP_Land_CementWorks_Hall2_Brick">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -32512,7 +32512,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CementWorks_Hall2_Grey">
+  <group name="PVP_Land_CementWorks_Hall2_Grey">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -32663,7 +32663,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CementWorks_MillB">
+  <group name="PVP_Land_CementWorks_MillB">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -32854,7 +32854,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CementWorks_MillC">
+  <group name="PVP_Land_CementWorks_MillC">
     <usage name="Industrial" />
     <container name="lootGround">
       <category name="tools" />
@@ -33021,7 +33021,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CementWorks_SiloBig1A">
+  <group name="PVP_Land_CementWorks_SiloBig1A">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -33136,7 +33136,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_CementWorks_RotFurnace">
+  <group name="PVP_Land_CementWorks_RotFurnace">
     <usage name="Industrial" />
     <container name="lootGround">
       <category name="tools" />
@@ -33437,7 +33437,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Repair_Center" lootmax="4">
+  <group name="PVP_Land_Repair_Center" lootmax="4">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -33548,7 +33548,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Rail_Warehouse_Small">
+  <group name="PVP_Land_Rail_Warehouse_Small">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -33684,7 +33684,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Rail_Station_Small" lootmax="4">
+  <group name="PVP_Land_Rail_Station_Small" lootmax="4">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -33850,7 +33850,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Rail_Station_Big" lootmax="4">
+  <group name="PVP_Land_Rail_Station_Big" lootmax="4">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -33946,7 +33946,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Train_742_Blue">
+  <group name="PVP_Land_Train_742_Blue">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -34000,7 +34000,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Train_742_Red">
+  <group name="PVP_Land_Train_742_Red">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -34054,7 +34054,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Train_Wagon_Box" lootmax="4">
+  <group name="PVP_Land_Train_Wagon_Box" lootmax="4">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -34086,7 +34086,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Lighthouse" lootmax="4">
+  <group name="PVP_Land_Lighthouse" lootmax="4">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -34136,7 +34136,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Power_Station" lootmax="4">
+  <group name="PVP_Land_Power_Station" lootmax="4">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
@@ -34206,7 +34206,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Power_Transformer_Build" lootmax="1">
+  <group name="PVP_Land_Power_Transformer_Build" lootmax="1">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -34237,7 +34237,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Water_Station" lootmax="2">
+  <group name="PVP_Land_Water_Station" lootmax="2">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -34283,7 +34283,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Sawmill_Illuminanttower">
+  <group name="PVP_Land_Sawmill_Illuminanttower">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -34323,7 +34323,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Smokestack_Brick">
+  <group name="PVP_Land_Smokestack_Brick">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -34363,7 +34363,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Smokestack_Medium">
+  <group name="PVP_Land_Smokestack_Medium">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -34424,7 +34424,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Smokestack_Big">
+  <group name="PVP_Land_Smokestack_Big">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -34513,7 +34513,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Pier_Crane_A">
+  <group name="PVP_Land_Pier_Crane_A">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -34582,7 +34582,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Pier_Crane_B" lootmax="4">
+  <group name="PVP_Land_Pier_Crane_B" lootmax="4">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -34646,7 +34646,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Construction_Crane" lootmax="3">
+  <group name="PVP_Land_Construction_Crane" lootmax="3">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -34686,7 +34686,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Construction_Building" lootmax="20">
+  <group name="PVP_Land_Construction_Building" lootmax="20">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -35208,7 +35208,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Construction_House1">
+  <group name="PVP_Land_Construction_House1">
     <usage name="Industrial" />
     <container name="lootGround">
       <category name="tools" />
@@ -35345,7 +35345,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Construction_House2" lootmax="8">
+  <group name="PVP_Land_Construction_House2" lootmax="8">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -35483,7 +35483,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Barracks1" lootmax="10">
+  <group name="PVP_Land_Mil_Barracks1" lootmax="10">
     <usage name="Military" />
     <container name="lootFloor" lootmax="8">
       <category name="tools" />
@@ -35838,7 +35838,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Barracks2" lootmax="10">
+  <group name="PVP_Land_Mil_Barracks2" lootmax="10">
     <usage name="Military" />
     <container name="lootFloor" lootmax="8">
       <category name="tools" />
@@ -36118,7 +36118,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Barracks3" lootmax="10">
+  <group name="PVP_Land_Mil_Barracks3" lootmax="10">
     <usage name="Military" />
     <container name="lootFloor" lootmax="8">
       <category name="tools" />
@@ -36478,7 +36478,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Barracks4" lootmax="8">
+  <group name="PVP_Land_Mil_Barracks4" lootmax="8">
     <usage name="Military" />
     <container name="lootFloor" lootmax="5">
       <category name="tools" />
@@ -36599,7 +36599,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Barracks5" lootmax="8">
+  <group name="PVP_Land_Mil_Barracks5" lootmax="8">
     <usage name="Military" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -36804,7 +36804,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Barracks5_Basement" lootmax="23">
+  <group name="PVP_Land_Mil_Barracks5_Basement" lootmax="23">
     <usage name="Military" />
     <usage name="Medic" />
     <container name="lootFloor" lootmax="5">
@@ -37110,7 +37110,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Barracks6" lootmax="25">
+  <group name="PVP_Land_Mil_Barracks6" lootmax="25">
     <usage name="Military" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -38420,7 +38420,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Barracks6_Old" lootmax="25">
+  <group name="PVP_Land_Mil_Barracks6_Old" lootmax="25">
     <usage name="Military" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -39730,7 +39730,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Barracks_Round" lootmax="5">
+  <group name="PVP_Land_Mil_Barracks_Round" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -39866,7 +39866,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big1_1" lootmax="5">
+  <group name="PVP_Land_Mil_Tent_Big1_1" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -39970,7 +39970,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big1_2" lootmax="5">
+  <group name="PVP_Land_Mil_Tent_Big1_2" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -40163,7 +40163,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big1_3" lootmax="5">
+  <group name="PVP_Land_Mil_Tent_Big1_3" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -40287,7 +40287,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big1_4" lootmax="5">
+  <group name="PVP_Land_Mil_Tent_Big1_4" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -40396,7 +40396,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big1_5" lootmax="5">
+  <group name="PVP_Land_Mil_Tent_Big1_5" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -40490,7 +40490,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big2_1" lootmax="5">
+  <group name="PVP_Land_Mil_Tent_Big2_1" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -40629,7 +40629,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big2_2" lootmax="5">
+  <group name="PVP_Land_Mil_Tent_Big2_2" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -40778,7 +40778,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big2_3" lootmax="5">
+  <group name="PVP_Land_Mil_Tent_Big2_3" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -40937,7 +40937,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big2_4" lootmax="5">
+  <group name="PVP_Land_Mil_Tent_Big2_4" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -41116,7 +41116,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big2_5" lootmax="5">
+  <group name="PVP_Land_Mil_Tent_Big2_5" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -41320,7 +41320,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big3" lootmax="8">
+  <group name="PVP_Land_Mil_Tent_Big3" lootmax="8">
     <usage name="Military" />
     <container name="lootFloor" lootmax="8">
       <category name="tools" />
@@ -41434,7 +41434,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Tent_Big4" lootmax="8">
+  <group name="PVP_Land_Mil_Tent_Big4" lootmax="8">
     <usage name="Military" />
     <container name="lootFloor" lootmax="8">
       <category name="tools" />
@@ -41573,7 +41573,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_HQ" lootmax="25">
+  <group name="PVP_Land_Tisy_HQ" lootmax="25">
     <usage name="Military" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -42168,7 +42168,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_Garages" lootmax="8">
+  <group name="PVP_Land_Tisy_Garages" lootmax="8">
     <usage name="Military" />
     <container name="lootFloor" lootmax="8">
       <category name="tools" />
@@ -42384,7 +42384,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_Garages2">
+  <group name="PVP_Land_Tisy_Garages2">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="clothes" />
@@ -42657,7 +42657,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_Garages2_Sakhal">
+  <group name="PVP_Land_Tisy_Garages2_Sakhal">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="clothes" />
@@ -42930,7 +42930,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_LaunchControl">
+  <group name="PVP_Land_Tisy_LaunchControl">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="clothes" />
@@ -43173,7 +43173,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_BigHangar_A">
+  <group name="PVP_Land_Tisy_BigHangar_A">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="clothes" />
@@ -43311,7 +43311,7 @@
       <tag name="ground" />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_BigHangar_B">
+  <group name="PVP_Land_Tisy_BigHangar_B">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="clothes" />
@@ -43469,7 +43469,7 @@
       <tag name="ground" />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_Garages3">
+  <group name="PVP_Land_Tisy_Garages3">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="clothes" />
@@ -43577,7 +43577,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_RadarB_Base" lootmax="10">
+  <group name="PVP_Land_Tisy_RadarB_Base" lootmax="10">
     <usage name="Military" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -44103,7 +44103,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_Base_cooler" lootmax="2">
+  <group name="PVP_Land_Tisy_Base_cooler" lootmax="2">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -44150,7 +44150,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_RadarPlatform_Top" lootmax="5">
+  <group name="PVP_Land_Tisy_RadarPlatform_Top" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor" lootmax="5">
       <category name="tools" />
@@ -44232,7 +44232,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_KitchenRoom">
+  <group name="PVP_Land_Tisy_KitchenRoom">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -44348,7 +44348,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tisy_Barracks" lootmax="25">
+  <group name="PVP_Land_Tisy_Barracks" lootmax="25">
     <usage name="Military" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -45024,7 +45024,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_GuardTower" lootmax="2">
+  <group name="PVP_Land_Mil_GuardTower" lootmax="2">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -45057,7 +45057,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Fortified_Nest_Small" lootmax="2">
+  <group name="PVP_Land_Mil_Fortified_Nest_Small" lootmax="2">
     <usage name="Military" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -45097,7 +45097,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Fortified_Nest_Big">
+  <group name="PVP_Land_Mil_Fortified_Nest_Big">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -45197,7 +45197,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Fortified_Nest_Watchtower">
+  <group name="PVP_Land_Mil_Fortified_Nest_Watchtower">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -45267,7 +45267,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_GuardShed" lootmax="2">
+  <group name="PVP_Land_Mil_GuardShed" lootmax="2">
     <usage name="Military" />
     <container name="lootFloor" lootmax="2">
       <category name="weapons" />
@@ -45293,7 +45293,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_ATC_Small">
+  <group name="PVP_Land_Mil_ATC_Small">
     <usage name="Military" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -45407,7 +45407,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_ATC_Big" lootmax="20">
+  <group name="PVP_Land_Mil_ATC_Big" lootmax="20">
     <usage name="Military" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -46246,7 +46246,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Airfield_HQ" lootmax="20">
+  <group name="PVP_Land_Mil_Airfield_HQ" lootmax="20">
     <usage name="Military" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -46746,7 +46746,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_AircraftShelter">
+  <group name="PVP_Land_Mil_AircraftShelter">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -46852,7 +46852,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Guardhouse1" lootmax="2">
+  <group name="PVP_Land_Mil_Guardhouse1" lootmax="2">
     <usage name="Police" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -46973,7 +46973,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Guardhouse2" lootmax="2">
+  <group name="PVP_Land_Mil_Guardhouse2" lootmax="2">
     <usage name="Military" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -47115,7 +47115,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Boathouse">
+  <group name="PVP_Land_Boathouse">
     <usage name="Coast" />
     <container name="lootFloor">
       <category name="tools" />
@@ -47189,7 +47189,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Radio_building" lootmax="15">
+  <group name="PVP_Land_Radio_building" lootmax="15">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -47530,7 +47530,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Village_PoliceStation" lootmax="15">
+  <group name="PVP_Land_Village_PoliceStation" lootmax="15">
     <usage name="Police" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -48096,7 +48096,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Airfield_Small_Control" lootmax="20">
+  <group name="PVP_Land_Airfield_Small_Control" lootmax="20">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="15">
@@ -48693,7 +48693,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Airfield_Small_Hangar" lootmax="10">
+  <group name="PVP_Land_Airfield_Small_Hangar" lootmax="10">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="10">
@@ -48889,7 +48889,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Airfield_Hangar_Green">
+  <group name="PVP_Land_Airfield_Hangar_Green">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -49036,7 +49036,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Airfield_ServiceHangar_L">
+  <group name="PVP_Land_Airfield_ServiceHangar_L">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -49709,7 +49709,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Airfield_ServiceHangar_R">
+  <group name="PVP_Land_Airfield_ServiceHangar_R">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -50331,7 +50331,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Airfield_Radar_Tall">
+  <group name="PVP_Land_Airfield_Radar_Tall">
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
       <category name="containers" />
@@ -50376,7 +50376,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_FuelStation_Build" lootmax="4">
+  <group name="PVP_Land_FuelStation_Build" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
@@ -50447,7 +50447,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_PoliceStation" lootmax="30">
+  <group name="PVP_Land_City_PoliceStation" lootmax="30">
     <usage name="Police" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -51587,7 +51587,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_PoliceStation_Enoch" lootmax="30">
+  <group name="PVP_Land_City_PoliceStation_Enoch" lootmax="30">
     <usage name="Police" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -52727,7 +52727,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_FireStation" lootmax="15">
+  <group name="PVP_Land_City_FireStation" lootmax="15">
     <usage name="Firefighter" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -53532,7 +53532,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_FireStation" lootmax="15">
+  <group name="PVP_Land_Mil_FireStation" lootmax="15">
     <usage name="Military" />
     <usage name="Firefighter" />
     <container name="lootFloor" lootmax="10">
@@ -54338,7 +54338,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_Scaffolding" lootmax="4">
+  <group name="PVP_Land_Misc_Scaffolding" lootmax="4">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -54385,7 +54385,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Prison_Main" lootmax="50">
+  <group name="PVP_Land_Prison_Main" lootmax="50">
     <usage name="Prison" />
     <container name="lootFloor">
       <category name="tools" />
@@ -55370,7 +55370,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Prison_Side" lootmax="30">
+  <group name="PVP_Land_Prison_Side" lootmax="30">
     <usage name="Prison" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -55997,7 +55997,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Prison_Wall_Large" lootmax="8">
+  <group name="PVP_Land_Prison_Wall_Large" lootmax="8">
     <usage name="Prison" />
     <container name="lootFloor">
       <category name="tools" />
@@ -56070,7 +56070,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_School" lootmax="30">
+  <group name="PVP_Land_City_School" lootmax="30">
     <usage name="Town" />
     <usage name="Village" />
     <usage name="School" />
@@ -57472,7 +57472,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Medical_Tent_Shower" lootmax="4">
+  <group name="PVP_Land_Medical_Tent_Shower" lootmax="4">
     <usage name="Medic" />
     <container name="lootFloor">
       <category name="tools" />
@@ -57514,7 +57514,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Medical_Tent_Big" lootmax="8">
+  <group name="PVP_Land_Medical_Tent_Big" lootmax="8">
     <usage name="Medic" />
     <container name="lootFloor">
       <category name="tools" />
@@ -57719,7 +57719,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Village_HealthCare" lootmax="15">
+  <group name="PVP_Land_Village_HealthCare" lootmax="15">
     <usage name="Medic" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -58019,7 +58019,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Village_HealthCare_East" lootmax="15">
+  <group name="PVP_Land_Village_HealthCare_East" lootmax="15">
     <usage name="Medic" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -58319,7 +58319,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_Hospital" lootmax="40">
+  <group name="PVP_Land_City_Hospital" lootmax="40">
     <usage name="Medic" />
     <container name="lootFloor" lootmax="20">
       <category name="tools" />
@@ -58980,7 +58980,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_Hospital_East" lootmax="40">
+  <group name="PVP_Land_City_Hospital_East" lootmax="40">
     <usage name="Medic" />
     <container name="lootFloor" lootmax="20">
       <category name="tools" />
@@ -59641,7 +59641,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_TrailRoof_Big" lootmax="2">
+  <group name="PVP_Land_Misc_TrailRoof_Big" lootmax="2">
     <usage name="Hunting" />
     <container name="lootFloor">
       <category name="tools" />
@@ -59696,7 +59696,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_TrailRoof_Small" lootmax="2">
+  <group name="PVP_Land_Misc_TrailRoof_Small" lootmax="2">
     <usage name="Hunting" />
     <container name="lootFloor">
       <category name="tools" />
@@ -59750,7 +59750,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_DeerStand1" lootmax="2">
+  <group name="PVP_Land_Misc_DeerStand1" lootmax="2">
     <usage name="Hunting" />
     <container name="lootFloor">
       <category name="tools" />
@@ -59777,7 +59777,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_DeerStand2" lootmax="3">
+  <group name="PVP_Land_Misc_DeerStand2" lootmax="3">
     <usage name="Hunting" />
     <container name="lootFloor">
       <category name="tools" />
@@ -59809,7 +59809,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_FeedShack" lootmax="2">
+  <group name="PVP_Land_Misc_FeedShack" lootmax="2">
     <usage name="Hunting" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -59836,7 +59836,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Boat_Small1" lootmax="3">
+  <group name="PVP_Land_Boat_Small1" lootmax="3">
     <usage name="Coast" />
     <container name="lootFloor">
       <category name="tools" />
@@ -59903,7 +59903,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Boat_Small2" lootmax="3">
+  <group name="PVP_Land_Boat_Small2" lootmax="3">
     <usage name="Coast" />
     <container name="lootFloor">
       <category name="tools" />
@@ -59961,7 +59961,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Boat_Small3" lootmax="3">
+  <group name="PVP_Land_Boat_Small3" lootmax="3">
     <usage name="Coast" />
     <container name="lootFloor">
       <category name="tools" />
@@ -60013,7 +60013,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Camp_House_red">
+  <group name="PVP_Land_Camp_House_red">
     <usage name="Hunting" />
     <container name="lootFloor">
       <category name="tools" />
@@ -60159,7 +60159,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Camp_House_white">
+  <group name="PVP_Land_Camp_House_white">
     <usage name="Hunting" />
     <container name="lootFloor">
       <category name="tools" />
@@ -60270,7 +60270,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Camp_House_brown">
+  <group name="PVP_Land_Camp_House_brown">
     <usage name="Hunting" />
     <container name="lootFloor">
       <category name="tools" />
@@ -60376,7 +60376,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Castle_Bergfrit">
+  <group name="PVP_Land_Castle_Bergfrit">
     <usage name="Hunting" />
     <container name="lootFloor">
       <category name="tools" />
@@ -60467,7 +60467,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Castle_Bergfrit2">
+  <group name="PVP_Land_Castle_Bergfrit2">
     <usage name="Hunting" />
     <container name="lootFloor">
       <category name="tools" />
@@ -60603,7 +60603,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Castle_Gate" lootmax="4">
+  <group name="PVP_Land_Castle_Gate" lootmax="4">
     <usage name="Hunting" />
     <container name="lootFloor">
       <category name="tools" />
@@ -60663,7 +60663,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Castle_Stairs_nolc" lootmax="3">
+  <group name="PVP_Land_Castle_Stairs_nolc" lootmax="3">
     <usage name="Hunting" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -60764,7 +60764,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_Greenhouse" lootmax="1">
+  <group name="PVP_Land_Misc_Greenhouse" lootmax="1">
     <usage name="Farm" />
     <container name="lootFloor" lootmax="1">
       <category name="food" />
@@ -60782,7 +60782,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_Polytunnel" lootmax="1">
+  <group name="PVP_Land_Misc_Polytunnel" lootmax="1">
     <usage name="Farm" />
     <container name="lootFloor" lootmax="1">
       <category name="food" />
@@ -60810,7 +60810,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Farm_CowshedA" lootmax="5">
+  <group name="PVP_Land_Farm_CowshedA" lootmax="5">
     <usage name="Farm" />
     <container name="lootFloor" lootmax="5">
       <category name="tools" />
@@ -60856,7 +60856,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Farm_CowshedB" lootmax="5">
+  <group name="PVP_Land_Farm_CowshedB" lootmax="5">
     <usage name="Farm" />
     <container name="lootFloor" lootmax="5">
       <category name="tools" />
@@ -60912,7 +60912,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Farm_CowshedC" lootmax="5">
+  <group name="PVP_Land_Farm_CowshedC" lootmax="5">
     <usage name="Farm" />
     <container name="lootFloor" lootmax="5">
       <category name="tools" />
@@ -60948,7 +60948,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Barn_Brick1">
+  <group name="PVP_Land_Barn_Brick1">
     <usage name="Farm" />
     <container name="lootFloor">
       <category name="tools" />
@@ -61104,7 +61104,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Barn_Brick2">
+  <group name="PVP_Land_Barn_Brick2">
     <usage name="Farm" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -61164,7 +61164,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Barn_Wood1">
+  <group name="PVP_Land_Barn_Wood1">
     <usage name="Farm" />
     <container name="lootFloor">
       <category name="tools" />
@@ -61345,7 +61345,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Barn_Wood2">
+  <group name="PVP_Land_Barn_Wood2">
     <usage name="Farm" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -61414,7 +61414,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Barn_Metal_Big">
+  <group name="PVP_Land_Barn_Metal_Big">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -61755,7 +61755,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Chapel" lootmax="3">
+  <group name="PVP_Land_Chapel" lootmax="3">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -61807,7 +61807,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Church1_Yellow" lootmax="4">
+  <group name="PVP_Land_Church1_Yellow" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -61895,7 +61895,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Church2_2" lootmax="4">
+  <group name="PVP_Land_Church2_2" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -61997,7 +61997,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Church3">
+  <group name="PVP_Land_Church3">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor">
@@ -62180,7 +62180,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Container_1Mo" lootmax="1">
+  <group name="PVP_Land_Container_1Mo" lootmax="1">
     <usage name="Military" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -62208,7 +62208,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Container_1Moh" lootmax="1">
+  <group name="PVP_Land_Container_1Moh" lootmax="1">
     <usage name="Military" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -62236,7 +62236,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Container_1Bo" lootmax="1">
+  <group name="PVP_Land_Container_1Bo" lootmax="1">
     <usage name="Coast" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -62279,7 +62279,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Container_1Aoh" lootmax="1">
+  <group name="PVP_Land_Container_1Aoh" lootmax="1">
     <usage name="Coast" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -62322,7 +62322,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ship_Big_FrontA" lootmax="8">
+  <group name="PVP_Land_Ship_Big_FrontA" lootmax="8">
     <usage name="Military" />
     <usage name="Industrial" />
     <usage name="Coast" />
@@ -62605,7 +62605,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ship_Big_FrontB" lootmax="8">
+  <group name="PVP_Land_Ship_Big_FrontB" lootmax="8">
     <usage name="Military" />
     <usage name="Industrial" />
     <usage name="Coast" />
@@ -62828,7 +62828,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ship_Big_BackA" lootmax="8">
+  <group name="PVP_Land_Ship_Big_BackA" lootmax="8">
     <usage name="Military" />
     <usage name="Industrial" />
     <usage name="Coast" />
@@ -62981,7 +62981,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ship_Big_BackB" lootmax="8">
+  <group name="PVP_Land_Ship_Big_BackB" lootmax="8">
     <usage name="Military" />
     <usage name="Industrial" />
     <usage name="Coast" />
@@ -63134,7 +63134,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ship_Big_Castle" lootmax="45">
+  <group name="PVP_Land_Ship_Big_Castle" lootmax="45">
     <usage name="Military" />
     <usage name="Industrial" />
     <usage name="Coast" />
@@ -64541,7 +64541,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Static_Mi8_Civilian" lootmax="15">
+  <group name="PVP_Land_Static_Mi8_Civilian" lootmax="15">
     <usage name="Military" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -64604,7 +64604,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_C130J" lootmax="10">
+  <group name="PVP_Land_Wreck_C130J" lootmax="10">
     <usage name="Military" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -64615,7 +64615,7 @@
       <tag name="shelves" />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_C130J_2" lootmax="10">
+  <group name="PVP_Land_Wreck_C130J_2" lootmax="10">
     <usage name="Military" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -64626,7 +64626,7 @@
       <tag name="shelves" />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Volha_Police" lootmax="10">
+  <group name="PVP_Land_Wreck_Volha_Police" lootmax="10">
     <usage name="Police" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -64692,7 +64692,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Guardhouse3" lootmax="2">
+  <group name="PVP_Land_Mil_Guardhouse3" lootmax="2">
     <usage name="Police" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -64843,7 +64843,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Guardbox_Smooth" lootmax="1">
+  <group name="PVP_Land_Mil_Guardbox_Smooth" lootmax="1">
     <usage name="Military" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -64876,7 +64876,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Guardbox_Green" lootmax="1">
+  <group name="PVP_Land_Mil_Guardbox_Green" lootmax="1">
     <usage name="Military" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -64909,7 +64909,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Guardbox_Brown" lootmax="1">
+  <group name="PVP_Land_Mil_Guardbox_Brown" lootmax="1">
     <usage name="Military" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -64947,7 +64947,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_ControlTower" lootmax="10">
+  <group name="PVP_Land_Mil_ControlTower" lootmax="10">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -65263,7 +65263,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_ControlTower_East" lootmax="10">
+  <group name="PVP_Land_Mil_ControlTower_East" lootmax="10">
     <usage name="Military" />
     <container name="lootFloor">
       <category name="tools" />
@@ -65579,7 +65579,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Chapel2_Yellow" lootmax="2">
+  <group name="PVP_Land_Chapel2_Yellow" lootmax="2">
     <usage name="Village" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -65620,7 +65620,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Chapel2_Yellow_Dam" lootmax="2">
+  <group name="PVP_Land_Chapel2_Yellow_Dam" lootmax="2">
     <usage name="Village" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -65666,7 +65666,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Chapel2_White" lootmax="2">
+  <group name="PVP_Land_Chapel2_White" lootmax="2">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -65699,7 +65699,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Chapel2_White_Dam" lootmax="2">
+  <group name="PVP_Land_Chapel2_White_Dam" lootmax="2">
     <usage name="Village" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -65740,7 +65740,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Church4" lootmax="4">
+  <group name="PVP_Land_Church4" lootmax="4">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -65841,7 +65841,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Church4_Dam" lootmax="4">
+  <group name="PVP_Land_Church4_Dam" lootmax="4">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -65942,7 +65942,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Church4_Lightblue" lootmax="4">
+  <group name="PVP_Land_Church4_Lightblue" lootmax="4">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -66043,7 +66043,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Church4_Red" lootmax="4">
+  <group name="PVP_Land_Church4_Red" lootmax="4">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -66144,7 +66144,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Church4_White" lootmax="4">
+  <group name="PVP_Land_Church4_White" lootmax="4">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -66245,7 +66245,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Church4_Yellow_Dam" lootmax="4">
+  <group name="PVP_Land_Church4_Yellow_Dam" lootmax="4">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -66346,7 +66346,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Bunker1_Double" lootmax="3">
+  <group name="PVP_Land_Bunker1_Double" lootmax="3">
     <usage name="Military" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -66432,7 +66432,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Bunker1_Left" lootmax="3">
+  <group name="PVP_Land_Bunker1_Left" lootmax="3">
     <usage name="Military" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -66483,7 +66483,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Bunker1_Right" lootmax="3">
+  <group name="PVP_Land_Bunker1_Right" lootmax="3">
     <usage name="Military" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -66554,7 +66554,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Bunker2_Double" lootmax="3">
+  <group name="PVP_Land_Bunker2_Double" lootmax="3">
     <usage name="Military" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -66640,7 +66640,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Bunker2_Left" lootmax="3">
+  <group name="PVP_Land_Bunker2_Left" lootmax="3">
     <usage name="Military" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -66706,7 +66706,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Bunker2_Right" lootmax="3">
+  <group name="PVP_Land_Bunker2_Right" lootmax="3">
     <usage name="Military" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -66782,7 +66782,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_BusStop_Village2">
+  <group name="PVP_Land_BusStop_Village2">
     <usage name="Town" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -66823,7 +66823,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Castle_Bastion2">
+  <group name="PVP_Land_Castle_Bastion2">
     <usage name="Village" />
     <usage name="Hunting" />
     <container name="lootFloor" lootmax="2">
@@ -66880,7 +66880,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Slum_House1" lootmax="4">
+  <group name="PVP_Land_Slum_House1" lootmax="4">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -66977,7 +66977,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Slum_House2" lootmax="2">
+  <group name="PVP_Land_Slum_House2" lootmax="2">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -67001,7 +67001,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Slum_House3">
+  <group name="PVP_Land_Slum_House3">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -67113,7 +67113,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Slum_House4" lootmax="2">
+  <group name="PVP_Land_Slum_House4" lootmax="2">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -67155,7 +67155,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Slum_House5" lootmax="3">
+  <group name="PVP_Land_Slum_House5" lootmax="3">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -67212,7 +67212,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Slum_House6">
+  <group name="PVP_Land_Slum_House6">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -67329,7 +67329,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Slum_House7" lootmax="3">
+  <group name="PVP_Land_Slum_House7" lootmax="3">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="1">
       <category name="tools" />
@@ -67380,7 +67380,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W13_Dam">
+  <group name="PVP_Land_House_1W13_Dam">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -67486,7 +67486,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W13_Dam_NoIvy">
+  <group name="PVP_Land_House_1W13_Dam_NoIvy">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -67582,7 +67582,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tower_TC5">
+  <group name="PVP_Land_Tower_TC5">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -67613,7 +67613,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tower_TC6">
+  <group name="PVP_Land_Tower_TC6">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -67640,7 +67640,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_DieselPowerPlant_Building" lootmax="8">
+  <group name="PVP_Land_DieselPowerPlant_Building" lootmax="8">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="5">
       <category name="tools" />
@@ -67839,7 +67839,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_DieselPowerPlant_Tank_Big">
+  <group name="PVP_Land_DieselPowerPlant_Tank_Big">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -67926,7 +67926,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_DieselPowerPlant_Tank_Small" lootmax="3">
+  <group name="PVP_Land_DieselPowerPlant_Tank_Small" lootmax="3">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -67979,7 +67979,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Barn_Metal_Big_Grey">
+  <group name="PVP_Land_Barn_Metal_Big_Grey">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -68236,7 +68236,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_Closed2" lootmax="10">
+  <group name="PVP_Land_Shed_Closed2" lootmax="10">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -68542,7 +68542,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Garage_Tall" lootmax="3">
+  <group name="PVP_Land_Garage_Tall" lootmax="3">
     <usage name="Industrial" />
     <container name="lootFloor">
       <category name="tools" />
@@ -68607,7 +68607,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_FuelStation_Build_Enoch" lootmax="4">
+  <group name="PVP_Land_FuelStation_Build_Enoch" lootmax="4">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -68674,7 +68674,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Workshop_FuelStation" lootmax="10">
+  <group name="PVP_Land_Workshop_FuelStation" lootmax="10">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -69021,7 +69021,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_Closed_Small1" lootmax="2">
+  <group name="PVP_Land_Shed_Closed_Small1" lootmax="2">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -69076,7 +69076,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Shed_Closed_Small2">
+  <group name="PVP_Land_Shed_Closed_Small2">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -69125,7 +69125,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_Mil_ControlTower">
+  <group name="PVP_Land_Ruin_Mil_ControlTower">
     <usage name="Military" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -69162,7 +69162,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseSmall1">
+  <group name="PVP_Land_Ruin_HouseSmall1">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -69208,7 +69208,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseSmall1_NoIvy">
+  <group name="PVP_Land_Ruin_HouseSmall1_NoIvy">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -69254,7 +69254,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseSmall2">
+  <group name="PVP_Land_Ruin_HouseSmall2">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -69435,7 +69435,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseSmall2_NoIvy">
+  <group name="PVP_Land_Ruin_HouseSmall2_NoIvy">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -69616,7 +69616,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_Church2">
+  <group name="PVP_Land_Ruin_Church2">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -69709,7 +69709,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_Church2_NoIvy">
+  <group name="PVP_Land_Ruin_Church2_NoIvy">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -69802,7 +69802,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Farm_Hopper2">
+  <group name="PVP_Land_Farm_Hopper2">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -69823,7 +69823,7 @@
       <category name="explosives" />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig1">
+  <group name="PVP_Land_Ruin_HouseBig1">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -69974,7 +69974,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig1_NoIvy">
+  <group name="PVP_Land_Ruin_HouseBig1_NoIvy">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -70125,7 +70125,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig1_Half">
+  <group name="PVP_Land_Ruin_HouseBig1_Half">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -70221,7 +70221,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig1_NoIvy_Half">
+  <group name="PVP_Land_Ruin_HouseBig1_NoIvy_Half">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <category name="tools" />
@@ -70317,7 +70317,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig2" lootmax="15">
+  <group name="PVP_Land_Ruin_HouseBig2" lootmax="15">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -70623,7 +70623,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig2_NoIvy" lootmax="15">
+  <group name="PVP_Land_Ruin_HouseBig2_NoIvy" lootmax="15">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -70929,7 +70929,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig2_Half" lootmax="4">
+  <group name="PVP_Land_Ruin_HouseBig2_Half" lootmax="4">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -71030,7 +71030,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig2_NoIvy_Half" lootmax="4">
+  <group name="PVP_Land_Ruin_HouseBig2_NoIvy_Half" lootmax="4">
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -71131,7 +71131,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig3" lootmax="10">
+  <group name="PVP_Land_Ruin_HouseBig3" lootmax="10">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -71312,7 +71312,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig3_NoIvy" lootmax="10">
+  <group name="PVP_Land_Ruin_HouseBig3_NoIvy" lootmax="10">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -71493,7 +71493,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig3_Half">
+  <group name="PVP_Land_Ruin_HouseBig3_Half">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -71619,7 +71619,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ruin_HouseBig3_NoIvy_Half">
+  <group name="PVP_Land_Ruin_HouseBig3_NoIvy_Half">
     <usage name="Village" />
     <container name="lootFloor">
       <category name="tools" />
@@ -71745,7 +71745,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Village_PoliceStation_Enoch" lootmax="15">
+  <group name="PVP_Land_Village_PoliceStation_Enoch" lootmax="15">
     <usage name="Police" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -72310,7 +72310,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Village_PoliceStation_East" lootmax="15">
+  <group name="PVP_Land_Village_PoliceStation_East" lootmax="15">
     <usage name="Police" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -72875,7 +72875,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Village_HealthCare_Enoch" lootmax="15">
+  <group name="PVP_Land_Village_HealthCare_Enoch" lootmax="15">
     <usage name="Medic" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -73175,7 +73175,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Village_Store_Enoch" lootmax="10">
+  <group name="PVP_Land_Village_Store_Enoch" lootmax="10">
     <usage name="Farm" />
     <usage name="Village" />
     <usage name="Hunting" />
@@ -73505,7 +73505,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_offroad02_aban1" lootmax="6">
+  <group name="PVP_Land_Wreck_offroad02_aban1" lootmax="6">
     <usage name="Military" />
     <container name="loot" lootmax="6">
       <category name="containers" />
@@ -73621,7 +73621,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_offroad02_aban2" lootmax="2">
+  <group name="PVP_Land_Wreck_offroad02_aban2" lootmax="2">
     <usage name="Military" />
     <container name="loot" lootmax="2">
       <category name="containers" />
@@ -73720,7 +73720,7 @@
       <proxy type="Offroad_02_Wheel" pos=" -1.7 -1.2 -1.05" rpy="0.0 0.0 0.0" />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb01_aban1_blue" lootmax="3">
+  <group name="PVP_Land_Wreck_hb01_aban1_blue" lootmax="3">
     <usage name="Village" />
     <usage name="Farm" />
     <usage name="Cartools" />
@@ -73821,7 +73821,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb01_aban1_green" lootmax="3">
+  <group name="PVP_Land_Wreck_hb01_aban1_green" lootmax="3">
     <usage name="Village" />
     <usage name="Hunting" />
     <usage name="Farm" />
@@ -73922,7 +73922,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb01_aban1_white" lootmax="3">
+  <group name="PVP_Land_Wreck_hb01_aban1_white" lootmax="3">
     <usage name="Village" />
     <usage name="Farm" />
     <usage name="Cartools" />
@@ -74023,7 +74023,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb01_aban2_blue" lootmax="3">
+  <group name="PVP_Land_Wreck_hb01_aban2_blue" lootmax="3">
     <usage name="Village" />
     <usage name="Farm" />
     <usage name="Cartools" />
@@ -74119,7 +74119,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb01_aban2_green" lootmax="3">
+  <group name="PVP_Land_Wreck_hb01_aban2_green" lootmax="3">
     <usage name="Village" />
     <usage name="Hunting" />
     <usage name="Farm" />
@@ -74216,7 +74216,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb01_aban2_white" lootmax="3">
+  <group name="PVP_Land_Wreck_hb01_aban2_white" lootmax="3">
     <usage name="Village" />
     <usage name="Farm" />
     <usage name="Cartools" />
@@ -74312,7 +74312,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb02_aban1_red" lootmax="3">
+  <group name="PVP_Land_Wreck_hb02_aban1_red" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -74407,7 +74407,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb02_aban1_black" lootmax="3">
+  <group name="PVP_Land_Wreck_hb02_aban1_black" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -74502,7 +74502,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb02_aban1_blue" lootmax="3">
+  <group name="PVP_Land_Wreck_hb02_aban1_blue" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -74597,7 +74597,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb02_aban2_red" lootmax="3">
+  <group name="PVP_Land_Wreck_hb02_aban2_red" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -74702,7 +74702,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb02_aban2_black" lootmax="3">
+  <group name="PVP_Land_Wreck_hb02_aban2_black" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -74807,7 +74807,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_hb02_aban2_blue" lootmax="3">
+  <group name="PVP_Land_Wreck_hb02_aban2_blue" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -74912,7 +74912,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed01_aban1_white" lootmax="3">
+  <group name="PVP_Land_Wreck_sed01_aban1_white" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -75037,7 +75037,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed01_aban1_black" lootmax="3">
+  <group name="PVP_Land_Wreck_sed01_aban1_black" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -75163,7 +75163,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed01_aban1_wine" lootmax="3">
+  <group name="PVP_Land_Wreck_sed01_aban1_wine" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -75288,7 +75288,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed01_aban1_police">
+  <group name="PVP_Land_Wreck_sed01_aban1_police">
     <usage name="Police" />
     <container name="loot" lootmax="6">
       <category name="weapons" />
@@ -75376,7 +75376,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_sed01_aban2_white" lootmax="3">
+  <group name="PVP_Land_Wreck_sed01_aban2_white" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -75491,7 +75491,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed01_aban2_wine" lootmax="3">
+  <group name="PVP_Land_Wreck_sed01_aban2_wine" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -75606,7 +75606,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed01_aban2_black" lootmax="3">
+  <group name="PVP_Land_Wreck_sed01_aban2_black" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -75721,7 +75721,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed01_aban2_police">
+  <group name="PVP_Land_Wreck_sed01_aban2_police">
     <usage name="Police" />
     <container name="loot" lootmax="6">
       <category name="weapons" />
@@ -75809,7 +75809,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_sed02_aban1_yellow" lootmax="3">
+  <group name="PVP_Land_Wreck_sed02_aban1_yellow" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -75905,7 +75905,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed02_aban1_grey" lootmax="3">
+  <group name="PVP_Land_Wreck_sed02_aban1_grey" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -76008,7 +76008,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed02_aban1_red" lootmax="3">
+  <group name="PVP_Land_Wreck_sed02_aban1_red" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -76111,7 +76111,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed02_aban2_yellow" lootmax="3">
+  <group name="PVP_Land_Wreck_sed02_aban2_yellow" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -76216,7 +76216,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed02_aban2_grey" lootmax="3">
+  <group name="PVP_Land_Wreck_sed02_aban2_grey" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -76321,7 +76321,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed02_aban2_red" lootmax="3">
+  <group name="PVP_Land_Wreck_sed02_aban2_red" lootmax="3">
     <usage name="Village" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -76426,7 +76426,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Lunapark_Shooting_Gallery" lootmax="4">
+  <group name="PVP_Land_Lunapark_Shooting_Gallery" lootmax="4">
     <usage name="Town" />
     <usage name="Village" />
     <usage name="Hunting" />
@@ -76572,7 +76572,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Lunapark_Ferris_wheel" lootmax="3">
+  <group name="PVP_Land_Lunapark_Ferris_wheel" lootmax="3">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -76644,7 +76644,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Lunapark_Carousel_Swan" lootmax="3">
+  <group name="PVP_Land_Lunapark_Carousel_Swan" lootmax="3">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="2">
@@ -76711,7 +76711,7 @@
       <category name="explosives" />
     </container>
   </group>
-  <group name="Vanilla_Land_Lunapark_Autodrome" lootmax="3">
+  <group name="PVP_Land_Lunapark_Autodrome" lootmax="3">
     <usage name="Town" />
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
@@ -76785,7 +76785,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_truck01_aban1_green">
+  <group name="PVP_Land_Wreck_truck01_aban1_green">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="loot" lootmax="2">
@@ -76867,7 +76867,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_truck01_aban1_blue">
+  <group name="PVP_Land_Wreck_truck01_aban1_blue">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="loot" lootmax="2">
@@ -76949,7 +76949,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_truck01_aban1_orange">
+  <group name="PVP_Land_Wreck_truck01_aban1_orange">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="loot" lootmax="2">
@@ -77031,7 +77031,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_truck01_aban2_green">
+  <group name="PVP_Land_Wreck_truck01_aban2_green">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="loot" lootmax="2">
@@ -77096,7 +77096,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_truck01_aban2_blue">
+  <group name="PVP_Land_Wreck_truck01_aban2_blue">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="loot" lootmax="2">
@@ -77161,7 +77161,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_truck01_aban2_orange">
+  <group name="PVP_Land_Wreck_truck01_aban2_orange">
     <usage name="Industrial" />
     <usage name="Village" />
     <container name="loot" lootmax="2">
@@ -77226,7 +77226,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_wreck_truck01_aban1_firetruck">
+  <group name="PVP_Land_wreck_truck01_aban1_firetruck">
     <usage name="Firefighter" />
     <container name="loot" lootmax="2">
       <category name="tools" />
@@ -77347,7 +77347,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_wreck_truck01_aban2_firetruck">
+  <group name="PVP_Land_wreck_truck01_aban2_firetruck">
     <usage name="Firefighter" />
     <container name="loot" lootmax="2">
       <category name="tools" />
@@ -77447,7 +77447,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Tenement_Small_Yellow" lootmax="30">
+  <group name="PVP_Land_Tenement_Small_Yellow" lootmax="30">
     <usage name="Town" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -78057,7 +78057,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tenement_Small_Brown" lootmax="30">
+  <group name="PVP_Land_Tenement_Small_Brown" lootmax="30">
     <usage name="Town" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -78612,7 +78612,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tenement_Small_Brick" lootmax="30">
+  <group name="PVP_Land_Tenement_Small_Brick" lootmax="30">
     <usage name="Town" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -79122,7 +79122,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tenement_Medium" lootmax="30">
+  <group name="PVP_Land_Tenement_Medium" lootmax="30">
     <usage name="Town" />
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
@@ -79478,7 +79478,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_MobileLaboratory" lootmax="5">
+  <group name="PVP_Land_MobileLaboratory" lootmax="5">
     <usage name="Military" />
     <usage name="Medic" />
     <usage name="ContaminatedArea" />
@@ -79555,7 +79555,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Airport_Small_Hangar" lootmax="5">
+  <group name="PVP_Land_Airport_Small_Hangar" lootmax="5">
     <usage name="Military" />
     <container name="lootFloor" lootmax="5">
       <category name="tools" />
@@ -79761,7 +79761,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Geoplant_MainHall_Middle" lootmax="7">
+  <group name="PVP_Land_Geoplant_MainHall_Middle" lootmax="7">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="7">
       <category name="tools" />
@@ -79960,7 +79960,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Geoplant_CoolingStack" lootmax="20">
+  <group name="PVP_Land_Geoplant_CoolingStack" lootmax="20">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -80199,7 +80199,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Geoplant_PipeHall" lootmax="5">
+  <group name="PVP_Land_Geoplant_PipeHall" lootmax="5">
     <container name="lootWeapons" lootmax="5">
       <category name="weapons" />
       <point
@@ -80234,7 +80234,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_WarheadStorage_Powerstation" lootmax="7">
+  <group name="PVP_Land_WarheadStorage_Powerstation" lootmax="7">
     <usage name="Military" />
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="7">
@@ -80321,7 +80321,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_WarheadStorage_Main" lootmax="14">
+  <group name="PVP_Land_WarheadStorage_Main" lootmax="14">
     <usage name="Military" />
     <container name="lootFloor" lootmax="14">
       <category name="weapons" />
@@ -80434,7 +80434,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_WarheadStorage_Top">
+  <group name="PVP_Land_WarheadStorage_Top">
     <usage name="Military" />
     <container name="lootFloor" lootmax="6">
       <category name="tools" />
@@ -80520,7 +80520,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Geoplant_Drilltower" lootmax="4">
+  <group name="PVP_Land_Geoplant_Drilltower" lootmax="4">
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="2">
       <category name="tools" />
@@ -80564,7 +80564,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Airport_Small_Main" lootmax="10">
+  <group name="PVP_Land_Airport_Small_Main" lootmax="10">
     <usage name="Military" />
     <usage name="Industrial" />
     <container name="lootFloor" lootmax="10">
@@ -80724,7 +80724,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_DogHouse" lootmax="1">
+  <group name="PVP_Land_Misc_DogHouse" lootmax="1">
     <usage name="Farm" />
     <container name="lootFloor" lootmax="1">
       <category name="food" />
@@ -80737,7 +80737,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_misc_chickenCoop" lootmax="1">
+  <group name="PVP_Land_misc_chickenCoop" lootmax="1">
     <usage name="Village" />
     <container name="lootFloor" lootmax="1">
       <category name="food" />
@@ -80776,7 +80776,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Pier_Crane2_Top" lootmax="5">
+  <group name="PVP_Land_Pier_Crane2_Top" lootmax="5">
     <usage name="Village" />
     <usage name="Hunting" />
     <container name="lootweapons" lootmax="5">
@@ -80828,7 +80828,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Airport_Small_Hangar2" lootmax="15">
+  <group name="PVP_Land_Airport_Small_Hangar2" lootmax="15">
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
       <tag name="floor" />
@@ -80939,7 +80939,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Boat_Small10_Red" lootmax="15">
+  <group name="PVP_Land_Boat_Small10_Red" lootmax="15">
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
       <tag name="floor" />
@@ -80979,7 +80979,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Boat_Small10_Blue" lootmax="15">
+  <group name="PVP_Land_Boat_Small10_Blue" lootmax="15">
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
       <tag name="floor" />
@@ -81019,7 +81019,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Boat_Small9" lootmax="15">
+  <group name="PVP_Land_Boat_Small9" lootmax="15">
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
       <tag name="floor" />
@@ -81059,7 +81059,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Boat_Small7" lootmax="15">
+  <group name="PVP_Land_Boat_Small7" lootmax="15">
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
       <tag name="floor" />
@@ -81113,7 +81113,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Ship_Medium2" lootmax="15">
+  <group name="PVP_Land_Ship_Medium2" lootmax="15">
     <container name="lootFloor" lootmax="15">
       <category name="tools" />
       <tag name="floor" />
@@ -81219,7 +81219,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Village_store_East" lootmax="10">
+  <group name="PVP_Land_Village_store_East" lootmax="10">
     <usage name="Farm" />
     <usage name="Village" />
     <usage name="Hunting" />
@@ -81549,7 +81549,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Geoplant_PowerHall" lootmax="15">
+  <group name="PVP_Land_Geoplant_PowerHall" lootmax="15">
     <container name="lootFloor" lootmax="5">
       <category name="tools" />
       <category name="containers" />
@@ -81575,7 +81575,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tank_Big2" lootmax="10">
+  <group name="PVP_Land_Tank_Big2" lootmax="10">
     <container name="lootWeapons" lootmax="10">
       <category name="weapons" />
       <point
@@ -81655,7 +81655,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Tank_Big3" lootmax="10">
+  <group name="PVP_Land_Tank_Big3" lootmax="10">
     <container name="lootWeapons" lootmax="10">
       <category name="weapons" />
       <point
@@ -81675,7 +81675,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_City_School_East" lootmax="10">
+  <group name="PVP_Land_City_School_East" lootmax="10">
     <usage name="Town" />
     <usage name="Village" />
     <usage name="School" />
@@ -83077,7 +83077,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Geoplant_Corridor_Main" lootmax="10">
+  <group name="PVP_Land_Geoplant_Corridor_Main" lootmax="10">
     <container name="lootWeapons" lootmax="10">
       <category name="weapons" />
       <point
@@ -83182,7 +83182,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Mi8_Civilian" lootmax="10">
+  <group name="PVP_Land_Wreck_Mi8_Civilian" lootmax="10">
     <container name="lootWeapons" lootmax="10">
       <category name="weapons" />
       <point
@@ -83281,7 +83281,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_sed02_aban1_Police" lootmax="10">
+  <group name="PVP_Land_Wreck_sed02_aban1_Police" lootmax="10">
     <usage name="Police" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -83385,7 +83385,7 @@
       <proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0" />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_Wreck_sed02_aban2_Police" lootmax="10">
+  <group name="PVP_Land_Wreck_sed02_aban2_Police" lootmax="10">
     <usage name="Police" />
     <usage name="Industrial" />
     <usage name="Cartools" />
@@ -83481,7 +83481,7 @@
       />
     </dispatch>
   </group>
-  <group name="Vanilla_Land_WarheadStorage_Room1" lootmax="20">
+  <group name="PVP_Land_WarheadStorage_Room1" lootmax="20">
     <usage name="Military" />
     <usage name="Underground" />
     <container name="lootshelves" lootmax="12">
@@ -83812,7 +83812,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_WarheadStorage_Room2" lootmax="20">
+  <group name="PVP_Land_WarheadStorage_Room2" lootmax="20">
     <usage name="Military" />
     <usage name="Underground" />
     <container name="lootshelves" lootmax="12">
@@ -84013,7 +84013,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_WarheadStorage_Room3" lootmax="20">
+  <group name="PVP_Land_WarheadStorage_Room3" lootmax="20">
     <usage name="Military" />
     <usage name="Underground" />
     <container name="lootshelves" lootmax="12">
@@ -84224,7 +84224,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_WarheadStorage_Room4" lootmax="25">
+  <group name="PVP_Land_WarheadStorage_Room4" lootmax="25">
     <usage name="Military" />
     <usage name="Underground" />
     <container name="lootshelves" lootmax="10">
@@ -84475,7 +84475,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Radio_building_East" lootmax="10">
+  <group name="PVP_Land_Radio_building_East" lootmax="10">
     <usage name="Police" />
     <container name="lootFloor" lootmax="10">
       <category name="tools" />
@@ -84659,7 +84659,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Roadblock_WoodenCrate" lootmax="3">
+  <group name="PVP_Land_Roadblock_WoodenCrate" lootmax="3">
     <usage name="Military" />
     <container name="lootFloor" lootmax="3">
       <point
@@ -84704,7 +84704,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_Table_Large_Spawn" lootmax="1">
+  <group name="PVP_Land_Misc_Table_Large_Spawn" lootmax="1">
     <usage name="Village" />
     <container name="lootFloor" lootmax="1">
       <point
@@ -84714,7 +84714,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_Table_Market_Spawn" lootmax="3">
+  <group name="PVP_Land_Misc_Table_Market_Spawn" lootmax="3">
     <usage name="Village" />
     <container name="lootFloor" lootmax="3">
       <point
@@ -84744,7 +84744,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Mil_Radome_Big" lootmax="3">
+  <group name="PVP_Land_Mil_Radome_Big" lootmax="3">
     <usage name="Military" />
     <container name="lootFloor" lootmax="3">
       <point
@@ -84974,7 +84974,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Mining_HaulTruck" lootmax="15">
+  <group name="PVP_Land_Wreck_Mining_HaulTruck" lootmax="15">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="15">
@@ -85077,7 +85077,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Mining_Excavator" lootmax="10">
+  <group name="PVP_Land_Wreck_Mining_Excavator" lootmax="10">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="10">
@@ -85235,7 +85235,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W14_Dam" lootmax="5">
+  <group name="PVP_Land_House_1W14_Dam" lootmax="5">
     <usage name="Industrial" />
     <usage name="Farm" />
     <usage name="Village" />
@@ -85277,7 +85277,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W14_Dam_Snow" lootmax="5">
+  <group name="PVP_Land_House_1W14_Dam_Snow" lootmax="5">
     <usage name="Industrial" />
     <usage name="Farm" />
     <usage name="Village" />
@@ -85319,7 +85319,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W15_Dam" lootmax="5">
+  <group name="PVP_Land_House_1W15_Dam" lootmax="5">
     <usage name="Industrial" />
     <usage name="Farm" />
     <usage name="Village" />
@@ -85371,7 +85371,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_House_1W15_Dam_Snow" lootmax="5">
+  <group name="PVP_Land_House_1W15_Dam_Snow" lootmax="5">
     <usage name="Industrial" />
     <usage name="Farm" />
     <usage name="Village" />
@@ -85423,7 +85423,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Mining_HaulTruck" lootmax="15">
+  <group name="PVP_Land_Wreck_Mining_HaulTruck" lootmax="15">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="15">
@@ -85527,7 +85527,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Wreck_Mining_Excavator" lootmax="10">
+  <group name="PVP_Land_Wreck_Mining_Excavator" lootmax="10">
     <usage name="Industrial" />
     <usage name="Farm" />
     <container name="lootFloor" lootmax="10">
@@ -85686,7 +85686,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_Table_Large_Spawn" lootmax="3">
+  <group name="PVP_Land_Misc_Table_Large_Spawn" lootmax="3">
     <usage name="Hunting" />
     <container name="lootFloor" lootmax="3">
       <category name="containers" />
@@ -85715,7 +85715,7 @@
       />
     </container>
   </group>
-  <group name="Vanilla_Land_Misc_Table_Market_Spawn" lootmax="3">
+  <group name="PVP_Land_Misc_Table_Market_Spawn" lootmax="3">
     <usage name="Hunting" />
     <container name="lootFloor" lootmax="3">
       <category name="containers" />

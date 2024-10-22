@@ -185,6 +185,10 @@
     <pos x="12940.9" y="11.7891" z="5406.33" a="0" group="Bonfire" />
     <pos x="11112.4" y="16.7506" z="14559.3" a="0" group="Bonfire" />
   </event>
+  <event name="StaticHeliCrash">
+    <zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
+    <pos x="7225.3916015625" z="7001.72412109375" a="0.000000" />
+  </event>
   <event name="StaticPoliceCar">
     <pos x="5087.616211" z="11550.746094" />
     <pos x="5359.115723" z="11763.601563" />
