@@ -1,15 +1,15 @@
 # 🎮 Gameserver Details
 
-## 🖥️ ServerNameNotAvailable
+## 🖥️ Server Name Not Available
 
 ### 📋 General Information
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Status | restarting |
+| Status | started |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.sakhal |
-| Version | Unknown |
+| Version | v1.26.158901 |
 | Last Update | None |
 | Comment | None |
 
@@ -28,7 +28,7 @@
 | Crosshair | ✅ Enabled |
 | Shot Validation | ✅ Enabled |
 | Mouse and Keyboard | ❌ Disabled |
-| Whitelist Feature | ❌ Disabled |
+| Whitelist Feature | ✅ Enabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
 | Priority | Salt6199, Mr Purple7299, FosterName420 |
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Tue Oct 22 15:59:35 UTC 2024
+Last updated: Tue Oct 22 23:37:18 UTC 2024
