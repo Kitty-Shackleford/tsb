@@ -1,45 +1,40 @@
-Markdown output generated in README.md.
-the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
+# 🎮 Gameserver Details
 
-## 🖥️ **Server Name Not Available**
+## 🖥️ Server Name Not Available
 
-| **Property**         | **Value**                   |
-|----------------------|------------------------------|
-| Status | 🔵 **The Server is up and running.** |
-| Player Count | 👥 **8/50** |
-| Last Update | 🕒 **2024-02-20T15:00:14** |
-| Comment | 💬 **None** |
-| Banned Users | 🚫 **None** |
-| Game | 🎮 **DayZ (Xbox One)** |
-| Mission | 🏆 **dayzOffline.sakhal** |
-| 3rd Person | ✅ **Enabled** |
-| Crosshair | ✅ **Enabled** |
-| Shot Validation | ✅ **Enabled** |
-| Mouse and Keyboard | ❌ **Disabled** |
-| Base Damage | ✅ **Enabled** |
-| Container Damage | ✅ **Enabled** |
-| Version | 📅 **v1.26.158901** |
+### 📋 General Information
 
----
+| **Property**        | **Value**                  |
+|---------------------|----------------------------|
+| Status | started |
+| Game | DayZ (Xbox One) |
+| Mission | dayzOffline.sakhal |
+| Version | v1.26.158901 |
+| Last Update | None |
+| Comment | None |
 
-## 🖥️ **Server Name Not Available**
+### 👥 Player Information
 
-| **Property**         | **Value**                   |
-|----------------------|------------------------------|
-| Status | 🔵 **The Server is up and running.** |
-| Player Count | 👥 **0/10** |
-| Last Update | 🕒 **None** |
-| Comment | 💬 **None** |
-| Banned Users | 🚫 **None** |
-| Game | 🎮 **DayZ (Xbox One)** |
-| Mission | 🏆 **dayzOffline.sakhal** |
-| 3rd Person | ✅ **Enabled** |
-| Crosshair | ✅ **Enabled** |
-| Shot Validation | ✅ **Enabled** |
-| Mouse and Keyboard | ❌ **Disabled** |
-| Base Damage | ✅ **Enabled** |
-| Container Damage | ✅ **Enabled** |
-| Version | 📅 **v1.26.158901** |
+| **Property**        | **Value**                  |
+|---------------------|----------------------------|
+| Player Count | 0/10 |
+| Banned Users | None |
 
----
+### ⚙️ Server Settings
 
+| **Property**        | **Value**                  |
+|---------------------|----------------------------|
+| 3rd Person | ✅ Enabled |
+| Crosshair | ✅ Enabled |
+| Shot Validation | ✅ Enabled |
+| Mouse and Keyboard | ❌ Disabled |
+| Whitelist Feature | ❌ Disabled |
+| Base Damage | ✅ Enabled |
+| Container Damage | ✅ Enabled |
+| Priority | Salt6199, Mr Purple7299, FosterName420 |
+| Whitelist | Salt6199, Mr Purple7299, FosterName420 |
+
+## Summary of Last Gameserver Check
+
+
+Last updated: Thu Oct 24 20:48:41 UTC 2024
