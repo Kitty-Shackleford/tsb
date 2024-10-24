@@ -9,6 +9,7 @@
     "PlayerData": {
         "spawnGearPresetFiles": [
             "./custom/loadoutbitch.json",
+            "./custom/loadoutbushlatpolice.json",
             "./custom/loadoutcannibal.json",
             "./custom/loadoutcriminal.json",
             "./custom/loadoutcupid.json",
@@ -84,7 +85,8 @@
         "lightingConfig": 2,
         "objectSpawnersArr": [
             "./custom/Airstrip_Snow_Remod_By_SHOTSx3_DZMC_.json",
-            "custom/sakhal_airfield_wall.json",
+            "./custom/sakhal_airfield_wall.json",
+			"./custom/growhouse.json",
             "./custom/sakhal_cebepomopck_cannibal.json",
             "./custom/sakhal_pyahoropck_cannibal.json",
             "./custom/sakhal_tymahobo_cannibal.json",

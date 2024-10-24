@@ -67,6 +67,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   <ce folder="custom">
     <file name="types_halloween.xml" type="types" />
   </ce>
+  <ce folder="custom">
+    <file name="types_xmas.xml" type="types" />
+  </ce>
   <!-- GLOBALS -->
   <ce folder="custom">
     <file name="globals.xml" type="globals" />
@@ -120,6 +123,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   </ce>
   <ce folder="custom">
     <file name="events_halloween.xml" type="events" />
+  </ce>
+  <ce folder="custom">
+    <file name="events_xmas.xml" type="events" />
   </ce>
   <!-- testing -->
   <ce folder="custom">
