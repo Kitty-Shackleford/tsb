@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
 	<!-- MODS -->
+	<group name="Land_Boat_Small7" pos="7230.773926 2.267912 7038.929199" rpy="-0.000000 0.000000 170.999863" a="-80.9999"/>
 	<!-- Airstrip Snow Remod By SHOTSx3 DZMC_ -->
 	<group name="PVP_Land_Mil_ATC_Small" pos="7075.285645 13.018927 7612.703125" rpy="-0.000000 -0.000000 -97.150124" a="-172.85"/>
 	<group name="PVP_Land_Mil_ATC_Big" pos="7071.041992 18.212021 7422.247070" rpy="-0.000000 -0.000000 79.927589" a="10.0724"/>

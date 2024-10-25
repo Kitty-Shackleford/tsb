@@ -24559,7 +24559,7 @@
 		</container>
 	</group>
 	<group name="PVP_Land_Boat_Small10_Red" lootmax="15">
-		<container name="lootFloor" lootmax="15">
+		<container name="lootFloor" lootmax="6">
 			<category name="tools"/>
 			<tag name="floor"/>
 			<point pos="2.949585 0.129969 0.047119" range="0.393921" height="0.984802"/>
@@ -24570,8 +24570,8 @@
 			<point pos="2.887207 -0.915848 1.684570" range="1.199951" height="1.540905" flags="32"/>
 		</container>
 	</group>
-	<group name="PVP_Land_Boat_Small10_Blue" lootmax="15">
-		<container name="lootFloor" lootmax="15">
+	<group name="PVP_Land_Boat_Small10_Blue" lootmax="6">
+		<container name="lootFloor" lootmax="6">
 			<category name="tools"/>
 			<tag name="floor"/>
 			<point pos="2.949585 0.129969 0.047119" range="0.393921" height="0.984802"/>
@@ -24582,8 +24582,8 @@
 			<point pos="2.887207 -0.915848 1.684570" range="1.199951" height="1.540905" flags="32"/>
 		</container>
 	</group>
-	<group name="PVP_Land_Boat_Small9" lootmax="15">
-		<container name="lootFloor" lootmax="15">
+	<group name="PVP_Land_Boat_Small9" lootmax="6">
+		<container name="lootFloor" lootmax="6">
 			<category name="tools"/>
 			<tag name="floor"/>
 			<point pos="3.753418 1.228655 0.044677" range="0.966797" height="2.000000"/>
@@ -24594,8 +24594,8 @@
 			<point pos="5.422363 -0.769958 -4.049317" range="1.199951" height="2.000000" flags="32"/>
 		</container>
 	</group>
-	<group name="PVP_Land_Boat_Small7" lootmax="15">
-		<container name="lootFloor" lootmax="15">
+	<group name="PVP_Land_Boat_Small7" lootmax="9">
+		<container name="lootFloor" lootmax="9">
 			<category name="tools"/>
 			<tag name="floor"/>
 			<point pos="2.966797 1.874987 0.824951" range="0.237500" height="0.593750"/>

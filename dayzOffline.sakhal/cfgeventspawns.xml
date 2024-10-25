@@ -49,6 +49,12 @@
 		<pos x="13900.236328" z="11814.033203"/>
 	</event>
 	<event name="Loot"/>
+	<event name="StaticStorePVP">
+        <pos x="6517.5" y="54.0489" z="7612.56" a="351" group="specialstore" />
+        <pos x="6642.41" y="53.2408" z="6819.31" a="171" group="specialstore" />
+        <pos x="7544.27" y="53.4412" z="6999.06" a="171" group="specialstore" />
+        <pos x="7411.22" y="53.4322" z="7713.25" a="351" group="specialstore" />
+    </event>
 	<event name="StaticMilitaryContainerSpecial">
 		<pos x="643.609436" z="11387.952148"/>
 		<pos x="663.124146" z="11270.853516"/>
