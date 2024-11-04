@@ -630,7 +630,7 @@
       <item name="Mag_IJ70_8Rnd" chance="1.0" />
     </attachments>
     <!-- MakarovPBSuppressor -->
-    <attachments chance="0.10">
+    <attachments chance="1.0">
       <item name="MakarovPBSuppressor" chance="1.00" />
     </attachments>
   </type>
