@@ -13,7 +13,7 @@
         <category name="airstrike"/>
         <category name="cannibal"/>
         <category name="bonfire"/>
-		<category name="xmas"/>
+        <category name="xmas"/>
         <category name="mechanic"/>
         <category name="HeliMi8"/>
         <category name="cartools"/>
@@ -46,6 +46,8 @@
         <usage name="Lunapark"/>
         <usage name="Underground"/>
         <usage name="Admin"/>
+        <usage name="Admin_Green"/>
+        <usage name="Admin_Black"/>
         <usage name="Airstrike"/>
         <usage name="Cannibal"/>
         <usage name="Bonfire"/>

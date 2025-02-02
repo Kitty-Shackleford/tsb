@@ -410,6 +410,7 @@
 		</container>
 	</group>
 	<group name="StaticObj_Wall_TinCom_9">
+		<usage name="Admin_Black"/>
 		<dispatch dechance="1.0">
 			<proxy type="Crossbow_Black" pos="-0.165039 0.691009 3.903320" rpy="0.000000 0.000000 90.000000" dechance="1.0"/>
 		</dispatch>
@@ -1459,6 +1460,7 @@
 	</group>
 	<!-- Exclusive -->
 	<group name="Admin_StaticObj_Wall_TinCom_9">
+		<usage name="Admin_Green"/>
 		<dispatch dechance="1.0">
 			<proxy type="Crossbow_Black" pos="-0.165039 0.691009 3.903320" rpy="0.000000 0.000000 90.000000" dechance="1.0"/>
 		</dispatch>
@@ -26349,12 +26351,30 @@
 			<tag name="floor"/>
 			<tag name="shelves"/>
 			<tag name="ground"/>
-			<point pos="1.280778 -1.087738 0.534238" range="0.339402" height="1.312256"/>
-			<point pos="-2.489923 -1.087738 -0.568799" range="0.479492" height="1.198730"/>
-			<point pos="1.435268 -1.087738 -0.435166" range="0.492053" height="1.533203"/>
-			<point pos="-1.784097 -1.087738 0.510323" range="0.548584" height="1.371460"/>
-			<point pos="2.228142 -1.087738 0.369348" range="0.622205" height="1.669312"/>
-			<point pos="-0.109003 -1.087738 -0.011321" range="0.913440" height="2.000000"/>
+			<dispatch dechance="1.0">
+				<proxy type="AliceBag_Green" pos="1.462890 -0.033699 0.791016" rpy="0.000000 89.999954 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AliceBag_Green" pos="0.326660 -0.029505 0.782715" rpy="0.000000 89.999954 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AliceBag_Green" pos="0.873047 -0.028806 0.769531" rpy="0.000000 89.999954 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AKM" pos="-0.842285 0.017602 -0.918457" rpy="0.000000 91.484543 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AKM" pos="-1.983887 0.017556 -0.963867" rpy="0.000000 91.484543 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AKM" pos="-0.842285 0.434439 -0.918457" rpy="0.000000 91.484543 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AKM" pos="-1.983887 0.434393 -0.963867" rpy="0.000000 91.484543 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AliceBag_Green" pos="2.009277 -0.028787 -0.777832" rpy="0.000000 89.999954 0.000000" dechance="1.0"/>
+			</dispatch>
 		</container>
 	</group>
 	<group name="Land_Container_1Bo_DE" lootmax="15">
@@ -26368,43 +26388,80 @@
 			<tag name="floor"/>
 			<tag name="shelves"/>
 			<tag name="ground"/>
-			<point pos="1.280778 -1.087738 0.534238" range="0.339402" height="1.312256"/>
-			<point pos="-2.489923 -1.087738 -0.568799" range="0.479492" height="1.198730"/>
-			<point pos="1.435268 -1.087738 -0.435166" range="0.492053" height="1.533203"/>
-			<point pos="-1.784097 -1.087738 0.510323" range="0.548584" height="1.371460"/>
-			<point pos="2.228142 -1.087738 0.369348" range="0.622205" height="1.669312"/>
-			<point pos="-0.109003 -1.087738 -0.011321" range="0.913440" height="2.000000"/>
+			<dispatch dechance="1.0">
+				<proxy type="AliceBag_Green" pos="1.462890 -0.033699 0.791016" rpy="0.000000 89.999954 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AliceBag_Green" pos="0.326660 -0.029505 0.782715" rpy="0.000000 89.999954 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AliceBag_Green" pos="0.873047 -0.028806 0.769531" rpy="0.000000 89.999954 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AKM" pos="-0.842285 0.017602 -0.918457" rpy="0.000000 91.484543 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AKM" pos="-1.983887 0.017556 -0.963867" rpy="0.000000 91.484543 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AKM" pos="-0.842285 0.434439 -0.918457" rpy="0.000000 91.484543 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AKM" pos="-1.983887 0.434393 -0.963867" rpy="0.000000 91.484543 0.000000" dechance="1.0"/>
+			</dispatch>
+			<dispatch dechance="1.0">
+				<proxy type="AliceBag_Green" pos="2.009277 -0.028787 -0.777832" rpy="0.000000 89.999954 0.000000" dechance="1.0"/>
+			</dispatch>
 		</container>
 	</group>
-	<group name="Land_Container_1Mo_DE" lootmax="15">
-		<usage name="Military"/>
-		<usage name="SeasonalEvent"/>
-		<value name="Unique"/>
-		<container name="lootFloor" lootmax="15">
-			<category name="weapons"/>
-			<category name="explosives"/>
-			<tag name="floor"/>
-			<tag name="shelves"/>
-			<tag name="ground"/>
-			<point pos="-2.160580 -1.098483 0.040472" range="0.695068" height="1.737670"/>
-			<point pos="-0.503185 -1.098483 -0.055332" range="0.962891" height="2.000000"/>
-			<point pos="1.861666 -1.098483 0.032419" range="1.030762" height="2.000000"/>
-		</container>
+	<group name="Land_Container_1Mo_DE">
+		<dispatch dechance="1.0">
+			<proxy type="AliceBag_Green" pos="0.326660 -0.029505 -0.782715" rpy="-0.000000 89.999954 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AliceBag_Green" pos="0.873047 -0.028806 -0.769531" rpy="-0.000000 89.999954 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AKM" pos="-0.842285 0.017602 -0.918457" rpy="-0.000000 -91.484543 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AKM" pos="-1.983887 0.017556 -0.963867" rpy="-0.000000 -91.484543 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AKM" pos="-0.842285 0.434439 -0.918457" rpy="-0.000000 -91.484543 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AKM" pos="-1.983887 0.434393 -0.963867" rpy="-0.000000 -91.484543 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AliceBag_Green" pos="2.009277 -0.028787 -0.777832" rpy="-0.000000 89.999954 -0.000000" dechance="1.0"/>
+		</dispatch>
 	</group>
-	<group name="Land_Container_1Moh_DE" lootmax="15">
-		<usage name="Military"/>
-		<usage name="SeasonalEvent"/>
-		<value name="Unique"/>
-		<container name="lootFloor" lootmax="15">
-			<category name="weapons"/>
-			<category name="explosives"/>
-			<tag name="floor"/>
-			<tag name="shelves"/>
-			<tag name="ground"/>
-			<point pos="-2.160580 -1.098483 0.040472" range="0.695068" height="1.737670"/>
-			<point pos="-0.503185 -1.098483 -0.055332" range="0.962891" height="2.000000"/>
-			<point pos="1.861666 -1.098483 0.032419" range="1.030762" height="2.000000"/>
-		</container>
+	<group name="Land_Container_1Moh_DE">
+		<dispatch dechance="1.0">
+			<proxy type="AliceBag_Green" pos="1.462890 -0.033699 -0.791016" rpy="-0.000000 89.999954 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AliceBag_Green" pos="0.326660 -0.029505 -0.782715" rpy="-0.000000 89.999954 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AliceBag_Green" pos="0.873047 -0.028806 -0.769531" rpy="-0.000000 89.999954 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AKM" pos="-0.842285 0.017602 -0.918457" rpy="-0.000000 -91.484543 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AKM" pos="-1.983887 0.017556 -0.963867" rpy="-0.000000 -91.484543 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AKM" pos="-0.842285 0.434439 -0.918457" rpy="-0.000000 -91.484543 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AKM" pos="-1.983887 0.434393 -0.963867" rpy="-0.000000 -91.484543 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="AliceBag_Green" pos="2.009277 -0.028787 -0.777832" rpy="-0.000000 89.999954 -0.000000" dechance="1.0"/>
+		</dispatch>
 	</group>
 	<group name="Land_Wreck_V3S_DE" lootmax="15">
 		<usage name="Military"/>

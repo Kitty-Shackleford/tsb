@@ -4,7 +4,7 @@
     <deadline>120</deadline>
     <shutdown>1</shutdown>
     <text>
-      [ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ]  [ SERVER: Lonestar | https://discord.gg/jvDrNT6aCx ]  WILL
+      [ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ]  [ SERVER: TSB | https://discord.gg/jvDrNT6aCx ]  WILL
       REBOOT IN #tmin MINS PARK AND EXIT YOUR
       VEHICLE |  https://shop.killfeed.xyx | [ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ ПРЕДУПРЕЖДЕНИЕ]
     </text>
@@ -14,14 +14,14 @@
     <onconnect>1</onconnect>
     <text>
       [ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ] | SERVER
-      NAME: Lonestar | JOIN THE
+      NAME: TSB | JOIN THE
       DISCORD | https://discord.gg/jvDrNT6aCx | [ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ ВИСКИ]
     </text>
   </message>
   <message>
     <repeat>6</repeat>
     <text>
-      [ВИСКИ ВИСКИ ВИСКИ ВИСКИ] SERVER NAME: Lonestar  | JOIN THE
+      [ВИСКИ ВИСКИ ВИСКИ ВИСКИ] SERVER NAME: TSB  | JOIN THE
       DISCORD | https://discord.gg/jvDrNT6aCx | SHOP | https://shop.killfeed.xyx | LEADERBOARD | https://player.killfeed.xyz/dashboard/global/statistics/ |[ВИСКИ ВИСКИ ВИСКИ ВИСКИ]
     </text>
   </message>

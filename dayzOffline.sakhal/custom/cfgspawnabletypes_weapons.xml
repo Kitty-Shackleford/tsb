@@ -43,6 +43,19 @@
   <type name="SSG82Optic">
     <damage min="0.0" max="0.0" />
   </type>
+  <type name="ChestHolster">
+    <damage min="0.0" max="0.0" />
+    <attachments chance="1.00">
+      <item name="MakarovIJ70" chance="0.30" />
+      <item name="MKII" chance="0.10" />
+      <item name="CZ75" chance="0.10" />
+      <item name="Glock19" chance="0.10" />
+      <item name="FNX45" chance="0.10" />
+      <item name="Engraved1911" chance="0.10" />
+      <item name="Deagle_Gold" chance="0.10" />
+      <item name="FNX45_arrow" chance="0.10" />
+</attachments>
+  </type>
   <type name="Ammo_40mm_Explosive">
     <damage min="0.0" max="0.0" />
   </type>

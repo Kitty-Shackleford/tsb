@@ -3,10 +3,10 @@
 	<!--START OF ZOMBIES  -->
 	<!--NBC-->
 	<type name="LandMineTrap">
-		<damage min="1.0" max="1.0"/>
+		<damage min="0" max="0"/>
 	</type>
 	<type name="Grenade_ChemGas">
-		<damage min="1.0" max="1.0"/>
+		<damage min="0" max="0"/>
 	</type>
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="grossInfected"/>

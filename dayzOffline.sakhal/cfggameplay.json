@@ -84,17 +84,20 @@
     "WorldsData": {
         "lightingConfig": 2,
         "objectSpawnersArr": [
-            "./custom/Airstrip_Snow_Remod_By_SHOTSx3_DZMC_.json",
+            "./custom/sakhal_hobo_slums.json",
+            "./custom/sakhal_hobar_paintball.json",
+            "./custom/sakhal_ramp.json",
+            "./custom/sakhal_hobar_parkinglot.json",
             "./custom/sakhal_airfield_wall.json",
             "./custom/qr_code.json",
             "./custom/sakhal_cebepomopck_cannibal.json",
             "./custom/sakhal_pyahoropck_cannibal.json",
             "./custom/sakhal_tymahobo_cannibal.json",
-            "./custom/ssakhal_wahtap_cannibal.json",
+            "./custom/sakhal_wahtap_cannibal.json",
             "./custom/sakhal_ywkn_cannibal.json"
         ],
-        "environmentMinTemps": [-6.5, -9.5, -6.5, -9.5, 2, 6, 9, 10, 6, 1, -5, -10],
-        "environmentMaxTemps": [-3, -5, -3, -5, 9, 14, 16, 17, 14, 8, 1, -3],
+        "environmentMinTemps": [3, 5, 9, 13, 18, 22, 24, 23, 19, 12, 7, 4],
+        "environmentMaxTemps": [12, 14, 18, 22, 27, 33, 35, 34, 30, 23, 16, 12],
         "wetnessWeightModifiers": [1.0, 1.0, 1.33, 1.66, 2.0],
         "playerRestrictedAreaFiles": ["pra/warheadstorage.json"]
     },
@@ -128,7 +131,7 @@
             "hitDirectionOverrideEnabled": false,
             "hitDirectionBehaviour": 1,
             "hitDirectionStyle": 0,
-            "hitDirectionIndicatorColorStr": "0xb00b69",
+            "hitDirectionIndicatorColorStr": "0xffb00b69",
             "hitDirectionMaxDuration": 2,
             "hitDirectionBreakPointRelative": 0.2,
             "hitDirectionScatter": 10,

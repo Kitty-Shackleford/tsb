@@ -288,9 +288,7 @@
     <hoarder />
   </type>
   <type name="UndergroundStash">
-    <cargo preset="halloween_01" />
-    <cargo preset="halloween_02" />
-    <cargo preset="halloween_03" />
+    <hoarder />
   </type>
   <type name="UndergroundStashSnow">
     <hoarder />

@@ -1,4 +1,11 @@
 {
-  "Areas": [],
-  "SafePositions": []
+    "Areas": [],
+    "SafePositions": [[
+            12114,
+            9810
+        ],
+        [
+            12120,
+            9723
+        ]]
 }
