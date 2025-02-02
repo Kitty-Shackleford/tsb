@@ -26,15 +26,15 @@
 |---------------------|----------------------------|
 | 3rd Person | ✅ Enabled |
 | Crosshair | ✅ Enabled |
-| Shot Validation | ✅ Enabled |
+| Shot Validation | ❌ Disabled |
 | Mouse and Keyboard | ❌ Disabled |
 | Whitelist Feature | ❌ Disabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
-| Priority | Salt6199, Mr Purple7299, FosterName420 |
-| Whitelist | Salt6199, Mr Purple7299, FosterName420 |
+| Priority |  |
+| Whitelist |  |
 
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun Feb  2 12:36:56 UTC 2025
+Last updated: Sun Feb  2 13:17:09 UTC 2025
