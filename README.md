@@ -6,7 +6,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Status | started |
+| Status | restarting |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.sakhal |
 | Version | v1.26.159040 |
@@ -26,7 +26,7 @@
 |---------------------|----------------------------|
 | 3rd Person | ✅ Enabled |
 | Crosshair | ✅ Enabled |
-| Shot Validation | ❌ Disabled |
+| Shot Validation | ✅ Enabled |
 | Mouse and Keyboard | ❌ Disabled |
 | Whitelist Feature | ❌ Disabled |
 | Base Damage | ✅ Enabled |
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Tue Feb  4 03:38:27 UTC 2025
+Last updated: Tue Feb  4 03:46:16 UTC 2025
