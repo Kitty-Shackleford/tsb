@@ -1,6 +1,6 @@
 # 🎮 Gameserver Details
 
-## 🖥️ ServerNameNotAvailable
+## 🖥️ DaddysUnfinishedBasementPVPNOSAFEWORDS
 
 ### 📋 General Information
 
@@ -9,7 +9,7 @@
 | Status | started |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
-| Version | Unknown |
+| Version | v1.27.159420 |
 | Last Update | None |
 | Comment | None |
 
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Thu Mar  6 05:46:18 UTC 2025
+Last updated: Thu Mar  6 05:54:06 UTC 2025
