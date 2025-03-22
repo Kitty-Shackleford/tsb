@@ -1,15 +1,15 @@
 # 🎮 Gameserver Details
 
-## 🖥️ SkillIssuePVPNOMERCYNOSAFEZONES
+## 🖥️ ServerNameNotAvailable
 
 ### 📋 General Information
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Status | started |
+| Status | restarting |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
-| Version | v1.27.159586 |
+| Version | Unknown |
 | Last Update | None |
 | Comment | None |
 
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sat Mar 22 19:04:11 UTC 2025
+Last updated: Sat Mar 22 19:16:28 UTC 2025
