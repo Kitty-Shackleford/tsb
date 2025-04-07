@@ -1,6 +1,6 @@
 # 🎮 Gameserver Details
 
-## 🖥️ ServerNameNotAvailable
+## 🖥️ Server Name Not Available
 
 ### 📋 General Information
 
@@ -9,7 +9,7 @@
 | Status | started |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
-| Version | Unknown |
+| Version | v1.27.159674 |
 | Last Update | None |
 | Comment | None |
 
@@ -17,7 +17,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 0/10 |
+| Player Count | 1/10 |
 | Banned Users | None |
 
 ### ⚙️ Server Settings
@@ -28,7 +28,7 @@
 | Crosshair | ✅ Enabled |
 | Shot Validation | ✅ Enabled |
 | Mouse and Keyboard | ❌ Disabled |
-| Whitelist Feature | ✅ Enabled |
+| Whitelist Feature | ❌ Disabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
 | Priority |  |
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Mon Apr  7 21:16:43 UTC 2025
+Last updated: Mon Apr  7 21:27:33 UTC 2025
