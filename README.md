@@ -6,7 +6,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Status | started |
+| Status | updating |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
 | Version | Unknown |
@@ -28,13 +28,13 @@
 | Crosshair | ✅ Enabled |
 | Shot Validation | ✅ Enabled |
 | Mouse and Keyboard | ❌ Disabled |
-| Whitelist Feature | ❌ Disabled |
+| Whitelist Feature | ✅ Enabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
 | Priority |  |
-| Whitelist |  |
+| Whitelist | Salt6199 |
 
 ## Summary of Last Gameserver Check
 
 
-Last updated: Mon Apr  7 14:04:58 UTC 2025
+Last updated: Mon Apr  7 14:16:58 UTC 2025
