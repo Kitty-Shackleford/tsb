@@ -6,7 +6,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Status | started |
+| Status | restarting |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
 | Version | Unknown |
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Tue Apr 15 06:55:55 UTC 2025
+Last updated: Tue Apr 15 07:06:40 UTC 2025
