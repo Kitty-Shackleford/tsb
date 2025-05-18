@@ -1,6 +1,6 @@
 # 🎮 Gameserver Details
 
-## 🖥️ Server Name Not Available
+## 🖥️ ServerNameNotAvailable
 
 ### 📋 General Information
 
@@ -9,7 +9,7 @@
 | Status | started |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
-| Version | v1.27.159674 |
+| Version | Unknown |
 | Last Update | None |
 | Comment | None |
 
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun May 18 14:53:07 UTC 2025
+Last updated: Sun May 18 15:04:27 UTC 2025
