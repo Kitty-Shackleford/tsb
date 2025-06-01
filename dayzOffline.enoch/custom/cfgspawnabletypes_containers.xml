@@ -287,6 +287,11 @@
 	<type name="SmallProtectorCase">
 		<hoarder/>
 	</type>
+	<type name="ImprovisedExplosive">
+		<cargo chance="1.00">
+			<item name="RemoteDetonator"/>
+		</cargo>
+	</type>
 	<type name="UndergroundStash">
 		<cargo preset="halloween_01"/>
 		<cargo preset="halloween_02"/>

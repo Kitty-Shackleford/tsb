@@ -41,7 +41,7 @@
             "./custom/loadoutwitch.json",
             "./custom/loadoutwolfman.json",
             "./custom/loadoutyellowking.json",
-			"./custom/loadoutnvg.json"
+            "./custom/loadoutnvg.json"
         ],
         "disablePersonalLight": true,
         "StaminaData": {
@@ -86,22 +86,17 @@
     },
     "BaseBuildingData": {
         "HologramData": {
-            "disableIsCollidingBBoxCheck": true,
-            "disableIsCollidingPlayerCheck": true,
-            "disableIsClippingRoofCheck": true,
-            "disableIsBaseViableCheck": true,
+            "disableIsCollidingBBoxCheck": false,
+            "disableIsCollidingPlayerCheck": false,
+            "disableIsClippingRoofCheck": false,
+            "disableIsBaseViableCheck": false,
             "disableIsCollidingGPlotCheck": false,
-            "disableIsCollidingAngleCheck": true,
-            "disableIsPlacementPermittedCheck": true,
-            "disableHeightPlacementCheck": true,
+            "disableIsCollidingAngleCheck": false,
+            "disableIsPlacementPermittedCheck": false,
+            "disableHeightPlacementCheck": false,
             "disableIsUnderwaterCheck": false,
-            "disableIsInTerrainCheck": true,
-            "disableColdAreaBuildingCheck": false,
-            "disallowedTypesInUnderground": [
-                "FenceKit",
-                "TerritoryFlagKit",
-                "WatchtowerKit"
-            ]
+            "disableIsInTerrainCheck": false,
+            "disallowedTypesInUnderground": ["FenceKit", "TerritoryFlagKit", "WatchtowerKit"]
         },
         "ConstructionData": {
             "disablePerformRoofCheck": true,

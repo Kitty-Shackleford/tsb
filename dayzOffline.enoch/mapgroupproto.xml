@@ -4008,7 +4008,8 @@
 			<proxy type="ClaymoreMine" pos="6.264497 -0.635943 0.099059" rpy="0.0 0.0 0.0" dechance="1.0"/>
 		</dispatch>
 		<dispatch dechance="1.0">
-			<proxy type="Plastic_Explosive" pos="6.344453 -0.974844 0.079847" rpy="0.0 -3.0 0.0" dechance="1.0"/>
+			<proxy type="Plastic_Explosive" pos="6.344453 -0.974844 0.079847" rpy="0.0 -3.0 0.0" dechance="0.5"/>
+			<proxy type="RemoteDetonator" pos="6.344453 -0.974844 0.079847" rpy="0.0 -3.0 0.0" dechance="0.5"/>
 		</dispatch>
 		<dispatch dechance="1.0">
 			<proxy type="ImprovisedExplosive" pos="6.264497 -2.146550 0.070875" rpy="0.0 -3.0 0.0" dechance="1.0"/>

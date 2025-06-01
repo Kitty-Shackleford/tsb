@@ -746,7 +746,9 @@
 		<pos x="2166" y="286.427" z="7017.14" a="188.162" group="specialstore"/>
 		<pos x="2405.67" y="286.423" z="6963.03" a="188.162" group="specialstore"/>
 		<pos x="2205.66" y="286.424" z="6917.29" a="188.162" group="specialstore"/>
-		<pos x="2314.08" y="286.426" z="7079.56" a="188.162" group="specialstore"/>
+	</event>
+	<event name="StaticBuildMaze">
+		<pos x="2314.08" y="286.426" z="7079.56" a="188.162" group="BuilderEvent"/>
 	</event>
 	<event name="StaticMi8Wreck">
 		<pos x="1919.99" z="6848.7" a="0" group="supplymi8helicrash"/>

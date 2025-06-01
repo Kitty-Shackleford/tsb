@@ -127,14 +127,29 @@
 		<children/>
 	</event>
 	<event name="StaticStoreMaze">
-		<nominal>4</nominal>
-		<min>4</min>
-		<max>4</max>
+		<nominal>3</nominal>
+		<min>3</min>
+		<max>3</max>
 		<lifetime>2100</lifetime>
 		<restock>0</restock>
 		<saferadius>0</saferadius>
-		<distanceradius>10</distanceradius>
-		<cleanupradius>50</cleanupradius>
+		<distanceradius>0</distanceradius>
+		<cleanupradius>0</cleanupradius>
+		<flags deletable="1" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>1</active>
+		<children/>
+	</event>
+	<event name="StaticBuildMaze">
+		<nominal>1</nominal>
+		<min>1</min>
+		<max>1</max>
+		<lifetime>2100</lifetime>
+		<restock>0</restock>
+		<saferadius>0</saferadius>
+		<distanceradius>0</distanceradius>
+		<cleanupradius>0</cleanupradius>
 		<flags deletable="1" init_random="0" remove_damaged="1"/>
 		<position>fixed</position>
 		<limit>child</limit>
