@@ -18,7 +18,7 @@
 	</type>
 	<type name="ZmbM_NBC_White">
 		<cargo preset="grossInfected"/>
-		<cargo preset="ContaminatedCargo"/>
+		<cargo preset="SpecialCargo"/>
 	</type>
 	<!--ARMY-->
 	<type name="ZmbM_PatrolNormal_Autumn">

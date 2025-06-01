@@ -264,37 +264,6 @@
 		<tag name="floor"/>
 		<usage name="Firefighter"/>
 	</type>
-	<type name="ChristmasTree_Green">
-		<nominal>0</nominal>
-		<lifetime>3</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="Land_Village_Store_East">
-		<nominal>0</nominal>
-		<lifetime>3</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	<type name="StaticObj_Wall_GarbCont">
-		<nominal>0</nominal>
-		<lifetime>3</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	</type>
-	
 	<!-- CLOTHES -->
 	<type name="ZSh3PilotHelmet_Black">
 		<nominal>15</nominal>
@@ -612,7 +581,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="food"/>
+		<category name="chicken"/>
 		<tag name="floor"/>
 		<usage name="Chicken"/>
 	</type>
@@ -2131,7 +2100,6 @@
 		<tag name="shelves"/>
 		<usage name="SeasonalEvent_XMAS"/>
 	</type>
--->
 	<type name="Truck_02">
 		<nominal>0</nominal>
 		<lifetime>3</lifetime>
@@ -2151,6 +2119,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="Truck_01_Door_2_1">
 		<nominal>0</nominal>
@@ -2161,6 +2130,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="Truck_02_Wheel">
 		<nominal>0</nominal>
@@ -2171,6 +2141,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="Truck_01_Chassis">
 		<nominal>0</nominal>
@@ -2262,6 +2233,53 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
+	<type name="Van_01">
+		<attachments chance="1.00">
+			<item name="Van_01_Door_2_1" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Van_01_Door_1_1" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Van_01_Door_2_2" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Van_01_Trunk_1" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Van_01_Trunk_2" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Van_01_Wheel" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Van_01_Wheel" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Van_01_Wheel" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Van_01_Wheel" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CanisterGasoline" chance="1.00"/>
+		</attachments>
+	</type>
 	<type name="Van_01_Wheel">
 		<nominal>40</nominal>
 		<lifetime>28800</lifetime>
@@ -2271,6 +2289,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="Van_01_Door_2_1">
 		<nominal>0</nominal>
@@ -2281,6 +2300,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="Van_01_Door_1_1">
 		<nominal>0</nominal>
@@ -2291,6 +2311,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="Van_01_Door_2_2">
 		<nominal>0</nominal>
@@ -2301,6 +2322,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="Van_01_Trunk_1">
 		<nominal>0</nominal>
@@ -2311,6 +2333,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="Van_01_Trunk_2">
 		<nominal>0</nominal>
@@ -2321,6 +2344,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="TransitBusWheel">
 		<nominal>0</nominal>
@@ -2331,6 +2355,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="TransitBusWheelDouble">
 		<nominal>0</nominal>
@@ -2341,6 +2366,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="BusHood">
 		<nominal>0</nominal>
@@ -2351,6 +2377,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="BusDoor_Left">
 		<nominal>0</nominal>
@@ -2361,6 +2388,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
 	<type name="BusDoor_Right">
 		<nominal>0</nominal>
@@ -2371,5 +2399,7 @@
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="vehiclesparts"/>
 	</type>
+	NOT WORKING -->
 </types>

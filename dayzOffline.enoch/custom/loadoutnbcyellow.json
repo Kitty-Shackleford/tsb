@@ -319,7 +319,7 @@
       },
       "complexChildrenTypes": [
         {
-          "itemType": "Ammo_40mm_ChemGas",
+          "itemType": "Ammo_40mm_Smoke_Black",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
@@ -329,7 +329,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Ammo_40mm_ChemGas",
+          "itemType": "Ammo_40mm_Smoke_Black",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
@@ -339,7 +339,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Ammo_40mm_ChemGas",
+          "itemType": "Ammo_40mm_Smoke_Black",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
@@ -381,7 +381,7 @@
       },
       "complexChildrenTypes": [
         {
-          "itemType": "Ammo_40mm_Explosive",
+          "itemType": "Ammo_40mm_Smoke_Green",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
@@ -391,7 +391,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Ammo_40mm_Explosive",
+          "itemType": "Ammo_40mm_Smoke_Green",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
@@ -401,7 +401,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Ammo_40mm_Explosive",
+          "itemType": "Ammo_40mm_Smoke_Green",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
@@ -443,7 +443,7 @@
       },
       "complexChildrenTypes": [
         {
-          "itemType": "Ammo_40mm_Explosive",
+          "itemType": "Ammo_40mm_Smoke_Red",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
@@ -453,7 +453,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Ammo_40mm_Explosive",
+          "itemType": "Ammo_40mm_Smoke_Red",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
@@ -463,7 +463,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Ammo_40mm_Explosive",
+          "itemType": "Ammo_40mm_Smoke_Red",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
