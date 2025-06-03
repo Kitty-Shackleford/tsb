@@ -1,40 +1,24 @@
-# 🎮 Gameserver Details
+Markdown output generated in README.md.
+the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 
-## 🖥️ ServerNameNotAvailable
+## 🖥️ **Server Name Not Available**
 
-### 📋 General Information
+| **Property**         | **Value**                   |
+|----------------------|------------------------------|
+| Status | ❓ **Unknown status.** |
+| Player Count | 👥 **0/20** |
+| Last Update | 🕒 **None** |
+| Comment | 💬 **None** |
+| Banned Users | 🚫 **None** |
+| Game | 🎮 **DayZ (Xbox One)** |
+| Mission | 🏆 **dayzOffline.enoch** |
+| 3rd Person | ✅ **Enabled** |
+| Crosshair | ✅ **Enabled** |
+| Shot Validation | ✅ **Enabled** |
+| Mouse and Keyboard | ❌ **Disabled** |
+| Base Damage | ✅ **Enabled** |
+| Container Damage | ✅ **Enabled** |
+| Version | 📅 **Unknown** |
 
-| **Property**        | **Value**                  |
-|---------------------|----------------------------|
-| Status | started |
-| Game | DayZ (Xbox One) |
-| Mission | dayzOffline.enoch |
-| Version | Unknown |
-| Last Update | None |
-| Comment | None |
+---
 
-### 👥 Player Information
-
-| **Property**        | **Value**                  |
-|---------------------|----------------------------|
-| Player Count | 0/20 |
-| Banned Users | None |
-
-### ⚙️ Server Settings
-
-| **Property**        | **Value**                  |
-|---------------------|----------------------------|
-| 3rd Person | ✅ Enabled |
-| Crosshair | ✅ Enabled |
-| Shot Validation | ✅ Enabled |
-| Mouse and Keyboard | ❌ Disabled |
-| Whitelist Feature | ❌ Disabled |
-| Base Damage | ✅ Enabled |
-| Container Damage | ✅ Enabled |
-| Priority |  |
-| Whitelist | Salt6199 |
-
-## Summary of Last Gameserver Check
-
-
-Last updated: Tue Jun  3 13:23:00 UTC 2025
