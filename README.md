@@ -6,7 +6,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Status | started |
+| Status | restarting |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
 | Version | Unknown |
@@ -31,10 +31,10 @@
 | Whitelist Feature | ✅ Enabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
-| Priority | Salt6199 |
-| Whitelist | Salt6199 |
+| Priority | Salt6199, Mr Purple7299 |
+| Whitelist | Salt6199, Mr Purple7299 |
 
 ## Summary of Last Gameserver Check
 
 
-Last updated: Fri Jun 13 18:19:54 UTC 2025
+Last updated: Fri Jun 13 18:36:57 UTC 2025
