@@ -424,4 +424,51 @@
     <active>1</active>
     <children/>
   </event>
+  <event name="StaticNPC">
+  <nominal>1</nominal>
+  <min>1</min>
+  <max>1</max>
+  <lifetime>60</lifetime>
+  <restock>0</restock>
+  <saferadius>25</saferadius>
+  <distanceradius>25</distanceradius>
+  <cleanupradius>0</cleanupradius>
+  <flags deletable="0" init_random="0" remove_damaged="1"></flags>
+  <position>fixed</position>
+  <limit>mixed</limit>
+  <active>0</active>
+  <children>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Eva"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Frida"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Gabi"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Irena"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Helga"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Judy"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Keiko"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Linda"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Maria"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Naomi"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Boris"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Denis"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Cyril"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Elias"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Francis"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Guo"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Hassan"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Indar"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Jose"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Kaito"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Lewis"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Manua"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Mirek"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Niki"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Oliver"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Peter"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Quinn"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Rolf"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Seth"></child>
+    <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorM_Taiki"></child>
+  </children>
+</event>
+
 </events>
