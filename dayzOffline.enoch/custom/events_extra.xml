@@ -436,7 +436,7 @@
   <flags deletable="0" init_random="0" remove_damaged="1"></flags>
   <position>fixed</position>
   <limit>mixed</limit>
-  <active>0</active>
+  <active>1</active>
   <children>
     <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Eva"></child>
     <child lootmax="0" lootmin="0" max="1" min="0" type="SurvivorF_Frida"></child>

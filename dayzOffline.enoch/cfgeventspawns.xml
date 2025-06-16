@@ -931,6 +931,9 @@
     <zone smin="0" smax="0" dmin="1" dmax="1" r="20"/>
     <pos x="2056.52587890625" z="7247.68505859375" a="0" y="223.28004455566406" group="CannibalParty"/>
   </event>
+  <event name="StaticNPC">
+    <pos x="1759.14" z="7205.24" a="0" y="223.102" />
+  </event>
   <event name="VehicleTransitBus"/>
   <event name="InfectedVillage"/>
   <event name="InfectedSolitude"/>
