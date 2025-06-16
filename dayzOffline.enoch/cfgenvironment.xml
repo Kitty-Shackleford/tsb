@@ -12,9 +12,60 @@
     <file path="env/hare_territories.xml"/>
     <file path="env/fox_territories.xml"/>
     <file path="env/wolf_territories.xml"/>
-    <!-- <file path="env/hare_territories.xml" /> -->
     <file path="env/zombie_territories.xml"/>
     <file path="env/bear_territories.xml"/>
+    <file path="custom/sheep_goat_spooky_territories.xml"/>
+    <!-- UNUSED
+		<file path="custom/cattle_custom_territories.xml" />
+		<file path="custom/sheep_goat_custom_territories.xml" />
+		<file path="custom/sheep_goat_spooky_territories.xml" />
+		<file path="custom/reindeer_territories.xml" />
+		<file path="custom/red_deer_custom_territories.xml" />
+		<file path="custom/roe_deer_custom_territories.xml" />
+		<file path="custom/wild_boar_custom_territories.xml" />
+		<file path="custom/pig_custom_territories.xml" />
+		<file path="custom/hen_custom_territories.xml" />
+		<file path="custom/hare_custom_territories.xml" />
+		<file path="custom/fox_territories.xml" />
+		<file path="custom/zombie_custom_territories.xml" />
+		<file path="custom/wolf_custom_territories.xml"/>
+		<file path="custom/bear_custom_territories.xml"/>
+-->
+    <!--
+		<territory type="Herd" name="DeerCustom" behavior="DZDeerGroupBeh">
+			<file usable="red_deer_custom_territories" />
+		</territory>
+		<territory type="Herd" name="ReindeerCustom" behavior="DZDeerGroupBeh">
+			<file usable="reindeer_territories"/>
+		</territory>
+		<territory type="Herd" name="CowCustom" behavior="DZdomesticGroupBeh">
+			<file usable="cattle_custom_territories" />
+		</territory>
+		<territory type="Herd" name="GoatSpooky" behavior="DZSheepGroupBeh">
+			<file usable="sheep_goat_spooky_territories" />
+		</territory>
+		<territory type="Herd" name="GoatCustom" behavior="DZSheepGroupBeh">
+			<file usable="sheep_goat_custom_territories" />
+		</territory>
+		<territory type="Herd" name="SheepCustom" behavior="DZSheepGroupBeh">
+			<file usable="sheep_goat_custom_territories" />
+		</territory>
+		<territory type="Herd" name="RoeDeerCustom" behavior="DZDeerGroupBeh">
+			<file usable="roe_deer_custom_territories" />
+		</territory>
+		<territory type="Herd" name="WildBoarCustom" behavior="DZDeerGroupBeh">
+			<file usable="wild_boar_custom_territories" />
+		</territory>
+		<territory type="Herd" name="PigCustom" behavior="DZSheepGroupBeh">
+			<file usable="pig_custom_territories" />
+		</territory>
+		<territory type="Herd" name="WolfCustom" behavior="DZWolfGroupBeh">
+			<file usable="wolf_custom_territories"/>
+		</territory>
+		<territory type="Herd" name="BearCustom" behavior="BlissBearGroupBeh">
+			<file usable="bear_custom_territories"/>
+		</territory>
+-->
     <territory type="Herd" name="Deer" behavior="DZDeerGroupBeh">
       <file usable="red_deer_territories"/>
     </territory>
@@ -35,6 +86,9 @@
     </territory>
     <territory type="Herd" name="Goat" behavior="DZSheepGroupBeh">
       <file usable="sheep_goat_territories"/>
+    </territory>
+    <territory type="Herd" name="GoatSpooky" behavior="DZSheepGroupBeh">
+      <file usable="sheep_goat_spooky_territories"/>
     </territory>
     <territory type="Herd" name="Wolf" behavior="DZWolfGroupBeh">
       <file usable="wolf_territories"/>
@@ -70,7 +124,12 @@
       <agent type="Female" chance="1">
         <spawn configName="Animal_LepusEuropaeus" chance="1"/>
       </agent>
-      <item name="zoneTouchDisableEditPeriodSec" val="300"/>
+      <item name="globalCountMax" val="50"/>
+      <item name="zoneCountMin" val="1"/>
+      <item name="zoneCountMax" val="1"/>
+      <item name="playerSpawnRadiusNear" val="25"/>
+      <item name="playerSpawnRadiusFar" val="75"/>
+      <!-- <item name="zoneTouchDisableEditPeriodSec" val="300"/> -->
     </territory>
     <!-- FOX -->
     <territory type="Ambient" name="AmbientFox" behavior="DZAmbientLifeGroupBeh">
@@ -82,7 +141,7 @@
       <agent type="Female" chance="1">
         <spawn configName="Animal_VulpesVulpes" chance="1"/>
       </agent>
-      <item name="zoneTouchDisableEditPeriodSec" val="450"/>
+      <!-- <item name="zoneTouchDisableEditPeriodSec" val="450"/> -->
     </territory>
     <!-- INFECTED -->
     <territory type="Herd" name="ZombieTest" behavior="DZdomesticGroupBeh">

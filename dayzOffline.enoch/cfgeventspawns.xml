@@ -932,7 +932,7 @@
     <pos x="2056.52587890625" z="7247.68505859375" a="0" y="223.28004455566406" group="CannibalParty"/>
   </event>
   <event name="StaticNPC">
-    <pos x="1759.14" z="7205.24" a="0" y="223.102" />
+    <pos x="2007.72" z="7232" a="0" y="235.768"/>
   </event>
   <event name="VehicleTransitBus"/>
   <event name="InfectedVillage"/>
