@@ -294,7 +294,7 @@
 		<hoarder/>
 	</type>
 	<type name="WoodenCrate">
-		<hoarder/>
+	<hoarder/>
 	</type>
 	<type name="AnniversaryBox">
 		<hoarder/>
@@ -307,16 +307,20 @@
 		<cargo chance="1.0">
 			<item name="FilteringBottle"/>
 		</cargo>
-		<cargo chance="1.0">
+		<cargo chance="1.00">
+			<damage min="0.90" max="0.90"/>
 			<item name="ShippingContainerKeys_Blue"/>
 		</cargo>
-		<cargo chance="1.0">
+		<cargo chance="1.00">
+			<damage min="0.90" max="0.90"/>
 			<item name="ShippingContainerKeys_Yellow"/>
 		</cargo>
-		<cargo chance="1.0">
+		<cargo chance="1.00">
+			<damage min="0.90" max="0.90"/>
 			<item name="ShippingContainerKeys_Red"/>
 		</cargo>
-		<cargo chance="1.0">
+		<cargo chance="1.00">
+			<damage min="0.90" max="0.90"/>
 			<item name="ShippingContainerKeys_Orange"/>
 		</cargo>
 		<cargo chance="1.0">

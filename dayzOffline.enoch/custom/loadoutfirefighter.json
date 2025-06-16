@@ -136,56 +136,6 @@
       ]
     },
     {
-      "slotName": "Hips",
-      "discreteItemSets": [
-        {
-          "itemType": "MilitaryBelt",
-          "spawnWeight": 1,
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Canteen",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": 5
-            },
-            {
-              "itemType": "NylonKnifeSheath",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1,
-              "complexChildrenTypes": [
-                {
-                  "itemType": "CombatKnife",
-                  "attributes": {
-                    "healthMin": 1.0,
-                    "healthMax": 1.0,
-                    "quantityMin": 1.0,
-                    "quantityMax": 1.0
-                  },
-                  "quickBarSlot": 4
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slotName": "Legs",
       "discreteItemSets": [
         {
@@ -360,48 +310,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -488,48 +396,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -616,48 +482,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -744,48 +568,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -872,48 +654,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1000,48 +740,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1128,48 +826,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1256,48 +912,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1384,48 +998,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1512,48 +1084,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1640,48 +1170,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1768,48 +1256,6 @@
             "quantityMax": 1.0
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
         }
       ]
     }

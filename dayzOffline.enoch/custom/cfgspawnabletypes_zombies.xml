@@ -11,10 +11,12 @@
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="grossInfected"/>
 		<cargo preset="ContaminatedCargo"/>
+		<cargo preset="SpecialCargo"/>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
 		<cargo preset="grossInfected"/>
 		<cargo preset="ContaminatedCargo"/>
+		<cargo preset="SpecialCargo"/>
 	</type>
 	<type name="ZmbM_NBC_White">
 		<cargo preset="grossInfected"/>

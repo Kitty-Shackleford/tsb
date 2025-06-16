@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
+
+<!-- MODS -->
+	<cargo chance="1.00" name="SantaBeard">
+		<item name="SantasBeard" chance="1.00"/>
+	</cargo>
+	<cargo chance="1.00" name="GasExp">
+		<item name="Ammo_40mm_Chemgas" chance="0.50"/>
+		<item name="Ammo_40mm_Explosive" chance="0.50"/>
+	</cargo>
+	<attachments chance="1.00" name="MummyHat">
+		<item name="PumpkinHelmet" chance="0.166"/>
+		<item name="WitchHat" chance="0.166"/>
+		<item name="DarkMotoHelmet_YellowScarred" chance="0.166"/>
+		<item name="NorseHelm" chance="0.166"/>
+		<item name="GreatHelm" chance="0.166"/>
+		<item name="Chainmail_Coif" chance="0.166"/>\
+	</attachments>
+	<attachments chance="1.00" name="MummyVest">
+		<item name="Chestplate" chance="0.50"/>
+		<item name="PlateCarrierVest" chance="0.50"/>
+	</attachments>
+	<cargo chance="0.50" name="MummyLoot">
+		<item name="LandMineTrap" chance="0.50"/>
+		<item name="Grenade_ChemGas" chance="0.50"/>
+	</cargo>
+	<attachments chance="1.00" name="PriestHat">
+		<item name="WitchHood_Black" chance="0.70"/>
+	</attachments>
+	<cargo chance="0.25" name="mushroomInfected">
+		<item name="AgaricusMushroom" chance="0.1"/>
+		<item name="AuriculariaMushroom" chance="0.1"/>
+		<item name="BoletusMushroom" chance="0.1"/>
+		<item name="LactariusMushroom" chance="0.1"/>
+		<item name="MacrolepiotaMushroom" chance="0.1"/>
+		<item name="PleurotusMushroom" chance="0.1"/>
+		<item name="AmanitaMushroom" chance="0.01"/>
+		<item name="PsilocybeMushroom" chance="0.01"/>
+	</cargo>
+	<cargo chance="0.50" name="grossInfected">
+		<item name="Guts" chance="0.3"/>
+		<item name="Lard" chance="0.3"/>
+		<item name="Bone" chance="0.3"/>
+		<item name="HumanSteakMeat" chance="0.2"/>
+	</cargo>
+	<cargo chance="0.3" name="susInfected">
+		<item name="Thermometer" chance="0.25"/>
+		<item name="PetrolLighter" chance="0.25"/>
+		<item name="TetracyclineAntibiotics" chance="0.25"/>
+		<item name="Cannabis" chance="0.25"/>
+	</cargo>
+	<cargo chance="0.3" name="mixSus">
+		<item name="Thermometer" chance="0.33"/>
+		<item name="PetrolLighter" chance="0.33"/>
+		<item name="Cannabis" chance="0.33"/>
+	</cargo>
+	<cargo chance="0.1" name="foodCustom">
+		<item name="TunaCan" chance="0.11"/>
+		<item name="SardinesCan" chance="0.11"/>
+		<item name="Apple" chance="0.07"/>
+	</cargo>
+	<cargo chance="0.01" name="btkloot">
+		<item name="GlassBottle" chance="0.14"/>
+		<item name="CannabisSeedsPack" chance="0.14"/>
+		<item name="CigarettePack_Chernamorka" chance="0.14"/>
+		<item name="CigarettePack_Merkur" chance="0.14"/>
+		<item name="CigarettePack_Partyzanka" chance="0.14"/>
+		<item name="HumanSteakMeat" chance="0.14"/>
+		<item name="InjectionVial" chance="0.14"/>
+	</cargo>
+	<!-- END OF MODS -->x
 		<cargo chance="0.15" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />
@@ -243,10 +313,12 @@
 				<item name="BUISOptic" chance="0.20" />
 				<item name="ReflexOptic" chance="0.20" />
 		</attachments>
-		
 		<!--NBC Cargo-->
 		<cargo chance="0.2" name="ContaminatedCargo">
 				<item name="GasMask_Filter" chance="1.00" />
+		</cargo>
+		<cargo chance="1.0" name="SpecialCargo">
+				<item name="ScientificBriefcaseKeys" chance="1.00" />
 		</cargo>
 
 		<!--FARM ATTACHMENTS-->

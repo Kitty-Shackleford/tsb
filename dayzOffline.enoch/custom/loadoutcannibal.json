@@ -471,26 +471,6 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Ammo_HuntingBolt",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Ammo_HuntingBolt",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
           "itemType": "PersonalRadio",
           "attributes": {
             "healthMin": 1.0,
@@ -555,26 +535,6 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Ammo_ImprovisedBolt_1",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Ammo_ImprovisedBolt_1",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
           "itemType": "PersonalRadio",
           "attributes": {
             "healthMin": 1.0,
@@ -628,26 +588,6 @@
         "quantityMax": 1.0
       },
       "complexChildrenTypes": [
-        {
-          "itemType": "Ammo_ImprovisedBolt_2",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Ammo_ImprovisedBolt_2",
-          "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
-          },
-          "quickBarSlot": -1
-        },
         {
           "itemType": "Ammo_ImprovisedBolt_2",
           "attributes": {
