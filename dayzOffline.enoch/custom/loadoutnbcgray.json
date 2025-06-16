@@ -39,10 +39,10 @@
           "itemType": "NBCHoodGray",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -55,14 +55,16 @@
           "itemType": "AirborneMask",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
-          "simpleChildrenTypes": ["GasMask_Filter"]
+          "simpleChildrenTypes": [
+            "GasMask_Filter"
+          ]
         }
       ]
     },
@@ -73,10 +75,10 @@
           "itemType": "M79",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 1
         }
@@ -89,14 +91,16 @@
           "itemType": "M14",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 2,
           "simpleChildrenUseDefaultAttributes": false,
-          "simpleChildrenTypes": ["Mag_M14_20Rnd"]
+          "simpleChildrenTypes": [
+            "Mag_M14_20Rnd"
+          ]
         }
       ]
     },
@@ -107,10 +111,10 @@
           "itemType": "NBCJacketGray",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -123,40 +127,40 @@
           "itemType": "MilitaryBelt",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Canteen",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": 5
             },
             {
               "itemType": "NylonKnifeSheath",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1,
               "complexChildrenTypes": [
                 {
                   "itemType": "FangeKnife",
                   "attributes": {
-                    "healthMin": 1.0,
-                    "healthMax": 1.0,
-                    "quantityMin": 1.0,
-                    "quantityMax": 1.0
+                    "healthMin": 1,
+                    "healthMax": 1,
+                    "quantityMin": 1,
+                    "quantityMax": 1
                   },
                   "quickBarSlot": 4
                 }
@@ -165,24 +169,26 @@
             {
               "itemType": "PlateCarrierHolster_Black",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1,
               "complexChildrenTypes": [
                 {
                   "itemType": "Glock19",
                   "attributes": {
-                    "healthMin": 1.0,
-                    "healthMax": 1.0,
-                    "quantityMin": 1.0,
-                    "quantityMax": 1.0
+                    "healthMin": 1,
+                    "healthMax": 1,
+                    "quantityMin": 1,
+                    "quantityMax": 1
                   },
                   "quickBarSlot": 3,
                   "simpleChildrenUseDefaultAttributes": true,
-                  "simpleChildrenTypes": ["Mag_Glock_15Rnd"]
+                  "simpleChildrenTypes": [
+                    "Mag_Glock_15Rnd"
+                  ]
                 }
               ]
             }
@@ -197,10 +203,10 @@
           "itemType": "NBCPantsGray",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
@@ -224,10 +230,10 @@
           "itemType": "NBCBootsGray",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -240,10 +246,10 @@
           "itemType": "NBCGlovesGray",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -253,36 +259,40 @@
       "itemType": "PlateCarrierVest_Black",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "quickBarSlot": -1,
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["PlateCarrierPouches_Black"],
+      "simpleChildrenTypes": [
+        "PlateCarrierPouches_Black"
+      ],
       "complexChildrenTypes": [
         {
           "itemType": "PlateCarrierHolster_Black",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Glock19",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": 3,
               "simpleChildrenUseDefaultAttributes": true,
-              "simpleChildrenTypes": ["Mag_Glock_15Rnd"]
+              "simpleChildrenTypes": [
+                "Mag_Glock_15Rnd"
+              ]
             }
           ]
         }
@@ -297,8 +307,8 @@
           "attributes": {
             "healthMin": 0.8,
             "healthMax": 0.8,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": true,
@@ -312,49 +322,49 @@
       "name": "Cargo1",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Ammo_40mm_Smoke_Black",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_40mm_Smoke_Black",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_40mm_Smoke_Black",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "FirstAidKit",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
@@ -368,55 +378,58 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
+      "simpleChildrenTypes": [
+        "GlassBottle",
+        "GlassBottle"
+      ]
     },
     {
       "name": "Cargo2",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Ammo_40mm_Smoke_Green",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_40mm_Smoke_Green",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_40mm_Smoke_Green",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "FirstAidKit",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
@@ -430,55 +443,58 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
+      "simpleChildrenTypes": [
+        "GlassBottle",
+        "GlassBottle"
+      ]
     },
     {
       "name": "Cargo3",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Ammo_40mm_Smoke_Red",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_40mm_Smoke_Red",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_40mm_Smoke_Red",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "FirstAidKit",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
@@ -492,7 +508,10 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
+      "simpleChildrenTypes": [
+        "GlassBottle",
+        "GlassBottle"
+      ]
     }
   ]
 }

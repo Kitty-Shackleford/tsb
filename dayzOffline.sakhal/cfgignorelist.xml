@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ignore>
-  <type name="Bandage" />
-  <type name="BandanaMask_BlackPattern" />
-  <type name="BandanaMask_CamoPattern" />
-  <type name="BandanaMask_GreenPattern" />
-  <type name="BandanaMask_PolkaPattern" />
-  <type name="BandanaMask_RedPattern" />
-  <type name="Spear" />
-  <type name="Mag_STANAGCoupled_30Rnd" />
+  <type name="Bandage"/>
+  <type name="BandanaMask_BlackPattern"/>
+  <type name="BandanaMask_CamoPattern"/>
+  <type name="BandanaMask_GreenPattern"/>
+  <type name="BandanaMask_PolkaPattern"/>
+  <type name="BandanaMask_RedPattern"/>
+  <type name="Spear"/>
+  <type name="Mag_STANAGCoupled_30Rnd"/>
   <!-- DISABLED 
 	<type name="CattleProd"></type>
 	<type name="DallasMask"></type>
