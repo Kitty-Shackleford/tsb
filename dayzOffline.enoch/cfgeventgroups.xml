@@ -36,8 +36,6 @@
     <child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="0.536376953125" z="-6.05908203125" a="228.5323028564453" y="0.109649658203125"/>
     <child type="StaticObj_ammoboxes_big" spawnsecondary="false" x="-7.075927734375" z="4.78564453125" a="0" y="0.9368438720703125"/>
     <child type="StaticObj_Furniture_matress_white" spawnsecondary="false" x="0.663330078125" z="-5.921875" a="53.783233642578125" y="0.0195465087890625"/>
-    <child type="StaticObj_Misc_Timbers_Log5" spawnsecondary="false" x="-0.12890625" z="-0.0712890625" a="0" y="1.2785797119140625"/>
-    <child type="StaticObj_Wall_WoodVil_4_pole" spawnsecondary="false" x="-0.1142578125" z="-0.111328125" a="90" y="2.0820465087890625"/>
     <child type="StaticObj_PartyTent" spawnsecondary="false" x="2.14501953125" z="-5.52294921875" a="67.55976867675781" y="-0.0000152587890625"/>
     <child type="StaticObj_Furniture_matress_white" spawnsecondary="false" x="-2.97607421875" z="5.73876953125" a="70.1759262084961" y="-0.000030517578125"/>
     <child type="StaticObj_PartyTent" spawnsecondary="false" x="-1.728515625" z="6.31298828125" a="70.17597198486328" y="-0.0000152587890625"/>

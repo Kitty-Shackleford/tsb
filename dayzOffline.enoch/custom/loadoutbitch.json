@@ -372,50 +372,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "Pear",
           "attributes": {
             "healthMin": 1,
@@ -424,48 +380,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -490,50 +404,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "Apple",
           "attributes": {
             "healthMin": 1,
@@ -542,48 +412,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -608,50 +436,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "CaninaBerry",
           "attributes": {
             "healthMin": 1,
@@ -660,48 +444,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -726,50 +468,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "SambucusBerry",
           "attributes": {
             "healthMin": 1,
@@ -778,48 +476,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -844,50 +500,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "Plum",
           "attributes": {
             "healthMin": 1,
@@ -896,48 +508,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -962,50 +532,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "SlicedPumpkin",
           "attributes": {
             "healthMin": 1,
@@ -1014,48 +540,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1080,50 +564,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "MacrolepiotaMushroom",
           "attributes": {
             "healthMin": 1,
@@ -1132,48 +572,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1198,50 +596,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "LactariusMushroom",
           "attributes": {
             "healthMin": 1,
@@ -1250,48 +604,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1316,50 +628,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "Pepper",
           "attributes": {
             "healthMin": 1,
@@ -1368,48 +636,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1434,50 +660,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "Tomato",
           "attributes": {
             "healthMin": 1,
@@ -1486,48 +668,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1552,50 +692,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "BoletusMushroom",
           "attributes": {
             "healthMin": 1,
@@ -1604,48 +700,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     },
@@ -1670,50 +724,6 @@
           "quickBarSlot": 2
         },
         {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "AgaricusMushroom",
           "attributes": {
             "healthMin": 1,
@@ -1722,48 +732,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": 3
-        },
-        {
-          "itemType": "Compass",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
         }
       ]
     }

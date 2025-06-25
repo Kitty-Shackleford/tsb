@@ -55,11 +55,10 @@ then loot
 
 
 SPAWNABLE NAMES -->
-
-<!-- NBC NPC-->
+  <!-- NBC NPC-->
   <type name="SurvivorF_Eva">
     <attachments chance="1.00">
-      <item name="AmmoBox_POX" equip="true">
+      <item name="AmmoBox" equip="true"/>
     </attachments>
     <attachments chance="1.00">
       <item name="NBCHoodWhite" chance="1.00"/>
@@ -82,7 +81,7 @@ SPAWNABLE NAMES -->
   </type>
   <type name="SurvivorF_Frida">
     <attachments chance="1.00">
-      <item name="AmmoBox_POX" equip="true">
+      <item name="AmmoBox" equip="true"/>
     </attachments>
     <attachments chance="1.00">
       <item name="NBCHoodGray" chance="1.00"/>
@@ -108,7 +107,7 @@ SPAWNABLE NAMES -->
   </type>
   <type name="SurvivorF_Gabi">
     <attachments chance="1.00">
-      <item name="AmmoBox_POX" equip="true">
+      <item name="AmmoBox" equip="true"/>
     </attachments>
     <attachments chance="1.00">
       <item name="NBCHoodYellow" chance="1.00"/>
@@ -134,7 +133,7 @@ SPAWNABLE NAMES -->
   </type>
   <type name="SurvivorF_Irena">
     <attachments chance="1.00">
-      <item name="AmmoBox_Explosive" equip="true">
+      <item name="AmmoBox" equip="true"/>
     </attachments>
     <attachments chance="1.00">
       <item name="DarkMotoHelmet_YellowScarred_Test" chance="1.00"/>
@@ -157,7 +156,7 @@ SPAWNABLE NAMES -->
   </type>
   <type name="SurvivorF_Helga">
     <attachments chance="1.00">
-      <item name="AmmoBox_556" equip="true">
+      <item name="AmmoBox" equip="true"/>
     </attachments>
     <attachments chance="1.00">
       <item name="MilitaryBeret_ChDKZ" chance="1.00"/>
@@ -180,7 +179,7 @@ SPAWNABLE NAMES -->
   </type>
   <type name="SurvivorF_Judy">
     <attachments chance="1.00">
-      <item name="AmmoBox" equip="true">
+      <item name="AmmoBox" equip="true"/>
     </attachments>
     <attachments chance="1.00">
       <item name="BoonieHat_Orange" chance="1.00"/>

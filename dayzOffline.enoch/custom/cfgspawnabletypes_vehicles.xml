@@ -248,6 +248,9 @@
     <attachments chance="1.00">
       <item name="Compass" chance="1.00"/>
     </attachments>
+    <attachments chance="1.00">
+      <item name="PunchedCard" chance="1.00"/>
+    </attachments>
   </type>
   <type name="Hatchback_02">
     <attachments chance="1.00">
@@ -461,46 +464,7 @@
       <item name="Truck_01_Door_2_1" chance="1.00"/>
     </attachments>
     <attachments chance="1.00">
-      <item name="Barrel_Blue" chance="1.00">
-        <cargo>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-        </cargo>
-      </item>
+      <item name="Barrel_Blue" chance="1.00"/>
     </attachments>
     <attachments chance="1.00">
       <item name="Barrel_Green" chance="1.00"/>
@@ -513,107 +477,18 @@
     </attachments>
     <attachments chance="1.00">
       <item name="WoodenCrate" chance="1.00"/>
-      <cargo>
-        <attachments chance="1.00">
-          <item name="Stone"/>
-        </attachments>
-        <attachments chance="1.00">
-          <item name="Stone"/>
-        </attachments>
-        <attachments chance="1.00">
-          <item name="Stone"/>
-        </attachments>
-        <attachments chance="1.00">
-          <item name="Stone"/>
-        </attachments>
-        <attachments chance="1.00">
-          <item name="Stone"/>
-        </attachments>
-      </cargo>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00">
-        <cargo>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-        </cargo>
-      </item>
+      <item name="WoodenCrate" chance="1.00"/>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00">
-        <cargo>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-        </cargo>
-      </item>
+      <item name="WoodenCrate" chance="1.00"/>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00">
-        <cargo>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-        </cargo>
-      </item>
+      <item name="WoodenCrate" chance="1.00"/>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00">
-        <cargo>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-        </cargo>
-      </item>
+      <item name="WoodenCrate" chance="1.00"/>
     </attachments>
     <attachments chance="1.00">
       <damage min="0.0" max="0.0"/>
@@ -707,46 +582,43 @@
       <item name="Truck_01_Door_2_1_Orange" chance="1.00"/>
     </attachments>
     <attachments chance="1.00">
-      <item name="Barrel_Blue" chance="1.00">
-        <cargo>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-        </cargo>
-      </item>
+      <item name="Barrel_Blue" chance="1.00"/>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
     </attachments>
     <attachments chance="1.00">
       <item name="Barrel_Green" chance="1.00"/>
@@ -759,107 +631,75 @@
     </attachments>
     <attachments chance="1.00">
       <item name="WoodenCrate" chance="1.00"/>
-      <cargo>
-        <attachments chance="1.00">
-          <item name="Stone"/>
-        </attachments>
-        <attachments chance="1.00">
-          <item name="Stone"/>
-        </attachments>
-        <attachments chance="1.00">
-          <item name="Stone"/>
-        </attachments>
-        <attachments chance="1.00">
-          <item name="Stone"/>
-        </attachments>
-        <attachments chance="1.00">
-          <item name="Stone"/>
-        </attachments>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
       </cargo>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00">
-        <cargo>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-        </cargo>
-      </item>
+      <item name="WoodenCrate" chance="1.00"/>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00">
-        <cargo>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-        </cargo>
-      </item>
+      <item name="WoodenCrate" chance="1.00"/>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00">
-        <cargo>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-        </cargo>
-      </item>
-    </attachments>
-    <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00">
-        <cargo>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-          <attachments chance="1.00">
-            <item name="Stone"/>
-          </attachments>
-        </cargo>
-      </item>
+      <item name="WoodenCrate" chance="1.00"/>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
+      <cargo chance="1.00">
+        <item name="Stone"/>
+      </cargo>
     </attachments>
     <attachments chance="1.00">
       <damage min="0.0" max="0.0"/>

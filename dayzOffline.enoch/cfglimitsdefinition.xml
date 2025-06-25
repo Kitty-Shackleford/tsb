@@ -18,6 +18,9 @@
     <category name="ussr"/>
     <category name="usa"/>
     <category name="party"/>
+    <category name="containerlocked"/>
+    <category name="leftovers"/>
+    <category name="fishing"/>
   </categories>
   <tags>
     <tag name="floor"/>

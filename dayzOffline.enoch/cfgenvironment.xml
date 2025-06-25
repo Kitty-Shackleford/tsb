@@ -15,6 +15,7 @@
     <file path="env/zombie_territories.xml"/>
     <file path="env/bear_territories.xml"/>
     <file path="custom/sheep_goat_spooky_territories.xml"/>
+    <file path="custom/wolf_custom_territories.xml"/>
     <!-- UNUSED
 		<file path="custom/cattle_custom_territories.xml" />
 		<file path="custom/sheep_goat_custom_territories.xml" />
@@ -93,6 +94,9 @@
     <territory type="Herd" name="Wolf" behavior="DZWolfGroupBeh">
       <file usable="wolf_territories"/>
     </territory>
+    <territory type="Herd" name="WolfCustom" behavior="DZWolfGroupBeh">
+      <file usable="wolf_custom_territories"/>
+    </territory>
     <territory type="Herd" name="Pig" behavior="DZSheepGroupBeh">
       <file usable="pig_territories"/>
     </territory>
@@ -141,6 +145,11 @@
       <agent type="Female" chance="1">
         <spawn configName="Animal_VulpesVulpes" chance="1"/>
       </agent>
+      <item name="globalCountMax" val="50"/>
+      <item name="zoneCountMin" val="1"/>
+      <item name="zoneCountMax" val="1"/>
+      <item name="playerSpawnRadiusNear" val="25"/>
+      <item name="playerSpawnRadiusFar" val="75"/>
       <!-- <item name="zoneTouchDisableEditPeriodSec" val="450"/> -->
     </territory>
     <!-- INFECTED -->

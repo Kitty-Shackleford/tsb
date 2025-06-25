@@ -18,7 +18,7 @@
         "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
       },
       "PlayerData": {
-        "AroundPartName": "graphics/particles/contaminated_area_gas_bigass",
+        "AroundPartName": "graphics/particles/contaminated_area_gas_around",
         "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
         "PPERequesterType": "PPERequester_ContaminatedAreaTint"
       }
@@ -41,7 +41,7 @@
         "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
       },
       "PlayerData": {
-        "AroundPartName": "graphics/particles/contaminated_area_gas_bigass",
+        "AroundPartName": "graphics/particles/contaminated_area_gas_around",
         "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
         "PPERequesterType": "PPERequester_ContaminatedAreaTint"
       }
@@ -64,7 +64,7 @@
         "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
       },
       "PlayerData": {
-        "AroundPartName": "graphics/particles/contaminated_area_gas_bigass",
+        "AroundPartName": "graphics/particles/contaminated_area_gas_around",
         "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
         "PPERequesterType": "PPERequester_ContaminatedAreaTint"
       }
@@ -87,7 +87,7 @@
         "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
       },
       "PlayerData": {
-        "AroundPartName": "graphics/particles/contaminated_area_gas_bigass",
+        "AroundPartName": "graphics/particles/contaminated_area_gas_around",
         "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
         "PPERequesterType": "PPERequester_ContaminatedAreaTint"
       }
@@ -110,7 +110,7 @@
         "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
       },
       "PlayerData": {
-        "AroundPartName": "graphics/particles/contaminated_area_gas_bigass",
+        "AroundPartName": "graphics/particles/contaminated_area_gas_around",
         "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
         "PPERequesterType": "PPERequester_ContaminatedAreaTint"
       }
@@ -133,7 +133,7 @@
         "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
       },
       "PlayerData": {
-        "AroundPartName": "graphics/particles/contaminated_area_gas_bigass",
+        "AroundPartName": "graphics/particles/contaminated_area_gas_around",
         "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
         "PPERequesterType": "PPERequester_ContaminatedAreaTint"
       }
@@ -156,7 +156,7 @@
         "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
       },
       "PlayerData": {
-        "AroundPartName": "graphics/particles/contaminated_area_gas_bigass",
+        "AroundPartName": "graphics/particles/contaminated_area_gas_around",
         "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
         "PPERequesterType": "PPERequester_ContaminatedAreaTint"
       }
@@ -179,7 +179,7 @@
         "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
       },
       "PlayerData": {
-        "AroundPartName": "graphics/particles/contaminated_area_gas_bigass",
+        "AroundPartName": "graphics/particles/contaminated_area_gas_around",
         "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
         "PPERequesterType": "PPERequester_ContaminatedAreaTint"
       }

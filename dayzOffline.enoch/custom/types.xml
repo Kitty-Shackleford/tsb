@@ -136,6 +136,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
   </type>
   <type name="AKS74U">
     <nominal>5</nominal>
@@ -148,6 +149,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
   </type>
   <type name="AKS74U_Black">
     <nominal>0</nominal>
@@ -907,15 +909,15 @@
     <usage name="Police"/>
   </type>
   <type name="Ammo_40mm_ChemGas">
-    <nominal>10</nominal>
+    <nominal>6</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>0</min>
     <quantmin>100</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="weapons"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -930,7 +932,7 @@
     <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="weapons"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -3571,6 +3573,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="leftovers"/>
     <usage name="Chicken"/>
     <usage name="Dog"/>
   </type>
@@ -4035,10 +4038,10 @@
     <usage name="Police"/>
   </type>
   <type name="CZ527">
-    <nominal>55</nominal>
+    <nominal>30</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>46</min>
+    <min>10</min>
     <quantmin>30</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
@@ -4052,10 +4055,10 @@
     <value name="Tier3"/>
   </type>
   <type name="CZ550">
-    <nominal>55</nominal>
+    <nominal>15</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>46</min>
+    <min>7</min>
     <quantmin>30</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
@@ -4476,15 +4479,15 @@
     <value name="Tier2"/>
   </type>
   <type name="Carp">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-    <category name="food"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <category name="fishing"/>
   </type>
   <type name="CarpFilletMeat">
     <nominal>0</nominal>
@@ -4738,6 +4741,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="leftovers"/>
     <usage name="Chicken"/>
     <usage name="Dog"/>
   </type>
@@ -5386,12 +5390,12 @@
     <nominal>5</nominal>
     <lifetime>432000</lifetime>
     <restock>0</restock>
-    <min>3</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="explosives"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -5824,15 +5828,16 @@
     <usage name="SeasonalEvent"/>
   </type>
   <type name="Crossbow_Autumn">
-    <nominal>0</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>0</min>
+    <min>1</min>
     <quantmin>30</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
+    <usage name="Farm"/>
     <usage name="Hunting"/>
   </type>
   <type name="Crossbow_Black">
@@ -7201,7 +7206,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="tools"/>
+    <category name="fishing"/>
     <usage name="Coast"/>
   </type>
   <type name="Flag_APA">
@@ -7959,6 +7964,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -8007,6 +8013,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -8055,6 +8062,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -8103,6 +8111,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -8151,6 +8160,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -8369,6 +8379,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -10794,15 +10805,15 @@
     <category name="clothes"/>
   </type>
   <type name="LandMineTrap">
-    <nominal>10</nominal>
+    <nominal>6</nominal>
     <lifetime>604800</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-    <category name="explosives"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -12192,7 +12203,7 @@
     <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="weapons"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -12352,15 +12363,15 @@
     <usage name="Farm"/>
   </type>
   <type name="Mackerel">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-    <category name="food"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <category name="fishing"/>
   </type>
   <type name="MackerelFilletMeat">
     <nominal>0</nominal>
@@ -13391,6 +13402,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -14141,6 +14153,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -14155,6 +14168,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -15362,12 +15376,12 @@
     <nominal>4</nominal>
     <lifetime>432000</lifetime>
     <restock>0</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="explosives"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -15518,7 +15532,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="clothes"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -15533,7 +15547,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="clothes"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -15548,7 +15562,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="clothes"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -16345,15 +16359,15 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
   </type>
   <type name="RemoteDetonator">
-    <nominal>5</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="explosives"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -16491,10 +16505,10 @@
     <value name="Tier3"/>
   </type>
   <type name="SKS_Bayonet">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>0</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -16515,8 +16529,8 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
     <usage name="Police"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
+    <usage name="Village"/>
+    <usage name="Town"/>
   </type>
   <type name="SV98">
     <nominal>2</nominal>
@@ -16551,7 +16565,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="weapons"/>
+    <category name="containerlocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedRed"/>
     <usage name="ContainerLockedYellow"/>
@@ -18874,14 +18888,15 @@
     <value name="Tier2"/>
   </type>
   <type name="SteelheadTrout">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <category name="fishing"/>
   </type>
   <type name="SteelheadTroutFilletMeat">
     <nominal>0</nominal>
@@ -20423,14 +20438,15 @@
     <usage name="Medic"/>
   </type>
   <type name="WalleyePollock">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <category name="fishing"/>
   </type>
   <type name="WalleyePollockFilletMeat">
     <nominal>0</nominal>

@@ -79,7 +79,7 @@
           "quickBarSlot": 1,
           "complexChildrenTypes": [
             {
-              "itemType": "Ammo_12gaPellets",
+              "itemType": "Ammo_12gaRubberSlug",
               "attributes": {
                 "healthMin": 1,
                 "healthMax": 1,
@@ -111,50 +111,6 @@
       ]
     },
     {
-      "slotName": "Hips",
-      "discreteItemSets": [
-        {
-          "itemType": "MilitaryBelt",
-          "spawnWeight": 1,
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "PlateCarrierHolster_Black",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1,
-              "complexChildrenTypes": [
-                {
-                  "itemType": "Glock19",
-                  "attributes": {
-                    "healthMin": 1,
-                    "healthMax": 1,
-                    "quantityMin": 1,
-                    "quantityMax": 1
-                  },
-                  "quickBarSlot": 3,
-                  "simpleChildrenUseDefaultAttributes": true,
-                  "simpleChildrenTypes": [
-                    "Mag_Glock_15Rnd"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slotName": "Legs",
       "discreteItemSets": [
         {
@@ -169,9 +125,7 @@
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
           "simpleChildrenTypes": [
-            "PoliceBaton",
-            "Ammo_12gaPellets",
-            "AmmoBox_00buck_10rnd"
+            "PoliceBaton"
           ],
           "complexChildrenTypes": []
         }
@@ -319,46 +273,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -447,46 +369,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -575,46 +465,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -703,46 +561,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -831,46 +657,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -959,46 +753,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -1087,46 +849,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -1215,46 +945,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -1343,46 +1041,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -1471,46 +1137,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -1599,46 +1233,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     },
@@ -1727,46 +1329,14 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Compass",
+          "itemType": "AmmoBox_12gaRubberSlug_10Rnd",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
             "quantityMin": 1,
             "quantityMax": 1
           },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "GPSReceiver",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "ChernarusMap",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
+          "quickBarSlot": 3
         }
       ]
     }

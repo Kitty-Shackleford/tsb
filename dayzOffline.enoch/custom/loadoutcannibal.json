@@ -87,55 +87,6 @@
       ]
     },
     {
-      "slotName": "shoulderL",
-      "discreteItemSets": [
-        {
-          "itemType": "Crossbow_Autumn",
-          "spawnWeight": 1,
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": 1
-        },
-        {
-          "itemType": "Crossbow_Black",
-          "spawnWeight": 1,
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": 1
-        },
-        {
-          "itemType": "Crossbow_Summer",
-          "spawnWeight": 1,
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": 1
-        },
-        {
-          "itemType": "Crossbow_Wood",
-          "spawnWeight": 1,
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": 1
-        }
-      ]
-    },
-    {
       "slotName": "shoulderR",
       "discreteItemSets": [
         {
@@ -197,46 +148,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        }
-      ]
-    },
-    {
-      "slotName": "Hips",
-      "discreteItemSets": [
-        {
-          "itemType": "MilitaryBelt",
-          "spawnWeight": 1,
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "NylonKnifeSheath",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1,
-              "complexChildrenTypes": [
-                {
-                  "itemType": "FangeKnife",
-                  "attributes": {
-                    "healthMin": 1,
-                    "healthMax": 1,
-                    "quantityMin": 1,
-                    "quantityMax": 1
-                  },
-                  "quickBarSlot": 4
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -461,7 +372,7 @@
       },
       "complexChildrenTypes": [
         {
-          "itemType": "Ammo_HuntingBolt",
+          "itemType": "KitchenKnife",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -469,53 +380,10 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "FirstAidKit",
-          "attributes": {
-            "healthMin": 0.7,
-            "healthMax": 0.8,
-            "quantityMin": 0.05,
-            "quantityMax": 0.1
-          },
-          "quickBarSlot": -1,
-          "simpleChildrenUseDefaultAttributes": false,
-          "simpleChildrenTypes": [
-            "BandageDressing",
-            "TetracyclineAntibiotics",
-            "StartKitIV",
-            "BloodBagEmpty",
-            "BloodTestKit"
-          ]
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": [
-        "GlassBottle",
-        "GlassBottle"
-      ]
+      "simpleChildrenTypes": []
     },
     {
       "name": "Cargo2",
@@ -528,7 +396,7 @@
       },
       "complexChildrenTypes": [
         {
-          "itemType": "Ammo_ImprovisedBolt_1",
+          "itemType": "Cleaver",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -536,53 +404,10 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "FirstAidKit",
-          "attributes": {
-            "healthMin": 0.7,
-            "healthMax": 0.8,
-            "quantityMin": 0.05,
-            "quantityMax": 0.1
-          },
-          "quickBarSlot": -1,
-          "simpleChildrenUseDefaultAttributes": false,
-          "simpleChildrenTypes": [
-            "BandageDressing",
-            "TetracyclineAntibiotics",
-            "StartKitIV",
-            "BloodBagEmpty",
-            "BloodTestKit"
-          ]
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": [
-        "GlassBottle",
-        "GlassBottle"
-      ]
+      "simpleChildrenTypes": []
     },
     {
       "name": "Cargo3",
@@ -595,7 +420,7 @@
       },
       "complexChildrenTypes": [
         {
-          "itemType": "Ammo_ImprovisedBolt_2",
+          "itemType": "HuntingKnife",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -603,53 +428,10 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "FirstAidKit",
-          "attributes": {
-            "healthMin": 0.7,
-            "healthMax": 0.8,
-            "quantityMin": 0.05,
-            "quantityMax": 0.1
-          },
-          "quickBarSlot": -1,
-          "simpleChildrenUseDefaultAttributes": false,
-          "simpleChildrenTypes": [
-            "BandageDressing",
-            "TetracyclineAntibiotics",
-            "StartKitIV",
-            "BloodBagEmpty",
-            "BloodTestKit"
-          ]
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": [
-        "GlassBottle",
-        "GlassBottle"
-      ]
+      "simpleChildrenTypes": []
     }
   ]
 }

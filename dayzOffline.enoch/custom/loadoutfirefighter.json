@@ -248,60 +248,6 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "Pear",
           "attributes": {
             "healthMin": 1,
@@ -332,60 +278,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        },
-        {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
         },
         {
           "itemType": "Apple",
@@ -420,60 +312,6 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "CaninaBerry",
           "attributes": {
             "healthMin": 1,
@@ -504,60 +342,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        },
-        {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
         },
         {
           "itemType": "SambucusBerry",
@@ -592,60 +376,6 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "Plum",
           "attributes": {
             "healthMin": 1,
@@ -676,60 +406,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        },
-        {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
         },
         {
           "itemType": "SlicedPumpkin",
@@ -764,60 +440,6 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "MacrolepiotaMushroom",
           "attributes": {
             "healthMin": 1,
@@ -848,60 +470,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        },
-        {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
         },
         {
           "itemType": "LactariusMushroom",
@@ -936,60 +504,6 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "Pepper",
           "attributes": {
             "healthMin": 1,
@@ -1020,60 +534,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        },
-        {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
         },
         {
           "itemType": "Tomato",
@@ -1108,60 +568,6 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
           "itemType": "BoletusMushroom",
           "attributes": {
             "healthMin": 1,
@@ -1192,60 +598,6 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        },
-        {
-          "itemType": "Battery9V",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "Flashlight",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
-        },
-        {
-          "itemType": "PersonalRadio",
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1,
-          "complexChildrenTypes": [
-            {
-              "itemType": "Battery9V",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            }
-          ]
         },
         {
           "itemType": "AgaricusMushroom",

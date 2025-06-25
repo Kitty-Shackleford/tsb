@@ -45,7 +45,19 @@
 				<pos x="1365.684814" z="8219.892578"/>
 			</group>
             -->
-      <group name="Radacz" lifetime="3600" counter="-1">
+      <group name="EastGrabin" lifetime="-1" counter="1">
+        <pos x="10563.3437" z="10836.638672"/>
+        <pos x="10484.527344" z="11028.996094"/>
+        <pos x="10573.258789" z="11189.707031"/>
+      </group>
+      <group name="WestGrabin" lifetime="-1" counter="1">
+        <pos x="11009.897461" z="11174.416992"/>
+        <pos x="10950.235352" z="10993.746094"/>
+        <pos x="10908.912109" z="10821.922852"/>
+        <pos x="10738.176758" z="10713.330078"/>
+      </group>
+      <!--
+      <group name="Radacz" lifetime="-1" counter="20">
         <pos x="4033.966064" z="8265.712891"/>
         <pos x="3868.875732" z="8145.055176"/>
         <pos x="3832.824463" z="7953.592285"/>
@@ -53,7 +65,7 @@
         <pos x="4184.289551" z="7852.6079"/>
         <pos x="4107.457031" z="8051.109863"/>
       </group>
-      <group name="EastGliniska" lifetime="3600" counter="-1">
+      <group name="EastGliniska" lifetime="-1" counter="20">
         <pos x="4984.470703" z="10386.576172"/>
         <pos x="4974.511719" z="10172.223633"/>
         <pos x="4797.523438" z="10062.836914"/>
@@ -61,21 +73,21 @@
         <pos x="5006.519043" z="9627.448242"/>
         <pos x="5109.297363" z="9528.849609"/>
       </group>
-      <group name="WestGliniska" lifetime="3600" counter="-1">
+      <group name="WestGliniska" lifetime="-1" counter="20">
         <pos x="5289.757813" z="9886.451172"/>
         <pos x="5210.599609" z="10043.5966"/>
         <pos x="5246.647949" z="10226.464844"/>
         <pos x="5269.916992" z="10449.580078"/>
         <pos x="5144.492188" z="10620.958008"/>
       </group>
-      <group name="Brena" lifetime="3600" counter="-1">
+      <group name="Brena" lifetime="-1" counter="20">
         <pos x="6833.701172" z="11218.008789"/>
         <pos x="6648.474121" z="11373.0908"/>
         <pos x="6287.591309" z="11063.177734"/>
         <pos x="6278.830566" z="11263.807617"/>
         <pos x="6426.564453" z="11494.036133"/>
       </group>
-      <group name="Kolembrody" lifetime="3600" counter="-1">
+      <group name="Kolembrody" lifetime="-1" counter="20">
         <pos x="8528.213867" z="11768.814453"/>
         <pos x="8352.768555" z="11714.275391"/>
         <pos x="8604.712891" z="12051.362305"/>
@@ -83,25 +95,14 @@
         <pos x="7965.602051" z="11643.311523"/>
         <pos x="8070.306641" z="11694.886719"/>
       </group>
-      <group name="EastGrabin" lifetime="3600" counter="-1">
-        <pos x="10563.3437" z="10836.638672"/>
-        <pos x="10484.527344" z="11028.996094"/>
-        <pos x="10573.258789" z="11189.707031"/>
-      </group>
-      <group name="WestGrabin" lifetime="3600" counter="-1">
-        <pos x="11009.897461" z="11174.416992"/>
-        <pos x="10950.235352" z="10993.746094"/>
-        <pos x="10908.912109" z="10821.922852"/>
-        <pos x="10738.176758" z="10713.330078"/>
-      </group>
-      <group name="EastStinik" lifetime="3600" counter="-1">
+      <group name="EastStinik" lifetime="-1" counter="20">
         <pos x="11444.573242" z="9897.868164"/>
         <pos x="11288.900391" z="9835.7783"/>
         <pos x="11149.783203" z="9630.8720"/>
         <pos x="10954.042969" z="9522.310547"/>
         <pos x="11376.046875" z="10061.8408"/>
       </group>
-      <group name="WestStinik" lifetime="3600" counter="-1">
+      <group name="WestStinik" lifetime="-1" counter="20">
         <pos x="11745.474609" z="9440.917969"/>
         <pos x="11621.383789" z="9315.645508"/>
         <pos x="11432.880859" z="9260.918945"/>
@@ -109,12 +110,13 @@
         <pos x="11194.930664" z="9054.277344"/>
         <pos x="11088.555664" z="9224.5654"/>
       </group>
-      <group name="Sobotka" lifetime="3600" counter="-1">
+      <group name="Sobotka" lifetime="-1" counter="20">
         <pos x="6396.009277" z="10178.202148"/>
         <pos x="6395.188477" z="10409.898438"/>
         <pos x="6190.791504" z="10452.539063"/>
         <pos x="6194.955078" z="10201.043945"/>
       </group>
+      -->
     </generator_posbubbles>
   </fresh>
   <hop>

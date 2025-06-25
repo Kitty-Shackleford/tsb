@@ -1,5 +1,5 @@
 {
-  "version": 122,
+  "version": 123,
   "GeneralData": {
     "disableBaseDamage": false,
     "disableContainerDamage": false,
@@ -9,10 +9,9 @@
   "PlayerData": {
     "spawnGearPresetFiles": [
       "./custom/loadoutbitch.json",
-      "./custom/loadoutcannibal.json",
+      "./custom/loadoutwhore.json",
       "./custom/loadoutcriminal.json",
-      "./custom/loadoutfirefighter.json",
-      "./custom/loadouthockey.json",
+      "./custom/loadoutprisoner.json",
       "./custom/loadoutpoliceofficer.json"
     ],
     "disablePersonalLight": true,
@@ -158,6 +157,6 @@
     "displayNavInfo": true
   },
   "VehicleData": {
-    "boatDecayMultiplier": 1
+    "boatDecayMultiplier": 0
   }
 }
