@@ -1127,9 +1127,9 @@
     <children/>
   </event>
   <event name="StaticTrain">
-    <nominal>7</nominal>
-    <min>0</min>
-    <max>0</max>
+    <nominal>14</nominal>
+    <min>14</min>
+    <max>14</max>
     <lifetime>5400</lifetime>
     <restock>0</restock>
     <saferadius>500</saferadius>

@@ -30,8 +30,8 @@
     <child type="UndergroundStash" spawnsecondary="false" x="-2.47607421875" z="-2.8330078125" a="174.6007843017578" y="-1.9135894775390625"/>
     <child type="UndergroundStash" spawnsecondary="false" x="0.56005859375" z="-3.8955078125" a="174.6007843017578" y="-1.913604736328125"/>
   </group>
-  <group name="CannibalParty">
-    <child type="Misc_TirePile_Burning_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="0" y="0"/>
+  <group name="Party">
+    <child type="Misc_TirePile_Burning_DE" deloot="3" lootmax="10" lootmin="1" x="0" z="0" a="0" y="0"/>
     <child type="StaticObj_PartyTent" spawnsecondary="false" x="-7.879150390625" z="-1.31640625" a="359.9999961853034" y="-0.000030517578125"/>
     <child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="0.536376953125" z="-6.05908203125" a="228.5323028564453" y="0.109649658203125"/>
     <child type="StaticObj_ammoboxes_big" spawnsecondary="false" x="-7.075927734375" z="4.78564453125" a="0" y="0.9368438720703125"/>

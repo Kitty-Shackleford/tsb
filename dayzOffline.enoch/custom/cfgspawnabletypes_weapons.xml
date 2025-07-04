@@ -869,6 +869,9 @@
     <attachments chance="0.25">
       <item name="FNP45_MRDSOptic" chance="0.30"/>
     </attachments>
+    <attachments chance="1.00">
+      <item name="Ammo_12gaRubberSlug" quantmin="100" quantmax="100" chance="1.00"/>
+    </attachments>
   </type>
   <type name="Crossbow_Autumn">
     <damage min="0.0" max="0.69"/>

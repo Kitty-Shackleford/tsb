@@ -18,11 +18,13 @@
   </defaults>
   <!-- START OF MODS -->
   <group name="StaticObj_PartyTent" lootmax="4">
-    <usage name="Industrial"/>
-    <usage name="Farm"/>
-    <usage name="Military"/>
     <usage name="Party"/>
+    <usage name="Cannibal"/>
+    <usage name="SeasonalEvent"/>
     <container name="lootFloor" lootmax="4">
+      <category name="tools"/>
+      <category name="food"/>
+      <category name="clothes"/>
       <point pos="3868.718506 237.130203 10215.645508" range="1" height="1"/>
       <point pos="3868.348877 237.130188 10211.712891" range="1" height="1"/>
       <point pos="3867.842285 237.130219 10213.459961" range="1" height="1"/>
@@ -7609,9 +7611,14 @@
     </container>
     -->
   </group>
-  <group name="Misc_TirePile_Burning_DE" lootmax="8">
+  <group name="Misc_TirePile_Burning_DE" lootmax="16">
+    <usage name="Party"/>
     <usage name="Cannibal"/>
-    <container name="lootFloor" lootmax="8">
+    <usage name="SeasonalEvent"/>
+    <container name="lootFloor" lootmax="16">
+      <category name="tools"/>
+      <category name="food"/>
+      <category name="clothes"/>
       <point pos="-1.316810 0.012386 0.988567" range="0.492016" height="1.230038" flags="32"/>
       <point pos="-1.928497 0.042892 -0.373063" range="0.917033" height="2.000000" flags="32"/>
       <point pos="-1.306814 0.060719 -1.533942" range="0.399950" height="1.105854" flags="32"/>

@@ -408,22 +408,6 @@
       <child lootmax="0" lootmin="0" max="15" min="5" type="UndergroundStash"/>
     </children>
   </event>
-  <event name="StaticCannibalParty">
-    <nominal>1</nominal>
-    <min>0</min>
-    <max>0</max>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <saferadius>1000</saferadius>
-    <distanceradius>1000</distanceradius>
-    <cleanupradius>1000</cleanupradius>
-    <!-- <secondary>InfectedArmy</secondary> -->
-    <flags deletable="1" init_random="0" remove_damaged="0"/>
-    <position>fixed</position>
-    <limit>child</limit>
-    <active>0</active>
-    <children/>
-  </event>
   <event name="StaticNPC">
     <nominal>1</nominal>
     <min>1</min>
@@ -650,7 +634,7 @@
     <flags deletable="1" init_random="1" remove_damaged="0"/>
     <position>fixed</position>
     <limit>parent</limit>
-    <active>0</active>
+    <active>1</active>
     <children>
       <child lootmax="0" lootmin="0" max="2" min="0" type="ContaminatedArea_Dynamic"/>
     </children>

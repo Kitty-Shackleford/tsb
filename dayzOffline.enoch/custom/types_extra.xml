@@ -463,7 +463,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="tools"/>
     <tag name="shelves"/>
-    <usage name="Cannibal"/>
     <usage name="Town"/>
     <usage name="Village"/>
     <usage name="Office"/>
@@ -525,6 +524,7 @@
     <usage name="Village"/>
     <usage name="Office"/>
     <usage name="School"/>
+    <usage name="Party"/>
   </type>
   <type name="CigarettePack_Merkur">
     <nominal>10</nominal>
@@ -543,6 +543,7 @@
     <usage name="Village"/>
     <usage name="Office"/>
     <usage name="School"/>
+    <usage name="Party"/>
   </type>
   <type name="CigarettePack_Partyzanka">
     <nominal>10</nominal>
@@ -561,6 +562,7 @@
     <usage name="Village"/>
     <usage name="Office"/>
     <usage name="School"/>
+    <usage name="Party"/>
   </type>
   <type name="Single_Cigarette">
     <nominal>0</nominal>
@@ -663,14 +665,9 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="food"/>
-    <tag name="shelves"/>
-    <usage name="Cannibal"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-    <usage name="Office"/>
-    <usage name="School"/>
+    <usage name="Party"/>
   </type>
   <type name="AmanitaMushroom">
     <nominal>0</nominal>
@@ -715,9 +712,9 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="food"/>
-    <tag name="shelves"/>
     <usage name="Dog"/>
     <usage name="Cannibal"/>
+    <usage name="Party"/>
   </type>
   <!-- MEDICAL -->
   <type name="Defibrillator">
@@ -740,10 +737,11 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="tools"/>
     <tag name="floor"/>
     <usage name="Cannibal"/>
+    <usage name="Party"/>
   </type>
   <type name="ClearSyringe">
     <nominal>0</nominal>
@@ -775,10 +773,11 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="tools"/>
     <tag name="floor"/>
     <usage name="Cannibal"/>
+    <usage name="Party"/>
   </type>
   <!-- RADIO -->
   <type name="Radio">
