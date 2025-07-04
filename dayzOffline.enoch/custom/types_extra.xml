@@ -829,17 +829,18 @@
   </type>
   <!-- WEAPONS -->
   <type name="AK74_Black">
-    <nominal>0</nominal>
-    <lifetime>14400</lifetime>
+    <nominal>25</nominal>
+    <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <min>7</min>
+    <quantmin>30</quantmin>
+    <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <!-- <tag name="wall"/> -->
-    <usage name="Military"/>
+    <usage name="Militia"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <type name="AK74_Green">
     <nominal>0</nominal>
@@ -854,20 +855,73 @@
     <!-- <tag name="wall"/> -->
     <usage name="Admin"/>
   </type>
-  <type name="AK101_Black">
+  <type name="AKS74U_Black">
+    <nominal>13</nominal>
+    <lifetime>28800</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>30</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Militia"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
+  </type>
+  <type name="AKS74U_Green">
     <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
     <!-- <tag name="wall"/> -->
-    <usage name="Military"/>
+    <usage name="Admin"/>
+  </type>
+  <type name="AK101_Black">
+    <nominal>1</nominal>
+    <lifetime>28800</lifetime>
+    <restock>3600</restock>
+    <min>0</min>
+    <quantmin>30</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Underground"/>
+    <value name="Tier3"/>
   </type>
   <type name="AK101_Green">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <!-- <tag name="wall"/> -->
+    <usage name="Admin"/>
+  </type>
+  <type name="B95_Black">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <!-- <tag name="wall"/> -->
+    <usage name="Admin"/>
+  </type>
+  <type name="B95_Green">
     <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
@@ -903,7 +957,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <usage name="Village"/>
+    <usage name="Militia"/>
   </type>
   <type name="Mosin9130_Camo">
     <nominal>9</nominal>
@@ -1024,11 +1078,41 @@
     <usage name="Village"/>
     <usage name="Hunting"/>
   </type>
+  <type name="Ruger1022_Black">
+    <nominal>10</nominal>
+    <lifetime>28800</lifetime>
+    <restock>1200</restock>
+    <min>7</min>
+    <quantmin>30</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Farm"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="Hunting"/>
+  </type>
+  <type name="Ruger1022_Green">
+    <nominal>10</nominal>
+    <lifetime>28800</lifetime>
+    <restock>1200</restock>
+    <min>7</min>
+    <quantmin>30</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Farm"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="Hunting"/>
+  </type>
   <type name="SKS_Green">
-    <nominal>22</nominal>
+    <nominal>11</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>18</min>
+    <min>0</min>
     <quantmin>25</quantmin>
     <quantmax>75</quantmax>
     <cost>100</cost>
@@ -1037,10 +1121,34 @@
     <usage name="Military"/>
   </type>
   <type name="SKS_Black">
-    <nominal>22</nominal>
+    <nominal>11</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>18</min>
+    <min>0</min>
+    <quantmin>25</quantmin>
+    <quantmax>75</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Military"/>
+  </type>
+  <type name="Scout_Black">
+    <nominal>11</nominal>
+    <lifetime>28800</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>25</quantmin>
+    <quantmax>75</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Military"/>
+  </type>
+  <type name="Scout_Green">
+    <nominal>11</nominal>
+    <lifetime>28800</lifetime>
+    <restock>0</restock>
+    <min>0</min>
     <quantmin>25</quantmin>
     <quantmax>75</quantmax>
     <cost>100</cost>
@@ -1085,6 +1193,28 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
     <usage name="Cannibal"/>
+  </type>
+  <type name="SawedoffB95_Black">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    <category name="weapons"/>
+  </type>
+  <type name="SawedoffB95_Green">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    <category name="weapons"/>
   </type>
   <type name="SawedoffFAMAS">
     <nominal>1</nominal>
@@ -1887,10 +2017,7 @@
     <cost>100</cost>
     <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
     <category name="tools"/>
-    <usage name="ContainerLockedRed"/>
-    <usage name="ContainerLockedBlue"/>
-    <usage name="ContainerLockedYellow"/>
-    <usage name="ContainerLockedOrange"/>
+    <usage name="ContainerLocked"/>
   </type>
   <type name="CattleProd">
     <nominal>1</nominal>

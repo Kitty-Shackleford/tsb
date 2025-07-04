@@ -3903,7 +3903,7 @@
     </container>
   </group>
   <group name="StaticObj_Misc_Gunrack" lootmax="0">
-         </group>
+  </group>
   <group name="Land_Village_store" lootmax="0">
     <dispatch dechance="1.0">
       <proxy type="AliceBag_Black" pos="-4.115508 -0.565242 1.511854" rpy="0.0 180 0.0" dechance="1.0"/>
@@ -5609,9 +5609,9 @@
       <point pos="4.119763 0.074081 -0.732355" range="0.535815" height="0.723160" flags="32"/>
       <point pos="0.887351 1.052353 -0.238587" range="0.134375" height="0.335938"/>
     </container>
-    <dispatch dechance="0.000000">
-      <proxy type="Truck_01_Wheel" pos="-2.180125 0.459991 0.979816" rpy="0.000000 5.263660 0.000000" dechance="0.000000"/>
-      <proxy type="Truck_01_WheelDouble" pos="2.480012 0.429993 -0.860163" rpy="0.000000 5.263660 0.000000" dechance="0.000000"/>
+    <dispatch dechance="1.000000">
+      <proxy type="Truck_01_Wheel" pos="-2.180125 0.459991 0.979816" rpy="0.000000 5.263660 0.000000" dechance="0.300000"/>
+      <proxy type="Truck_01_WheelDouble" pos="2.480012 0.429993 -0.860163" rpy="0.000000 5.263660 0.000000" dechance="0.200000"/>
     </dispatch>
   </group>
   <group name="Land_wreck_truck01_aban2_firetruck_DE" lootmax="15">
@@ -5636,9 +5636,9 @@
       <point pos="3.926478 0.000000 -1.636176" range="1.099121" height="2.000000" flags="32"/>
       <point pos="3.312476 1.045105 -0.330585" range="0.237500" height="0.593750"/>
     </container>
-    <dispatch dechance="0.000000">
-      <proxy type="Truck_01_Wheel" pos="-2.179965 0.459991 -0.980243" rpy="0.000000 185.275574 0.000000" dechance="0.000000"/>
-      <proxy type="Truck_01_WheelDouble" pos="1.420045 0.429993 0.959693" rpy="0.000000 185.724426 0.000000" dechance="0.000000"/>
+    <dispatch dechance="1.000000">
+      <proxy type="Truck_01_Wheel" pos="-2.179965 0.459991 -0.980243" rpy="0.000000 185.275574 0.000000" dechance="0.300000"/>
+      <proxy type="Truck_01_WheelDouble" pos="1.420045 0.429993 0.959693" rpy="0.000000 185.724426 0.000000" dechance="0.200000"/>
     </dispatch>
   </group>
   <group name="Land_Wreck_sed02_aban1_Police_DE" lootmax="12">
@@ -7448,9 +7448,15 @@
     </container>
   </group>
   <group name="Land_ContainerLocked_Blue_DE" lootmax="9">
-    <usage name="ContainerLockedBlue"/>
+    <usage name="ContainerLocked"/>
+    <usage name="Military"/>
+    <usage name="Special"/>
+    <usage name="Underground"/>
     <container name="lootFloor" lootmax="9">
+      <category name="tools"/>
+      <category name="clothes"/>
       <category name="weapons"/>
+      <category name="containerlocked"/>
       <tag name="floor"/>
       <tag name="shelves"/>
       <tag name="ground"/>
@@ -7466,9 +7472,15 @@
     </container>
   </group>
   <group name="Land_ContainerLocked_Yellow_DE" lootmax="9">
-    <usage name="ContainerLockedYellow"/>
+    <usage name="ContainerLocked"/>
+    <usage name="Military"/>
+    <usage name="Special"/>
+    <usage name="Underground"/>
     <container name="lootFloor" lootmax="9">
+      <category name="tools"/>
       <category name="clothes"/>
+      <category name="weapons"/>
+      <category name="containerlocked"/>
       <tag name="floor"/>
       <tag name="shelves"/>
       <tag name="ground"/>
@@ -7484,9 +7496,15 @@
     </container>
   </group>
   <group name="Land_ContainerLocked_Red_DE" lootmax="9">
-    <usage name="ContainerLockedRed"/>
+    <usage name="ContainerLocked"/>
+    <usage name="Military"/>
+    <usage name="Special"/>
+    <usage name="Underground"/>
     <container name="lootFloor" lootmax="9">
-      <category name="explosives"/>
+      <category name="tools"/>
+      <category name="clothes"/>
+      <category name="weapons"/>
+      <category name="containerlocked"/>
       <tag name="floor"/>
       <tag name="shelves"/>
       <tag name="ground"/>
@@ -7502,10 +7520,15 @@
     </container>
   </group>
   <group name="Land_ContainerLocked_Orange_DE" lootmax="9">
-    <usage name="Special"/>
+    <usage name="ContainerLocked"/>
     <usage name="Military"/>
+    <usage name="Special"/>
+    <usage name="Underground"/>
     <container name="lootFloor" lootmax="9">
+      <category name="tools"/>
+      <category name="clothes"/>
       <category name="weapons"/>
+      <category name="containerlocked"/>
       <tag name="floor"/>
       <tag name="shelves"/>
       <tag name="ground"/>
@@ -7520,34 +7543,15 @@
       <point pos="2.449341 -1.087740 -0.670532" range="0.377808" height="0.944519"/>
     </container>
   </group>
-  <group name="Land_Wreck_S1023_Medic_Beige_DE" lootmax="10">
-    <usage name="Medic"/>
-    <container name="lootFloor" lootmax="10">
-      <point pos="-1.705301 0.531269 0.438694" range="0.100000" height="0.250000"/>
-      <point pos="-1.174911 0.973920 0.437195" range="0.203125" height="0.507813"/>
-      <point pos="-1.121459 0.919024 -0.670294" range="0.237500" height="0.593750"/>
-      <point pos="-1.282640 0.067672 2.049983" range="0.581250" height="1.453125" flags="32"/>
-      <point pos="0.568811 -0.083350 -1.824341" range="1.096875" height="2.000000" flags="32"/>
-      <point pos="1.524710 0.896021 -0.052272" range="0.650000" height="0.863715"/>
-      <point pos="3.681174 -0.012668 -0.278500" range="0.650000" height="1.625000" flags="32"/>
-      <point pos="0.086878 0.483942 0.411688" range="0.650000" height="1.295670"/>
-      <point pos="1.524754 0.052226 2.008461" range="0.753125" height="1.882813" flags="32"/>
-      <point pos="2.644009 -0.067204 -1.747355" range="0.821875" height="2.000000" flags="32"/>
-      <point pos="-1.673562 -0.097094 -1.753175" range="0.856250" height="2.000000" flags="32"/>
-      <point pos="-3.175378 -0.039291 -0.205491" range="0.856250" height="2.140625" flags="32"/>
-      <point pos="-1.728465 0.473426 -0.689999" range="0.100000" height="0.250000"/>
-    </container>
-  </group>
-  <group name="StaticObj_PatrolBoat_Military_DE" lootmax="15">
+  <group name="StaticObj_PatrolBoat_Military_DE" lootmax="5">
     <usage name="Military"/>
-    <container name="lootFloor" lootmax="15">
+    <container name="lootFloor" lootmax="5">
       <category name="tools"/>
       <category name="containers"/>
       <category name="clothes"/>
       <category name="food"/>
       <category name="weapons"/>
       <category name="books"/>
-      <category name="explosives"/>
       <point pos="1.771973 -2.057341 0.499023" range="1.000000" height="2.000000"/>
       <point pos="1.801758 -2.057340 -0.552734" range="1.000000" height="2.000000"/>
       <point pos="-2.223144 -2.681943 -0.206055" range="1.000000" height="2.000000"/>
@@ -7566,10 +7570,10 @@
       <point pos="-4.902832 -1.772293 -0.011964" range="0.168750" height="0.421875" flags="16"/>
     </container>
   </group>
-  <group name="Land_Boat_Small9_DE" lootmax="15">
+  <group name="Land_Boat_Small9_DE" lootmax="4">
     <usage name="Coast"/>
     <usage name="Farm"/>
-    <container name="lootFloor" lootmax="11">
+    <container name="lootFloor" lootmax="4">
       <category name="tools"/>
       <category name="clothes"/>
       <category name="food"/>
@@ -7626,9 +7630,8 @@
       <point pos="-0.076096 -0.040569 3.007762" range="0.422222" height="2.000000" flags="32"/>
     </container>
   </group>
-  <group name="Land_Wreck_S1023_Medic_Beige_DE" lootmax="4">
-    <usage name="Town"/>
-    <usage name="Village"/>
+  <group name="Land_Wreck_S1023_Medic_Beige_DE" lootmax="5">
+    <usage name="Medic"/>
     <container name="lootshelves">
       <category name="tools"/>
       <category name="clothes"/>
@@ -23988,7 +23991,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_Mil_ControlTower" lootmax="5">
-    <usage name="Military"/>
+    <usage name="Militia"/>
+    <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="2">
       <category name="tools"/>
       <category name="containers"/>
@@ -24005,7 +24011,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseSmall1" lootmax="7">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="2">
       <category name="tools"/>
       <category name="containers"/>
@@ -24023,7 +24032,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseSmall1_NoIvy" lootmax="7">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="2">
       <category name="tools"/>
       <category name="containers"/>
@@ -24041,7 +24053,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseSmall2" lootmax="32">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="2">
       <category name="tools"/>
       <category name="containers"/>
@@ -24094,7 +24109,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseSmall2_NoIvy" lootmax="32">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="2">
       <category name="tools"/>
       <category name="containers"/>
@@ -24147,7 +24165,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_Church2" lootmax="16">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="2">
       <category name="tools"/>
       <category name="containers"/>
@@ -24176,7 +24197,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_Church2_NoIvy" lootmax="16">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="2">
       <category name="tools"/>
       <category name="containers"/>
@@ -24205,7 +24229,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Farm_Hopper2" lootmax="0">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="2">
       <category name="tools"/>
       <category name="containers"/>
@@ -24226,7 +24253,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig1" lootmax="26">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="3">
       <category name="tools"/>
       <category name="containers"/>
@@ -24273,7 +24303,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig1_NoIvy" lootmax="26">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="3">
       <category name="tools"/>
       <category name="containers"/>
@@ -24320,7 +24353,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig1_Half" lootmax="15">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="3">
       <category name="tools"/>
       <category name="containers"/>
@@ -24356,7 +24392,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig1_NoIvy_Half" lootmax="15">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="3">
       <category name="tools"/>
       <category name="containers"/>
@@ -24392,7 +24431,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig2" lootmax="57">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="16">
       <category name="tools"/>
       <category name="containers"/>
@@ -24470,7 +24512,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig2_NoIvy" lootmax="57">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="16">
       <category name="tools"/>
       <category name="containers"/>
@@ -24548,7 +24593,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig2_Half" lootmax="16">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="2">
       <category name="tools"/>
       <category name="containers"/>
@@ -24585,7 +24633,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig2_NoIvy_Half" lootmax="16">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="2">
       <category name="tools"/>
       <category name="containers"/>
@@ -24622,7 +24673,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig3" lootmax="32">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="10">
       <category name="tools"/>
       <category name="containers"/>
@@ -24675,7 +24729,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig3_NoIvy" lootmax="32">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="10">
       <category name="tools"/>
       <category name="containers"/>
@@ -24728,7 +24785,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig3_Half" lootmax="21">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="6">
       <category name="tools"/>
       <category name="containers"/>
@@ -24770,7 +24830,10 @@
     </container>
   </group>
   <group name="Vanilla_Land_Ruin_HouseBig3_NoIvy_Half" lootmax="21">
+    <usage name="Militia"/>
     <usage name="Village"/>
+    <usage name="Medic"/>
+    <usage name="Industrial"/>
     <container name="lootFloor" lootmax="6">
       <category name="tools"/>
       <category name="containers"/>

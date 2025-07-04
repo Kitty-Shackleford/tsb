@@ -17,6 +17,7 @@
     <category name="mechanic"/>
     <category name="ussr"/>
     <category name="usa"/>
+    <category name="militia"/>
     <category name="party"/>
     <category name="containerlocked"/>
     <category name="leftovers"/>
@@ -58,6 +59,7 @@
     <usage name="Mechanic"/>
     <usage name="USSR"/>
     <usage name="USA"/>
+    <usage name="Militia"/>
     <usage name="Cartools"/>
     <usage name="Historical"/>
     <usage name="Custom"/>
@@ -67,6 +69,7 @@
     <usage name="Airstrike"/>
     <usage name="Cannibal"/>
     <usage name="ContainerSpecial"/>
+    <usage name="ContainerLocked"/>
     <usage name="ContainerLockedBlue"/>
     <usage name="ContainerLockedYellow"/>
     <usage name="ContainerLockedRed"/>

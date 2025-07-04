@@ -112,4 +112,34 @@
       <item name="Mag_CZ527_5rnd" chance="1.00"/>
     </attachments>
   </type>
+  <type name="B95_Black">
+    <damage min="0.0" max="0.69"/>
+    <attachments chance="0.75">
+      <item name="SportingOptic" chance="0.90"/>
+      <item name="HuntingOptic" chance="0.10"/>
+    </attachments>
+  </type>
+  <type name="Scout_Black">
+    <attachments chance="0.25">
+      <item name="Mag_Scout_5Rnd" chance="1.00"/>
+    </attachments>
+    <attachments chance="0.25">
+      <item name="M4_T3NRDSOptic" chance="0.25"/>
+      <item name="M68Optic" chance="0.25"/>
+      <item name="ACOGOptic" chance="0.25"/>
+      <item name="ACOGOptic_6x" chance="0.25"/>
+      <item name="M4_Suppressor" chance="0.25"/>
+    </attachments>
+  </type>
+  <type name="Ruger1022_Black">
+    <damage min="0.0" max="0.69"/>
+    <attachments chance="0.25">
+      <item name="SportingOptic" chance="0.90"/>
+      <item name="HuntingOptic" chance="0.10"/>
+    </attachments>
+    <attachments chance="0.25">
+      <item name="Mag_Ruger1022_30Rnd" chance="0.30"/>
+      <item name="Mag_Ruger1022_15Rnd" chance="0.50"/>
+    </attachments>
+  </type>
 </spawnabletypes>
