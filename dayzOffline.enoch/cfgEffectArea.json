@@ -15,7 +15,7 @@
         "NegHeight": 10,
         "InnerPartDist": 100,
         "OuterOffset": 20,
-        "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+        "ParticleName": "graphics/particles/contaminated_area_gas_bigass_debug"
       },
       "PlayerData": {
         "AroundPartName": "graphics/particles/contaminated_area_gas_around",
@@ -38,7 +38,7 @@
         "NegHeight": 10,
         "InnerPartDist": 100,
         "OuterOffset": 20,
-        "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+        "ParticleName": "graphics/particles/contaminated_area_gas_bigass_debug"
       },
       "PlayerData": {
         "AroundPartName": "graphics/particles/contaminated_area_gas_around",
@@ -61,7 +61,7 @@
         "NegHeight": 20,
         "InnerPartDist": 100,
         "OuterOffset": 20,
-        "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+        "ParticleName": "graphics/particles/contaminated_area_gas_bigass_debug"
       },
       "PlayerData": {
         "AroundPartName": "graphics/particles/contaminated_area_gas_around",
@@ -84,7 +84,7 @@
         "NegHeight": 10,
         "InnerPartDist": 100,
         "OuterOffset": 20,
-        "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+        "ParticleName": "graphics/particles/contaminated_area_gas_bigass_debug"
       },
       "PlayerData": {
         "AroundPartName": "graphics/particles/contaminated_area_gas_around",
@@ -107,7 +107,7 @@
         "NegHeight": 20,
         "InnerPartDist": 100,
         "OuterOffset": 20,
-        "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+        "ParticleName": "graphics/particles/contaminated_area_gas_bigass_debug"
       },
       "PlayerData": {
         "AroundPartName": "graphics/particles/contaminated_area_gas_around",
@@ -130,7 +130,7 @@
         "NegHeight": 10,
         "InnerPartDist": 100,
         "OuterOffset": 20,
-        "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+        "ParticleName": "graphics/particles/contaminated_area_gas_bigass_debug"
       },
       "PlayerData": {
         "AroundPartName": "graphics/particles/contaminated_area_gas_around",
@@ -153,7 +153,7 @@
         "NegHeight": 10,
         "InnerPartDist": 100,
         "OuterOffset": 20,
-        "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+        "ParticleName": "graphics/particles/contaminated_area_gas_bigass_debug"
       },
       "PlayerData": {
         "AroundPartName": "graphics/particles/contaminated_area_gas_around",
@@ -176,7 +176,7 @@
         "NegHeight": 20,
         "InnerPartDist": 100,
         "OuterOffset": 20,
-        "ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+        "ParticleName": "graphics/particles/contaminated_area_gas_bigass_debug"
       },
       "PlayerData": {
         "AroundPartName": "graphics/particles/contaminated_area_gas_around",
@@ -187,112 +187,84 @@
   ],
   "SafePositions": [
     [
-      8224,
-      9710
+      5574.18,
+      8808.58
     ],
     [
-      8975,
-      6866
+      5504.86,
+      8709.54
     ],
     [
-      5431,
-      2215
+      5649.95,
+      8793.54
     ],
     [
-      11323,
-      4446
+      5576.33,
+      8749.98
     ],
     [
-      11610,
-      664
+      5575.75,
+      8806.63
     ],
     [
-      7732,
-      2834
+      5509.54,
+      8713.25
     ],
     [
-      1229,
-      9794
+      5545.48,
+      8740.99
     ],
     [
-      6245,
-      8033
+      5635.89,
+      8827.92
     ],
     [
-      3186,
-      2284
+      5631.4,
+      8774.01
     ],
     [
-      5588,
-      5527
+      5664.01,
+      8828.31
     ],
     [
-      643,
-      5536
+      5578.87,
+      8816.79
     ],
     [
-      7729,
-      5177
+      5526.73,
+      8776.94
     ],
     [
-      8161,
-      8922
+      5507.59,
+      8713.45
     ],
     [
-      5721,
-      4182
+      5669.09,
+      8849.8
     ],
     [
-      2077,
-      11340
+      5657.18,
+      8796.86
     ],
     [
-      9208,
-      4227
+      5529.85,
+      8781.23
     ],
     [
-      4398,
-      6366
+      5479.28,
+      8702.51
     ],
     [
-      9985,
-      8497
+      5558.17,
+      8804.87
     ],
     [
-      3068,
-      6620
+      5578.09,
+      8817.96
     ],
     [
-      5993,
-      6372
-    ],
-    [
-      9093,
-      2129
-    ],
-    [
-      10296,
-      2359
-    ],
-    [
-      4379,
-      4650
-    ],
-    [
-      7973,
-      10476
-    ],
-    [
-      10099,
-      3659
-    ],
-    [
-      3449,
-      11703
-    ],
-    [
-      2402,
-      5420
+      5609.53,
+      8802.72
     ]
   ]
 }

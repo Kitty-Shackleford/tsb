@@ -1033,19 +1033,17 @@
     <usage name="Admin"/>
   </type>
   <type name="CZ527_Green">
-    <nominal>10</nominal>
-    <lifetime>28800</lifetime>
-    <restock>1200</restock>
-    <min>7</min>
-    <quantmin>30</quantmin>
-    <quantmax>80</quantmax>
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <usage name="Farm"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-    <usage name="Hunting"/>
+    <!-- <tag name="wall"/> -->
+    <usage name="Admin"/>
   </type>
   <type name="CZ527_Black">
     <nominal>10</nominal>
@@ -1093,31 +1091,30 @@
     <usage name="Hunting"/>
   </type>
   <type name="Ruger1022_Green">
-    <nominal>10</nominal>
-    <lifetime>28800</lifetime>
-    <restock>1200</restock>
-    <min>7</min>
-    <quantmin>30</quantmin>
-    <quantmax>80</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="weapons"/>
-    <usage name="Farm"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-    <usage name="Hunting"/>
-  </type>
-  <type name="SKS_Green">
-    <nominal>11</nominal>
-    <lifetime>28800</lifetime>
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>0</min>
-    <quantmin>25</quantmin>
-    <quantmax>75</quantmax>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <usage name="Military"/>
+    <!-- <tag name="wall"/> -->
+    <usage name="Admin"/>
+  </type>
+  <type name="SKS_Green">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <!-- <tag name="wall"/> -->
+    <usage name="Admin"/>
   </type>
   <type name="SKS_Black">
     <nominal>11</nominal>
@@ -1144,16 +1141,17 @@
     <usage name="Military"/>
   </type>
   <type name="Scout_Green">
-    <nominal>11</nominal>
-    <lifetime>28800</lifetime>
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>0</min>
-    <quantmin>25</quantmin>
-    <quantmax>75</quantmax>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <usage name="Military"/>
+    <!-- <tag name="wall"/> -->
+    <usage name="Admin"/>
   </type>
   <type name="Winchester70_Green">
     <nominal>0</nominal>
@@ -1169,16 +1167,15 @@
     <usage name="Admin"/>
   </type>
   <type name="Winchester70_Black">
-    <nominal>0</nominal>
-    <lifetime>14400</lifetime>
+    <nominal>11</nominal>
+    <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>0</min>
-    <quantmin>100</quantmin>
-    <quantmax>100</quantmax>
+    <quantmin>25</quantmin>
+    <quantmax>75</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <!-- <tag name="wall"/> -->
     <usage name="Military"/>
   </type>
   <type name="SawedoffB95">

@@ -68,6 +68,8 @@
     <usage name="Chicken"/>
     <usage name="Airstrike"/>
     <usage name="Cannibal"/>
+    <usage name="Container"/>
+    <usage name="ContainerMilitary"/>
     <usage name="ContainerSpecial"/>
     <usage name="ContainerLocked"/>
     <usage name="ContainerLockedBlue"/>

@@ -21,6 +21,7 @@
     <usage name="Party"/>
     <usage name="Cannibal"/>
     <usage name="SeasonalEvent"/>
+    <usage name="Military"/>
     <container name="lootFloor" lootmax="4">
       <category name="tools"/>
       <category name="food"/>
@@ -7611,11 +7612,12 @@
     </container>
     -->
   </group>
-  <group name="Misc_TirePile_Burning_DE" lootmax="16">
+  <group name="Misc_TirePile_Burning_DE" lootmax="7">
     <usage name="Party"/>
     <usage name="Cannibal"/>
     <usage name="SeasonalEvent"/>
-    <container name="lootFloor" lootmax="16">
+    <usage name="Military"/>
+    <container name="lootFloor" lootmax="7">
       <category name="tools"/>
       <category name="food"/>
       <category name="clothes"/>
