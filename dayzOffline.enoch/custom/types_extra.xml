@@ -472,21 +472,23 @@
     <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    <category name="tools"/>
   </type>
   <type name="Plant_Cannabis">
     <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    <category name="food"/>
   </type>
   <!-- DRINK -->
   <type name="GlassBottle">
@@ -658,14 +660,14 @@
     <usage name="School"/>
   </type>
   <type name="Cannabis">
-    <nominal>25</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>13</min>
+    <min>11</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="food"/>
     <usage name="Party"/>
   </type>
@@ -828,18 +830,16 @@
   </type>
   <!-- WEAPONS -->
   <type name="AK74_Black">
-    <nominal>25</nominal>
+    <nominal>13</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>7</min>
-    <quantmin>30</quantmin>
-    <quantmax>80</quantmax>
+    <min>13</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <usage name="Militia"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="AK74_Green">
     <nominal>0</nominal>
@@ -858,15 +858,13 @@
     <nominal>13</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>0</min>
-    <quantmin>30</quantmin>
-    <quantmax>80</quantmax>
+    <min>13</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <usage name="Militia"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="AKS74U_Green">
     <nominal>0</nominal>
@@ -882,17 +880,16 @@
     <usage name="Admin"/>
   </type>
   <type name="AK101_Black">
-    <nominal>1</nominal>
+    <nominal>13</nominal>
     <lifetime>28800</lifetime>
-    <restock>3600</restock>
-    <min>0</min>
-    <quantmin>30</quantmin>
-    <quantmax>80</quantmax>
+    <restock>0</restock>
+    <min>13</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <usage name="Underground"/>
-    <value name="Tier3"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="AK101_Green">
     <nominal>0</nominal>
@@ -908,20 +905,19 @@
     <usage name="Admin"/>
   </type>
   <type name="B95_Black">
-    <nominal>0</nominal>
-    <lifetime>14400</lifetime>
+    <nominal>13</nominal>
+    <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>0</min>
-    <quantmin>100</quantmin>
+    <min>13</min>
+    <quantmin>0</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <!-- <tag name="wall"/> -->
-    <usage name="Admin"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="B95_Green">
-    <nominal>0</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -947,16 +943,16 @@
     <usage name="SeasonalEvent"/>
   </type>
   <type name="Mosin9130_Black">
-    <nominal>9</nominal>
+    <nominal>13</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>6</min>
+    <min>13</min>
     <quantmin>0</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <usage name="Militia"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="Mosin9130_Camo">
     <nominal>9</nominal>
@@ -996,17 +992,16 @@
     <usage name="Admin"/>
   </type>
   <type name="M4A1_Black">
-    <nominal>0</nominal>
-    <lifetime>14400</lifetime>
+    <nominal>13</nominal>
+    <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <min>13</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <!-- <tag name="wall"/> -->
-    <usage name="Military"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="AKM_TESTBED">
     <nominal>0</nominal>
@@ -1046,19 +1041,16 @@
     <usage name="Admin"/>
   </type>
   <type name="CZ527_Black">
-    <nominal>10</nominal>
+    <nominal>13</nominal>
     <lifetime>28800</lifetime>
-    <restock>1200</restock>
-    <min>7</min>
-    <quantmin>30</quantmin>
-    <quantmax>80</quantmax>
+    <restock>0</restock>
+    <min>13</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <usage name="Farm"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-    <usage name="Hunting"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="CZ527_Camo">
     <nominal>10</nominal>
@@ -1076,19 +1068,16 @@
     <usage name="Hunting"/>
   </type>
   <type name="Ruger1022_Black">
-    <nominal>10</nominal>
+    <nominal>13</nominal>
     <lifetime>28800</lifetime>
-    <restock>1200</restock>
-    <min>7</min>
-    <quantmin>30</quantmin>
-    <quantmax>80</quantmax>
+    <restock>0</restock>
+    <min>13</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <usage name="Farm"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-    <usage name="Hunting"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="Ruger1022_Green">
     <nominal>0</nominal>
@@ -1117,28 +1106,28 @@
     <usage name="Admin"/>
   </type>
   <type name="SKS_Black">
-    <nominal>11</nominal>
+    <nominal>13</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>0</min>
-    <quantmin>25</quantmin>
-    <quantmax>75</quantmax>
+    <min>13</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <usage name="Military"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="Scout_Black">
-    <nominal>11</nominal>
+    <nominal>13</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>0</min>
-    <quantmin>25</quantmin>
-    <quantmax>75</quantmax>
+    <min>13</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <usage name="Military"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="Scout_Green">
     <nominal>0</nominal>
@@ -1167,16 +1156,16 @@
     <usage name="Admin"/>
   </type>
   <type name="Winchester70_Black">
-    <nominal>11</nominal>
+    <nominal>13</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>0</min>
-    <quantmin>25</quantmin>
-    <quantmax>75</quantmax>
+    <min>13</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
     <category name="weapons"/>
-    <usage name="Military"/>
+    <usage name="SeasonalEvent"/>
   </type>
   <type name="SawedoffB95">
     <nominal>1</nominal>

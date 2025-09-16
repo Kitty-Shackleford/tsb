@@ -160,7 +160,7 @@
     <flags deletable="0" init_random="0" remove_damaged="1"/>
     <position>fixed</position>
     <limit>child</limit>
-    <active>0</active>
+    <active>1</active>
     <children>
       <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_RangiferTarandus"/>
       <child lootmax="0" lootmin="0" max="4" min="2" type="Animal_RangiferTarandusF"/>
@@ -388,6 +388,25 @@
     <children>
       <child lootmax="5" lootmin="0" max="0" min="90" type="ZmbM_FirefighterNormal"/>
       <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_NBC_Yellow"/>
+    </children>
+  </event>
+  <event name="InfectedGamedev">
+    <nominal>50</nominal>
+    <min>25</min>
+    <max>250</max>
+    <lifetime>3</lifetime>
+    <restock>0</restock>
+    <saferadius>100</saferadius>
+    <distanceradius>50</distanceradius>
+    <cleanupradius>100</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="1"/>
+    <position>player</position>
+    <limit>custom</limit>
+    <active>1</active>
+    <children>
+      <child lootmax="5" lootmin="0" max="0" min="33" type="ZmbM_Gamedev_Black"/>
+      <child lootmax="5" lootmin="0" max="0" min="33" type="ZmbM_Gamedev_Blue"/>
+      <child lootmax="5" lootmin="0" max="0" min="33" type="ZmbM_Gamedev_Gray"/>
     </children>
   </event>
   <event name="InfectedIndustrial">
@@ -1127,9 +1146,9 @@
     <children/>
   </event>
   <event name="StaticTrain">
-    <nominal>14</nominal>
-    <min>14</min>
-    <max>14</max>
+    <nominal>3</nominal>
+    <min>1</min>
+    <max>3</max>
     <lifetime>5400</lifetime>
     <restock>0</restock>
     <saferadius>500</saferadius>
@@ -1376,17 +1395,16 @@
     <flags deletable="0" init_random="0" remove_damaged="1"/>
     <position>fixed</position>
     <limit>mixed</limit>
-    <active>1</active>
+    <active>0</active>
     <children>
-      <child lootmax="0" lootmin="0" max="10" min="4" type="Boat_01_Black"/>
-      <child lootmax="0" lootmin="0" max="10" min="5" type="Boat_01_Blue"/>
-      <child lootmax="0" lootmin="0" max="10" min="5" type="Boat_01_Orange"/>
+      <child lootmax="0" lootmin="0" max="3" min="3" type="Boat_01_Blue"/>
+      <child lootmax="0" lootmin="0" max="4" min="4" type="Boat_01_Orange"/>
     </children>
   </event>
   <event name="VehicleMilitaryBoat">
-    <nominal>8</nominal>
-    <min>6</min>
-    <max>8</max>
+    <nominal>3</nominal>
+    <min>1</min>
+    <max>3</max>
     <lifetime>6000</lifetime>
     <restock>0</restock>
     <saferadius>1000</saferadius>
@@ -1395,10 +1413,10 @@
     <flags deletable="0" init_random="0" remove_damaged="1"/>
     <position>fixed</position>
     <limit>mixed</limit>
-    <active>1</active>
+    <active>0</active>
     <children>
-      <child lootmax="0" lootmin="0" max="8" min="6" type="Boat_01_Black"/>
-      <child lootmax="0" lootmin="0" max="0" min="0" type="Boat_01_Camo"/>
+      <child lootmax="0" lootmin="0" max="2" min="1" type="Boat_01_Black"/>
+      <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Camo"/>
     </children>
   </event>
   <event name="VehicleCivilianSedan">
@@ -1440,9 +1458,9 @@
     </children>
   </event>
   <event name="VehicleOffroad02">
-    <nominal>3</nominal>
-    <min>2</min>
-    <max>3</max>
+    <nominal>20</nominal>
+    <min>19</min>
+    <max>21</max>
     <lifetime>300</lifetime>
     <restock>0</restock>
     <saferadius>500</saferadius>
@@ -1453,7 +1471,7 @@
     <limit>child</limit>
     <active>1</active>
     <children>
-      <child lootmax="0" lootmin="0" max="3" min="2" type="Offroad_02"/>
+      <child lootmax="0" lootmin="0" max="21" min="19" type="Offroad_02"/>
     </children>
   </event>
   <event name="VehicleOffroadHatchback">
@@ -1511,23 +1529,6 @@
       <child lootmax="0" lootmin="0" max="0" min="0" type="Truck_01_Covered"/>
       <child lootmax="0" lootmin="0" max="15" min="9" type="Truck_01_Covered_Blue"/>
       <child lootmax="0" lootmin="0" max="0" min="0" type="Truck_01_Covered_Orange"/>
-    </children>
-  </event>
-  <event name="VehicleOffroad02">
-    <nominal>3</nominal>
-    <min>2</min>
-    <max>3</max>
-    <lifetime>300</lifetime>
-    <restock>0</restock>
-    <saferadius>500</saferadius>
-    <distanceradius>500</distanceradius>
-    <cleanupradius>200</cleanupradius>
-    <flags deletable="0" init_random="0" remove_damaged="1"/>
-    <position>fixed</position>
-    <limit>mixed</limit>
-    <active>1</active>
-    <children>
-      <child lootmax="0" lootmin="0" max="3" min="2" type="Offroad_02"/>
     </children>
   </event>
 </events>

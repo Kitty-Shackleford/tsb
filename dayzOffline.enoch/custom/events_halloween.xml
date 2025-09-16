@@ -14,7 +14,7 @@
     <limit>mixed</limit>
     <active>1</active>
     <children>
-      <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CapraHircus_Spooky"/>
+      <child lootmax="0" lootmin="0" max="13" min="1" type="Animal_CapraHircus_Spooky"/>
     </children>
   </event>
   <event name="InfectedMummy">
@@ -37,7 +37,7 @@
     </children>
   </event>
   <event name="StaticBonfire">
-    <nominal>27</nominal>
+    <nominal>13</nominal>
     <min>0</min>
     <max>0</max>
     <lifetime>2100</lifetime>
@@ -52,7 +52,7 @@
     <limit>child</limit>
     <active>1</active>
     <children>
-      <child lootmax="8" lootmin="4" max="27" min="26" type="Bonfire"/>
+      <child lootmax="8" lootmin="4" max="27" min="13" type="Bonfire"/>
     </children>
   </event>
 </events>

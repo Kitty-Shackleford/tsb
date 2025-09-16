@@ -16,6 +16,7 @@
     <file path="env/bear_territories.xml"/>
     <file path="custom/sheep_goat_spooky_territories.xml"/>
     <file path="custom/wolf_custom_territories.xml"/>
+    <file path="custom/reindeer_territories.xml"/>
     <!-- UNUSED
 		<file path="custom/cattle_custom_territories.xml" />
 		<file path="custom/sheep_goat_custom_territories.xml" />
@@ -72,6 +73,9 @@
     </territory>
     <territory type="Herd" name="RoeDeer" behavior="DZDeerGroupBeh">
       <file usable="roe_deer_territories"/>
+    </territory>
+    <territory type="Herd" name="ReindeerCustom" behavior="DZDeerGroupBeh">
+      <file usable="reindeer_territories"/>
     </territory>
     <territory type="Herd" name="Bear" behavior="BlissBearGroupBeh">
       <file usable="bear_territories"/>

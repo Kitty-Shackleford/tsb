@@ -2,24 +2,43 @@
 <spawnabletypes>
   <!--START OF ZOMBIES  -->
   <!--NBC-->
-  <type name="LandMineTrap">
-    <damage min="0.0" max="0.0"/>
-  </type>
-  <type name="Grenade_ChemGas">
-    <damage min="0.0" max="0.0"/>
-  </type>
   <type name="ZmbM_NBC_Grey">
+    <attachments chance="1.00">
+      <item name="LandMineTrap" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+    </attachments>
     <cargo preset="grossInfected"/>
     <cargo preset="ContaminatedCargo"/>
     <cargo preset="SpecialCargo"/>
   </type>
   <type name="ZmbM_NBC_Yellow">
+    <attachments chance="1.00">
+      <item name="LandMineTrap" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+    </attachments>
     <cargo preset="grossInfected"/>
     <cargo preset="ContaminatedCargo"/>
     <cargo preset="SpecialCargo"/>
   </type>
   <type name="ZmbM_NBC_White">
+    <attachments chance="1.00">
+      <item name="LandMineTrap" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+    </attachments>
     <cargo preset="grossInfected"/>
+    <cargo preset="ContaminatedCargo"/>
     <cargo preset="SpecialCargo"/>
   </type>
   <!--ARMY-->
@@ -841,16 +860,43 @@
     <attachments preset="vestsIndustrial"/>
   </type>
   <type name="ZmbM_Gamedev_Black">
+    <damage min="0.9" max="0.9"/>
+    <attachments chance="1.00">
+      <item name="LandMineTrap" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+    </attachments>
     <cargo preset="grossInfected"/>
     <cargo preset="foodCity"/>
     <cargo preset="toolsCity"/>
   </type>
   <type name="ZmbM_Gamedev_Blue">
+    <damage min="0.9" max="0.9"/>
+    <attachments chance="1.00">
+      <item name="LandMineTrap" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+    </attachments>
     <cargo preset="grossInfected"/>
     <cargo preset="foodCity"/>
     <cargo preset="toolsCity"/>
   </type>
   <type name="ZmbM_Gamedev_Gray">
+    <damage min="0.9" max="0.9"/>
+    <attachments chance="1.00">
+      <item name="LandMineTrap" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.50">
+        <damage min="0.90" max="0.90"/>
+      </item>
+    </attachments>
     <cargo preset="grossInfected"/>
     <cargo preset="foodCity"/>
     <cargo preset="toolsCity"/>
@@ -1284,7 +1330,6 @@
     <attachments preset="MummyVest"/>
     <attachments preset="MummyHat"/>
     <cargo preset="grossInfected"/>
-    <cargo preset="MummyLoot"/>
   </type>
   <!--END OF ZOMBIES  -->
 </spawnabletypes>

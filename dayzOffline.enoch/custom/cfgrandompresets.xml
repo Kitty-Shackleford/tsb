@@ -15,14 +15,13 @@
     <item name="NorseHelm" chance="0.166"/>
     <item name="GreatHelm" chance="0.166"/>
     <item name="Chainmail_Coif" chance="0.166"/>
+    <item name="DarkMotoHelmet_YellowScarred_Test" chance="0.166"/>
   </attachments>
   <attachments chance="1.00" name="MummyVest">
     <item name="Chestplate" chance="0.50"/>
     <item name="PlateCarrierVest" chance="0.50"/>
   </attachments>
-  <cargo chance="0.50" name="MummyLoot">
-    <item name="LandMineTrap" chance="0.50"/>
-    <item name="Grenade_ChemGas" chance="0.50"/>
+  <cargo chance="0.00" name="MummyLoot">
   </cargo>
   <attachments chance="1.00" name="PriestHat">
     <item name="WitchHood_Black" chance="0.70"/>

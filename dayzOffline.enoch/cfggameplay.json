@@ -12,7 +12,9 @@
       "./custom/loadoutwhore.json",
       "./custom/loadoutcriminal.json",
       "./custom/loadoutprisoner.json",
-      "./custom/loadoutpoliceofficer.json"
+      "./custom/loadoutpoliceofficer.json",
+      "./custom/loadoutvanillaenhancedwalpurgisnite.json",
+      "./custom/loadoutpumpkin.json"
     ],
     "disablePersonalLight": true,
     "StaminaData": {
