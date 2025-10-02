@@ -3,40 +3,70 @@
   <!--START OF ZOMBIES  -->
   <!--NBC-->
   <type name="ZmbM_NBC_Grey">
-    <attachments chance="1.00">
-      <item name="LandMineTrap" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+    <cargo chance="1.0">
+      <!-- explosion -->
+      <item name="FlashGrenade" chance="0.30">
+        <damage min="1.00" max="1.00"/>
       </item>
-      <item name="Grenade_ChemGas" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+      <item name="LandMineTrap" chance="0.30">
+        <damage min="1.00" max="1.00"/>
       </item>
-    </attachments>
+      <item name="RGD5Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="M67Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.30">
+        <damage min="1.00" max="1.00"/>
+      </item>
+    </cargo>
     <cargo preset="grossInfected"/>
     <cargo preset="ContaminatedCargo"/>
     <cargo preset="SpecialCargo"/>
   </type>
   <type name="ZmbM_NBC_Yellow">
-    <attachments chance="1.00">
-      <item name="LandMineTrap" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+    <cargo chance="1.0">
+      <!-- explosion -->
+      <item name="FlashGrenade" chance="0.30">
+        <damage min="1.00" max="1.00"/>
       </item>
-      <item name="Grenade_ChemGas" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+      <item name="LandMineTrap" chance="0.30">
+        <damage min="1.00" max="1.00"/>
       </item>
-    </attachments>
+      <item name="RGD5Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="M67Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.30">
+        <damage min="1.00" max="1.00"/>
+      </item>
+    </cargo>
     <cargo preset="grossInfected"/>
     <cargo preset="ContaminatedCargo"/>
     <cargo preset="SpecialCargo"/>
   </type>
   <type name="ZmbM_NBC_White">
-    <attachments chance="1.00">
-      <item name="LandMineTrap" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+    <cargo chance="1.0">
+      <!-- explosion -->
+      <item name="FlashGrenade" chance="0.30">
+        <damage min="1.00" max="1.00"/>
       </item>
-      <item name="Grenade_ChemGas" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+      <item name="LandMineTrap" chance="0.30">
+        <damage min="1.00" max="1.00"/>
       </item>
-    </attachments>
+      <item name="RGD5Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="M67Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.30">
+        <damage min="1.00" max="1.00"/>
+      </item>
+    </cargo>
     <cargo preset="grossInfected"/>
     <cargo preset="ContaminatedCargo"/>
     <cargo preset="SpecialCargo"/>
@@ -860,43 +890,70 @@
     <attachments preset="vestsIndustrial"/>
   </type>
   <type name="ZmbM_Gamedev_Black">
-    <damage min="0.9" max="0.9"/>
-    <attachments chance="1.00">
-      <item name="LandMineTrap" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+    <cargo chance="1.0">
+      <!-- explosion -->
+      <item name="FlashGrenade" chance="0.50">
+        <damage min="1.00" max="1.00"/>
       </item>
-      <item name="Grenade_ChemGas" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+      <item name="LandMineTrap" chance="0.00">
+        <damage min="1.00" max="1.00"/>
       </item>
-    </attachments>
+      <item name="RGD5Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="M67Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+    </cargo>
     <cargo preset="grossInfected"/>
     <cargo preset="foodCity"/>
     <cargo preset="toolsCity"/>
   </type>
   <type name="ZmbM_Gamedev_Blue">
-    <damage min="0.9" max="0.9"/>
-    <attachments chance="1.00">
-      <item name="LandMineTrap" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+    <cargo chance="1.0">
+      <!-- explosion -->
+      <item name="FlashGrenade" chance="0.50">
+        <damage min="1.00" max="1.00"/>
       </item>
-      <item name="Grenade_ChemGas" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+      <item name="LandMineTrap" chance="0.00">
+        <damage min="1.00" max="1.00"/>
       </item>
-    </attachments>
+      <item name="RGD5Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="M67Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+    </cargo>
     <cargo preset="grossInfected"/>
     <cargo preset="foodCity"/>
     <cargo preset="toolsCity"/>
   </type>
   <type name="ZmbM_Gamedev_Gray">
-    <damage min="0.9" max="0.9"/>
-    <attachments chance="1.00">
-      <item name="LandMineTrap" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+    <cargo chance="1.0">
+      <!-- explosion -->
+      <item name="FlashGrenade" chance="0.50">
+        <damage min="1.00" max="1.00"/>
       </item>
-      <item name="Grenade_ChemGas" chance="0.50">
-        <damage min="0.90" max="0.90"/>
+      <item name="LandMineTrap" chance="0.00">
+        <damage min="1.00" max="1.00"/>
       </item>
-    </attachments>
+      <item name="RGD5Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="M67Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+    </cargo>
     <cargo preset="grossInfected"/>
     <cargo preset="foodCity"/>
     <cargo preset="toolsCity"/>
@@ -1327,6 +1384,24 @@
     <cargo preset="grossInfected"/>
   </type>
   <type name="ZmbM_Mummy">
+    <cargo chance="1.0">
+      <!-- explosion -->
+      <item name="FlashGrenade" chance="0.50">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="LandMineTrap" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="RGD5Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="M67Grenade" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+      <item name="Grenade_ChemGas" chance="0.00">
+        <damage min="1.00" max="1.00"/>
+      </item>
+    </cargo>
     <attachments preset="MummyVest"/>
     <attachments preset="MummyHat"/>
     <cargo preset="grossInfected"/>

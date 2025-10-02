@@ -67,7 +67,13 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   <ce folder="custom">
     <file name="types_halloween.xml" type="types"/>
   </ce>
+  <ce folder="custom">
+    <file name="types_winter.xml" type="types"/>
+  </ce>
   <!--
+     <ce folder="custom">
+    <file name="types_winter.xml" type="types"/>
+  </ce>
 	<ce folder="custom">
 		<file name="types_xmas.xml" type="types"/>
 	</ce>
@@ -113,8 +119,16 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
     <file name="cfgspawnabletypes_zombies.xml" type="spawnabletypes"/>
   </ce>
   <ce folder="custom">
+    <file name="cfgspawnabletypes_admin_weapons.xml" type="spawnabletypes"/>
+  </ce>
+  <!-- Spawnable Types
+    <ce folder="custom">
     <file name="cfgspawnabletypes_npcs.xml" type="spawnabletypes"/>
   </ce>
+    <ce folder="custom">
+    <file name="cfgspawnabletypes_blackmarket_weapons.xml" type="spawnabletypes"/>
+  </ce>
+  -->
   <!-- EVENTS -->
   <ce folder="custom">
     <file name="events.xml" type="events"/>
@@ -142,6 +156,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   </ce>
   <!-- random presets -->
   <ce folder="custom">
-    <file name="randompresets.xml" type="randompresets"/>
+    <file name="cfgrandompresets.xml" type="randompresets"/>
   </ce>
 </economycore>

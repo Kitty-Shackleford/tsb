@@ -20,7 +20,7 @@
     <child type="LandMineTrap" spawnsecondary="false" x="18.31591796875" z="10.595703125" a="0" y="-0.054046630859375"/>
   </group>
   <group name="Bonfire">
-    <child type="Bonfire" deloot="0" lootmax="8" lootmin="8" x="0" z="0" a="0" y="0"/>
+    <child type="Bonfire" deloot="13" lootmax="8" lootmin="8" x="0" z="0" a="0" y="0"/>
     <child type="UndergroundStash" spawnsecondary="false" x="2.751953125" z="-2.96875" a="0" y="-1.8610076904296875"/>
     <child type="UndergroundStash" spawnsecondary="false" x="4.380126953125" z="-0.181640625" a="0" y="-1.887298583984375"/>
     <child type="UndergroundStash" spawnsecondary="false" x="3.157470703125" z="2.572265625" a="0" y="-1.8873138427734375"/>
@@ -86,9 +86,9 @@
   <!-- RICO -->
   <group name="xmasevent">
     <child type="Wreck_SantasSleigh" deloot="10" lootmax="10" lootmin="10" x="5.36279296875" z="-4.5107421875" a="47.351985931396484" y="-3.42169189453125"/>
-    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="7.236328125" z="-9.39453125" a="0" y="-4.420501708984375"/>
-    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="1.76806640625" z="-12.0322265625" a="27" y="-4.12359619140625"/>
-    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="-1.92138671875" z="-5.970703125" a="27" y="-4.162261962890625"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="9" lootmax="8" lootmin="4" x="7.236328125" z="-9.39453125" a="0" y="-4.420501708984375"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="9" lootmax="8" lootmin="4" x="1.76806640625" z="-12.0322265625" a="27" y="-4.12359619140625"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="9" lootmax="8" lootmin="4" x="-1.92138671875" z="-5.970703125" a="27" y="-4.162261962890625"/>
   </group>
   <group name="boathousestore">
     <child type="Land_Boathouse" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="0" y="0"/>
@@ -131,19 +131,19 @@
     <child type="StaticObj_Furniture_school_map" spawnsecondary="false" x="6.26025390625" z="-3.0078125" a="270.0000457763672" y="5.276397705078125"/>
   </group>
   <group name="supplystatichelicrash">
-    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="4.26611328125" z="5.716796875" a="267.2076950073242" y="-1.415679931640625"/>
-    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="1.8486328125" z="8.9111328125" a="337.24668884277344" y="-1.14593505859375"/>
-    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="4.3740234375" z="10.609375" a="248.93697357177734" y="-1.149444580078125"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="5" lootmax="8" lootmin="4" x="4.26611328125" z="5.716796875" a="267.2076950073242" y="-1.415679931640625"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="5" lootmax="8" lootmin="4" x="1.8486328125" z="8.9111328125" a="337.24668884277344" y="-1.14593505859375"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="5" lootmax="8" lootmin="4" x="4.3740234375" z="10.609375" a="248.93697357177734" y="-1.149444580078125"/>
   </group>
   <group name="supplyuh1yhelicrash">
-    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="4.26611328125" z="5.716796875" a="267.2076950073242" y="-1.415679931640625"/>
-    <!-- <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="1.8486328125" z="8.9111328125" a="337.24668884277344" y="-1.14593505859375"/> -->
-    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="4.3740234375" z="10.609375" a="248.93697357177734" y="-1.149444580078125"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="5" lootmax="8" lootmin="4" x="4.26611328125" z="5.716796875" a="267.2076950073242" y="-1.415679931640625"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="5" lootmax="8" lootmin="4" x="1.8486328125" z="8.9111328125" a="337.24668884277344" y="-1.14593505859375"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="5" lootmax="8" lootmin="4" x="4.3740234375" z="10.609375" a="248.93697357177734" y="-1.149444580078125"/>
   </group>
   <group name="supplymi8helicrash">
-    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="8.0791015625" z="7.6953125" a="267.2076950073242" y="-0.889404296875"/>
-    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="4.9267578125" z="9.8232421875" a="337.2466869354248" y="-0.6201171875"/>
-    <!-- <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="7.4521484375" z="11.521484375" a="248.93697357177734" y="-0.623626708984375"/> -->
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="5" lootmax="8" lootmin="4" x="8.0791015625" z="7.6953125" a="267.2076950073242" y="-0.889404296875"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="5" lootmax="8" lootmin="4" x="4.9267578125" z="9.8232421875" a="337.2466869354248" y="-0.6201171875"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="5" lootmax="8" lootmin="4" x="7.4521484375" z="11.521484375" a="248.93697357177734" y="-0.623626708984375"/>
   </group>
   <group name="meleewall">
     <child type="StaticObj_Wall_Tin6_2_4" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>

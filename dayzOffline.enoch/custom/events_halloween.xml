@@ -52,7 +52,7 @@
     <limit>child</limit>
     <active>1</active>
     <children>
-      <child lootmax="8" lootmin="4" max="27" min="13" type="Bonfire"/>
+      <child lootmax="8" lootmin="7" max="13" min="12" type="Bonfire"/>
     </children>
   </event>
 </events>

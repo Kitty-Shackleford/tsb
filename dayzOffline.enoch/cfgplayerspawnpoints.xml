@@ -56,14 +56,14 @@
         <pos x="10738.176758" z="10713.330078"/>
       </group>
       -->
-      <group name="EastNabdor" lifetime="-1" counter="1">
+      <group name="EastNabdor" lifetime="-1" counter="10">
         <pos x="6239.95" z="3978.85"/>
         <pos x="6057.74" z="4018.73"/>
         <pos x="6455.06" z="4740.8"/>
         <pos x="6125.34" z="4207.31"/>
         <pos x="6456.57" z="3839.05"/>
       </group>
-      <group name="WestNabdor" lifetime="-1" counter="1">
+      <group name="WestNabdor" lifetime="-1" counter="10">
         <pos x="5734.75" z="4106.41"/>
         <pos x="5587.88" z="3808.81"/>
         <pos x="5803.83" z="4199.11"/>

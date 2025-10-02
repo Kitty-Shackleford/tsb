@@ -74,7 +74,7 @@
     <territory type="Herd" name="RoeDeer" behavior="DZDeerGroupBeh">
       <file usable="roe_deer_territories"/>
     </territory>
-    <territory type="Herd" name="ReindeerCustom" behavior="DZDeerGroupBeh">
+    <territory type="Herd" name="Reindeer" behavior="DZDeerGroupBeh">
       <file usable="reindeer_territories"/>
     </territory>
     <territory type="Herd" name="Bear" behavior="BlissBearGroupBeh">
@@ -98,7 +98,7 @@
     <territory type="Herd" name="Wolf" behavior="DZWolfGroupBeh">
       <file usable="wolf_territories"/>
     </territory>
-    <territory type="Herd" name="WolfCustom" behavior="DZWolfGroupBeh">
+    <territory type="Herd" name="Wolf" behavior="DZWolfGroupBeh">
       <file usable="wolf_custom_territories"/>
     </territory>
     <territory type="Herd" name="Pig" behavior="DZSheepGroupBeh">

@@ -445,38 +445,60 @@
     <usage name="SeasonalEvent"/>
     <usage name="Halloween"/>
   </type>
-  <type name="UndergroundStash">
-    <nominal>100</nominal>
-    <lifetime>3888000</lifetime>
-    <restock>0</restock>
-    <min>99</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="1"/>
-    <category name="containers"/>
-    <usage name="Bonfire"/>
-  </type>
-  <type name="LandMineTrap">
+  <type name="LeafCrown_Autumn">
     <nominal>0</nominal>
-    <lifetime>604800</lifetime>
+    <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-    <category name="explosives"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
   </type>
-  <type name="Grenade_ChemGas">
-    <nominal>0</nominal>
-    <lifetime>900</lifetime>
+  <type name="LeafCrown_Spring">
+    <nominal>13</nominal>
+    <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>0</min>
+    <min>7</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-    <category name="explosives"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="SeasonalEvent"/>
+    <usage name="Halloween"/>
+  </type>
+  <type name="LeafCrown_Summer">
+    <nominal>13</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>7</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="SeasonalEvent"/>
+    <usage name="Halloween"/>
+  </type>
+  <type name="LeafCrown_Winter">
+    <nominal>13</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>7</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="SeasonalEvent"/>
+    <usage name="Halloween"/>
   </type>
 </types>
