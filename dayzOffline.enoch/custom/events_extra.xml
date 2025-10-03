@@ -12,7 +12,7 @@
     <flags deletable="0" init_random="0" remove_damaged="0"/>
     <position>fixed</position>
     <limit>mixed</limit>
-    <active>0</active>
+    <active>1</active>
     <children>
       <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticus"/>
       <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_GallusGallusDomesticusF_Brown"/>

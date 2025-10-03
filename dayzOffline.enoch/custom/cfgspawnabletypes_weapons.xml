@@ -158,53 +158,25 @@
     <cargo chance="0.25">
       <item name="AmmoBox_762x39Tracer_20Rnd"/>
     </cargo>
-    <cargo chance="0.01">
-      <item name="Ammo_40mm_ChemGas"/>
-    </cargo>
-    <cargo chance="0.20">
-      <item name="Ammo_40mm_Smoke_Black"/>
-    </cargo>
-    <cargo chance="0.20">
-      <item name="Ammo_40mm_Smoke_Red"/>
-    </cargo>
-    <cargo chance="0.20">
-      <item name="Ammo_40mm_Smoke_White"/>
-    </cargo>
-    <cargo chance="0.20">
-      <item name="Ammo_40mm_Smoke_Green"/>
-    </cargo>
-    <cargo chance="0.10">
-      <item name="Ammo_40mm_Explosive"/>
-    </cargo>
-    <cargo chance="0.20">
-      <item name="Ammo_40mm_Explosive"/>
-    </cargo>
-    <cargo chance="0.50">
-      <item name="Ammo_40mm_Explosive"/>
+    <cargo chance="1.0">
+      <item name="Ammo_40mm_Explosive" chance="0.50"/>
+      <item name="Ammo_40mm_ChemGas" chance="0.50"/>
     </cargo>
     <cargo chance="1.0">
-      <item name="Ammo_40mm_Explosive"/>
+      <item name="Ammo_40mm_Explosive" chance="0.50"/>
+      <item name="Ammo_40mm_ChemGas" chance="0.50"/>
     </cargo>
     <cargo chance="1.0">
-      <item name="Ammo_40mm_Explosive"/>
+      <item name="Ammo_40mm_Explosive" chance="0.50"/>
+      <item name="Ammo_40mm_ChemGas" chance="0.50"/>
     </cargo>
     <cargo chance="1.0">
-      <item name="Ammo_40mm_Explosive"/>
+      <item name="Ammo_40mm_Explosive" chance="0.50"/>
+      <item name="Ammo_40mm_ChemGas" chance="0.50"/>
     </cargo>
     <cargo chance="1.0">
-      <item name="Ammo_40mm_Explosive"/>
-    </cargo>
-    <cargo chance="1.0">
-      <item name="Ammo_40mm_Explosive"/>
-    </cargo>
-    <cargo chance="0.50">
-      <item name="Ammo_40mm_Explosive"/>
-    </cargo>
-    <cargo chance="0.20">
-      <item name="Ammo_40mm_Explosive"/>
-    </cargo>
-    <cargo chance="0.10">
-      <item name="Ammo_40mm_Explosive"/>
+      <item name="Ammo_40mm_Explosive" chance="0.50"/>
+      <item name="Ammo_40mm_ChemGas" chance="0.50"/>
     </cargo>
   </type>
   <type name="AmmoBox_Explosive">

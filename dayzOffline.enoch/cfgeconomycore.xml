@@ -121,6 +121,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   <ce folder="custom">
     <file name="cfgspawnabletypes_admin_weapons.xml" type="spawnabletypes"/>
   </ce>
+   <ce folder="custom">
+    <file name="cfgspawnabletypes_seasonal_weapons.xml" type="spawnabletypes"/>
+  </ce>
   <!-- Spawnable Types
     <ce folder="custom">
     <file name="cfgspawnabletypes_npcs.xml" type="spawnabletypes"/>
