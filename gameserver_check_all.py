@@ -46,6 +46,9 @@ def get_status_message(status):
     return status_messages.get(status, "❓ **Unknown status.**")
 
 def generate_markdown(services, api_key):
+    """Generate enhanced Markdown output for the gameserver details."""
+    markdown_output = "# 🎮 **Gameserver Details**\n\n"
+    markdown_output += "Here are the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉\n\n"
 
     for service in services:
         service_id = service.get("id")
