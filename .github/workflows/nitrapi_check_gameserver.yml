@@ -47,6 +47,10 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Update local branch
+        run: |
+          git pull --rebase origin main
 
       - name: Push changes
         uses: ad-m/github-push-action@master
