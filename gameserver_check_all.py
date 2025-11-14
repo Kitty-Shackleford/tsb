@@ -26,7 +26,7 @@ def format_server_name(gameserver):
     """Format the server name, removing unwanted characters."""
     server_name = gameserver.get("query", {}).get("server_name", "Server Name Not Available")
     server_name = re.sub(r'[^a-zA-Z0-9 ]', '', server_name)  # Allow letters, numbers, and spaces
-    return server_name or "Server Name Not Available"
+    return server_name or "BLANK NAME SORT ALPHABETICALLY AND CHECK DESCRIPTION"
 
 def get_status_message(status):
     """Get a formatted message for the gameserver status."""
