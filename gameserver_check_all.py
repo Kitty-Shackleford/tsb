@@ -80,6 +80,7 @@ def generate_markdown(services, api_key):
                 "Shot Validation": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("shotValidation", "0") == "1" else "❌ **Disabled**",
                 "Mouse and Keyboard": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("enableMouseAndKeyboard", "1") == "1" else "❌ **Disabled**",
                 "Base Damage": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("disableBaseDamage", "1") == "0" else "❌ **Disabled**",
+                "Whitelist Enabled": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("whitelist", "1") == "0" else "❌ **Disabled**",
                 "Container Damage": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("disableContainerDamage", "1") == "0" else "❌ **Disabled**",
                 "Version": "📅 **{}**".format(gameserver.get('query', {}).get('version', 'Unknown')),
             }
