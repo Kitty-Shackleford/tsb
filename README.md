@@ -8,10 +8,10 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Status | 🔵 **The Server is up and running.** |
 | Player Count | 👥 **2/50** |
 | Last Update | 🕒 **None** |
-| Comment | 💬 **None** |
+| Description | 💬 **None** |
 | Banned Users | 🫃🏼 **None** |
-| Priority | 🚕 **None** |
-| Whitelist | ❌ **Disabled** |
+| Priority | 🚕 **Salt6199, Mr Purple7299** |
+| Whitelist | ✅ **Enabled** |
 | Game | 🎮 **DayZ (Xbox One)** |
 | Mission | 🏆 **dayzOffline.enoch** |
 | 3rd Person | ✅ **Enabled** |
