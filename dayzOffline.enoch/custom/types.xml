@@ -581,10 +581,10 @@
     <usage name="Town"/>
   </type>
   <type name="AmmoBox_308WinTracer_20Rnd">
-    <nominal>75</nominal>
-    <lifetime>14400</lifetime>
+    <nominal>21</nominal>
+    <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>55</min>
+    <min>16</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -593,10 +593,10 @@
     <usage name="Military"/>
   </type>
   <type name="AmmoBox_308Win_20Rnd">
-    <nominal>80</nominal>
-    <lifetime>14400</lifetime>
+    <nominal>21</nominal>
+    <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>50</min>
+    <min>16</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3059,8 +3059,8 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="tools"/>
-    <usage name="Industrial"/>
+    <category name="cartools"/>
+    <usage name="Cartools"/>
   </type>
   <type name="BeanieHat_Beige">
     <nominal>0</nominal>
@@ -3384,8 +3384,8 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="tools"/>
-    <usage name="Industrial"/>
+    <category name="cartools"/>
+    <usage name="Cartools"/>
   </type>
   <type name="BoarSteakMeat">
     <nominal>0</nominal>
@@ -4814,6 +4814,16 @@
     <usage name="Lunapark"/>
   </type>
   <type name="ChristmasTree_Green">
+    <nominal>0</nominal>
+    <lifetime>3</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+  </type>
+  <type name="ChristmasTree">
     <nominal>0</nominal>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -10752,10 +10762,8 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="weapons"/>
-    <tag name="shelves"/>
-    <usage name="ContaminatedArea"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <usage name="containerlocked"/>
   </type>
   <type name="KitchenKnife">
     <nominal>35</nominal>
@@ -15373,8 +15381,8 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="tools"/>
-    <usage name="Industrial"/>
+    <category name="cartools"/>
+    <usage name="Cartools"/>
   </type>
   <type name="PipeWrench">
     <nominal>40</nominal>
@@ -16990,10 +16998,8 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="tools"/>
-    <usage name="Industrial"/>
-    <usage name="Farm"/>
-    <usage name="Village"/>
+    <category name="cartools"/>
+    <usage name="Cartools"/>
   </type>
   <type name="SeaChest">
     <nominal>20</nominal>
@@ -18725,10 +18731,8 @@
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="weapons"/>
-    <tag name="shelves"/>
-    <usage name="ContaminatedArea"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <usage name="containerlocked"/>
   </type>
   <type name="StartKitIV">
     <nominal>10</nominal>
@@ -21672,10 +21676,8 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="tools"/>
-    <usage name="Industrial"/>
-    <usage name="Farm"/>
-    <usage name="Village"/>
+    <category name="cartools"/>
+    <usage name="Cartools"/>
   </type>
   <type name="XmasLights">
     <nominal>15</nominal>

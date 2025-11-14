@@ -17,6 +17,94 @@
     <default name="clusterMatrix" de="TrajectoryStumps" width="12" height="12"/>
   </defaults>
   <!-- START OF MODS -->
+  <group name="Mechanic_Land_Workshop_FuelStation" lootmax="65">
+    <usage name="CarTools"/>
+    <usage name="Industrial"/>
+    <usage name="Town"/>
+    <container name="lootFloor" lootmax="2">
+      <category name="cartools"/>
+      <category name="containers"/>
+      <category name="clothes"/>
+      <tag name="floor"/>
+      <point pos="3.810303 -1.267500 3.928222" range="0.581250" height="1.453125"/>
+      <point pos="6.769897 -1.267500 -3.839722" range="0.606567" height="1.516418"/>
+      <point pos="2.248047 -1.267500 1.589356" range="0.646973" height="1.617432"/>
+      <point pos="6.047487 -1.267500 4.000609" range="0.650000" height="1.625000"/>
+      <point pos="-1.054932 -1.267500 -2.182007" range="0.790527" height="1.976318"/>
+      <point pos="2.659058 -1.267500 -1.340820" range="0.839233" height="2.000000"/>
+      <point pos="0.756104 -1.267500 -2.674805" range="0.893799" height="2.000000"/>
+      <point pos="7.645752 -1.267500 -1.088746" range="0.896240" height="2.000000"/>
+      <point pos="4.607788 -1.267500 1.228027" range="0.973022" height="2.000000"/>
+      <point pos="-0.636353 -1.267500 1.295776" range="1.040771" height="2.000000"/>
+    </container>
+    <container name="lootshelves" lootmax="6">
+      <category name="cartools"/>
+      <category name="containers"/>
+      <category name="clothes"/>
+      <category name="food"/>
+      <category name="books"/>
+      <tag name="shelves"/>
+      <point pos="2.892700 -0.767303 -2.272949" range="0.100000" height="0.221743"/>
+      <point pos="3.550781 -0.417038 -2.672363" range="0.100000" height="0.226606"/>
+      <point pos="2.274414 -0.417038 -2.311157" range="0.134375" height="0.226606"/>
+      <point pos="-0.171143 -0.672630 4.864746" range="0.134375" height="0.335938"/>
+      <point pos="4.213745 -0.054667 -0.298829" range="0.134375" height="0.335938"/>
+      <point pos="6.687378 -0.061911 -2.294556" range="0.134375" height="0.335938"/>
+      <point pos="3.721191 -0.409794 -0.302124" range="0.134375" height="0.226606"/>
+      <point pos="2.706299 -0.054667 -0.340088" range="0.134375" height="0.335938"/>
+      <point pos="-0.090942 -0.409794 -0.330688" range="0.134375" height="0.226606"/>
+      <point pos="1.074341 -0.054667 -0.459717" range="0.134375" height="0.335938"/>
+      <point pos="0.640259 -0.760059 -0.403931" range="0.134375" height="0.221741"/>
+      <point pos="4.977172 -0.760059 -4.492554" range="0.134375" height="0.221743"/>
+      <point pos="6.944824 -0.409794 -4.636597" range="0.134375" height="0.226606"/>
+      <point pos="6.021728 -0.760059 -4.539917" range="0.134375" height="0.221741"/>
+      <point pos="6.032715 -1.126022 -2.736939" range="0.134375" height="0.230196"/>
+      <point pos="2.683594 -0.417038 -2.709351" range="0.134375" height="0.226606"/>
+      <point pos="2.066040 -0.061911 -2.713989" range="0.134375" height="0.335938"/>
+      <point pos="3.288818 -0.061911 -2.324585" range="0.134375" height="0.335938"/>
+      <point pos="2.081909 -0.767303 -2.679199" range="0.141968" height="0.221741"/>
+      <point pos="4.457641 -0.054667 -4.569946" range="0.142334" height="0.355835"/>
+      <point pos="1.375244 -0.760059 -4.592407" range="0.145386" height="0.221741"/>
+      <point pos="6.513548 -1.118778 -4.613525" range="0.158569" height="0.230196"/>
+      <point pos="5.849486 -0.054667 -4.539307" range="0.160400" height="0.401001"/>
+      <point pos="5.294311 -1.126022 -2.356689" range="0.163818" height="0.230196"/>
+      <point pos="6.122802 -0.061911 -2.689209" range="0.164307" height="0.410767"/>
+      <point pos="5.941162 -0.417038 -2.340699" range="0.168579" height="0.226606"/>
+      <point pos="4.088745 -1.118778 -0.283936" range="0.171509" height="0.230196"/>
+      <point pos="6.796508 -1.126022 -2.691773" range="0.178711" height="0.230196"/>
+      <point pos="8.019287 -0.892179 2.538451" range="0.203125" height="0.507813"/>
+      <point pos="2.387207 -1.191362 0.675415" range="0.230347" height="0.575867"/>
+      <point pos="-0.484131 -0.672630 4.445678" range="0.235472" height="0.588680"/>
+      <point pos="-1.507812 -0.810028 -3.492553" range="0.248169" height="0.366432"/>
+      <point pos="8.083862 -1.194670 3.384887" range="0.271875" height="0.370001"/>
+      <point pos="8.158937 -0.194670 4.597776" range="0.271875" height="0.370001"/>
+      <point pos="-0.800659 -1.267500 -3.482544" range="0.273682" height="0.328562"/>
+      <point pos="-0.534180 -0.314520 -3.368164" range="0.275018" height="0.904236"/>
+      <point pos="3.622316 -0.493328 4.888915" range="0.365845" height="0.914612"/>
+      <point pos="5.364136 -0.493328 4.886718" range="0.375000" height="0.937500"/>
+      <point pos="6.321900 -0.493328 4.880737" range="0.375000" height="0.937500"/>
+      <point pos="1.803345 -1.267500 4.405395" range="0.383246" height="0.249342"/>
+    </container>
+    <container name="lootweapons" lootmax="15">
+      <category name="cartools"/>
+      <category name="tools"/>
+      <point pos="3.011230 -0.760059 -0.326660" range="0.134375" height="0.221743"/>
+      <point pos="5.557007 -0.417038 -2.724488" range="0.134375" height="0.226606"/>
+      <point pos="2.668823 -1.126022 -2.711914" range="0.134375" height="0.230196"/>
+      <point pos="5.407349 -0.061911 -2.380860" range="0.137695" height="0.344238"/>
+      <point pos="6.538208 -0.054667 -4.612305" range="0.162476" height="0.406189"/>
+      <point pos="3.187134 -0.767303 -2.682007" range="0.164063" height="0.221743"/>
+      <point pos="3.557617 -0.409794 -4.567993" range="0.167847" height="0.226606"/>
+      <point pos="6.467651 -0.767303 -2.329590" range="0.170410" height="0.221743"/>
+      <point pos="2.536499 -1.118778 -4.533081" range="0.174439" height="0.230196"/>
+      <point pos="0.008789 -1.118778 -0.334351" range="0.176514" height="0.230196"/>
+      <point pos="8.189941 -0.694670 3.895508" range="0.237500" height="0.370001"/>
+      <point pos="-0.543457 -0.810028 -3.498779" range="0.237500" height="0.366432"/>
+      <point pos="4.319458 -0.493328 4.811401" range="0.306250" height="0.765625"/>
+      <point pos="4.316407 -1.267500 -3.575927" range="0.788330" height="1.970825"/>
+      <point pos="7.330932 -1.267500 1.318603" range="1.063599" height="2.000000"/>
+    </container>
+  </group>
   <group name="StaticObj_PartyTent" lootmax="4">
     <usage name="Party"/>
     <usage name="Cannibal"/>
@@ -460,9 +548,11 @@
     <dispatch dechance="1.000000">
       <proxy type="M18SmokeGrenade_Red" pos="-2.125437 -0.403015 2.111328" rpy="-0.000000 0.000000 -0.000000" dechance="1.000000"/>
     </dispatch>
+    <!--
     <dispatch dechance="1.000000">
       <proxy type="M18SmokeGrenade_Red_Contaminated" pos="-2.725586 -0.402313 1.970703" rpy="-0.000000 0.000000 -0.000000" dechance="1.000000"/>
     </dispatch>
+    -->
     <dispatch dechance="1.000000">
       <proxy type="M18SmokeGrenade_Green" pos="-2.114258 -0.402313 1.939941" rpy="-0.000000 0.000000 -0.000000" dechance="1.000000"/>
     </dispatch>
@@ -581,14 +671,17 @@
       <proxy type="CannabisSeedsPack" pos="-3.232422 -0.692078 0.262207" rpy="0.000000 -15.351210 0.000000" dechance="1.000000"/>
     </dispatch>
     <dispatch dechance="1.000000">
-      <proxy type="GardenLime" pos="-3.223633 -1.678802 0.465820" rpy="0.000000 -27.000000 0.000000" dechance="1.000000"/>
+      <proxy type="Anniversary_FireworksLauncher" pos="-3.223633 -1.678802 0.465820" rpy="0.000000 -27.000000 0.000000" dechance="0.500000"/>
+      <proxy type="FireworksLauncher" pos="-3.223633 -1.678802 0.465820" rpy="0.000000 -27.000000 0.000000" dechance="0.500000"/>
     </dispatch>
+    <!--
     <dispatch dechance="1.000000">
       <proxy type="AntiPestsSpray" pos="-3.574219 -1.512054 0.600586" rpy="-0.000000 3.336915 -0.000000" dechance="1.000000"/>
     </dispatch>
     <dispatch dechance="1.000000">
       <proxy type="CannabisSeedsPack" pos="-3.196289 -0.692078 0.142090" rpy="0.000000 -15.351210 0.000000" dechance="1.000000"/>
     </dispatch>
+    -->
     <dispatch dechance="1.000000">
       <proxy type="AmmoBox_12gaBeanbag_10Rnd" pos="-1.516601 -1.186829 2.125107" rpy="-89.850639 179.999985 179.999985" dechance="1.000000"/>
     </dispatch>
@@ -5333,9 +5426,11 @@
     <dispatch dechance="1.0">
       <proxy type="MimeMask_Male" pos="0.559059 -0.902400 -4.461870" rpy="90 -90 0.0" dechance="1.0"/>
     </dispatch>
+    <!--
     <dispatch dechance="1.0">
       <proxy type="PunchedCard" pos="0.868083 -0.974300 -3.014900" rpy="-90.0 0.0 0.0" dechance="1.0"/>
     </dispatch>
+    -->
     <dispatch dechance="1.0">
       <proxy type="PetrolLighter" pos="0.990083 -0.974300 -2.984900" rpy="-90.0 0.0 0.0" dechance="1.0"/>
     </dispatch>
@@ -5584,6 +5679,31 @@
     </dispatch>
   </group>
   <group name="ChristmasTree_Green" lootmax="19">
+    <usage name="Xmas"/>
+    <container name="lootFloor" lootmax="10">
+      <category name="containers"/>
+      <point pos="2.621000 1.000000 -3.694000" range="0.300000" height="1.000000"/>
+      <point pos="-2.043000 1.000000 -3.967000" range="0.300000" height="1.000000"/>
+      <point pos="-2.616000 1.000000 -3.121000" range="0.300000" height="1.000000"/>
+      <point pos="-3.926000 1.000000 -2.848000" range="0.300000" height="1.000000"/>
+      <point pos="-4.417000 1.000000 -1.566000" range="0.300000" height="1.000000"/>
+      <point pos="-1.880000 1.000000 3.781000" range="0.300000" height="1.000000"/>
+      <point pos="-0.243000 1.000000 3.917000" range="0.300000" height="1.000000"/>
+      <point pos="0.957000 1.000000 4.190000" range="0.300000" height="1.000000"/>
+      <point pos="2.621000 1.000000 3.644000" range="0.300000" height="1.000000"/>
+      <point pos="3.494000 1.000000 2.662000" range="0.300000" height="1.000000"/>
+      <point pos="4.313000 1.000000 1.817000" range="0.300000" height="1.000000"/>
+      <point pos="4.667000 1.000000 0.753000" range="0.300000" height="1.000000"/>
+      <point pos="4.777000 1.000000 -0.366000" range="0.300000" height="1.000000"/>
+      <point pos="4.449000 1.000000 -1.593000" range="0.300000" height="1.000000"/>
+      <point pos="4.013000 1.000000 -3.367000" range="0.300000" height="1.000000"/>
+      <point pos="1.066000 1.000000 -3.585000" range="0.300000" height="1.000000"/>
+      <point pos="-0.543000 1.000000 -3.912000" range="0.300000" height="1.000000"/>
+      <point pos="-4.771000 1.000000 0.725000" range="0.300000" height="1.000000"/>
+      <point pos="-4.144000 1.000000 3.808000" range="0.300000" height="1.000000"/>
+    </container>
+  </group>
+  <group name="ChristmasTree" lootmax="19">
     <usage name="Xmas"/>
     <container name="lootFloor" lootmax="10">
       <category name="containers"/>
@@ -28802,7 +28922,7 @@
   </group>
   <group name="Wreck_SantasSleigh" lootmax="30">
     <usage name="Military"/>
-    <usage name="SeasonalEvent"/>
+    <usage name="Xmas"/>
     <container name="lootFloor" lootmax="15">
       <category name="tools"/>
       <category name="containers"/>

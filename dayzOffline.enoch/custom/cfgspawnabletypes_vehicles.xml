@@ -37,7 +37,7 @@
       <item name="HatchbackWheel"/>
     </attachments>
     <attachments chance="1.00">
-      <item name="CarRadiator"/>
+      <item name="CarRadiator" quantmin="100" quantmax="100"/>
     </attachments>
     <attachments chance="1.00">
       <item name="CarBattery" quantmin="100" quantmax="100"/>
@@ -191,7 +191,7 @@
       <item name="CivSedanWheel"/>
     </attachments>
     <attachments chance="1.00">
-      <item name="CarRadiator"/>
+      <item name="CarRadiator" quantmin="100" quantmax="100"/>
     </attachments>
     <attachments chance="1.00">
       <item name="CarBattery" quantmin="100" quantmax="100"/>
@@ -274,7 +274,7 @@
       <item name="Hatchback_02_Wheel"/>
     </attachments>
     <attachments chance="1.00">
-      <item name="CarRadiator"/>
+      <item name="CarRadiator" quantmin="100" quantmax="100"/>
     </attachments>
     <attachments chance="1.00">
       <item name="CarBattery" quantmin="100" quantmax="100"/>
@@ -354,7 +354,7 @@
       <item name="Sedan_02_Wheel"/>
     </attachments>
     <attachments chance="1.00">
-      <item name="CarRadiator"/>
+      <item name="CarRadiator" quantmin="100" quantmax="100"/>
     </attachments>
     <attachments chance="1.00">
       <item name="CarBattery" quantmin="100" quantmax="100"/>
@@ -582,124 +582,120 @@
       <item name="Truck_01_Door_2_1_Orange" chance="1.00"/>
     </attachments>
     <attachments chance="1.00">
-      <item name="Barrel_Blue" chance="1.00"/>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
+      <item name="Barrel_Blue" chance="1.00">
+        <attachments>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+        </attachments>
+      </item>
     </attachments>
     <attachments chance="1.00">
-      <item name="Barrel_Green" chance="1.00"/>
+      <item name="Barrel_Green" chance="1.00">
+        <attachments>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+        </attachments>
+      </item>
     </attachments>
     <attachments chance="1.00">
-      <item name="Barrel_Red" chance="1.00"/>
+      <item name="Barrel_Red" chance="1.00">
+        <attachments>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+        </attachments>
+      </item>
     </attachments>
     <attachments chance="1.00">
-      <item name="Barrel_Yellow" chance="1.00"/>
+      <item name="Barrel_yellow" chance="1.00">
+        <attachments>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+        </attachments>
+      </item>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00"/>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
+      <item name="WoodenCrate" chance="1.00">
+        <attachments>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+        </attachments>
+      </item>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00"/>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
+      <item name="WoodenCrate" chance="1.00">
+        <attachments>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+        </attachments>
+      </item>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00"/>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
+      <item name="WoodenCrate" chance="1.00">
+        <attachments>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+        </attachments>
+      </item>
     </attachments>
     <attachments chance="1.00">
-      <item name="WoodenCrate" chance="1.00"/>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
-      <cargo chance="1.00">
-        <item name="Stone"/>
-      </cargo>
+      <item name="WoodenCrate" chance="1.00">
+        <attachments>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+          <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
+        </attachments>
+      </item>
     </attachments>
     <attachments chance="1.00">
       <damage min="0.0" max="0.0"/>

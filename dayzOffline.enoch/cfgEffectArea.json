@@ -183,6 +183,173 @@
         "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
         "PPERequesterType": "PPERequester_ContaminatedAreaTint"
       }
+    },
+    {
+      "AreaName": "Branzow",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          1067.55,
+          0,
+          11409
+        ],
+        "Radius": 100,
+        "PosHeight": 30,
+        "NegHeight": 10,
+        "InnerRingCount": 2,
+        "InnerPartDist": 50,
+        "OuterRingToggle": 1,
+        "OuterPartDist": 40,
+        "OuterOffset": 0,
+        "VerticalLayers": 0,
+        "VerticalOffset": 0,
+        "ParticleName": "graphics/particles/spooky_mist"
+      },
+      "PlayerData": {
+        "AroundPartName": "",
+        "TinyPartName": "",
+        "PPERequesterType": "PPERequester_SpookyAreaTint"
+      }
+    },
+    {
+      "AreaName": "Prison",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          5527.62,
+          0,
+          8754.51
+        ],
+        "Radius": 100,
+        "PosHeight": 30,
+        "NegHeight": 10,
+        "InnerRingCount": 2,
+        "InnerPartDist": 50,
+        "OuterRingToggle": 1,
+        "OuterPartDist": 40,
+        "OuterOffset": 0,
+        "VerticalLayers": 0,
+        "VerticalOffset": 0,
+        "ParticleName": "graphics/particles/spooky_mist"
+      },
+      "PlayerData": {
+        "AroundPartName": "",
+        "TinyPartName": "",
+        "PPERequesterType": "PPERequester_SpookyAreaTint"
+      }
+    },
+    {
+      "AreaName": "Church",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          4717,
+          0,
+          5625
+        ],
+        "Radius": 130,
+        "PosHeight": 30,
+        "NegHeight": 10,
+        "InnerRingCount": 2,
+        "InnerPartDist": 50,
+        "OuterRingToggle": 1,
+        "OuterPartDist": 40,
+        "OuterOffset": 0,
+        "VerticalLayers": 0,
+        "VerticalOffset": 0,
+        "ParticleName": "graphics/particles/spooky_mist"
+      },
+      "PlayerData": {
+        "AroundPartName": "",
+        "TinyPartName": "",
+        "PPERequesterType": "PPERequester_SpookyAreaTint"
+      }
+    },
+    {
+      "AreaName": "Polkrabiec",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          11875,
+          0,
+          6579
+        ],
+        "PosHeight": 30,
+        "NegHeight": 10,
+        "InnerRingCount": 2,
+        "InnerPartDist": 50,
+        "OuterRingToggle": 1,
+        "OuterPartDist": 40,
+        "OuterOffset": 0,
+        "VerticalLayers": 0,
+        "VerticalOffset": 0,
+        "ParticleName": "graphics/particles/spooky_mist"
+      },
+      "PlayerData": {
+        "AroundPartName": "",
+        "TinyPartName": "",
+        "PPERequesterType": "PPERequester_SpookyAreaTint"
+      }
+    },
+    {
+      "AreaName": "QuarryNadbor",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          6449.93,
+          0,
+          4734.54
+        ],
+        "Radius": 170,
+        "PosHeight": 30,
+        "NegHeight": 10,
+        "InnerRingCount": 2,
+        "InnerPartDist": 50,
+        "OuterRingToggle": 1,
+        "OuterPartDist": 40,
+        "OuterOffset": 0,
+        "VerticalLayers": 0,
+        "VerticalOffset": 0,
+        "ParticleName": "graphics/particles/spooky_mist"
+      },
+      "PlayerData": {
+        "AroundPartName": "",
+        "TinyPartName": "",
+        "PPERequesterType": "PPERequester_SpookyAreaTint"
+      }
+    },
+    {
+      "AreaName": "Sarnowek",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": {
+        "Pos": [
+          3231,
+          0,
+          5014
+        ],
+        "Radius": 130,
+        "PosHeight": 30,
+        "NegHeight": 10,
+        "InnerRingCount": 2,
+        "InnerPartDist": 50,
+        "OuterRingToggle": 1,
+        "OuterPartDist": 40,
+        "OuterOffset": 0,
+        "VerticalLayers": 0,
+        "VerticalOffset": 0,
+        "ParticleName": "graphics/particles/spooky_mist"
+      },
+      "PlayerData": {
+        "AroundPartName": "",
+        "TinyPartName": "",
+        "PPERequesterType": "PPERequester_SpookyAreaTint"
+      }
     }
   ],
   "SafePositions": [

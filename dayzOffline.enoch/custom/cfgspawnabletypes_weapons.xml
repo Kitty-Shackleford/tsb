@@ -38,7 +38,7 @@
     </attachments>
   </type>
   <type name="KazuarOptic">
-    <damage min="0.0" max="0.69"/>
+    <damage min="0.0" max="0.00"/>
     <attachments chance="1.00">
       <item name="Battery9V" chance="1.00"/>
     </attachments>
@@ -50,7 +50,7 @@
     </attachments>
   </type>
   <type name="StarlightOptic">
-    <damage min="0.0" max="0.69"/>
+    <damage min="0.0" max="0.00"/>
     <attachments chance="1.00">
       <item name="Battery9V" chance="1.00"/>
     </attachments>
