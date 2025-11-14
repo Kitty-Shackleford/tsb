@@ -1,34 +1,50 @@
-name: NitrAPI Restart Gameserver
+name: NitrAPI Check Gameserver Details
 
 on:
-  workflow_dispatch:  # Allows manual triggering of the workflow
+  workflow_dispatch: {}  # Manual trigger
+  schedule:
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
 
 jobs:
-  restart_gameserver:
+  check_gameserver:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.9'  # You can change this to your required version
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests  # Install the requests library
+      - name: Install dependencies
+        run: |
+          pip install requests
+      - name: Run Gameserver Details Check
+        id: gameserver_check
+        env:
+          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Your API key
+        run: |
+          python gameserver_check.py > README.md
+          echo "## Summary of Gameserver Details" >> $GITHUB_STEP_SUMMARY
+          cat README.md >> $GITHUB_STEP_SUMMARY
+      - name: Display Summary
+        run: cat $GITHUB_STEP_SUMMARY
 
-    - name: Run gameserver restart script
-      env:
-        NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}
-        NITRADO_ID: ${{ secrets.NITRADO_ID }}
-      run: |
-        python gameserver_restart.py 
+      - name: Commit 
+        run: |
+          git config --local user.email "kittylinter@github.com"
+          git config --local user.name "Kitty Linter"
+          git add README.md
+          git commit -m "Update README with gameserver check summary" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Output result to GitHub summary
-      run: |
-        echo "## Summary of Gameserver Restart" >> $GITHUB_STEP_SUMMARY
-        echo "$(python gameserver_restart.py)" >> $GITHUB_STEP_SUMMARY
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.WORKFLOW_TOKEN }}
+          repository: Kitty-Shackleford/tsb
+          force_with_lease: true
