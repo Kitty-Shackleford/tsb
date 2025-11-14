@@ -31,7 +31,7 @@ def format_server_name(gameserver):
 def get_status_message(status):
     """Get a formatted message for the gameserver status."""
     status_messages = {
-        "started": "🔵 **The Server is up and running.**",
+        "started": "🟢 **The Server is up and running.**",
         "stopped": "🔴 **The Server is stopped.**",
         "stopping": "🟡 **The Server is currently stopping.**",
         "restarting": "🔄 **The Server is currently restarting. This can take some minutes.**",
