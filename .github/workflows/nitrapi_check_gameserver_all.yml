@@ -43,10 +43,12 @@ jobs:
             echo "No changes to commit"
           fi
 
-      - name: Pull the latest changes from remote
+      # Pull the latest changes from the remote repository before pushing
+      - name: Update local branch
         run: |
-          git pull origin main --rebase
+          git pull --rebase origin main
 
+      # Push the changes to the remote repository
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
