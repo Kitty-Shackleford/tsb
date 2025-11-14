@@ -69,7 +69,7 @@ def generate_markdown(services, api_key):
                 "Status": get_status_message(gameserver.get('status', 'Unknown')),
                 "Player Count": "👥 **{}/{}**".format(player_count, max_slots),
                 "Last Update": "🕒 **{}**".format(gameserver.get('game_specific', {}).get('last_update', 'None')),
-                "Description": "💬 **{}**".format(service.get('description', 'None')),
+                "Description": "💬 **{}**".format(gameserver.get("settings", {}).get("config", {}).get("description", "None")),
                 "Banned Users": "🫃🏼 **{}**".format(', '.join(gameserver.get('general', {}).get('bans', '').splitlines() or ['None'])),
                 "Priority Users": "🚕 **{}**".format(', '.join(gameserver.get("settings", {}).get('general', {}).get('priority', '').splitlines() or ['None'])),
                 "Whitelist Users": "📜 **{}**".format(', '.join(gameserver.get("settings", {}).get('general', {}).get('whitelist', '').splitlines() or ['None'])),
