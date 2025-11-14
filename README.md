@@ -1,2 +1,24 @@
-Error fetching services: 401 - {"status":"error","message":"Access token not valid.","data":{"error_code":"access_token_not_valid","error_details":{}}}
 Markdown output generated in README.md.
+the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
+
+## 🖥️ **Server Name Not Available**
+
+| **Property**         | **Value**                   |
+|----------------------|------------------------------|
+| Status | 🔵 **The Server is up and running.** |
+| Player Count | 👥 **5/50** |
+| Last Update | 🕒 **None** |
+| Comment | 💬 **None** |
+| Banned Users | 🚫 **None** |
+| Game | 🎮 **DayZ (Xbox One)** |
+| Mission | 🏆 **dayzOffline.enoch** |
+| 3rd Person | ✅ **Enabled** |
+| Crosshair | ✅ **Enabled** |
+| Shot Validation | ✅ **Enabled** |
+| Mouse and Keyboard | ❌ **Disabled** |
+| Base Damage | ✅ **Enabled** |
+| Container Damage | ✅ **Enabled** |
+| Version | 📅 **v1.28.160123** |
+
+---
+
