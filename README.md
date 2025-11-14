@@ -10,8 +10,8 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Last Update | 🕒 **None** |
 | Description | 💬 **None** |
 | Banned Users | 🫃🏼 **None** |
-| Priority | 🚕 **Salt6199, Mr Purple7299** |
-| Whitelist | ✅ **Enabled** |
+| Priority Users | 🚕 **Salt6199, Mr Purple7299** |
+| Whitelist Users | 📜 **Salt6199, Mr Purple7299** |
 | Game | 🎮 **DayZ (Xbox One)** |
 | Mission | 🏆 **dayzOffline.enoch** |
 | 3rd Person | ✅ **Enabled** |
@@ -19,6 +19,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Shot Validation | ✅ **Enabled** |
 | Mouse and Keyboard | ❌ **Disabled** |
 | Base Damage | ✅ **Enabled** |
+| Whitelist | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
 | Version | 📅 **v1.28.160123** |
 
