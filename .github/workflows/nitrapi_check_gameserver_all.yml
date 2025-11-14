@@ -31,7 +31,11 @@ jobs:
 
       - name: Display Summary
         run: cat $GITHUB_STEP_SUMMARY
-
+        
+      - name: Update local branch
+        run: |
+          git pull --rebase origin main
+          
       - name: Check for changes and commit
         run: |
           git config --local user.email "kittylinter@github.com"
