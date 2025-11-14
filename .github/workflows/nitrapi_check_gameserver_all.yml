@@ -32,13 +32,16 @@ jobs:
       - name: Display Summary
         run: cat $GITHUB_STEP_SUMMARY
 
-      - name: Commit 
+      - name: Check for changes and commit
         run: |
           git config --local user.email "kittylinter@github.com"
           git config --local user.name "Kitty Linter"
           git add README.md
-          git commit -m "Update README with gameserver check summary" || echo "No changes to commit"
-          git push
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Update README with gameserver check summary"
+          else
+            echo "No changes to commit"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
