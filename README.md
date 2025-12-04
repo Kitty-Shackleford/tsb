@@ -1,11 +1,11 @@
 Markdown output generated in README.md.
 the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 
-## 🖥️ **BLANK NAME SORT ALPHABETICALLY AND CHECK DESCRIPTION**
+## 🖥️ **Server Name Not Available**
 
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
-| Status | ❓ **Unknown status.** |
+| Status | 🟢 **The Server is up and running.** |
 | Player Count | 👥 **0/50** |
 | Last Update | 🕒 **None** |
 | Description | 💬 **Server: TST || No Alts || AUTOBAN ENABLED PLEASE LINK IN THE DISCORD  ||  Discord URL https://discord.gg/jvDrNT6aCx || 1.28 Stable  || No Wipe Planned || If Banned Please Join Discord To Remove Ban** |
@@ -21,7 +21,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Base Damage | ✅ **Enabled** |
 | Whitelist | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
-| Version | 📅 **v1.28.160123** |
+| Version | 📅 **Unknown** |
 
 ---
 
