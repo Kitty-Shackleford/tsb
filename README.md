@@ -6,9 +6,9 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🟢 **The Server is up and running.** |
-| Player Count | 👥 **3/50** |
+| Player Count | 👥 **1/50** |
 | Last Update | 🕒 **None** |
-| Description | 💬 **TST Server || No Alts || Autoban Active Link your account in Discord:https://discord.gg/jvDrNT6aCx || Version 1.28 Stable || No Wipe Planned || Banned? Join Discord for removal.** |
+| Description | 💬 **Server: TST || No Alts || AUTOBAN ENABLED PLEASE LINK IN THE DISCORD  ||  Discord URL https://discord.gg/jvDrNT6aCx || 1.28 Stable  || No Wipe Planned || If Banned Please Join Discord To Remove Ban** |
 | Banned Users | 🫃🏼 **None** |
 | Priority Users | 🚕 **Salt6199, Mr Purple7299** |
 | Whitelist Users | 📜 **Salt6199, Mr Purple7299** |
