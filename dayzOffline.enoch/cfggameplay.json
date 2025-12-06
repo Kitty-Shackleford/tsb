@@ -12,8 +12,10 @@
       "./custom/loadoutwhore.json",
       "./custom/loadoutcriminal.json",
       "./custom/loadoutprisoner.json",
-      "./custom/loadoutpoliceofficer.json",
-      "./custom/loadoutgopnik.json"
+      "./custom/loadoutbushlatpolice.json",
+      "./custom/loadoutgopnik.json",
+      "./custom/loadoutsanta.json",
+      "./custom/loadoutdedmoroz.json"
     ],
     "disablePersonalLight": true,
     "StaminaData": {
@@ -72,7 +74,7 @@
       13,
       11,
       9,
-      0
+      -3
     ],
     "environmentMaxTemps": [
       3,
@@ -86,7 +88,7 @@
       18,
       14,
       10,
-      5
+      0
     ],
     "wetnessWeightModifiers": [
       1,

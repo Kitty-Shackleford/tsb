@@ -67,6 +67,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   <ce folder="custom">
     <file name="types_winter.xml" type="types"/>
   </ce>
+  <ce folder="custom">
+    <file name="types_xmas.xml" type="types"/>
+  </ce>
   <!--
      <ce folder="custom">
     <file name="types_winter.xml" type="types"/>
@@ -121,6 +124,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   <ce folder="custom">
     <file name="cfgspawnabletypes_seasonal_weapons.xml" type="spawnabletypes"/>
   </ce>
+  <ce folder="custom">
+    <file name="cfgspawnabletypes_seasonal.xml" type="spawnabletypes"/>
+  </ce>
   <!-- Spawnable Types
     <ce folder="custom">
     <file name="cfgspawnabletypes_npcs.xml" type="spawnabletypes"/>
@@ -135,6 +141,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   </ce>
   <ce folder="custom">
     <file name="events_extra.xml" type="events"/>
+  </ce>
+  <ce folder="custom">
+    <file name="events_xmas.xml" type="events"/>
   </ce>
   <!--
 	<ce folder="custom">

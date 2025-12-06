@@ -28920,10 +28920,10 @@
       <point pos="0.975612 0.500000 -3.178558" range="1.650000" height="1.500000" flags="32"/>
     </container>
   </group>
-  <group name="Wreck_SantasSleigh" lootmax="30">
+  <group name="Wreck_SantasSleigh">
     <usage name="Military"/>
     <usage name="Xmas"/>
-    <container name="lootFloor" lootmax="15">
+    <container name="lootFloor">
       <category name="tools"/>
       <category name="containers"/>
       <category name="clothes"/>

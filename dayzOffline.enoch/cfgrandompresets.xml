@@ -569,6 +569,7 @@
     <item name="SantasBeard" chance="0.80"/>
   </cargo>
   <!--Xmas GiftBoxes-->
+  <!--
   <cargo chance="0.01" name="Xmas_Bang">
     <item name="FlashGrenade" chance="0.20">
       <damage min="1.00" max="1.00"/>
@@ -584,6 +585,15 @@
     </item>
     <item name="Grenade_ChemGas" chance="0.20">
       <damage min="1.00" max="1.00"/>
+    </item>
+  </cargo>
+  -->
+  <cargo chance="1.0" name="Xmas_Bang">
+    <item name="SurvivorF_Irena" chance="0.01">
+      <damage min="0.00" max="0.00"/>
+      <attachments>
+        <item name="Grenade_ChemGas" quantmin="100" quantmax="100" chance="1.00"/>
+      </attachments>
     </item>
   </cargo>
   <cargo chance="0.5" name="Xmas_Optics">
@@ -962,4 +972,38 @@
     </item>
   </cargo>
   <!--Xmas GiftBoxes-->
+  <!-- LootCrate-->
+  <cargo chance="0.25" name="Xmas_Weapons_Large">
+    <item name="SVD_Wooden" chance="0.20">
+      <damage min="0.00" max="0.00"/>
+      <attachments>
+        <item name="Mag_SVD_10Rnd" quantmin="100" quantmax="100" chance="1.00"/>
+      </attachments>
+    </item>
+    <item name="M14" chance="0.20">
+      <damage min="0.00" max="0.00"/>
+      <attachments>
+        <item name="Mag_M14_20Rnd" quantmin="100" quantmax="100" chance="1.00"/>
+      </attachments>
+    </item>
+    <item name="FAMAS" chance="0.20">
+      <damage min="0.00" max="0.00"/>
+      <attachments>
+        <item name="Mag_FAMAS_25Rnd" quantmin="100" quantmax="100" chance="1.00"/>
+      </attachments>
+    </item>
+    <item name="FAL" chance="0.20">
+      <damage min="0.00" max="0.00"/>
+      <attachments>
+        <item name="Mag_FAL_20Rnd" quantmin="100" quantmax="100" chance="1.00"/>
+      </attachments>
+    </item>
+    <item name="Saiga" chance="0.20">
+      <damage min="0.00" max="0.00"/>
+      <attachments>
+        <item name="Mag_Saiga_Drum20Rnd" quantmin="100" quantmax="100" chance="1.00"/>
+      </attachments>
+    </item>
+  </cargo>
+  <!-- LootCrate -->
 </randompresets>

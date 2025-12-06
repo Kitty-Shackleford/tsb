@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ignore>
   <type name="Bandage"/>
+  <tyoe name="GiftWrapPaper"/>
+  <!--
   <type name="EngineOil"/>
   <type name="TransitBus"/>
-  <!--
   <type name="GardenPlot"/>
   <type name="HescoBox"/>
   <type name="EasterEgg"/>

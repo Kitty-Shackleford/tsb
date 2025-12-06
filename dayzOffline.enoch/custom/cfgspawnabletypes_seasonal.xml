@@ -40,7 +40,6 @@
     <damage min="0.0" max="0.0"/>
   </type>
   <type name="GiftBox_Small_1">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Optics"/>
     <cargo preset="Xmas_Clothes_Small"/>
     <cargo preset="Xmas_Weapons_Small"/>
@@ -48,7 +47,6 @@
     <cargo preset="Xmas_Repairs_Small"/>
   </type>
   <type name="GiftBox_Small_2">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Optics"/>
     <cargo preset="Xmas_Clothes_Small"/>
     <cargo preset="Xmas_Weapons_Small"/>
@@ -56,7 +54,6 @@
     <cargo preset="Xmas_Repairs_Small"/>
   </type>
   <type name="GiftBox_Small_3">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Optics"/>
     <cargo preset="Xmas_Clothes_Small"/>
     <cargo preset="Xmas_Weapons_Small"/>
@@ -64,7 +61,6 @@
     <cargo preset="Xmas_Repairs_Small"/>
   </type>
   <type name="GiftBox_Small_4">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Optics"/>
     <cargo preset="Xmas_Clothes_Small"/>
     <cargo preset="Xmas_Weapons_Small"/>
@@ -72,56 +68,48 @@
     <cargo preset="Xmas_Repairs_Small"/>
   </type>
   <type name="GiftBox_Medium_1">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Clothes_Medium"/>
     <cargo preset="Xmas_Weapons_Medium"/>
     <cargo preset="Xmas_Fillers_Medium"/>
     <cargo preset="Xmas_Repairs_Medium"/>
   </type>
   <type name="GiftBox_Medium_2">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Clothes_Medium"/>
     <cargo preset="Xmas_Weapons_Medium"/>
     <cargo preset="Xmas_Fillers_Medium"/>
     <cargo preset="Xmas_Repairs_Medium"/>
   </type>
   <type name="GiftBox_Medium_3">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Clothes_Medium"/>
     <cargo preset="Xmas_Weapons_Medium"/>
     <cargo preset="Xmas_Fillers_Medium"/>
     <cargo preset="Xmas_Repairs_Medium"/>
   </type>
   <type name="GiftBox_Medium_4">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Clothes_Medium"/>
     <cargo preset="Xmas_Weapons_Medium"/>
     <cargo preset="Xmas_Fillers_Medium"/>
     <cargo preset="Xmas_Repairs_Medium"/>
   </type>
   <type name="GiftBox_Large_1">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Clothes_Large"/>
     <cargo preset="Xmas_Weapons_Large"/>
     <cargo preset="Xmas_Repairs_Large"/>
     <cargo preset="Xmas_Fillers_Large"/>
   </type>
   <type name="GiftBox_Large_2">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Clothes_Large"/>
     <cargo preset="Xmas_Weapons_Large"/>
     <cargo preset="Xmas_Repairs_Large"/>
     <cargo preset="Xmas_Fillers_Large"/>
   </type>
   <type name="GiftBox_Large_3">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Clothes_Large"/>
     <cargo preset="Xmas_Weapons_Large"/>
     <cargo preset="Xmas_Repairs_Large"/>
     <cargo preset="Xmas_Fillers_Large"/>
   </type>
   <type name="GiftBox_Large_4">
-    <cargo preset="Xmas_Bang"/>
     <cargo preset="Xmas_Clothes_Large"/>
     <cargo preset="Xmas_Weapons_Large"/>
     <cargo preset="Xmas_Repairs_Large"/>

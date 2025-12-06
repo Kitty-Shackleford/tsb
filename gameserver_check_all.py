@@ -45,6 +45,7 @@ def get_status_message(status):
     }
     return status_messages.get(status, "❓ **Unknown status.**")
 
+
 def generate_markdown(services, api_key):
     """Generate enhanced Markdown output for the gameserver details."""
     markdown_output = "# 🎮 **Gameserver Details**\n\n"
@@ -70,6 +71,8 @@ def generate_markdown(services, api_key):
                 "Last Update": "🕒 **{}**".format(gameserver.get('game_specific', {}).get('last_update', 'None')),
                 "Comment": "💬 **{}**".format(service.get('comment', 'None')),
                 "Banned Users": "🚫 **{}**".format(', '.join(gameserver.get('general', {}).get('bans', '').splitlines() or ['None'])),
+                "Priority": "✅ **{}**".format(', '.join(gameserver.get("general", {}).get("priority", '').splitlines() or ['None'])),
+                "Whitelist": "✅ **{}**".format(', '.join(gameserver.get("general", {}).get("whitelist", '').splitlines() or ['None'])),
                 "Game": "🎮 **{}**".format(gameserver.get('game_human', 'Unknown')),
                 "Mission": "🏆 **{}**".format(gameserver.get('settings', {}).get('config', {}).get('mission', 'Unknown')),
                 "3rd Person": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("disable3rdPerson", "1") == "0" else "❌ **Disabled**",

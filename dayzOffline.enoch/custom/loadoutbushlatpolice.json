@@ -68,7 +68,7 @@
       "slotName": "shoulderL",
       "discreteItemSets": [
         {
-          "itemType": "AKS74U",
+          "itemType": "CZ61",
           "spawnWeight": 3,
           "attributes": {
             "healthMin": 1,
@@ -79,17 +79,7 @@
           "quickBarSlot": 2,
           "complexChildrenTypes": [
             {
-              "itemType": "AKS74U_Bttstck",
-              "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
-              },
-              "quickBarSlot": -1
-            },
-            {
-              "itemType": "Mag_AK74_45Rnd",
+              "itemType": "Mag_CZ61_20Rnd",
               "attributes": {
                 "healthMin": 1,
                 "healthMax": 1,
@@ -179,9 +169,8 @@
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
           "simpleChildrenTypes": [
-            "Mag_AK74_45Rnd",
+            "Mag_CZ61_20Rnd",
             "PetrolLighter",
-            
             "TetracyclineAntibiotics",
             "VitaminBottle",
             "BandageDressing",
