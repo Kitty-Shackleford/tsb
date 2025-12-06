@@ -26,12 +26,12 @@ def format_server_name(gameserver):
     """Format the server name, removing unwanted characters."""
     server_name = gameserver.get("query", {}).get("server_name", "Server Name Not Available")
     server_name = re.sub(r'[^a-zA-Z0-9 ]', '', server_name)  # Allow letters, numbers, and spaces
-    return server_name or "Server Name Not Available"
+    return server_name or "BLANK NAME SORT ALPHABETICALLY AND CHECK DESCRIPTION"
 
 def get_status_message(status):
     """Get a formatted message for the gameserver status."""
     status_messages = {
-        "started": "🔵 **The Server is up and running.**",
+        "started": "🟢 **The Server is up and running.**",
         "stopped": "🔴 **The Server is stopped.**",
         "stopping": "🟡 **The Server is currently stopping.**",
         "restarting": "🔄 **The Server is currently restarting. This can take some minutes.**",
@@ -71,8 +71,6 @@ def generate_markdown(services, api_key):
                 "Last Update": "🕒 **{}**".format(gameserver.get('game_specific', {}).get('last_update', 'None')),
                 "Comment": "💬 **{}**".format(service.get('comment', 'None')),
                 "Banned Users": "🚫 **{}**".format(', '.join(gameserver.get('general', {}).get('bans', '').splitlines() or ['None'])),
-                "Priority": "✅ **{}**".format(', '.join(gameserver.get("general", {}).get("priority", '').splitlines() or ['None'])),
-                "Whitelist": "✅ **{}**".format(', '.join(gameserver.get("general", {}).get("whitelist", '').splitlines() or ['None'])),
                 "Game": "🎮 **{}**".format(gameserver.get('game_human', 'Unknown')),
                 "Mission": "🏆 **{}**".format(gameserver.get('settings', {}).get('config', {}).get('mission', 'Unknown')),
                 "3rd Person": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("disable3rdPerson", "1") == "0" else "❌ **Disabled**",
@@ -80,6 +78,7 @@ def generate_markdown(services, api_key):
                 "Shot Validation": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("shotValidation", "0") == "1" else "❌ **Disabled**",
                 "Mouse and Keyboard": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("enableMouseAndKeyboard", "1") == "1" else "❌ **Disabled**",
                 "Base Damage": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("disableBaseDamage", "1") == "0" else "❌ **Disabled**",
+                "Whitelist": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("enableWhitelist", "1") == "0" else "❌ **Disabled**",
                 "Container Damage": "✅ **Enabled**" if gameserver.get("settings", {}).get("config", {}).get("disableContainerDamage", "1") == "0" else "❌ **Disabled**",
                 "Version": "📅 **{}**".format(gameserver.get('query', {}).get('version', 'Unknown')),
             }
