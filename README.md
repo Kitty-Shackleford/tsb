@@ -1,12 +1,12 @@
 Markdown output generated in README.md.
 the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 
-## 🖥️ **Server Name Not Available**
+## 🖥️ **BLANK NAME SORT ALPHABETICALLY AND CHECK DESCRIPTION**
 
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🟢 **The Server is up and running.** |
-| Player Count | 👥 **0/50** |
+| Player Count | 👥 **4/50** |
 | Last Update | 🕒 **None** |
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
@@ -19,7 +19,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Base Damage | ✅ **Enabled** |
 | Whitelist | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
-| Version | 📅 **Unknown** |
+| Version | 📅 **v1.28.161464** |
 
 ---
 
