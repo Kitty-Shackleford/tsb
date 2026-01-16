@@ -36,7 +36,7 @@
       "slotName": "Headgear",
       "discreteItemSets": [
         {
-          "itemType": "ChristmasHeadband_Antlers",
+          "itemType": "ChristmasHeadband_Lights__Antlers",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 1,
@@ -47,7 +47,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "ChristmasHeadband_Gingerbread",
+          "itemType": "ChristmasHeadband_Lights_Gingerbread",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 1,
@@ -58,7 +58,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "ChristmasHeadband_Trees",
+          "itemType": "ChristmasHeadband_Lights_Trees",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 1,
@@ -74,7 +74,7 @@
       "slotName": "Body",
       "discreteItemSets": [
         {
-          "itemType": "TrackSuitJacket_Black",
+          "itemType": "Sweater_ChristmasGreen",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 1,
@@ -85,7 +85,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "TrackSuitJacket_Blue",
+          "itemType": "Sweater_ChristmasBlue",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 1,
@@ -96,7 +96,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "TrackSuitJacket_Green",
+          "itemType": "Sweater_ChristmasRed",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 1,
@@ -105,20 +105,14 @@
             "quantityMax": 1
           },
           "quickBarSlot": -1
-        },
+        }
+      ]
+    },
+     {
+      "slotName": "Hands",
+      "discreteItemSets": [
         {
-          "itemType": "TrackSuitJacket_LightBlue",
-          "spawnWeight": 1,
-          "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
-          },
-          "quickBarSlot": -1
-        },
-        {
-          "itemType": "TrackSuitJacket_Red",
+          "itemType": "XmasBaseballBat",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 1,

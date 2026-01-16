@@ -554,8 +554,9 @@
   </attachments>
   <!--Headtorches-->
   <attachments chance="0.03" name="headtorches">
-    <item name="Headtorch_Grey" chance="0.5"/>
-    <item name="Headtorch_Black" chance="0.5"/>
+    <item name="ChristmasHeadband_Lights_Antlers" chance="0.3"/>
+    <item name="ChristmasHeadband_Lights_Trees" chance="0.3"/>
+    <item name="ChristmasHeadband_Lights_Gingerbread" chance="0.4"/>
   </attachments>
   <!--Xmas Clothing-->
   <attachments chance="1.00" name="SantaHat">
@@ -588,14 +589,6 @@
     </item>
   </cargo>
   -->
-  <cargo chance="1.0" name="Xmas_Bang">
-    <item name="SurvivorF_Irena" chance="0.01">
-      <damage min="0.00" max="0.00"/>
-      <attachments>
-        <item name="Grenade_ChemGas" quantmin="100" quantmax="100" chance="1.00"/>
-      </attachments>
-    </item>
-  </cargo>
   <cargo chance="0.5" name="Xmas_Optics">
     <item name="StarlightOptic" quantmin="100" quantmax="100" chance="0.50">
       <damage min="0.00" max="0.00"/>
@@ -612,6 +605,15 @@
       <damage min="0.00" max="0.00"/>
     </item>
     <item name="ChristmasHeadband_Gingerbread" chance="0.076">
+      <damage min="0.00" max="0.00"/>
+    </item>
+    <item name="ChristmasHeadband_Lights_Antlers" chance="0.076">
+      <damage min="0.00" max="0.00"/>
+    </item>
+    <item name="ChristmasHeadband_Lights_Trees" chance="0.076">
+      <damage min="0.00" max="0.00"/>
+    </item>
+    <item name="ChristmasHeadband_Lights_Gingerbread" chance="0.076">
       <damage min="0.00" max="0.00"/>
     </item>
     <item name="WoolGlovesFingerless_ChristmasBlue" chance="0.076">
@@ -855,7 +857,7 @@
       </attachments>
     </item>
   </cargo>
-  <cargo chance="0.25" name="Xmas_Weapons_Large">
+  <cargo chance="1.0" name="Xmas_Weapons_Large">
     <item name="SVD_Wooden" chance="0.20">
       <damage min="0.00" max="0.00"/>
       <attachments>
@@ -972,7 +974,7 @@
     </item>
   </cargo>
   <!--Xmas GiftBoxes-->
-  <!-- LootCrate-->
+  <!-- LootCrate
   <cargo chance="0.25" name="Xmas_Weapons_Large">
     <item name="SVD_Wooden" chance="0.20">
       <damage min="0.00" max="0.00"/>
@@ -1005,5 +1007,5 @@
       </attachments>
     </item>
   </cargo>
-  <!-- LootCrate -->
+  LootCrate -->
 </randompresets>

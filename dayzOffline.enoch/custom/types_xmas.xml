@@ -106,6 +106,8 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
+    <tag name="shelves"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftBox_Large_2">
@@ -118,6 +120,8 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
+    <tag name="shelves"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftBox_Large_3">
@@ -130,6 +134,11 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="SeasonalEvent"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftBox_Large_4">
@@ -142,6 +151,11 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="SeasonalEvent"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftBox_Medium_1">
@@ -154,6 +168,8 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
+    <tag name="shelves"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftBox_Medium_2">
@@ -166,6 +182,8 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
+    <tag name="shelves"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftBox_Medium_3">
@@ -178,6 +196,11 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="SeasonalEvent"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftBox_Medium_4">
@@ -190,6 +213,11 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
+    <tag name="shelves"/>
+    <usage name="Town"/>
+    <usage name="Village"/>
+    <usage name="SeasonalEvent"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftBox_Small_1">
@@ -202,10 +230,8 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
     <tag name="shelves"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-    <usage name="SeasonalEvent"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftBox_Small_2">
@@ -218,10 +244,8 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
     <tag name="shelves"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-    <usage name="SeasonalEvent"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftBox_Small_3">
@@ -234,6 +258,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
     <tag name="shelves"/>
     <usage name="Town"/>
     <usage name="Village"/>
@@ -250,10 +275,92 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="containers"/>
+    <tag name="floor"/>
     <tag name="shelves"/>
     <usage name="Town"/>
     <usage name="Village"/>
     <usage name="SeasonalEvent"/>
+    <usage name="Xmas"/>
+  </type>
+  <type name="ChristmasHeadband_Antlers">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Lunapark"/>
+  </type>
+  <type name="ChristmasHeadband_Gingerbread">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Lunapark"/>
+  </type>
+  <type name="ChristmasHeadband_Trees">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Lunapark"/>
+  </type>
+  <type name="ChristmasHeadband_Lights_Trees">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    <category name="clothes"/>
+  </type>
+  <type name="ChristmasHeadband_Lights_Gingerbread">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    <category name="clothes"/>
+  </type>
+  <type name="ChristmasHeadband_Lights_Antlers">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    <category name="clothes"/>
+  </type>
+  <type name="XmasBaseballBat">
+    <nominal>60</nominal>
+    <lifetime>7200</lifetime>
+    <restock>1800</restock>
+    <min>30</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
     <usage name="Xmas"/>
   </type>
   <type name="GiftWrapPaper">

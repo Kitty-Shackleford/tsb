@@ -13,9 +13,7 @@
       "./custom/loadoutcriminal.json",
       "./custom/loadoutprisoner.json",
       "./custom/loadoutbushlatpolice.json",
-      "./custom/loadoutgopnik.json",
-      "./custom/loadoutsanta.json",
-      "./custom/loadoutdedmoroz.json"
+      "./custom/loadoutgopnik.json"
     ],
     "disablePersonalLight": true,
     "StaminaData": {
@@ -59,36 +57,35 @@
     "objectSpawnersArr": [
       "./custom/livonia_cannibal_camps.json",
       "./custom/Livonia_Castle_Polkrabiec.json",
-      "./custom/Livonia_Castle_Branzow.json",
-      "./custom/tarnow_fireplaces.json"
+      "./custom/Livonia_Castle_Branzow.json"
     ],
     "environmentMinTemps": [
-      -3,
-      -2,
       0,
-      4,
-      9,
-      14,
-      18,
-      17,
-      13,
-      11,
-      9,
-      -5
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "environmentMaxTemps": [
-      3,
-      5,
-      7,
-      14,
-      19,
-      24,
-      26,
-      25,
-      18,
-      14,
-      10,
-      -1
+      -5,
+      -5,
+      -5,
+      -5,
+      -5,
+      -5,
+      -5,
+      -5,
+      -5,
+      -5,
+      -5,
+      -5
     ],
     "wetnessWeightModifiers": [
       1,
