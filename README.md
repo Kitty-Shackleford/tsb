@@ -5,7 +5,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
-| Status | 🟢 **The Server is up and running.** |
+| Status | ❓ **Unknown status.** |
 | Player Count | 👥 **0/50** |
 | Last Update | 🕒 **None** |
 | Comment | 💬 **None** |
