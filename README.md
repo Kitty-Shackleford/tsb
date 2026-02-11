@@ -1,12 +1,12 @@
 Markdown output generated in README.md.
 the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 
-## 🖥️ **BLANK NAME SORT ALPHABETICALLY AND CHECK DESCRIPTION**
+## 🖥️ **SALT**
 
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🟢 **The Server is up and running.** |
-| Player Count | 👥 **6/50** |
+| Player Count | 👥 **2/50** |
 | Last Update | 🕒 **None** |
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
