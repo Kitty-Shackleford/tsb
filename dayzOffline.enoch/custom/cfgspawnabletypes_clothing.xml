@@ -37,6 +37,7 @@
     </attachments>
   </type>
   <type name="PlateCarrierVest">
+    <damage min="0.0" max="0.0"/>
     <attachments chance="1.00">
       <damage min="0.0" max="0.0"/>
       <item name="PlateCarrierHolster" chance="1.00"/>
@@ -47,6 +48,7 @@
     </attachments>
   </type>
   <type name="PlateCarrierVest_Green">
+    <damage min="0.0" max="0.0"/>
     <attachments chance="1.00">
       <damage min="0.0" max="0.0"/>
       <item name="PlateCarrierHolster_Green" chance="1.00"/>
@@ -57,6 +59,7 @@
     </attachments>
   </type>
   <type name="PlateCarrierVest_Black">
+    <damage min="0.0" max="0.0"/>
     <attachments chance="1.00">
       <damage min="0.0" max="0.0"/>
       <item name="PlateCarrierHolster_Black" chance="1.00"/>
@@ -67,6 +70,7 @@
     </attachments>
   </type>
   <type name="PlateCarrierVest_Camo">
+    <damage min="0.0" max="0.0"/>
     <attachments chance="1.00">
       <damage min="0.0" max="0.0"/>
       <item name="PlateCarrierHolster_Camo" chance="1.00"/>

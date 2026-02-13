@@ -1015,6 +1015,15 @@
   <event name="StaticNPC">
     <pos x="2007.72" z="7232" a="0" y="235.768"/>
   </event>
+      <event name="Static_Truck_Supplys">
+        <zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
+		<pos x="9594.103515625" z="10811.1884765625" a="0" y="208.51344299316406" group="SupplyTruck_glininska"/>	
+		<pos x="9594.103515625" z="10811.1884765625" a="0" y="208.51344299316406" group="SupplyTruck_tarnow"/>					
+		<pos x="6459.63134765625" z="4722.36962890625" a="0" y="309.130615234375" group="SupplyTruck_mine_nadbor"/>				
+		<pos x="2063.27734375" z="7752.16552734375" a="0" y="178.5763702392578" group="SupplyTruck_toplin"/>						
+		<pos x="11794.453125" z="10618.86328125" a="0" y="173.07630920410156" group="SupplyTruck_grabin"/>		
+		<pos x="11492.1005859375" z="6998.341796875" a="0" y="243.0428466796875" group="SupplyTruck_sitnik"/>
+    </event>
   <event name="VehicleHatchback02_MOD">
     <pos x="9433.1" z="10663.2" a="-38.3224"/>
     <pos x="6458.89" z="4596.89" a="43.4884"/>

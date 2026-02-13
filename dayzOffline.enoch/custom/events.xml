@@ -1177,6 +1177,21 @@
     <active>1</active>
     <children/>
   </event>
+    <event name="Static_Truck_Supplys">
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>2</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>50</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>500</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
   <event name="TrajectoryApple">
     <nominal>140</nominal>
     <min>2</min>

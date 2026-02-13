@@ -581,7 +581,7 @@
     <attachments chance="1.00">
       <item name="Truck_01_Door_2_1_Orange" chance="1.00"/>
     </attachments>
-    <attachments chance="1.00">
+    <attachments chance="0.10">
       <item name="Barrel_Blue" chance="1.00">
         <attachments>
           <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
@@ -599,7 +599,7 @@
         </attachments>
       </item>
     </attachments>
-    <attachments chance="1.00">
+    <attachments chance="0.10">
       <item name="Barrel_Green" chance="1.00">
         <attachments>
           <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
@@ -617,7 +617,7 @@
         </attachments>
       </item>
     </attachments>
-    <attachments chance="1.00">
+    <attachments chance="0.00">
       <item name="Barrel_Red" chance="1.00">
         <attachments>
           <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>
@@ -635,7 +635,7 @@
         </attachments>
       </item>
     </attachments>
-    <attachments chance="1.00">
+    <attachments chance="0.10">
       <item name="Barrel_yellow" chance="1.00">
         <attachments>
           <item name="Stone" quantmin="100" quantmax="100" chance="1.00"/>

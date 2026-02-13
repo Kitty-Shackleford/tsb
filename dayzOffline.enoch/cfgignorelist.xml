@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ignore>
   <type name="Bandage"/>
-  <tyoe name="GiftWrapPaper"/>
+  <type name="GiftWrapPaper"/>
+  <type name="Mag_AKM_Drum_TEST"/>
   <!--
   <type name="EngineOil"/>
   <type name="TransitBus"/>

@@ -64,10 +64,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   <ce folder="custom">
     <file name="types_books.xml" type="types"/>
   </ce>
+  <!--
   <ce folder="custom">
     <file name="types_winter.xml" type="types"/>
   </ce>
-  <!--
      <ce folder="custom">
     <file name="types_winter.xml" type="types"/>
   </ce>
