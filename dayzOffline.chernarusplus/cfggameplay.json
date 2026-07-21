@@ -1,25 +1,28 @@
 {
-  "version": 122,
+  "version": 123,
   "GeneralData": {
     "disableBaseDamage": false,
     "disableContainerDamage": false,
-    "disableRespawnDialog": false,
-    "disableRespawnInUnconsciousness": false
+    "disableRespawnDialog": true,
+    "disableRespawnInUnconsciousness": true
   },
   "PlayerData": {
-    "disablePersonalLight": false,
+    "spawnGearPresetFiles": [
+      "./custom/loadoutsalt.json"
+    ],
+    "disablePersonalLight": true,
     "StaminaData": {
-      "sprintStaminaModifierErc": 1,
-      "sprintStaminaModifierCro": 1,
+      "sprintStaminaModifierErc": 0.8,
+      "sprintStaminaModifierCro": 0.8,
       "staminaWeightLimitThreshold": 6000,
-      "staminaMax": 100,
-      "staminaKgToStaminaPercentPenalty": 1.75,
+      "staminaMax": 160,
+      "staminaKgToStaminaPercentPenalty": 1.85,
       "staminaMinCap": 5,
-      "sprintSwimmingStaminaModifier": 1,
-      "sprintLadderStaminaModifier": 1,
-      "meleeStaminaModifier": 1,
-      "obstacleTraversalStaminaModifier": 1,
-      "holdBreathStaminaModifier": 1
+      "sprintSwimmingStaminaModifier": 0.8,
+      "sprintLadderStaminaModifier": 0.8,
+      "meleeStaminaModifier": 0.8,
+      "obstacleTraversalStaminaModifier": 0.8,
+      "holdBreathStaminaModifier": 0.8
     },
     "ShockHandlingData": {
       "shockRefillSpeedConscious": 5,
@@ -28,21 +31,39 @@
     },
     "MovementData": {
       "timeToStrafeJog": 0.1,
-      "rotationSpeedJog": 0.3,
-      "timeToSprint": 0.45,
-      "timeToStrafeSprint": 0.3,
-      "rotationSpeedSprint": 0.15,
+      "rotationSpeedJog": 0.1,
+      "timeToSprint": 0.1,
+      "timeToStrafeSprint": 0.1,
+      "rotationSpeedSprint": 0.1,
       "allowStaminaAffectInertia": true
     },
     "DrowningData": {
       "staminaDepletionSpeed": 10,
       "healthDepletionSpeed": 10,
       "shockDepletionSpeed": 10
+    },
+    "WeaponObstructionData": {
+      "staticMode": 1,
+      "dynamicMode": 1
     }
   },
   "WorldsData": {
-    "lightingConfig": 0,
-    "objectSpawnersArr": [],
+    "lightingConfig": 1,
+    "objectSpawnersArr": [
+      "./custom/skalislandfull.json",
+      "./custom/PrisonFULL2024.json",
+      "./custom/chenarusbunkerisland.json",
+      "./custom/NatureOverhaul.json",
+      "./custom/NatureOverhaul1.json",
+      "./custom/NatureOverhaul2.json",
+      "./custom/NatureOverhaul3.json",
+      "./custom/NatureOverhaul4.json",
+      "./custom/NatureOverhaul5.json",
+      "./custom/NatureOverhaul6.json",
+      "./custom/NatureOverhaul7.json",
+      "./custom/NatureOverhaul8.json",
+      "./custom/NatureOverhaul9.json"
+    ],
     "environmentMinTemps": [
       -3,
       -2,
@@ -77,30 +98,53 @@
       1.33,
       1.66,
       2
+    ],
+    "playerRestrictedAreaFiles": [
+      "./custom/chenarusbunkerislandtele.json"
     ]
   },
   "BaseBuildingData": {
     "HologramData": {
-      "disableIsCollidingBBoxCheck": false,
-      "disableIsCollidingPlayerCheck": false,
-      "disableIsClippingRoofCheck": false,
-      "disableIsBaseViableCheck": false,
+      "disableIsCollidingBBoxCheck": true,
+      "disableIsCollidingPlayerCheck": true,
+      "disableIsClippingRoofCheck": true,
+      "disableIsBaseViableCheck": true,
       "disableIsCollidingGPlotCheck": false,
-      "disableIsCollidingAngleCheck": false,
-      "disableIsPlacementPermittedCheck": false,
-      "disableHeightPlacementCheck": false,
+      "disableIsCollidingAngleCheck": true,
+      "disableIsPlacementPermittedCheck": true,
+      "disableHeightPlacementCheck": true,
       "disableIsUnderwaterCheck": false,
-      "disableIsInTerrainCheck": false,
+      "disableIsInTerrainCheck": true,
+      "disableColdAreaBuildingCheck": false,
       "disallowedTypesInUnderground": [
         "FenceKit",
         "TerritoryFlagKit",
-        "WatchtowerKit"
+        "WatchtowerKit",
+        "CarTent",
+        "LargeTent",
+        "PartyTent",
+        "PartyTent_Blue",
+        "PartyTent_Brown",
+        "PartyTent_Lunapark",
+        "MediumTent",
+        "MediumTent_Green",
+        "MediumTent_Orange",
+        "BarrelHoles_Blue",
+        "BarrelHoles_Green",
+        "BarrelHoles_Red",
+        "BarrelHoles_Yellow",
+        "Barrel_Blue",
+        "Barrel_Green",
+        "Barrel_Yellow",
+        "Barrel_Red",
+        "WoodenCrate",
+        "HescoBox"
       ]
     },
     "ConstructionData": {
-      "disablePerformRoofCheck": false,
-      "disableIsCollidingCheck": false,
-      "disableDistanceCheck": false
+      "disablePerformRoofCheck": true,
+      "disableIsCollidingCheck": true,
+      "disableDistanceCheck": true
     }
   },
   "UIData": {
@@ -109,7 +153,7 @@
       "hitDirectionOverrideEnabled": false,
       "hitDirectionBehaviour": 1,
       "hitDirectionStyle": 0,
-      "hitDirectionIndicatorColorStr": "0xffbb0a1e",
+      "hitDirectionIndicatorColorStr": "0x550000",
       "hitDirectionMaxDuration": 2,
       "hitDirectionBreakPointRelative": 0.2,
       "hitDirectionScatter": 10,
@@ -119,7 +163,10 @@
   "MapData": {
     "ignoreMapOwnership": false,
     "ignoreNavItemsOwnership": false,
-    "displayPlayerPosition": false,
+    "displayPlayerPosition": true,
     "displayNavInfo": true
+  },
+  "VehicleData": {
+    "boatDecayMultiplier": 2
   }
 }

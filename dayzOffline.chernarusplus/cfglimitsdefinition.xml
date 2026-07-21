@@ -9,11 +9,28 @@
     <category name="weapons"/>
     <category name="books"/>
     <category name="explosives"/>
+    <category name="cartools"/>
+    <category name="admin"/>
+    <category name="cannibal"/>
+    <category name="bonfire"/>
+    <category name="xmas"/>
+    <category name="halloween"/>
+    <category name="mechanic"/>
+    <category name="ussr"/>
+    <category name="usa"/>
+    <category name="militia"/>
+    <category name="party"/>
+    <category name="containerlocked"/>
+    <category name="leftovers"/>
+    <category name="fishing"/>
   </categories>
   <tags>
     <tag name="floor"/>
     <tag name="shelves"/>
     <tag name="ground"/>
+    <tag name="airstrike"/>
+    <tag name="mechanic"/>
+    <tag name="wall"/>
   </tags>
   <usageflags>
     <usage name="Military"/>
@@ -29,10 +46,38 @@
     <usage name="Office"/>
     <usage name="School"/>
     <usage name="Prison"/>
-    <usage name="Lunapark"/>
     <usage name="SeasonalEvent"/>
     <usage name="ContaminatedArea"/>
+    <usage name="Special"/>
+    <usage name="Lunapark"/>
+    <usage name="Underground"/>
+    <usage name="Admin"/>
+    <usage name="Airstrike"/>
+    <usage name="Party"/>
+    <usage name="Bonfire"/>
+    <usage name="Xmas"/>
+    <usage name="Halloween"/>
+    <usage name="Mechanic"/>
+    <usage name="USSR"/>
+    <usage name="USA"/>
+    <usage name="Militia"/>
+    <usage name="Cartools"/>
     <usage name="Historical"/>
+    <usage name="Custom"/>
+    <usage name="Halloween"/>
+    <usage name="Dog"/>
+    <usage name="Chicken"/>
+    <usage name="Airstrike"/>
+    <usage name="Cannibal"/>
+    <usage name="Container"/>
+    <usage name="ContainerMilitary"/>
+    <usage name="ContainerSpecial"/>
+    <usage name="ContainerLocked"/>
+    <usage name="Bunker"/>
+    <usage name="ContainerLockedBlue"/>
+    <usage name="ContainerLockedYellow"/>
+    <usage name="ContainerLockedRed"/>
+    <usage name="ContainerLockedOrange"/>
   </usageflags>
   <valueflags>
     <value name="Tier1"/>
@@ -40,5 +85,15 @@
     <value name="Tier3"/>
     <value name="Tier4"/>
     <value name="Unique"/>
+    <value name="Admin"/>
+    <value name="Airstrike"/>
+    <value name="Cannibal"/>
+    <value name="Bonfire"/>
+    <value name="Xmas"/>
+    <value name="Halloween"/>
+    <value name="Party"/>
+    <value name="Mechanic"/>
+    <value name="USSR"/>
+    <value name="USA"/>
   </valueflags>
 </lists>

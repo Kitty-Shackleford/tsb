@@ -1,5 +1,771 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <eventgroupdef>
+  <!-- MODS -->
+  <group name="Bonfire">
+    <child type="Bonfire" deloot="13" lootmax="8" lootmin="8" x="0" z="0" a="0" y="0"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="2.751953125" z="-2.96875" a="0" y="-1.8610076904296875"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="4.380126953125" z="-0.181640625" a="0" y="-1.887298583984375"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="3.157470703125" z="2.572265625" a="0" y="-1.8873138427734375"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="0.2333984375" z="3.91796875" a="0" y="-1.8873291015625"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="-2.591552734375" z="2.7255859375" a="174.60060119628906" y="-1.8872833251953125"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="-3.9462890625" z="-0.2021484375" a="174.6007843017578" y="-1.91357421875"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="-2.47607421875" z="-2.8330078125" a="174.6007843017578" y="-1.9135894775390625"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="0.56005859375" z="-3.8955078125" a="174.6007843017578" y="-1.913604736328125"/>
+  </group>
+  <group name="Party">
+    <child type="Misc_TirePile_Burning_DE" deloot="3" lootmax="10" lootmin="1" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_PartyTent" deloot="0" lootmax="10" lootmin="1" x="-7.879150390625" z="-1.31640625" a="359.9999961853034" y="-0.000030517578125"/>
+    <child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="0.536376953125" z="-6.05908203125" a="228.5323028564453" y="0.109649658203125"/>
+    <child type="StaticObj_ammoboxes_big" deloot="0" lootmax="10" lootmin="1" x="-7.075927734375" z="4.78564453125" a="0" y="0.9368438720703125"/>
+    <child type="StaticObj_Furniture_matress_white" spawnsecondary="false" x="0.663330078125" z="-5.921875" a="53.783233642578125" y="0.0195465087890625"/>
+    <child type="StaticObj_PartyTent" deloot="0" lootmax="10" lootmin="1" x="2.14501953125" z="-5.52294921875" a="67.55976867675781" y="-0.0000152587890625"/>
+    <child type="StaticObj_Furniture_matress_white" spawnsecondary="false" x="-2.97607421875" z="5.73876953125" a="70.1759262084961" y="-0.000030517578125"/>
+    <child type="StaticObj_PartyTent" deloot="0" lootmax="10" lootmin="1" x="-1.728515625" z="6.31298828125" a="70.17597198486328" y="-0.0000152587890625"/>
+    <child type="StaticObj_Misc_WoodenCrate_3x" deloot="0" lootmax="10" lootmin="1" x="6.18505859375" z="-3.81201171875" a="18.000001907348633" y="0.70782470703125"/>
+    <child type="StaticObj_Misc_Table_Large" deloot="0" lootmax="10" lootmin="1" x="-0.099609375" z="6.92138671875" a="341.99999237060547" y="0.427215576171875"/>
+    <child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="-3.13916015625" z="5.64404296875" a="244.92327117919922" y="0.0900726318359375"/>
+    <child type="StaticObj_Furniture_matress_white" spawnsecondary="false" x="-7.599853515625" z="-2.54638671875" a="321.1939353942871" y="0.0205078125"/>
+    <child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="-7.45654296875" z="-2.66748046875" a="135.94200134277344" y="0.1106109619140625"/>
+    <!--
+  <child type="UndergroundStash" spawnsecondary="false" x="2.751953125" z="-2.96875" a="0" y="-1.8610076904296875"/>
+	<child type="UndergroundStash" spawnsecondary="false" x="4.380126953125" z="-0.181640625" a="0" y="-1.887298583984375"/>
+	<child type="UndergroundStash" spawnsecondary="false" x="3.157470703125" z="2.572265625" a="0" y="-1.8873138427734375"/>
+	<child type="UndergroundStash" spawnsecondary="false" x="0.2333984375" z="3.91796875" a="0" y="-1.8873291015625"/>
+	<child type="UndergroundStash" spawnsecondary="false" x="-2.591552734375" z="2.7255859375" a="174.60060119628906" y="-1.8872833251953125"/>
+	<child type="UndergroundStash" spawnsecondary="false" x="-3.9462890625" z="-0.2021484375" a="174.6007843017578" y="-1.91357421875"/>
+	<child type="UndergroundStash" spawnsecondary="false" x="-2.47607421875" z="-2.8330078125" a="174.6007843017578" y="-1.9135894775390625"/>
+	<child type="UndergroundStash" spawnsecondary="false" x="0.56005859375" z="-3.8955078125" a="174.6007843017578" y="-1.913604736328125"/>
+    -->
+  </group>
+  <group name="C130J">
+    <child type="Land_Wreck_C130J" deloot="10" lootmax="8" lootmin="4" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5" z="11.20068359375" a="0" y="-4.862518310546875"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5966796875" z="17.7294921875" a="0" y="-4.3388671875"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.65234375" z="14.63720703125" a="0" y="-4.45263671875"/>
+  </group>
+  <group name="C130JC">
+    <child type="Land_Wreck_C130J_Cargo" deloot="10" lootmax="10" lootmin="7" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5" z="11.20068359375" a="0" y="-4.862518310546875"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5966796875" z="17.7294921875" a="0" y="-4.3388671875"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.65234375" z="14.63720703125" a="0" y="-4.45263671875"/>
+  </group>
+  <group name="C130J2">
+    <child type="Land_Wreck_C130J_2" deloot="10" lootmax="10" lootmin="7" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5" z="11.20068359375" a="0" y="-4.862518310546875"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5966796875" z="17.7294921875" a="0" y="-4.3388671875"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.65234375" z="14.63720703125" a="0" y="-4.45263671875"/>
+  </group>
+  <!-- RICO -->
+  <event name="Static_Builder">
+    <zone smin="0" smax="0" dmin="1" dmax="1" r="20"/>
+    <pos x="7109.4736328125" z="2909.089599609375" a="-89.99995422363281" y="53.40790557861328" group="Cherno_Builder"/>
+    <pos x="2289.489990234375" z="5173.95654296875" a="0.0" y="187.2542724609375" group="Zeleno_Builder"/>
+    <pos x="2017.5833740234375" z="9816.4375" a="0.0" y="229.45726013183594" group="Lop_Builder"/>
+    <pos x="8025.10107421875" z="12637.458984375" a="0.0" y="118.11128234863281" group="Sevro_Builder"/>
+    <pos x="3791.16552734375" z="13002.181640625" a="0.0" y="191.12725830078125" group="Novaya_Builder"/>
+    <pos x="11660.908203125" z="15079.8974609375" a="0.0" y="110.15089416503906" group="Novo_Builder"/>
+  </event>
+  <!-- RICO -->
+  <group name="xmasevent">
+    <child type="Wreck_SantasSleigh" deloot="10" lootmax="10" lootmin="10" x="5.36279296875" z="-4.5107421875" a="47.351985931396484" y="-3.42169189453125"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="9" lootmax="8" lootmin="4" x="7.236328125" z="-9.39453125" a="0" y="-4.420501708984375"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="9" lootmax="8" lootmin="4" x="1.76806640625" z="-12.0322265625" a="27" y="-4.12359619140625"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="9" lootmax="8" lootmin="4" x="-1.92138671875" z="-5.970703125" a="27" y="-4.162261962890625"/>
+  </group>
+  <group name="boathousestore">
+    <child type="Land_Boathouse" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="6.55859375" z="-1.552734375" a="270.0000457763672" y="4.250213623046875"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="6.57666015625" z="2.23828125" a="270.0000457763672" y="4.244873046875"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="6.51708984375" z="6.2470703125" a="270.0000457763672" y="4.25958251953125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-6.595703125" z="6.2763671875" a="90.30094909667969" y="4.276885986328125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-6.62939453125" z="2.49609375" a="90.30103302001953" y="4.27154541015625"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-6.642578125" z="-1.42578125" a="90.30094909667969" y="4.2862548828125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-4.5732421875" z="8.2548828125" a="180.5797576904297" y="4.314453125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="2.18310546875" z="8.125" a="179.9998779296875" y="7.01416015625"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-2.326171875" z="8.126953125" a="179.9998779296875" y="7.074981689453125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-0.55810546875" z="8.2373046875" a="180.5797576904297" y="4.255279541015625"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="3.259765625" z="8.302734375" a="180.5797576904297" y="4.20489501953125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-6.62451171875" z="-3.5126953125" a="90.30094909667969" y="4.24151611328125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="6.53125" z="-3.5419921875" a="270.0000457763672" y="4.21954345703125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="4.5244140625" z="8.2607421875" a="180.5797576904297" y="4.21929931640625"/>
+    <child type="StaticObj_Furniture_shelf_1side" spawnsecondary="false" x="2.09423828125" z="7.98828125" a="270.0000457763672" y="3.332550048828125"/>
+    <child type="StaticObj_Furniture_shelf_1side" spawnsecondary="false" x="0.0947265625" z="7.9833984375" a="270.0000457763672" y="3.3359375"/>
+    <child type="StaticObj_Furniture_shelf_1side" spawnsecondary="false" x="-1.927734375" z="7.9580078125" a="270.0000457763672" y="3.34136962890625"/>
+    <child type="StaticObj_Furniture_shelf_1side" spawnsecondary="false" x="-3.943359375" z="7.962890625" a="270.0000457763672" y="3.346710205078125"/>
+    <child type="StaticObj_Furniture_shelf" spawnsecondary="false" x="0.00927734375" z="3.322265625" a="0" y="3.3485107421875"/>
+    <child type="StaticObj_Furniture_shelf" spawnsecondary="false" x="0.0224609375" z="0.7998046875" a="0" y="3.355682373046875"/>
+    <child type="StaticObj_Furniture_shelf" spawnsecondary="false" x="0.0576171875" z="-1.6416015625" a="0" y="3.365264892578125"/>
+    <child type="StaticObj_Furniture_shelf" spawnsecondary="false" x="-0.005859375" z="-4.0908203125" a="0" y="3.367095947265625"/>
+    <child type="StaticObj_Furniture_bar_tap_DZ" spawnsecondary="false" x="-2.7529296875" z="-2.86328125" a="0" y="3.382904052734375"/>
+    <child type="StaticObj_Furniture_yellow_star" spawnsecondary="false" x="-2.38623046875" z="-3.2568359375" a="0" y="3.884918212890625"/>
+    <child type="StaticObj_Furniture_tac_board_posters_level2" spawnsecondary="false" x="-6.326171875" z="-2.4326171875" a="270.0000457763672" y="4.318634033203125"/>
+    <child type="StaticObj_Furniture_tac_board_posters_level1" spawnsecondary="false" x="-6.32470703125" z="3.787109375" a="270.0000457763672" y="4.337158203125"/>
+    <child type="StaticObj_Furniture_bag_DZ" spawnsecondary="false" x="-5.91455078125" z="-5.095703125" a="0" y="3.903289794921875"/>
+    <child type="StaticObj_Furniture_bag_DZ" spawnsecondary="false" x="-5.46142578125" z="-5.1884765625" a="0" y="3.839569091796875"/>
+    <child type="StaticObj_Furniture_bag_DZ" spawnsecondary="false" x="-5.73193359375" z="-4.64453125" a="0" y="3.839202880859375"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.73095703125" z="5.6025390625" a="270.0000457763672" y="3.78070068359375"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.73291015625" z="3.8134765625" a="270.0000457763672" y="3.766632080078125"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.7158203125" z="2.18359375" a="270.0000457763672" y="3.770050048828125"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.7392578125" z="-1.1806640625" a="270.0000457763672" y="3.768341064453125"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.73974609375" z="-2.82421875" a="270.0000457763672" y="3.778350830078125"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.73876953125" z="0.41796875" a="270.0000457763672" y="3.7706298828125"/>
+    <child type="StaticObj_Misc_MysteriousBell" spawnsecondary="false" x="-0.0673828125" z="-5.80859375" a="1.0145502090454102" y="4.307403564453125"/>
+    <child type="StaticObj_Furniture_school_map" spawnsecondary="false" x="6.26025390625" z="-3.0078125" a="270.0000457763672" y="5.276397705078125"/>
+  </group>
+  <group name="supplystatichelicrash">
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="5" lootmax="8" lootmin="4" x="4.26611328125" z="5.716796875" a="267.2076950073242" y="-1.415679931640625"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="5" lootmax="8" lootmin="4" x="1.8486328125" z="8.9111328125" a="337.24668884277344" y="-1.14593505859375"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="5" lootmax="8" lootmin="4" x="4.3740234375" z="10.609375" a="248.93697357177734" y="-1.149444580078125"/>
+  </group>
+  <group name="supplyuh1yhelicrash">
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="5" lootmax="8" lootmin="4" x="4.26611328125" z="5.716796875" a="267.2076950073242" y="-1.415679931640625"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="5" lootmax="8" lootmin="4" x="1.8486328125" z="8.9111328125" a="337.24668884277344" y="-1.14593505859375"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="5" lootmax="8" lootmin="4" x="4.3740234375" z="10.609375" a="248.93697357177734" y="-1.149444580078125"/>
+  </group>
+  <group name="supplymi8helicrash">
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="5" lootmax="8" lootmin="4" x="8.0791015625" z="7.6953125" a="267.2076950073242" y="-0.889404296875"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="5" lootmax="8" lootmin="4" x="4.9267578125" z="9.8232421875" a="337.2466869354248" y="-0.6201171875"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="5" lootmax="8" lootmin="4" x="7.4521484375" z="11.521484375" a="248.93697357177734" y="-0.623626708984375"/>
+  </group>
+  <group name="meleewall">
+    <child type="StaticObj_Wall_Tin6_2_4" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
+  </group>
+  <group name="backpackwall">
+    <child type="StaticObj_Wall_Tin7_8" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
+  </group>
+  <group name="controltower">
+    <child type="Land_Mil_ControlTower" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Wall_GarbCont" spawnsecondary="false" x="0" z="0" a="0" y="-8"/>
+  </group>
+  <group name="specialstore">
+    <child type="Land_Village_store" deloot="0" lootmax="1" lootmin="1" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Wall_GarbCont" spawnsecondary="false" x="0" z="0" a="0" y="-4"/>
+    <!-- <child type="Wreck_SantasSleigh" spawnsecondary="false" x="0" z="0" a="0" y="-4"/> -->
+  </group>
+  <group name="partystore">
+    <child type="Land_City_Stand_News1" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
+  </group>
+  <!-- BUILDER EVENT -->
+  <group name="BuilderEvent">
+    <child type="CamoNetShelter" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="270.0000457763672" y="0"/>
+    <child type="PileOfWoodenPlanks" spawnsecondary="false" x="-0.216796875" z="-0.22900390625" a="92.66860961914062" y="0.20741796493530273"/>
+    <child type="HandSaw" spawnsecondary="false" x="1.5634765625" z="1.64404296875" a="179.99993896484375" y="0.08051204681396484"/>
+    <child type="HandSaw" spawnsecondary="false" x="1.5751953125" z="1.373779296875" a="179.9999237060547" y="0.07982301712036133"/>
+    <child type="SledgeHammer" spawnsecondary="false" x="1.5029296875" z="1.101318359375" a="0" y="0.18467187881469727"/>
+    <child type="SledgeHammer" spawnsecondary="false" x="1.5185546875" z="0.839111328125" a="0" y="0.13319158554077148"/>
+    <child type="NailBox" spawnsecondary="false" x="1.9970703125" z="0.640869140625" a="0" y="0.08302116394042969"/>
+    <child type="NailBox" spawnsecondary="false" x="2.01171875" z="0.494384765625" a="0" y="0.046442508697509766"/>
+    <child type="NailBox" spawnsecondary="false" x="1.78125" z="0.634521484375" a="0" y="0.08096122741699219"/>
+    <child type="NailBox" spawnsecondary="false" x="1.7958984375" z="0.488037109375" a="0" y="0.044382572174072266"/>
+    <child type="NailBox" spawnsecondary="false" x="1.564453125" z="0.63818359375" a="0" y="0.07896041870117188"/>
+    <child type="NailBox" spawnsecondary="false" x="1.5791015625" z="0.49169921875" a="0" y="0.04238176345825195"/>
+    <child type="Whetstone" spawnsecondary="false" x="1.3896484375" z="1.5869140625" a="0" y="0.19516468048095703"/>
+    <child type="Whetstone" spawnsecondary="false" x="1.4033203125" z="1.39892578125" a="0" y="0.021080970764160156"/>
+    <child type="Hammer" spawnsecondary="false" x="1.89453125" z="0.27490234375" a="179.99993896484375" y="0.09152841567993164"/>
+    <child type="Hammer" spawnsecondary="false" x="1.5771484375" z="0.26708984375" a="179.9999237060547" y="0.08857011795043945"/>
+    <child type="FirefighterAxe_Green" spawnsecondary="false" x="1.361328125" z="-0.8154296875" a="0" y="0.2431035041809082"/>
+    <child type="Pliers" spawnsecondary="false" x="1.87109375" z="0.031982421875" a="270.00001525878906" y="0.21994972229003906"/>
+    <child type="Pliers" spawnsecondary="false" x="1.54296875" z="0.046875" a="270.00001525878906" y="0.21692848205566406"/>
+    <child type="BarbedWire" spawnsecondary="false" x="1.8056640625" z="-0.308349609375" a="0" y="0.016511917114257812"/>
+    <child type="MetalWire" spawnsecondary="false" x="1.310546875" z="-0.439453125" a="89.99998474121094" y="0.05740070343017578"/>
+    <child type="BarbedWire" spawnsecondary="false" x="1.7353515625" z="-0.391845703125" a="0" y="0.18840932846069336"/>
+    <child type="MetalWire" spawnsecondary="false" x="1.240234375" z="-0.52294921875" a="89.99998474121094" y="0.22929811477661133"/>
+    <child type="BarbedWire" spawnsecondary="false" x="1.6240234375" z="-0.3740234375" a="0" y="0.18733978271484375"/>
+    <child type="MetalWire" spawnsecondary="false" x="1.12890625" z="-0.505126953125" a="89.99998474121094" y="0.22822856903076172"/>
+    <child type="BarbedWire" spawnsecondary="false" x="1.71484375" z="-0.284423828125" a="0" y="0.1877894401550293"/>
+    <child type="MetalWire" spawnsecondary="false" x="1.2197265625" z="-0.41552734375" a="89.99998474121094" y="0.22867822647094727"/>
+    <child type="MetalPlate" spawnsecondary="false" x="1.603515625" z="-1.79736328125" a="0" y="0.02541208267211914"/>
+    <child type="WoodenLog" spawnsecondary="false" x="2.8837890625" z="-0.451904296875" a="0.6173456907272339" y="0.04038190841674805"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.0498046875" z="-0.418212890625" a="0.6173315048217773" y="0.007441997528076172"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.2333984375" z="-0.464599609375" a="0.6173315048217773" y="0.041274070739746094"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.3974609375" z="-0.431640625" a="0.6173455715179443" y="0.008334159851074219"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.2158203125" z="-0.44873046875" a="0.6173456907272339" y="0.3253335952758789"/>
+    <child type="WoodenLog" spawnsecondary="false" x="2.9755859375" z="-0.406005859375" a="0.6173456907272339" y="0.15684175491333008"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.1552734375" z="-0.4541015625" a="0.6173456907272339" y="0.190673828125"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.3212890625" z="-0.417724609375" a="0.6173456907272339" y="0.15773391723632812"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.041015625" z="-0.444580078125" a="0.6173456907272339" y="0.3183717727661133"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.1455078125" z="-0.4599609375" a="0.6173456907272339" y="0.4543766975402832"/>
+    <child type="Pickaxe" spawnsecondary="false" x="3.05078125" z="0.803466796875" a="0" y="0.2680048942565918"/>
+    <child type="Pickaxe" spawnsecondary="false" x="2.9638671875" z="1.115478515625" a="0" y="0.2667088508605957"/>
+    <!-- <child type="CombinationLock4" spawnsecondary="false" x="1.1533203125" z="0.20068359375" a="0" y="0.14166831970214844"/> -->
+    <child type="MetalPlate" spawnsecondary="false" x="1.20703125" z="-2.154541015625" a="0" y="0.025817394256591797"/>
+    <child type="MetalPlate" spawnsecondary="false" x="1.1044921875" z="-1.6904296875" a="0" y="0.023113250732421875"/>
+  </group>
+  <!-- Supply Trucks-->
+  <group name="SupplyTruck_Elektro">
+    <child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="1.427734375" z="5.3525390625" a="184.76966857910156" y="-0.628021240234375"/>
+    <child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="148.76840209960938" y="0"/>
+    <child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-0.150390625" z="0.009765625" a="148.76840209960938" y="-0.007415771484375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.7666015625" z="1.720703125" a="256.769287109375" y="-0.577056884765625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.9716796875" z="6.0830078125" a="328.7692527770996" y="-0.5711669921875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.6337890625" z="3.609375" a="58.768131256103516" y="-0.580230712890625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.3408203125" z="5.912109375" a="328.7695140838623" y="-0.5511474609375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-0.0146484375" z="9.9169921875" a="148.7683563232422" y="0.12591552734375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="5.03125" z="9.0322265625" a="49.76826095581055" y="0.12054443359375"/>
+    <child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="2.0068359375" z="4.25" a="148.76840209960938" y="0.55609130859375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.0732421875" z="4.2255859375" a="310.7693061828613" y="0.504638671875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.6005859375" z="3.228515625" a="256.769287109375" y="0.529693603515625"/>
+    <child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="2.2880859375" z="0.076171875" a="148.76840209960938" y="0.07879638671875"/>
+    <child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="2.029296875" z="0.056640625" a="247.76910400390625" y="0.067352294921875"/>
+    <child type="Battery9V" deloot="0" lootmax="1" lootmin="1" x="2.0615234375" z="-0.0673828125" a="328.7692527770996" y="0.064361572265625"/>
+    <child type="Barrel_Red" deloot="0" lootmax="1" lootmin="0" x="0.6142578125" z="5.064453125" a="328.7692527770996" y="0.38653564453125"/>
+    <child type="Barrel_Yellow" deloot="0" lootmax="1" lootmin="0" x="2.0107421875" z="4.82421875" a="49.76826095581055" y="0.47113037109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.4769287109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.45556640625"/>
+    <child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-0.046875" z="0.2548828125" a="301.76927185058594" y="-0.32586669921875"/>
+    <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="1.9599609375" z="0.416015625" a="328.7692527770996" y="-0.262359619140625"/>
+    <child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="1.6728515625" z="0.5087890625" a="122.26831817626953" y="0.093292236328125"/>
+    <child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="1.9267578125" z="0.9736328125" a="122.26831817626953" y="0.099151611328125"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-0.083984375" z="0.328125" a="0.7688300609588623" y="-0.00787353515625"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="0.0517578125" z="0.486328125" a="328.7692527770996" y="-0.019866943359375"/>
+  </group>
+  <group name="SupplyTruck_GreenMountain">
+    <child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="1.427734375" z="5.3525390625" a="184.76966857910156" y="-0.628021240234375"/>
+    <child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="148.76840209960938" y="0"/>
+    <child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-0.150390625" z="0.009765625" a="148.76840209960938" y="-0.007415771484375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.7666015625" z="1.720703125" a="256.769287109375" y="-0.577056884765625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.9716796875" z="6.0830078125" a="328.7692527770996" y="-0.5711669921875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.6337890625" z="3.609375" a="58.768131256103516" y="-0.580230712890625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.3408203125" z="5.912109375" a="328.7695140838623" y="-0.5511474609375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-0.0146484375" z="9.9169921875" a="148.7683563232422" y="0.12591552734375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="5.03125" z="9.0322265625" a="49.76826095581055" y="0.12054443359375"/>
+    <child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="2.0068359375" z="4.25" a="148.76840209960938" y="0.55609130859375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.0732421875" z="4.2255859375" a="310.7693061828613" y="0.504638671875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.6005859375" z="3.228515625" a="256.769287109375" y="0.529693603515625"/>
+    <child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="2.2880859375" z="0.076171875" a="148.76840209960938" y="0.07879638671875"/>
+    <child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="2.029296875" z="0.056640625" a="247.76910400390625" y="0.067352294921875"/>
+    <child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="2.0615234375" z="-0.0673828125" a="328.7692527770996" y="0.064361572265625"/>
+    <child type="Barrel_Red" deloot="0" lootmax="1" lootmin="0" x="0.6142578125" z="5.064453125" a="328.7692527770996" y="0.38653564453125"/>
+    <child type="Barrel_Yellow" deloot="0" lootmax="1" lootmin="0" x="2.0107421875" z="4.82421875" a="49.76826095581055" y="0.47113037109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.4769287109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.45556640625"/>
+    <child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-0.046875" z="0.2548828125" a="301.76927185058594" y="-0.32586669921875"/>
+    <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="1.9599609375" z="0.416015625" a="328.7692527770996" y="-0.262359619140625"/>
+    <child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="1.6728515625" z="0.5087890625" a="122.26831817626953" y="0.093292236328125"/>
+    <child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="1.9267578125" z="0.9736328125" a="122.26831817626953" y="0.099151611328125"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-0.083984375" z="0.328125" a="0.7688300609588623" y="-0.00787353515625"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="0.0517578125" z="0.486328125" a="328.7692527770996" y="-0.019866943359375"/>
+  </group>
+  <group name="SupplyTruck_Kamenka">
+    <child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="1.427734375" z="5.3525390625" a="184.76966857910156" y="-0.628021240234375"/>
+    <child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="148.76840209960938" y="0"/>
+    <child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-0.150390625" z="0.009765625" a="148.76840209960938" y="-0.007415771484375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.7666015625" z="1.720703125" a="256.769287109375" y="-0.577056884765625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.9716796875" z="6.0830078125" a="328.7692527770996" y="-0.5711669921875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.6337890625" z="3.609375" a="58.768131256103516" y="-0.580230712890625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.3408203125" z="5.912109375" a="328.7695140838623" y="-0.5511474609375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-0.0146484375" z="9.9169921875" a="148.7683563232422" y="0.12591552734375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="5.03125" z="9.0322265625" a="49.76826095581055" y="0.12054443359375"/>
+    <child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="2.0068359375" z="4.25" a="148.76840209960938" y="0.55609130859375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.0732421875" z="4.2255859375" a="310.7693061828613" y="0.504638671875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.6005859375" z="3.228515625" a="256.769287109375" y="0.529693603515625"/>
+    <child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="2.2880859375" z="0.076171875" a="148.76840209960938" y="0.07879638671875"/>
+    <child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="2.029296875" z="0.056640625" a="247.76910400390625" y="0.067352294921875"/>
+    <child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="2.0615234375" z="-0.0673828125" a="328.7692527770996" y="0.064361572265625"/>
+    <child type="Barrel_Red" deloot="0" lootmax="1" lootmin="0" x="0.6142578125" z="5.064453125" a="328.7692527770996" y="0.38653564453125"/>
+    <child type="Barrel_Yellow" deloot="0" lootmax="1" lootmin="0" x="2.0107421875" z="4.82421875" a="49.76826095581055" y="0.47113037109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.4769287109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.45556640625"/>
+    <child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-0.046875" z="0.2548828125" a="301.76927185058594" y="-0.32586669921875"/>
+    <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="1.9599609375" z="0.416015625" a="328.7692527770996" y="-0.262359619140625"/>
+    <child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="1.6728515625" z="0.5087890625" a="122.26831817626953" y="0.093292236328125"/>
+    <child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="1.9267578125" z="0.9736328125" a="122.26831817626953" y="0.099151611328125"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-0.083984375" z="0.328125" a="0.7688300609588623" y="-0.00787353515625"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="0.0517578125" z="0.486328125" a="328.7692527770996" y="-0.019866943359375"/>
+  </group>
+  <group name="SupplyTruck_Komarovo">
+    <child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="1.427734375" z="5.3525390625" a="184.76966857910156" y="-0.628021240234375"/>
+    <child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="148.76840209960938" y="0"/>
+    <child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-0.150390625" z="0.009765625" a="148.76840209960938" y="-0.007415771484375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.7666015625" z="1.720703125" a="256.769287109375" y="-0.577056884765625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.9716796875" z="6.0830078125" a="328.7692527770996" y="-0.5711669921875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.6337890625" z="3.609375" a="58.768131256103516" y="-0.580230712890625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.3408203125" z="5.912109375" a="328.7695140838623" y="-0.5511474609375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-0.0146484375" z="9.9169921875" a="148.7683563232422" y="0.12591552734375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="5.03125" z="9.0322265625" a="49.76826095581055" y="0.12054443359375"/>
+    <child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="2.0068359375" z="4.25" a="148.76840209960938" y="0.55609130859375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.0732421875" z="4.2255859375" a="310.7693061828613" y="0.504638671875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.6005859375" z="3.228515625" a="256.769287109375" y="0.529693603515625"/>
+    <child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="2.2880859375" z="0.076171875" a="148.76840209960938" y="0.07879638671875"/>
+    <child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="2.029296875" z="0.056640625" a="247.76910400390625" y="0.067352294921875"/>
+    <child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="2.0615234375" z="-0.0673828125" a="328.7692527770996" y="0.064361572265625"/>
+    <child type="Barrel_Red" deloot="0" lootmax="1" lootmin="0" x="0.6142578125" z="5.064453125" a="328.7692527770996" y="0.38653564453125"/>
+    <child type="Barrel_Yellow" deloot="0" lootmax="1" lootmin="0" x="2.0107421875" z="4.82421875" a="49.76826095581055" y="0.47113037109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.4769287109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.45556640625"/>
+    <child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-0.046875" z="0.2548828125" a="301.76927185058594" y="-0.32586669921875"/>
+    <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="1.9599609375" z="0.416015625" a="328.7692527770996" y="-0.262359619140625"/>
+    <child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="1.6728515625" z="0.5087890625" a="122.26831817626953" y="0.093292236328125"/>
+    <child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="1.9267578125" z="0.9736328125" a="122.26831817626953" y="0.099151611328125"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-0.083984375" z="0.328125" a="0.7688300609588623" y="-0.00787353515625"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="0.0517578125" z="0.486328125" a="328.7692527770996" y="-0.019866943359375"/>
+  </group>
+  <group name="SupplyTruck_Petrovka">
+    <child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="1.427734375" z="5.3525390625" a="184.76966857910156" y="-0.628021240234375"/>
+    <child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="148.76840209960938" y="0"/>
+    <child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-0.150390625" z="0.009765625" a="148.76840209960938" y="-0.007415771484375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.7666015625" z="1.720703125" a="256.769287109375" y="-0.577056884765625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.9716796875" z="6.0830078125" a="328.7692527770996" y="-0.5711669921875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.6337890625" z="3.609375" a="58.768131256103516" y="-0.580230712890625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.3408203125" z="5.912109375" a="328.7695140838623" y="-0.5511474609375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-0.0146484375" z="9.9169921875" a="148.7683563232422" y="0.12591552734375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="5.03125" z="9.0322265625" a="49.76826095581055" y="0.12054443359375"/>
+    <child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="2.0068359375" z="4.25" a="148.76840209960938" y="0.55609130859375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.0732421875" z="4.2255859375" a="310.7693061828613" y="0.504638671875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.6005859375" z="3.228515625" a="256.769287109375" y="0.529693603515625"/>
+    <child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="2.2880859375" z="0.076171875" a="148.76840209960938" y="0.07879638671875"/>
+    <child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="2.029296875" z="0.056640625" a="247.76910400390625" y="0.067352294921875"/>
+    <child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="2.0615234375" z="-0.0673828125" a="328.7692527770996" y="0.064361572265625"/>
+    <child type="Barrel_Red" deloot="0" lootmax="1" lootmin="0" x="0.6142578125" z="5.064453125" a="328.7692527770996" y="0.38653564453125"/>
+    <child type="Barrel_Yellow" deloot="0" lootmax="1" lootmin="0" x="2.0107421875" z="4.82421875" a="49.76826095581055" y="0.47113037109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.4769287109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.45556640625"/>
+    <child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-0.046875" z="0.2548828125" a="301.76927185058594" y="-0.32586669921875"/>
+    <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="1.9599609375" z="0.416015625" a="328.7692527770996" y="-0.262359619140625"/>
+    <child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="1.6728515625" z="0.5087890625" a="122.26831817626953" y="0.093292236328125"/>
+    <child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="1.9267578125" z="0.9736328125" a="122.26831817626953" y="0.099151611328125"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-0.083984375" z="0.328125" a="0.7688300609588623" y="-0.00787353515625"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="0.0517578125" z="0.486328125" a="328.7692527770996" y="-0.019866943359375"/>
+  </group>
+  <group name="SupplyTruck_Tisy">
+    <child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="1.427734375" z="5.3525390625" a="184.76966857910156" y="-0.628021240234375"/>
+    <child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="148.76840209960938" y="0"/>
+    <child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-0.150390625" z="0.009765625" a="148.76840209960938" y="-0.007415771484375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.7666015625" z="1.720703125" a="256.769287109375" y="-0.577056884765625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.9716796875" z="6.0830078125" a="328.7692527770996" y="-0.5711669921875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.6337890625" z="3.609375" a="58.768131256103516" y="-0.580230712890625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.3408203125" z="5.912109375" a="328.7695140838623" y="-0.5511474609375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-0.0146484375" z="9.9169921875" a="148.7683563232422" y="0.12591552734375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="5.03125" z="9.0322265625" a="49.76826095581055" y="0.12054443359375"/>
+    <child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="2.0068359375" z="4.25" a="148.76840209960938" y="0.55609130859375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.0732421875" z="4.2255859375" a="310.7693061828613" y="0.504638671875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.6005859375" z="3.228515625" a="256.769287109375" y="0.529693603515625"/>
+    <child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="2.2880859375" z="0.076171875" a="148.76840209960938" y="0.07879638671875"/>
+    <child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="2.029296875" z="0.056640625" a="247.76910400390625" y="0.067352294921875"/>
+    <child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="2.0615234375" z="-0.0673828125" a="328.7692527770996" y="0.064361572265625"/>
+    <child type="Barrel_Red" deloot="0" lootmax="1" lootmin="0" x="0.6142578125" z="5.064453125" a="328.7692527770996" y="0.38653564453125"/>
+    <child type="Barrel_Yellow" deloot="0" lootmax="1" lootmin="0" x="2.0107421875" z="4.82421875" a="49.76826095581055" y="0.47113037109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.4769287109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.45556640625"/>
+    <child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-0.046875" z="0.2548828125" a="301.76927185058594" y="-0.32586669921875"/>
+    <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="1.9599609375" z="0.416015625" a="328.7692527770996" y="-0.262359619140625"/>
+    <child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="1.6728515625" z="0.5087890625" a="122.26831817626953" y="0.093292236328125"/>
+    <child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="1.9267578125" z="0.9736328125" a="122.26831817626953" y="0.099151611328125"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-0.083984375" z="0.328125" a="0.7688300609588623" y="-0.00787353515625"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="0.0517578125" z="0.486328125" a="328.7692527770996" y="-0.019866943359375"/>
+  </group>
+  <group name="Supply_Volchiypik">
+    <child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="1.427734375" z="5.3525390625" a="184.76966857910156" y="-0.628021240234375"/>
+    <child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="148.76840209960938" y="0"/>
+    <child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-0.150390625" z="0.009765625" a="148.76840209960938" y="-0.007415771484375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.7666015625" z="1.720703125" a="256.769287109375" y="-0.577056884765625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.9716796875" z="6.0830078125" a="328.7692527770996" y="-0.5711669921875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.6337890625" z="3.609375" a="58.768131256103516" y="-0.580230712890625"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.3408203125" z="5.912109375" a="328.7695140838623" y="-0.5511474609375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-0.0146484375" z="9.9169921875" a="148.7683563232422" y="0.12591552734375"/>
+    <child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="5.03125" z="9.0322265625" a="49.76826095581055" y="0.12054443359375"/>
+    <child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="2.0068359375" z="4.25" a="148.76840209960938" y="0.55609130859375"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.0732421875" z="4.2255859375" a="310.7693061828613" y="0.504638671875"/>
+    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.6005859375" z="3.228515625" a="256.769287109375" y="0.529693603515625"/>
+    <child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="2.2880859375" z="0.076171875" a="148.76840209960938" y="0.07879638671875"/>
+    <child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="2.029296875" z="0.056640625" a="247.76910400390625" y="0.067352294921875"/>
+    <child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="2.0615234375" z="-0.0673828125" a="328.7692527770996" y="0.064361572265625"/>
+    <child type="Barrel_Red" deloot="0" lootmax="1" lootmin="0" x="0.6142578125" z="5.064453125" a="328.7692527770996" y="0.38653564453125"/>
+    <child type="Barrel_Yellow" deloot="0" lootmax="1" lootmin="0" x="2.0107421875" z="4.82421875" a="49.76826095581055" y="0.47113037109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.4769287109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+    <child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.45556640625"/>
+    <child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-0.046875" z="0.2548828125" a="301.76927185058594" y="-0.32586669921875"/>
+    <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="1.9599609375" z="0.416015625" a="328.7692527770996" y="-0.262359619140625"/>
+    <child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="1.6728515625" z="0.5087890625" a="122.26831817626953" y="0.093292236328125"/>
+    <child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="1.9267578125" z="0.9736328125" a="122.26831817626953" y="0.099151611328125"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-0.083984375" z="0.328125" a="0.7688300609588623" y="-0.00787353515625"/>
+    <child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="0.0517578125" z="0.486328125" a="328.7692527770996" y="-0.019866943359375"/>
+  </group>
+  <!-- Supply Trucks -->
+  <!-- LOCKED TRAINS -->
+  <!--pos x="5587.466" z="2063.353" a="0" y="7.591" group="Train_Abandoned_Cherno"/
+  <group name="Train_Abandoned_Cherno_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="78.123" y="1.9"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="12.085" z="2.740" a="256.739" y="1.789"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="23.106" z="5.477" a="255.579" y="1.781"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="34.546" z="8.424" a="255.837" y="1.32"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="46.285" z="11.341" a="255.321" y="1.398"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="69.472" z="18.594" a="250.938" y="1.450"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="57.966" z="14.737" a="252.227" y="1.411"/>
+  </group>
+  -->
+  <!--pos x="3678.228" z="2328.108" a="0" y="6.546" group="Train_Abandoned_Kamarovo"/-->
+  <group name="Train_Abandoned_Kamarovo_Locked">
+    <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="198.014" y="1.9"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="0" lootmax="5" lootmin="3" x="47.815" z="73.054" a="232.503" y="2.122"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="0" lootmax="4" lootmin="3" x="56.970" z="78.525" a="65.747" y="2.083"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="60.378" z="80.129" a="67.036" y="0.196"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="45.489" z="71.296" a="52.469" y="0.196"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="32.470" z="59.876" a="45.249" y="0.196"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="21.187" z="46.785" a="35.581" y="0.196"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="8.003" z="23.498" a="20.755" y="1.328"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="13.241" z="34.531" a="28.619" y="1.328"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="2" x="35.598" z="62.851" a="45.120" y="2.083"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="5" lootmin="3" x="29.574" z="56.912" a="42.800" y="2.05"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="5" lootmin="3" x="19.115" z="43.721" a="35.065" y="2.05"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="5" lootmin="3" x="22.671" z="48.588" a="216.130" y="2.05"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="5" lootmin="3" x="43.033" z="69.387" a="51.437" y="2.05"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="3" lootmin="2" x="3.936" z="12.068" a="18.048" y="1.328"/>
+  </group>
+  <!--pos x="11254.230" z="3290.319" a="0" y="6.513" group="Train_Abandoned_Kamy"/
+  <group name="Train_Abandoned_Kamy_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="232.116" y="1.9"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="10.519" z="7.484" a="56.981" y="1.359"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="63.608" z="36.819" a="65.102" y="1.350"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="42.184" z="25.479" a="61.364" y="1.357"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="31.572" z="19.643" a="61.364" y="1.377"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="20.972" z="13.791" a="60.977" y="1.373"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="52.812" z="31.258" a="61.364" y="1.354"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="74.479" z="41.357" a="249.519" y="1.775"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="85.195" z="45.147" a="71.548" y="1.771"/>
+  </group>
+  -->
+  <!--pos x="1256.313" z="9349.465" a="0" y="211.678" group="Train_Abandoned_Myshkino"/-->
+  <group name="Train_Abandoned_Myshkino_Locked">
+    <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="29.779" y="1.9"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-6.915" z="-10.795" a="36.096" y="1.265"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-14.550" z="-20.221" a="42.284" y="1.208"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="0" lootmax="4" lootmin="2" x="-57.636" z="-59.438" a="48.988" y="2.05"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-31.905" z="-37.229" a="47.828" y="1.206"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-23.030" z="-28.951" a="46.538" y="1.211"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="0" lootmax="3" lootmin="1" x="-56.176" z="-58.183" a="49.246" y="0.2"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="-43.109" z="-47.006" a="49.504" y="0.2"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="5" lootmin="3" x="-40.198" z="-44.596" a="229.341" y="2.05"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="5" lootmin="3" x="-44.765" z="-48.423" a="49.694" y="2.05"/>
+  </group>
+  <!--pos x="5428.630" z="12312.974" a="0" y="185.442" group="Train_Abandoned_Petrovka"/
+  <group name="Train_Abandoned_Petrovka_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="289.612" y="1.9"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="12.042" z="-4.408" a="289.097" y="1.269"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="46.298" z="-16.484" a="289.999" y="1.255"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="34.948" z="-12.386" a="289.354" y="1.242"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="69.121" z="-24.510" a="288.452" y="1.219"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="23.490" z="-8.401" a="289.354" y="1.229"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="57.678" z="-20.632" a="288.323" y="1.2010"/>
+  </group>
+  -->
+  <!--pos x="8802.031" z="2334.222" a="0" y="8.277" group="Train_Abandoned_Prigorodki"/-->
+  <group name="Train_Abandoned_Prigorodki_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="319.005" y="1.9"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="0" lootmax="5" lootmin="3" x="31.764" z="-36.236" a="137.682" y="2.1"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="16.395" z="-18.849" a="318.876" y="1.405"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="8.245" z="-9.730" a="318.361" y="1.427"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="24.431" z="-28.037" a="318.876" y="1.426"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="34.188" z="-39.164" a="318.618" y="0.247"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="0" lootmax="5" lootmin="3" x="59.938" z="-67.611" a="317.716" y="2.1"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="0" lootmax="5" lootmin="3" x="55.755" z="-63.292" a="136.651" y="2.1"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="57.286" z="-64.804" a="317.587" y="0.225"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="69.024" z="-77.475" a="316.942" y="0.253"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="45.675" z="-52.051" a="318.103" y="0.242"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="2" x="71.556" z="-80.224" a="317.716" y="2.1"/>
+  </group>
+  <!--pos x="13402.112" z="4303.119" a="0" y="6.561" group="Train_Abandoned_Skalisty"/-->
+  <group name="Train_Abandoned_Skalisty_Locked">
+    <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="18.632" y="1.9"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-4.306" z="-12.020" a="19.208" y="1.336"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-8.356" z="-23.465" a="19.208" y="1.336"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-12.496" z="-34.835" a="20.626" y="1.336"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" x="-35.314" z="-80.495" a="31.842" y="0.146"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-22.246" z="-56.995" a="25.783" y="1.336"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-27.822" z="-67.797" a="28.748" y="1.336"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-17.104" z="-46.026" a="24.236" y="1.336"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="-44.771" z="-94.960" a="34.678" y="0.146"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="0" lootmax="3" lootmin="1" x="-54.610" z="-109.026" a="35.065" y="0.146"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="5" lootmin="3" x="-46.883" z="-98.051" a="34.163" y="2.025"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="5" lootmin="3" x="-43.593" z="-93.003" a="212.968" y="2.025"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="4" lootmin="2" x="-53.084" z="-106.921" a="34.807" y="2.027"/>
+  </group>
+  <!--pos x="13377.262" z="13919.888" a="0" y="17.197" group="Train_Abandoned_Svetlo"/
+  <group name="Train_Abandoned_Svetlo_Locked">
+    <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="10.700" y="1.9"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-10.339" z="-33.442" a="17.661" y="1.7"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-3.268" z="-11.845" a="16.630" y="1.713"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-6.742" z="-22.613" a="18.951" y="1.722"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-13.526" z="-44.791" a="14.567" y="1.229"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-19.898" z="-80.635" a="6.446" y="1.275"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-18.358" z="-68.715" a="8.766" y="1.257"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-16.193" z="-56.684" a="11.216" y="1.272"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-20.853" z="-92.739" a="3.610" y="1.282"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-21.220" z="-104.845" a="0.644" y="1.276"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-21.077" z="-116.967" a="358.840" y="1.304"/>
+  </group>
+  -->
+  <!--pos x="1309.973" z="4991.340" a="0" y="166.535" group="Train_Abandoned_Zvir"/-->
+  <group name="Train_Abandoned_Zvir_Locked">
+    <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="288.452" y="1.9"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="5" lootmin="3" x="34.194" z="-5.531" a="270.404" y="2.275"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="5" lootmin="3" x="28.251" z="-5.405" a="92.114" y="2.272"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="4" lootmin="2" x="13.024" z="-3.390" a="100.296" y="2.216"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="4" lootmin="2" x="45.573" z="-4.793" a="82.893" y="2.296"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="49.419" z="-4.295" a="83.666" y="0.390"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="0" lootmax="3" lootmin="1" x="14.937" z="-3.783" a="99.781" y="0.358"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="32.083" z="-5.389" a="90.628" y="0.376"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="0" lootmax="5" lootmin="3" x="54.324" z="-3.826" a="83.218" y="2.23"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="64.047" z="-2.551" a="83.408" y="1.625"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="88.204" z="0.338" a="83.537" y="1.572"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="76.187" z="-1.095" a="83.022" y="1.600"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="100.262" z="1.652" a="82.893" y="1.623"/>
+  </group>
+  <!--pos x="12912.529" z="15006.073" a="0" y="57.328" group="Train_Accident_Dobroe"/
+  <group name="Train_Accident_Dobroe_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="138.455" y="1.9"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-22.857" z="29.025" a="322.099" y="1.2040"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-30.252" z="38.570" a="321.970" y="1.2058"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-37.781" z="48.048" a="321.583" y="1.204"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-45.402" z="57.588" a="321.068" y="1.235"/>
+    <child type="Land_Wreck_sed01_aban1_wine_DE" deloot="0" lootmax="3" lootmin="1" x="2.938" z="-6.2" a="292.577"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-8.114" z="9.879" a="326.482" y="1.302"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-15.275" z="19.659" a="320.036" y="1.267"/>
+    <child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="-5.896" z="-0.268" a="58.141"/>
+    <child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="-14.102" z="-2.520" a="58.914"/>
+    <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="-21.717" z="-4.550" a="285.100"/>
+    <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="-6.258" z="2.418" a="359.485"/>
+    <child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="-2.799" z="-28.850" a="185.896"/>
+  </group>
+  -->
+  <!--pos x="10797.634" z="2567.169" a="0" y="6.000" group="Train_Accident_Electro"/-->
+  <group name="Train_Accident_Electro_Locked">
+    <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="200.464" y="1.9"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" x="18.971" z="61.096" a="20.498" y="0.146"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="24.964" z="77.256" a="20.369" y="0.146"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="31.062" z="93.385" a="20.369" y="0.146"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="5" lootmin="3" x="32.146" z="95.990" a="200.206" y="2.038"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="5" lootmin="3" x="25.708" z="79.467" a="200.206" y="2.038"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="5" lootmin="3" x="30.063" z="90.359" a="20.369" y="2.038"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="5" lootmin="3" x="23.625" z="73.836" a="20.369" y="2.038"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="2" x="18.276" z="59.243" a="21.013" y="2.090"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="9.469" z="36.028" a="19.595" y="1.314"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="5.826" z="24.352" a="15.212" y="1.314"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="3.228" z="12.332" a="5.801" y="1.314"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="13.717" z="47.396" a="21.271" y="1.314"/>
+    <child type="Land_Wreck_Ikarus_DE" x="-2.749" z="-6.006" a="325.254"/>
+    <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="-4.831" z="5.751" a="280.0"/>
+    <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="8.382" z="-2.813" a="75.0"/>
+  </group>
+  <!--pos x="12851.586" z="8577.874" a="0" y="6.407" group="Train_Accident_Nizhnoye"/
+  <group name="Train_Accident_Nizhnoye_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="157.664" y="1.9"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-21.917" z="69.881" a="342.339" y="1.857"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-25.285" z="80.692" a="343.628" y="1.857"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-11.316" z="35.373" a="342.854" y="1.364"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-14.848" z="46.970" a="342.725" y="1.326"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-18.475" z="58.640" a="342.725" y="1.325"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-7.777" z="23.816" a="342.597" y="1.335"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-4.192" z="12.227" a="341.823" y="1.304"/>
+    <child type="Land_Wreck_sed02_aban1_yellow_DE" deloot="0" lootmax="3" lootmin="1" x="-0.050" z="-6.451" a="293.995"/>
+  </group>
+  -->
+  <!--pos x="13590.054" z="11515.854" a="0" y="13.902" group="Train_Accident_Rify"/-->
+  <group name="Train_Accident_Rify_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="31.971" y="1.9"/>
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="5.215" z="3.712" a="359.098"/>
+    <child type="Land_wreck_truck01_aban2_blue_DE" deloot="0" lootmax="3" lootmin="1" x="5.169" z="3.995" a="182.158" y="-0.122"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-20.735" z="-30.501" a="30.811" y="1.418"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-7.383" z="-10.371" a="36.870" y="1.443"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-14.266" z="-20.312" a="33.776" y="1.431"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="5" lootmin="3" x="-27.205" z="-41.109" a="209.874" y="2.160"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="5" lootmin="3" x="-30.113" z="-46.337" a="29.393" y="2.187"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="-28.201" z="-43.115" a="29.908" y="0.275"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="5" lootmin="3" x="-54.393" z="-91.342" a="26.814" y="2.15"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="5" lootmin="3" x="-51.721" z="-85.986" a="207.296" y="2.169"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="5" lootmin="3" x="-46.310" z="-75.435" a="26.814" y="2.168"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="4" lootmin="2" x="-58.688" z="-100.421" a="26.428" y="2.14"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="-45.063" z="-73.259" a="27.330" y="0.283"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" x="-60.557" z="-103.961" a="26.299" y="0.304"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="-52.924" z="-88.569" a="27.330" y="0.297"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="0" lootmax="3" lootmin="1" x="-36.772" z="-58.109" a="29.908" y="0.235"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="4" lootmin="2" x="-37.861" z="-59.906" a="30.940" y="2.1"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="5" lootmin="3" x="-43.637" z="-70.079" a="207.296" y="2.164"/>
+  </group>
+  <!--pos x="9384.272" z="13392.446" a="0" y="105.168" group="Train_Accident_Severo"/
+  <group name="Train_Accident_Severo_Locked">
+    <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="196.725" y="1.9"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="29.008" z="53.607" a="33.647" y="1.2067"/>
+    <child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="3" lootmin="1" x="-4.8" z="-5.382" a="342.529"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="4.738" z="11.703" a="24.881" y="1.253"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="15.961" z="33.232" a="29.135" y="1.256"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="10.146" z="22.590" a="26.428" y="1.260"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="22.241" z="43.574" a="32.616" y="1.200"/>
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-4.959" z="-5.016" a="159.211"/>
+    <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="-5.2" z="6.1" a="250.0"/>
+  </group>
+  -->
+  <!--pos x="13213.484" z="6894.041" a="0" y="6.000" group="Train_Accident_Solnichniy"/-->
+  <group name="Train_Accident_Solnichniy_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="162.691" y="1.9"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-21.514" z="70.040" a="342.855" y="1.303"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="-25.842" z="83.999" a="342.854" y="0.168"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" x="-36.040" z="116.854" a="342.854" y="0.168"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="-30.928" z="100.438" a="342.854" y="0.168"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="4" lootmin="2" x="-26.441" z="86.213" a="342.725" y="2.05"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="5" lootmin="3" x="-29.997" z="97.346" a="342.854" y="2.05"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="5" lootmin="3" x="-31.799" z="103.143" a="162.949" y="2.05"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-3.630" z="12.232" a="342.597" y="1.303"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-14.378" z="46.919" a="342.726" y="1.303"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-7.154" z="23.808" a="343.241" y="1.303"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-10.759" z="35.361" a="342.597" y="1.303"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-17.959" z="58.452" a="342.855" y="1.303"/>
+  </group>
+  <!--pos x="13363.302" z="5439.232" a="0" y="5.982" group="Train_Accident_Solnichniy2"/
+  <group name="Train_Accident_Solnichniy2_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="355.488" y="0.3"/>
+    <child type="Land_Wreck_hb02_aban2_red_DE" deloot="0" lootmax="3" lootmin="1" x="-1.593" z="7.262" a="56.594"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="0.476" z="-12.301" a="358.969"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="2.172" z="-70.300" a="358.582"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="1.837" z="-58.149" a="358.195"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="0.723" z="-23.619" a="358.840"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="1.551" z="-46.390" a="357.551"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="1.089" z="-35.039" a="357.551"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="3.292" z="-106.596" a="358.195"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="2.559" z="-82.403" a="358.195"/>
+    <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="2.905" z="-94.493" a="358.582"/>
+  </group>
+  -->
+  <!--pos x="2025.067" z="11378.385" a="0" y="249.355" group="Train_Accident_Vavilovo"/-->
+  <group name="Train_Accident_Vavilovo_Locked">
+    <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="22.173" y="1.9"/>
+    <child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="3" lootmin="1" x="-0.143" z="7.251" a="262.282" y="1.2"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-4.474" z="-11.733" a="13.665" y="1.224"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-7.652" z="-23.412" a="19.466" y="1.3116"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-23.503" z="-69.126" a="19.079" y="1.2077"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-11.639" z="-34.819" a="19.079" y="1.1118"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-15.604" z="-46.266" a="19.079" y="1.1124"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-19.558" z="-57.697" a="19.079" y="1.192"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-27.456" z="-80.548" a="19.079" y="1.2076"/>
+    <child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" x="-32.233" z="-94.520" a="19.208" y="-0.026"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="-43.496" z="-127.045" a="18.822" y="0.004"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="-37.919" z="-110.769" a="19.208" y="-0.005"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="2" x="-30.953" z="-90.721" a="19.466" y="1.804"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="5" lootmin="3" x="-42.330" z="-123.523" a="199.242" y="1.895"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="5" lootmin="3" x="-44.244" z="-129.245" a="19.208" y="1.890"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="5" lootmin="3" x="-38.597" z="-112.880" a="18.048" y="1.883"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="5" lootmin="3" x="-36.758" z="-107.233" a="199.113" y="1.874"/>
+    <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="-20.843" z="-30.885" a="40.0"/>
+    <child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="5" lootmin="3" x="-22.5" z="-22.3" a="-50.0"/>
+  </group>
+  <!--pos x="1321.629" z="2398.199" a="0" y="6.309" group="Train_Mil_Kamenka"/-->
+  <group name="Train_Mil_Kamenka_Locked">
+    <child type="StaticObj_Wreck_Train_742_Blue_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="345.304" y="1.9"/>
+    <child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="3" lootmin="1" x="-4.336" z="4.266" a="184.804" y="0.5"/>
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-3.990" z="4.009" a="0.128"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="3" x="21.095" z="-48.829" a="325.193" y="2.15"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="4" lootmin="3" x="12.005" z="-33.431" a="335.248" y="2.15"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="4" lootmin="3" x="5.544" z="-17.616" a="341.952" y="2.15"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="4" lootmin="3" x="17.667" z="-43.783" a="146.061" y="2.15"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="3" x="3.629" z="-11.799" a="161.402" y="2.15"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="4" lootmin="3" x="9.487" z="-27.919" a="155.214" y="2.15"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="4.459" z="-14.645" a="341.694" y="0.225"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="10.686" z="-30.795" a="335.635" y="0.226"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="18.944" z="-45.766" a="325.967" y="0.25"/>
+    <child type="StaticObj_Wreck_Uaz_DE" x="-23.984" z="-10.800" a="254.446"/>
+    <child type="StaticObj_Wreck_BMP1_DE" deloot="0" lootmax="3" lootmin="1" x="-9.078" z="-16.710" a="281.490"/>
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-23.893" z="-10.573" a="73.224"/>
+    <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-8.775" z="-17.882" a="101.843"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="0" lootmax="4" lootmin="3" x="28.354" z="-57.315" a="313.462" y="2.3"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="29.904" z="-58.888" a="313.591" y="0.355"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="79.093" z="-96.478" a="306.113" y="1.787"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="69.927" z="-89.804" a="305.727" y="1.787"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="50.536" z="-75.855" a="305.856" y="1.36"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="40.687" z="-68.627" a="308.047" y="1.36"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="60.385" z="-82.989" a="305.469" y="1.36"/>
+  </group>
+  <!--pos x="1443.256" z="6622.697" a="0" y="176.060" group="Train_Mil_Metalurg"/
+  <group name="Train_Mil_Metalurg_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="147.737" y="1.9"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="3" x="-87.100" z="85.429" a="117.958" y="2.178"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-84.501" z="84.067" a="297.992" y="0.204"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-54.606" z="67.125" a="303.277" y="0.255"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-69.328" z="75.889" a="298.507" y="0.224"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="4" lootmin="3" x="-51.463" z="65.123" a="302.762" y="2.148"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="4" lootmin="3" x="-72.080" z="77.427" a="117.958" y="2.150"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="4" lootmin="3" x="-66.825" z="74.597" a="297.992" y="2.141"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="4" lootmin="3" x="-56.464" z="68.376" a="122.728" y="2.106"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="4" lootmin="3" x="-81.845" z="82.599" a="297.992" y="2.148"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-42.957" z="58.573" a="310.496" y="1.697"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-19.843" z="31.277" a="327.385" y="1.364"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-34.535" z="50.581" a="316.298" y="1.428"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-13.315" z="21.067" a="327.385" y="1.371"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-6.763" z="10.840" a="326.998" y="1.383"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-26.616" z="41.292" a="324.033" y="1.377"/>
+  </group>
+  -->
+  <!--pos x="673.779" z="8747.024" a="0" y="194.245" group="Train_Mil_Myshkino"/-->
+  <group name="Train_Mil_Myshkino_Locked">
+    <child type="StaticObj_Wreck_Train_742_Blue_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="346.572" y="1.9"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="3.166" z="-11.870" a="343.499" y="1.6"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="6.678" z="-22.639" a="340.147" y="1.6"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="0" lootmax="4" lootmin="3" x="10.261" z="-32.068" a="339.245" y="1.852"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="11.717" z="-36.060" a="338.987" y="0.0"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="17.868" z="-52.124" a="338.987" y="0.0"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="30.176" z="-84.236" a="338.729" y="0.0"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="24.014" z="-68.186" a="338.987" y="0.0"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="3" x="17.158" z="-50.160" a="158.953" y="1.899"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="4" lootmin="3" x="22.972" z="-65.327" a="158.953" y="1.842"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="4" lootmin="3" x="19.337" z="-55.819" a="338.790" y="1.918"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="4" lootmin="3" x="25.151" z="-70.929" a="338.858" y="1.867"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="3" x="29.324" z="-81.809" a="158.824" y="1.775"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="4" lootmin="3" x="31.584" z="-87.667" a="338.987" y="1.81"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="39.777" z="-109.229" a="338.858" y="1.4"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="35.503" z="-97.932" a="339.245" y="1.4"/>
+  </group>
+  <!--pos x="3262.817" z="12430.286" a="0" y="220.335" group="Train_Mil_Petrovka"/-->
+  <group name="Train_Mil_Petrovka_Locked">
+    <child type="StaticObj_Wreck_Train_742_Red_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="225.283" y="2.9"/>
+    <child type="StaticObj_Wreck_BMP2_DE" deloot="0" lootmax="3" lootmin="1" x="37.556" z="44.083" a="25.973" y="1.5"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="36.443" z="30.719" a="54.016" y="2.2"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="26.840" z="23.290" a="50.664" y="2.208"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="56.311" z="44.548" a="65.489" y="2.202"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="45.440" z="38.568" a="36.612" y="2.2072"/>
+    <child type="StaticObj_Wreck_T72_Chassis_DE" deloot="0" lootmax="3" lootmin="1" x="51.893" z="39.221" a="132.267" y="1.7"/>
+    <child type="StaticObj_Wreck_T72_Turret_DE" x="51.135" z="41.070" a="16.243" y="2.7"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="112.567" z="68.760" a="72.708" y="1.102"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="96.211" z="63.229" a="69.485" y="1.102"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="80.282" z="56.654" a="65.747" y="1.102"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="3" x="76.912" z="55.137" a="65.231" y="3.0"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="4" lootmin="3" x="93.450" z="62.204" a="68.970" y="3.0"/>
+    <child type="Land_ContainerLocked_Red_DE" deloot="5" lootmax="4" lootmin="3" x="82.397" z="57.662" a="245.910" y="3.0"/>
+    <child type="Land_ContainerLocked_Orange_DE" deloot="5" lootmax="4" lootmin="3" x="109.609" z="67.960" a="71.935" y="3.051"/>
+    <child type="Land_ContainerLocked_Blue_DE" deloot="5" lootmax="4" lootmin="3" x="115.351" z="69.825" a="252.613" y="3.04"/>
+    <child type="Land_ContainerLocked_Yellow_DE" deloot="5" lootmax="4" lootmin="3" x="99.087" z="64.365" a="249.648" y="3.0"/>
+    <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="67.106" z="50.111" a="62.782" y="2.23"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="17.854" z="15.843" a="49.890" y="2.6"/>
+    <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="9.272" z="8.479" a="48.085" y="2.615"/>
+  </group>
+  <!-- LOCKED TRAINS-->
+  <!-- MODS -->
   <!--pos x="5587.466" z="2063.353" a="0" y="7.591" group="Train_Abandoned_Cherno"/-->
   <group name="Train_Abandoned_Cherno">
     <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="78.123" y="1.9"/>
