@@ -39,10 +39,10 @@
           "itemType": "PumpkinHelmet",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -55,10 +55,10 @@
           "itemType": "FaceCover_Improvised",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -71,10 +71,10 @@
           "itemType": "HandsCover_Improvised",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -87,10 +87,10 @@
           "itemType": "TorsoCover_Improvised",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -103,10 +103,10 @@
           "itemType": "LegsCover_Improvised",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -119,10 +119,10 @@
           "itemType": "FeetCover_Improvised",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }

@@ -321,6 +321,40 @@
     </attachments>
   </type>
   <!--  WEAPONS  -->
+  <type name="SCARH">
+    <damage min="0.45" max="0.85"/>
+    <attachments chance="1.00">
+      <item name="SCAR_PrecisionBttstck" chance="0.50"/>
+      <item name="SCAR_StockBttstck" chance="0.50"/>
+    </attachments>
+    <attachments chance="0.33">
+      <item name="M68Optic" chance="0.30"/>
+      <item name="HoloOptic" chance="0.20"/>
+      <item name="M4_T3NRDSOptic" chance="0.20"/>
+      <item name="ReflexOptic" chance="0.20"/>
+      <item name="ACOGOptic" chance="0.10"/>
+    </attachments>
+    <attachments chance="0.60">
+      <item name="Mag_SCARH_20Rnd" chance="1.00"/>
+    </attachments>
+  </type>
+  <type name="SCARH_Black">
+    <damage min="0.45" max="0.85"/>
+    <attachments chance="1.00">
+      <item name="SCAR_PrecisionBttstck_Black" chance="0.50"/>
+      <item name="SCAR_StockBttstck_Black" chance="0.50"/>
+    </attachments>
+    <attachments chance="0.33">
+      <item name="M68Optic" chance="0.30"/>
+      <item name="HoloOptic" chance="0.20"/>
+      <item name="M4_T3NRDSOptic" chance="0.20"/>
+      <item name="ReflexOptic" chance="0.20"/>
+      <item name="ACOGOptic" chance="0.10"/>
+    </attachments>
+    <attachments chance="0.60">
+      <item name="Mag_SCARH_20Rnd_Black" chance="1.00"/>
+    </attachments>
+  </type>
   <type name="PM73Rak">
     <damage min="0.0" max="0.40"/>
     <attachments chance="0.15">

@@ -39,10 +39,10 @@
           "itemType": "GreatHelm",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
@@ -50,10 +50,10 @@
           "itemType": "NorseHelm",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -66,10 +66,10 @@
           "itemType": "Chainmail_Coif",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -82,10 +82,10 @@
           "itemType": "Crossbow_Autumn",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 1
         },
@@ -93,10 +93,10 @@
           "itemType": "Crossbow_Black",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 1
         },
@@ -104,10 +104,10 @@
           "itemType": "Crossbow_Summer",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 1
         },
@@ -115,10 +115,10 @@
           "itemType": "Crossbow_Wood",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 1
         }
@@ -131,10 +131,10 @@
           "itemType": "Mace",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 2
         },
@@ -142,10 +142,10 @@
           "itemType": "Sword",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 2
         }
@@ -158,14 +158,16 @@
           "itemType": "Chainmail",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
-          "simpleChildrenTypes": ["Chainmail_Coif"]
+          "simpleChildrenTypes": [
+            "Chainmail_Coif"
+          ]
         }
       ]
     },
@@ -176,40 +178,40 @@
           "itemType": "MilitaryBelt",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Canteen",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": 5
             },
             {
               "itemType": "NylonKnifeSheath",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1,
               "complexChildrenTypes": [
                 {
                   "itemType": "FangeKnife",
                   "attributes": {
-                    "healthMin": 1.0,
-                    "healthMax": 1.0,
-                    "quantityMin": 1.0,
-                    "quantityMax": 1.0
+                    "healthMin": 1,
+                    "healthMax": 1,
+                    "quantityMin": 1,
+                    "quantityMax": 1
                   },
                   "quickBarSlot": 4
                 }
@@ -226,10 +228,10 @@
           "itemType": "Chainmail_Leggings",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
@@ -246,49 +248,49 @@
             {
               "itemType": "Torch",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               }
             },
             {
               "itemType": "Rag",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "Rag",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "Rag",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "Lard",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -303,10 +305,10 @@
           "itemType": "MedievalBoots",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -319,10 +321,10 @@
           "itemType": "PaddedGloves_Brown",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
@@ -330,10 +332,10 @@
           "itemType": "PaddedGloves_Beige",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
@@ -341,10 +343,10 @@
           "itemType": "PaddedGloves_Threat",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -357,10 +359,10 @@
           "itemType": "Chestplate",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -375,8 +377,8 @@
           "attributes": {
             "healthMin": 0.8,
             "healthMax": 0.8,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -389,50 +391,50 @@
           "itemType": "EasterEgg",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 6,
           "complexChildrenTypes": [
             {
               "itemType": "Animal_UrsusArctos",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "Animal_CapraHircus_Spooky",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "Animal_CanisLupus_White",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "Animal_GallusGallusDomesticus",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -446,39 +448,39 @@
       "name": "Cargo1",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Ammo_HuntingBolt",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_HuntingBolt",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_HuntingBolt",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
@@ -502,45 +504,48 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
+      "simpleChildrenTypes": [
+        "GlassBottle",
+        "GlassBottle"
+      ]
     },
     {
       "name": "Cargo2",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Ammo_ImprovisedBolt_1",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_ImprovisedBolt_1",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_ImprovisedBolt_1",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
@@ -564,45 +569,48 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
+      "simpleChildrenTypes": [
+        "GlassBottle",
+        "GlassBottle"
+      ]
     },
     {
       "name": "Cargo3",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Ammo_ImprovisedBolt_2",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_ImprovisedBolt_2",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Ammo_ImprovisedBolt_2",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
@@ -626,7 +634,10 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
+      "simpleChildrenTypes": [
+        "GlassBottle",
+        "GlassBottle"
+      ]
     }
   ]
 }

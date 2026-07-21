@@ -1,183 +1,183 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playerspawnpoints>
-	<fresh>
-		<spawn_params>
-			<min_dist_infected>30</min_dist_infected>
-			<max_dist_infected>70</max_dist_infected>
-			<min_dist_player>65</min_dist_player>
-			<max_dist_player>150</max_dist_player>
-			<min_dist_static>0</min_dist_static>
-			<max_dist_static>2</max_dist_static>
-			<min_dist_trigger>50</min_dist_trigger>
-			<max_dist_trigger>100</max_dist_trigger>
-		</spawn_params>
-		<generator_params>
-			<grid_density>6</grid_density>
-			<grid_width>200</grid_width>
-			<grid_height>200</grid_height>
-			<min_dist_static>3</min_dist_static>
-			<max_dist_static>10</max_dist_static>
-			<min_steepness>-30</min_steepness>
-			<max_steepness>30</max_steepness>
-		</generator_params>
-		<group_params>
-			<enablegroups>false</enablegroups>
-			<groups_as_regular>true</groups_as_regular>
-			<lifetime>360</lifetime>
-			<counter>-1</counter>
-		</group_params>
-		<generator_posbubbles>
-			<group name="PVP">
-				<pos x="6986.52" z="7113.37" />
-				<pos x="7330.97" z="7283.15" />
-				<pos x="6955.53" z="7524.64" />
-				<pos x="7314.42" z="7436.92" />
-				<pos x="7098.23" z="7634.62" />
-				<pos x="7239.55" z="6992.21"/>
-			</group>
-		</generator_posbubbles>
-	</fresh>
-	<hop>
-		<spawn_params>
-			<min_dist_infected>0</min_dist_infected>
-			<max_dist_infected>0</max_dist_infected>
-			<min_dist_player>0</min_dist_player>
-			<max_dist_player>0</max_dist_player>
-			<min_dist_static>0</min_dist_static>
-			<max_dist_static>0</max_dist_static>
-			<min_dist_trigger>0</min_dist_trigger>
-			<max_dist_trigger>0</max_dist_trigger>
-		</spawn_params>
-		<generator_params>
-			<grid_density>4</grid_density>
-			<grid_width>200</grid_width>
-			<grid_height>200</grid_height>
-			<min_dist_static>3</min_dist_static>
-			<max_dist_static>10</max_dist_static>
-			<min_steepness>-30</min_steepness>
-			<max_steepness>30</max_steepness>
-		</generator_params>
-		<group_params>
-			<enablegroups>false</enablegroups>
-			<groups_as_regular>true</groups_as_regular>
-			<lifetime>-1</lifetime>
-			<counter>-1</counter>
-		</group_params>
-		<generator_posbubbles>
-			<group name="Zones">
-				<pos x="13994.366211" z="8075.476074"/>
-				<pos x="14230.625977" z="9040.563477"/>
-				<pos x="14616.412109" z="10927.664063"/>
-				<pos x="9900.897461" z="13416.589844"/>
-				<pos x="8737.237305" z="13614.225586"/>
-				<pos x="13053.700195" z="12414.456055"/>
-				<pos x="14709.013672" z="10496.27832"/>
-				<pos x="14593.762695" z="9320.987305"/>
-				<pos x="10993.058594" z="13249.263672"/>
-				<pos x="14151.28125" z="8564.424805"/>
-				<pos x="14637.454102" z="9853.299805"/>
-				<pos x="12220.818359" z="12802.515625"/>
-				<pos x="12559.836914" z="12601.771484"/>
-				<pos x="10482.049805" z="13460.642578"/>
-				<pos x="10193.813477" z="13449.232422"/>
-				<pos x="9338.84375" z="13356.694336"/>
-				<pos x="8473.584961" z="13533.678711"/>
-				<pos x="8134.938965" z="13609.508789"/>
-				<pos x="7781.99707" z="13476.615234"/>
-				<pos x="11844.107422" z="12954.075195"/>
-				<pos x="13132.085938" z="12122.124023"/>
-				<pos x="14454.533203" z="9156.223633"/>
-				<pos x="14278.936523" z="8777.439453"/>
-				<pos x="11094.511719" z="13103.824219"/>
-				<pos x="8594.275391" z="13653.040039"/>
-				<pos x="6975.134766" z="13279.275391"/>
-				<pos x="7146.789063" z="13358.914063"/>
-				<pos x="6637.166992" z="13410.698242"/>
-				<pos x="6667.267578" z="13127.990234"/>
-				<pos x="14053.529297" z="11872.839844"/>
-				<pos x="13239.754883" z="11867.707031"/>
-				<pos x="13758.766602" z="8415.129883"/>
-				<pos x="13899.277344" z="8582.242188"/>
-				<pos x="14215.698242" z="11453.613281"/>
-				<pos x="14055.693359" z="11583.552734"/>
-				<pos x="11492.449219" z="13109.876953"/>
-				<pos x="10740.030273" z="13132.52832"/>
-				<pos x="6594.963379" z="12733.705078"/>
-				<pos x="6610.970215" z="12935.047852"/>
-			</group>
-		</generator_posbubbles>
-	</hop>
-	<travel>
-		<spawn_params>
-			<min_dist_infected>0</min_dist_infected>
-			<max_dist_infected>0</max_dist_infected>
-			<min_dist_player>0</min_dist_player>
-			<max_dist_player>0</max_dist_player>
-			<min_dist_static>0</min_dist_static>
-			<max_dist_static>0</max_dist_static>
-			<min_dist_trigger>0</min_dist_trigger>
-			<max_dist_trigger>0</max_dist_trigger>
-		</spawn_params>
-		<generator_params>
-			<grid_density>4</grid_density>
-			<grid_width>200</grid_width>
-			<grid_height>200</grid_height>
-			<min_dist_static>3</min_dist_static>
-			<max_dist_static>10</max_dist_static>
-			<min_steepness>-30</min_steepness>
-			<max_steepness>30</max_steepness>
-		</generator_params>
-		<group_params>
-			<enablegroups>false</enablegroups>
-			<groups_as_regular>true</groups_as_regular>
-			<lifetime>-1</lifetime>
-			<counter>-1</counter>
-		</group_params>
-		<generator_posbubbles>
-			<group name="Zones">
-				<pos x="13994.366211" z="8075.476074"/>
-				<pos x="14230.625977" z="9040.563477"/>
-				<pos x="14616.412109" z="10927.664063"/>
-				<pos x="9900.897461" z="13416.589844"/>
-				<pos x="8737.237305" z="13614.225586"/>
-				<pos x="13053.700195" z="12414.456055"/>
-				<pos x="14709.013672" z="10496.27832"/>
-				<pos x="14593.762695" z="9320.987305"/>
-				<pos x="10993.058594" z="13249.263672"/>
-				<pos x="14151.28125" z="8564.424805"/>
-				<pos x="14637.454102" z="9853.299805"/>
-				<pos x="12220.818359" z="12802.515625"/>
-				<pos x="12559.836914" z="12601.771484"/>
-				<pos x="10482.049805" z="13460.642578"/>
-				<pos x="10193.813477" z="13449.232422"/>
-				<pos x="9338.84375" z="13356.694336"/>
-				<pos x="8473.584961" z="13533.678711"/>
-				<pos x="8134.938965" z="13609.508789"/>
-				<pos x="7781.99707" z="13476.615234"/>
-				<pos x="11844.107422" z="12954.075195"/>
-				<pos x="13132.085938" z="12122.124023"/>
-				<pos x="14454.533203" z="9156.223633"/>
-				<pos x="14278.936523" z="8777.439453"/>
-				<pos x="11094.511719" z="13103.824219"/>
-				<pos x="8594.275391" z="13653.040039"/>
-				<pos x="6975.134766" z="13279.275391"/>
-				<pos x="7146.789063" z="13358.914063"/>
-				<pos x="6637.166992" z="13410.698242"/>
-				<pos x="6667.267578" z="13127.990234"/>
-				<pos x="14053.529297" z="11872.839844"/>
-				<pos x="13239.754883" z="11867.707031"/>
-				<pos x="13758.766602" z="8415.129883"/>
-				<pos x="13899.277344" z="8582.242188"/>
-				<pos x="14215.698242" z="11453.613281"/>
-				<pos x="14055.693359" z="11583.552734"/>
-				<pos x="11492.449219" z="13109.876953"/>
-				<pos x="10740.030273" z="13132.52832"/>
-				<pos x="6594.963379" z="12733.705078"/>
-				<pos x="6610.970215" z="12935.047852"/>
-			</group>
-		</generator_posbubbles>
-	</travel>
-	<!-- Vanilla Fresh Spawn
+  <fresh>
+    <spawn_params>
+      <min_dist_infected>30</min_dist_infected>
+      <max_dist_infected>70</max_dist_infected>
+      <min_dist_player>65</min_dist_player>
+      <max_dist_player>150</max_dist_player>
+      <min_dist_static>0</min_dist_static>
+      <max_dist_static>2</max_dist_static>
+      <min_dist_trigger>50</min_dist_trigger>
+      <max_dist_trigger>100</max_dist_trigger>
+    </spawn_params>
+    <generator_params>
+      <grid_density>6</grid_density>
+      <grid_width>200</grid_width>
+      <grid_height>200</grid_height>
+      <min_dist_static>3</min_dist_static>
+      <max_dist_static>10</max_dist_static>
+      <min_steepness>-30</min_steepness>
+      <max_steepness>30</max_steepness>
+    </generator_params>
+    <group_params>
+      <enablegroups>false</enablegroups>
+      <groups_as_regular>true</groups_as_regular>
+      <lifetime>360</lifetime>
+      <counter>-1</counter>
+    </group_params>
+    <generator_posbubbles>
+      <group name="PVP">
+        <pos x="6986.52" z="7113.37"/>
+        <pos x="7330.97" z="7283.15"/>
+        <pos x="6955.53" z="7524.64"/>
+        <pos x="7314.42" z="7436.92"/>
+        <pos x="7098.23" z="7634.62"/>
+        <pos x="7239.55" z="6992.21"/>
+      </group>
+    </generator_posbubbles>
+  </fresh>
+  <hop>
+    <spawn_params>
+      <min_dist_infected>0</min_dist_infected>
+      <max_dist_infected>0</max_dist_infected>
+      <min_dist_player>0</min_dist_player>
+      <max_dist_player>0</max_dist_player>
+      <min_dist_static>0</min_dist_static>
+      <max_dist_static>0</max_dist_static>
+      <min_dist_trigger>0</min_dist_trigger>
+      <max_dist_trigger>0</max_dist_trigger>
+    </spawn_params>
+    <generator_params>
+      <grid_density>4</grid_density>
+      <grid_width>200</grid_width>
+      <grid_height>200</grid_height>
+      <min_dist_static>3</min_dist_static>
+      <max_dist_static>10</max_dist_static>
+      <min_steepness>-30</min_steepness>
+      <max_steepness>30</max_steepness>
+    </generator_params>
+    <group_params>
+      <enablegroups>false</enablegroups>
+      <groups_as_regular>true</groups_as_regular>
+      <lifetime>-1</lifetime>
+      <counter>-1</counter>
+    </group_params>
+    <generator_posbubbles>
+      <group name="Zones">
+        <pos x="13994.366211" z="8075.476074"/>
+        <pos x="14230.625977" z="9040.563477"/>
+        <pos x="14616.412109" z="10927.664063"/>
+        <pos x="9900.897461" z="13416.589844"/>
+        <pos x="8737.237305" z="13614.225586"/>
+        <pos x="13053.700195" z="12414.456055"/>
+        <pos x="14709.013672" z="10496.27832"/>
+        <pos x="14593.762695" z="9320.987305"/>
+        <pos x="10993.058594" z="13249.263672"/>
+        <pos x="14151.28125" z="8564.424805"/>
+        <pos x="14637.454102" z="9853.299805"/>
+        <pos x="12220.818359" z="12802.515625"/>
+        <pos x="12559.836914" z="12601.771484"/>
+        <pos x="10482.049805" z="13460.642578"/>
+        <pos x="10193.813477" z="13449.232422"/>
+        <pos x="9338.84375" z="13356.694336"/>
+        <pos x="8473.584961" z="13533.678711"/>
+        <pos x="8134.938965" z="13609.508789"/>
+        <pos x="7781.99707" z="13476.615234"/>
+        <pos x="11844.107422" z="12954.075195"/>
+        <pos x="13132.085938" z="12122.124023"/>
+        <pos x="14454.533203" z="9156.223633"/>
+        <pos x="14278.936523" z="8777.439453"/>
+        <pos x="11094.511719" z="13103.824219"/>
+        <pos x="8594.275391" z="13653.040039"/>
+        <pos x="6975.134766" z="13279.275391"/>
+        <pos x="7146.789063" z="13358.914063"/>
+        <pos x="6637.166992" z="13410.698242"/>
+        <pos x="6667.267578" z="13127.990234"/>
+        <pos x="14053.529297" z="11872.839844"/>
+        <pos x="13239.754883" z="11867.707031"/>
+        <pos x="13758.766602" z="8415.129883"/>
+        <pos x="13899.277344" z="8582.242188"/>
+        <pos x="14215.698242" z="11453.613281"/>
+        <pos x="14055.693359" z="11583.552734"/>
+        <pos x="11492.449219" z="13109.876953"/>
+        <pos x="10740.030273" z="13132.52832"/>
+        <pos x="6594.963379" z="12733.705078"/>
+        <pos x="6610.970215" z="12935.047852"/>
+      </group>
+    </generator_posbubbles>
+  </hop>
+  <travel>
+    <spawn_params>
+      <min_dist_infected>0</min_dist_infected>
+      <max_dist_infected>0</max_dist_infected>
+      <min_dist_player>0</min_dist_player>
+      <max_dist_player>0</max_dist_player>
+      <min_dist_static>0</min_dist_static>
+      <max_dist_static>0</max_dist_static>
+      <min_dist_trigger>0</min_dist_trigger>
+      <max_dist_trigger>0</max_dist_trigger>
+    </spawn_params>
+    <generator_params>
+      <grid_density>4</grid_density>
+      <grid_width>200</grid_width>
+      <grid_height>200</grid_height>
+      <min_dist_static>3</min_dist_static>
+      <max_dist_static>10</max_dist_static>
+      <min_steepness>-30</min_steepness>
+      <max_steepness>30</max_steepness>
+    </generator_params>
+    <group_params>
+      <enablegroups>false</enablegroups>
+      <groups_as_regular>true</groups_as_regular>
+      <lifetime>-1</lifetime>
+      <counter>-1</counter>
+    </group_params>
+    <generator_posbubbles>
+      <group name="Zones">
+        <pos x="13994.366211" z="8075.476074"/>
+        <pos x="14230.625977" z="9040.563477"/>
+        <pos x="14616.412109" z="10927.664063"/>
+        <pos x="9900.897461" z="13416.589844"/>
+        <pos x="8737.237305" z="13614.225586"/>
+        <pos x="13053.700195" z="12414.456055"/>
+        <pos x="14709.013672" z="10496.27832"/>
+        <pos x="14593.762695" z="9320.987305"/>
+        <pos x="10993.058594" z="13249.263672"/>
+        <pos x="14151.28125" z="8564.424805"/>
+        <pos x="14637.454102" z="9853.299805"/>
+        <pos x="12220.818359" z="12802.515625"/>
+        <pos x="12559.836914" z="12601.771484"/>
+        <pos x="10482.049805" z="13460.642578"/>
+        <pos x="10193.813477" z="13449.232422"/>
+        <pos x="9338.84375" z="13356.694336"/>
+        <pos x="8473.584961" z="13533.678711"/>
+        <pos x="8134.938965" z="13609.508789"/>
+        <pos x="7781.99707" z="13476.615234"/>
+        <pos x="11844.107422" z="12954.075195"/>
+        <pos x="13132.085938" z="12122.124023"/>
+        <pos x="14454.533203" z="9156.223633"/>
+        <pos x="14278.936523" z="8777.439453"/>
+        <pos x="11094.511719" z="13103.824219"/>
+        <pos x="8594.275391" z="13653.040039"/>
+        <pos x="6975.134766" z="13279.275391"/>
+        <pos x="7146.789063" z="13358.914063"/>
+        <pos x="6637.166992" z="13410.698242"/>
+        <pos x="6667.267578" z="13127.990234"/>
+        <pos x="14053.529297" z="11872.839844"/>
+        <pos x="13239.754883" z="11867.707031"/>
+        <pos x="13758.766602" z="8415.129883"/>
+        <pos x="13899.277344" z="8582.242188"/>
+        <pos x="14215.698242" z="11453.613281"/>
+        <pos x="14055.693359" z="11583.552734"/>
+        <pos x="11492.449219" z="13109.876953"/>
+        <pos x="10740.030273" z="13132.52832"/>
+        <pos x="6594.963379" z="12733.705078"/>
+        <pos x="6610.970215" z="12935.047852"/>
+      </group>
+    </generator_posbubbles>
+  </travel>
+  <!-- Vanilla Fresh Spawn
 	<group name="Zones">
                 <pos x="13994.366211" z="8075.476074" />
                 <pos x="14230.625977" z="9040.563477" />
@@ -220,7 +220,7 @@
                 <pos x="6610.970215" z="12935.047852" />
             </group>
 			Vanilla Fresh Spawn -->
-	<!-- Vanilla Hop Spawn 
+  <!-- Vanilla Hop Spawn 
             <group name="Zones">
                 <pos x="13994.366211" z="8075.476074" />
                 <pos x="14230.625977" z="9040.563477" />
@@ -263,7 +263,7 @@
                 <pos x="6610.970215" z="12935.047852" />
             </group>
 			Vanilla Hop Spawn -->
-	<!-- Vanilla Traveler Spawn 
+  <!-- Vanilla Traveler Spawn 
             <group name="Zones">
                 <pos x="13994.366211" z="8075.476074" />
                 <pos x="14230.625977" z="9040.563477" />
@@ -306,7 +306,7 @@
                 <pos x="6610.970215" z="12935.047852" />
             </group>
 Vanilla Traveler Spawn -->
-	<!-- Vanilla Event Spawns 
+  <!-- Vanilla Event Spawns 
 <group name="ItemPlanks" lifetime="240" counter="-1">
 	<pos x="4901.676270" z="11312.855469"/>
 	<pos x="5282.824219" z="11173.461914"/>
@@ -842,7 +842,7 @@ Vanilla Traveler Spawn -->
 	<pos x="13922.100586" z="11941.990234"/>
 </group>
 Vanilla Event Spawns -->
-	<!-- Vanilla Animal Spawns
+  <!-- Vanilla Animal Spawns
 	<group name="BearGraze" lifetime="240" counter="-1">
 	<pos x="10510" z="8465"/>
 	<pos x="11070" z="8875"/>
@@ -1971,7 +1971,7 @@ Vanilla Event Spawns -->
     <pos x="9480" z="11940" />
 </group>
 	Vanilla Animal Spawns -->
-	<!-- Vanilla Infected Spawns 
+  <!-- Vanilla Infected Spawns 
 	<group name="InfectedVillage" lifetime="240" counter="-1">
     <pos x="5740" z="12285" />
     <pos x="5683.88" z="12557.3" />
@@ -2384,7 +2384,7 @@ Vanilla Event Spawns -->
     <pos x="5476.67" z="11205" />
 </group>
 	-->
-	<!-- Custom Event Spawns
+  <!-- Custom Event Spawns
 	<group name="PVP">
 		<pos x="6990" z="7152" />
 		<pos x="6925" z="7295" />

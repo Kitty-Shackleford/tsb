@@ -1,1299 +1,200 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <eventgroupdef>
   <!-- MODS -->
   <group name="airstrike">
-    <child
-      type="ExplosionTest"
-      deloot="0"
-      lootmax="1"
-      lootmin="1"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
-    <child
-      type="ExplosionTest"
-      spawnsecondary="false"
-      x="-6.1376953125"
-      z="-3.533203125"
-      a="0"
-      y="0.05303955078125"
-    />
-    <child
-      type="ExplosionTest"
-      spawnsecondary="false"
-      x="6.068359375"
-      z="3.5234375"
-      a="0"
-      y="-0.036651611328125"
-    />
-    <child
-      type="ExplosionTest"
-      spawnsecondary="false"
-      x="-12.2041015625"
-      z="-7.0576171875"
-      a="0"
-      y="0.12384033203125"
-    />
-    <child
-      type="ExplosionTest"
-      spawnsecondary="false"
-      x="12.21044921875"
-      z="7.0419921875"
-      a="0"
-      y="-0.051422119140625"
-    />
-    <child
-      type="ExplosionTest"
-      spawnsecondary="false"
-      x="-18.357421875"
-      z="-10.59765625"
-      a="0"
-      y="0.21490478515625"
-    />
-    <child
-      type="ExplosionTest"
-      spawnsecondary="false"
-      x="18.31591796875"
-      z="10.595703125"
-      a="0"
-      y="-0.054046630859375"
-    />
+    <child type="ExplosionTest" deloot="0" lootmax="1" lootmin="1" x="0" z="0" a="0" y="0"/>
+    <child type="ExplosionTest" spawnsecondary="false" x="-6.1376953125" z="-3.533203125" a="0" y="0.05303955078125"/>
+    <child type="ExplosionTest" spawnsecondary="false" x="6.068359375" z="3.5234375" a="0" y="-0.036651611328125"/>
+    <child type="ExplosionTest" spawnsecondary="false" x="-12.2041015625" z="-7.0576171875" a="0" y="0.12384033203125"/>
+    <child type="ExplosionTest" spawnsecondary="false" x="12.21044921875" z="7.0419921875" a="0" y="-0.051422119140625"/>
+    <child type="ExplosionTest" spawnsecondary="false" x="-18.357421875" z="-10.59765625" a="0" y="0.21490478515625"/>
+    <child type="ExplosionTest" spawnsecondary="false" x="18.31591796875" z="10.595703125" a="0" y="-0.054046630859375"/>
   </group>
   <group name="Airstrike_LandMineTrap">
-    <child
-      type="LandMineTrap"
-      deloot="0"
-      lootmax="1"
-      lootmin="1"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
-    <child
-      type="LandMineTrap"
-      spawnsecondary="false"
-      x="-6.1376953125"
-      z="-3.533203125"
-      a="0"
-      y="0.05303955078125"
-    />
-    <child
-      type="LandMineTrap"
-      spawnsecondary="false"
-      x="6.068359375"
-      z="3.5234375"
-      a="0"
-      y="-0.036651611328125"
-    />
-    <child
-      type="LandMineTrap"
-      spawnsecondary="false"
-      x="-12.2041015625"
-      z="-7.0576171875"
-      a="0"
-      y="0.12384033203125"
-    />
-    <child
-      type="LandMineTrap"
-      spawnsecondary="false"
-      x="12.21044921875"
-      z="7.0419921875"
-      a="0"
-      y="-0.051422119140625"
-    />
-    <child
-      type="LandMineTrap"
-      spawnsecondary="false"
-      x="-18.357421875"
-      z="-10.59765625"
-      a="0"
-      y="0.21490478515625"
-    />
-    <child
-      type="LandMineTrap"
-      spawnsecondary="false"
-      x="18.31591796875"
-      z="10.595703125"
-      a="0"
-      y="-0.054046630859375"
-    />
+    <child type="LandMineTrap" deloot="0" lootmax="1" lootmin="1" x="0" z="0" a="0" y="0"/>
+    <child type="LandMineTrap" spawnsecondary="false" x="-6.1376953125" z="-3.533203125" a="0" y="0.05303955078125"/>
+    <child type="LandMineTrap" spawnsecondary="false" x="6.068359375" z="3.5234375" a="0" y="-0.036651611328125"/>
+    <child type="LandMineTrap" spawnsecondary="false" x="-12.2041015625" z="-7.0576171875" a="0" y="0.12384033203125"/>
+    <child type="LandMineTrap" spawnsecondary="false" x="12.21044921875" z="7.0419921875" a="0" y="-0.051422119140625"/>
+    <child type="LandMineTrap" spawnsecondary="false" x="-18.357421875" z="-10.59765625" a="0" y="0.21490478515625"/>
+    <child type="LandMineTrap" spawnsecondary="false" x="18.31591796875" z="10.595703125" a="0" y="-0.054046630859375"/>
   </group>
   <group name="Bonfire">
-    <child
-      type="Bonfire"
-      deloot="0"
-      lootmax="8"
-      lootmin="8"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
-    <child
-      type="UndergroundStash"
-      spawnsecondary="false"
-      x="2.751953125"
-      z="-2.96875"
-      a="0"
-      y="-1.8610076904296875"
-    />
-    <child
-      type="UndergroundStash"
-      spawnsecondary="false"
-      x="4.380126953125"
-      z="-0.181640625"
-      a="0"
-      y="-1.887298583984375"
-    />
-    <child
-      type="UndergroundStash"
-      spawnsecondary="false"
-      x="3.157470703125"
-      z="2.572265625"
-      a="0"
-      y="-1.8873138427734375"
-    />
-    <child
-      type="UndergroundStash"
-      spawnsecondary="false"
-      x="0.2333984375"
-      z="3.91796875"
-      a="0"
-      y="-1.8873291015625"
-    />
-    <child
-      type="UndergroundStash"
-      spawnsecondary="false"
-      x="-2.591552734375"
-      z="2.7255859375"
-      a="174.60060119628906"
-      y="-1.8872833251953125"
-    />
-    <child
-      type="UndergroundStash"
-      spawnsecondary="false"
-      x="-3.9462890625"
-      z="-0.2021484375"
-      a="174.6007843017578"
-      y="-1.91357421875"
-    />
-    <child
-      type="UndergroundStash"
-      spawnsecondary="false"
-      x="-2.47607421875"
-      z="-2.8330078125"
-      a="174.6007843017578"
-      y="-1.9135894775390625"
-    />
-    <child
-      type="UndergroundStash"
-      spawnsecondary="false"
-      x="0.56005859375"
-      z="-3.8955078125"
-      a="174.6007843017578"
-      y="-1.913604736328125"
-    />
+    <child type="Bonfire" deloot="0" lootmax="8" lootmin="8" x="0" z="0" a="0" y="0"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="2.751953125" z="-2.96875" a="0" y="-1.8610076904296875"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="4.380126953125" z="-0.181640625" a="0" y="-1.887298583984375"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="3.157470703125" z="2.572265625" a="0" y="-1.8873138427734375"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="0.2333984375" z="3.91796875" a="0" y="-1.8873291015625"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="-2.591552734375" z="2.7255859375" a="174.60060119628906" y="-1.8872833251953125"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="-3.9462890625" z="-0.2021484375" a="174.6007843017578" y="-1.91357421875"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="-2.47607421875" z="-2.8330078125" a="174.6007843017578" y="-1.9135894775390625"/>
+    <child type="UndergroundStash" spawnsecondary="false" x="0.56005859375" z="-3.8955078125" a="174.6007843017578" y="-1.913604736328125"/>
   </group>
   <group name="C130J">
-    <child
-      type="Land_Wreck_C130J"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox1_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="0.5"
-      z="11.20068359375"
-      a="0"
-      y="-4.862518310546875"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox2_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="0.5966796875"
-      z="17.7294921875"
-      a="0"
-      y="-4.3388671875"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox3_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="0.65234375"
-      z="14.63720703125"
-      a="0"
-      y="-4.45263671875"
-    />
+    <child type="Land_Wreck_C130J" deloot="0" lootmax="8" lootmin="4" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5" z="11.20068359375" a="0" y="-4.862518310546875"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="0.5966796875" z="17.7294921875" a="0" y="-4.3388671875"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="0.65234375" z="14.63720703125" a="0" y="-4.45263671875"/>
   </group>
   <group name="C130JC">
-    <child
-      type="Land_Wreck_C130J_Cargo"
-      deloot="0"
-      lootmax="10"
-      lootmin="7"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox1_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="0.5"
-      z="11.20068359375"
-      a="0"
-      y="-4.862518310546875"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox2_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="0.5966796875"
-      z="17.7294921875"
-      a="0"
-      y="-4.3388671875"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox3_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="0.65234375"
-      z="14.63720703125"
-      a="0"
-      y="-4.45263671875"
-    />
+    <child type="Land_Wreck_C130J_Cargo" deloot="0" lootmax="10" lootmin="7" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5" z="11.20068359375" a="0" y="-4.862518310546875"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="0.5966796875" z="17.7294921875" a="0" y="-4.3388671875"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="0.65234375" z="14.63720703125" a="0" y="-4.45263671875"/>
   </group>
   <!-- RICO -->
   <event name="Static_Builder">
-    <zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
-    <pos
-      x="7109.4736328125"
-      z="2909.089599609375"
-      a="-89.99995422363281"
-      y="53.40790557861328"
-      group="Cherno_Builder"
-    />
-    <pos
-      x="2289.489990234375"
-      z="5173.95654296875"
-      a="0.0"
-      y="187.2542724609375"
-      group="Zeleno_Builder"
-    />
-    <pos
-      x="2017.5833740234375"
-      z="9816.4375"
-      a="0.0"
-      y="229.45726013183594"
-      group="Lop_Builder"
-    />
-    <pos
-      x="8025.10107421875"
-      z="12637.458984375"
-      a="0.0"
-      y="118.11128234863281"
-      group="Sevro_Builder"
-    />
-    <pos
-      x="3791.16552734375"
-      z="13002.181640625"
-      a="0.0"
-      y="191.12725830078125"
-      group="Novaya_Builder"
-    />
-    <pos
-      x="11660.908203125"
-      z="15079.8974609375"
-      a="0.0"
-      y="110.15089416503906"
-      group="Novo_Builder"
-    />
+    <zone smin="0" smax="0" dmin="1" dmax="1" r="20"/>
+    <pos x="7109.4736328125" z="2909.089599609375" a="-89.99995422363281" y="53.40790557861328" group="Cherno_Builder"/>
+    <pos x="2289.489990234375" z="5173.95654296875" a="0.0" y="187.2542724609375" group="Zeleno_Builder"/>
+    <pos x="2017.5833740234375" z="9816.4375" a="0.0" y="229.45726013183594" group="Lop_Builder"/>
+    <pos x="8025.10107421875" z="12637.458984375" a="0.0" y="118.11128234863281" group="Sevro_Builder"/>
+    <pos x="3791.16552734375" z="13002.181640625" a="0.0" y="191.12725830078125" group="Novaya_Builder"/>
+    <pos x="11660.908203125" z="15079.8974609375" a="0.0" y="110.15089416503906" group="Novo_Builder"/>
   </event>
   <!-- RICO -->
   <group name="xmasevent">
-    <child
-      type="Wreck_SantasSleigh"
-      deloot="1"
-      lootmax="8"
-      lootmin="4"
-      x="5.36279296875"
-      z="-4.5107421875"
-      a="47.351985931396484"
-      y="-3.42169189453125"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox1_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="7.236328125"
-      z="-9.39453125"
-      a="0"
-      y="-4.420501708984375"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox2_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="1.76806640625"
-      z="-12.0322265625"
-      a="27"
-      y="-4.12359619140625"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox3_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="-1.92138671875"
-      z="-5.970703125"
-      a="27"
-      y="-4.162261962890625"
-    />
+    <child type="Wreck_SantasSleigh" deloot="1" lootmax="8" lootmin="4" x="5.36279296875" z="-4.5107421875" a="47.351985931396484" y="-3.42169189453125"/>
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="7.236328125" z="-9.39453125" a="0" y="-4.420501708984375"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="1.76806640625" z="-12.0322265625" a="27" y="-4.12359619140625"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="-1.92138671875" z="-5.970703125" a="27" y="-4.162261962890625"/>
   </group>
   <group name="boathousestore">
-    <child
-      type="Land_Boathouse"
-      deloot="0"
-      lootmax="3"
-      lootmin="1"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="6.55859375"
-      z="-1.552734375"
-      a="270.0000457763672"
-      y="4.250213623046875"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="6.57666015625"
-      z="2.23828125"
-      a="270.0000457763672"
-      y="4.244873046875"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="6.51708984375"
-      z="6.2470703125"
-      a="270.0000457763672"
-      y="4.25958251953125"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="-6.595703125"
-      z="6.2763671875"
-      a="90.30094909667969"
-      y="4.276885986328125"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="-6.62939453125"
-      z="2.49609375"
-      a="90.30103302001953"
-      y="4.27154541015625"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="-6.642578125"
-      z="-1.42578125"
-      a="90.30094909667969"
-      y="4.2862548828125"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="-4.5732421875"
-      z="8.2548828125"
-      a="180.5797576904297"
-      y="4.314453125"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="2.18310546875"
-      z="8.125"
-      a="179.9998779296875"
-      y="7.01416015625"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="-2.326171875"
-      z="8.126953125"
-      a="179.9998779296875"
-      y="7.074981689453125"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="-0.55810546875"
-      z="8.2373046875"
-      a="180.5797576904297"
-      y="4.255279541015625"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="3.259765625"
-      z="8.302734375"
-      a="180.5797576904297"
-      y="4.20489501953125"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="-6.62451171875"
-      z="-3.5126953125"
-      a="90.30094909667969"
-      y="4.24151611328125"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="6.53125"
-      z="-3.5419921875"
-      a="270.0000457763672"
-      y="4.21954345703125"
-    />
-    <child
-      type="StaticObj_Wall_Tin7_4"
-      spawnsecondary="false"
-      x="4.5244140625"
-      z="8.2607421875"
-      a="180.5797576904297"
-      y="4.21929931640625"
-    />
-    <child
-      type="StaticObj_Furniture_shelf_1side"
-      spawnsecondary="false"
-      x="2.09423828125"
-      z="7.98828125"
-      a="270.0000457763672"
-      y="3.332550048828125"
-    />
-    <child
-      type="StaticObj_Furniture_shelf_1side"
-      spawnsecondary="false"
-      x="0.0947265625"
-      z="7.9833984375"
-      a="270.0000457763672"
-      y="3.3359375"
-    />
-    <child
-      type="StaticObj_Furniture_shelf_1side"
-      spawnsecondary="false"
-      x="-1.927734375"
-      z="7.9580078125"
-      a="270.0000457763672"
-      y="3.34136962890625"
-    />
-    <child
-      type="StaticObj_Furniture_shelf_1side"
-      spawnsecondary="false"
-      x="-3.943359375"
-      z="7.962890625"
-      a="270.0000457763672"
-      y="3.346710205078125"
-    />
-    <child
-      type="StaticObj_Furniture_shelf"
-      spawnsecondary="false"
-      x="0.00927734375"
-      z="3.322265625"
-      a="0"
-      y="3.3485107421875"
-    />
-    <child
-      type="StaticObj_Furniture_shelf"
-      spawnsecondary="false"
-      x="0.0224609375"
-      z="0.7998046875"
-      a="0"
-      y="3.355682373046875"
-    />
-    <child
-      type="StaticObj_Furniture_shelf"
-      spawnsecondary="false"
-      x="0.0576171875"
-      z="-1.6416015625"
-      a="0"
-      y="3.365264892578125"
-    />
-    <child
-      type="StaticObj_Furniture_shelf"
-      spawnsecondary="false"
-      x="-0.005859375"
-      z="-4.0908203125"
-      a="0"
-      y="3.367095947265625"
-    />
-    <child
-      type="StaticObj_Furniture_bar_tap_DZ"
-      spawnsecondary="false"
-      x="-2.7529296875"
-      z="-2.86328125"
-      a="0"
-      y="3.382904052734375"
-    />
-    <child
-      type="StaticObj_Furniture_yellow_star"
-      spawnsecondary="false"
-      x="-2.38623046875"
-      z="-3.2568359375"
-      a="0"
-      y="3.884918212890625"
-    />
-    <child
-      type="StaticObj_Furniture_tac_board_posters_level2"
-      spawnsecondary="false"
-      x="-6.326171875"
-      z="-2.4326171875"
-      a="270.0000457763672"
-      y="4.318634033203125"
-    />
-    <child
-      type="StaticObj_Furniture_tac_board_posters_level1"
-      spawnsecondary="false"
-      x="-6.32470703125"
-      z="3.787109375"
-      a="270.0000457763672"
-      y="4.337158203125"
-    />
-    <child
-      type="StaticObj_Furniture_bag_DZ"
-      spawnsecondary="false"
-      x="-5.91455078125"
-      z="-5.095703125"
-      a="0"
-      y="3.903289794921875"
-    />
-    <child
-      type="StaticObj_Furniture_bag_DZ"
-      spawnsecondary="false"
-      x="-5.46142578125"
-      z="-5.1884765625"
-      a="0"
-      y="3.839569091796875"
-    />
-    <child
-      type="StaticObj_Furniture_bag_DZ"
-      spawnsecondary="false"
-      x="-5.73193359375"
-      z="-4.64453125"
-      a="0"
-      y="3.839202880859375"
-    />
-    <child
-      type="StaticObj_Misc_Gunrack"
-      spawnsecondary="false"
-      x="4.73095703125"
-      z="5.6025390625"
-      a="270.0000457763672"
-      y="3.78070068359375"
-    />
-    <child
-      type="StaticObj_Misc_Gunrack"
-      spawnsecondary="false"
-      x="4.73291015625"
-      z="3.8134765625"
-      a="270.0000457763672"
-      y="3.766632080078125"
-    />
-    <child
-      type="StaticObj_Misc_Gunrack"
-      spawnsecondary="false"
-      x="4.7158203125"
-      z="2.18359375"
-      a="270.0000457763672"
-      y="3.770050048828125"
-    />
-    <child
-      type="StaticObj_Misc_Gunrack"
-      spawnsecondary="false"
-      x="4.7392578125"
-      z="-1.1806640625"
-      a="270.0000457763672"
-      y="3.768341064453125"
-    />
-    <child
-      type="StaticObj_Misc_Gunrack"
-      spawnsecondary="false"
-      x="4.73974609375"
-      z="-2.82421875"
-      a="270.0000457763672"
-      y="3.778350830078125"
-    />
-    <child
-      type="StaticObj_Misc_Gunrack"
-      spawnsecondary="false"
-      x="4.73876953125"
-      z="0.41796875"
-      a="270.0000457763672"
-      y="3.7706298828125"
-    />
-    <child
-      type="StaticObj_Misc_MysteriousBell"
-      spawnsecondary="false"
-      x="-0.0673828125"
-      z="-5.80859375"
-      a="1.0145502090454102"
-      y="4.307403564453125"
-    />
-    <child
-      type="StaticObj_Furniture_school_map"
-      spawnsecondary="false"
-      x="6.26025390625"
-      z="-3.0078125"
-      a="270.0000457763672"
-      y="5.276397705078125"
-    />
+    <child type="Land_Boathouse" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="6.55859375" z="-1.552734375" a="270.0000457763672" y="4.250213623046875"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="6.57666015625" z="2.23828125" a="270.0000457763672" y="4.244873046875"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="6.51708984375" z="6.2470703125" a="270.0000457763672" y="4.25958251953125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-6.595703125" z="6.2763671875" a="90.30094909667969" y="4.276885986328125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-6.62939453125" z="2.49609375" a="90.30103302001953" y="4.27154541015625"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-6.642578125" z="-1.42578125" a="90.30094909667969" y="4.2862548828125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-4.5732421875" z="8.2548828125" a="180.5797576904297" y="4.314453125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="2.18310546875" z="8.125" a="179.9998779296875" y="7.01416015625"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-2.326171875" z="8.126953125" a="179.9998779296875" y="7.074981689453125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-0.55810546875" z="8.2373046875" a="180.5797576904297" y="4.255279541015625"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="3.259765625" z="8.302734375" a="180.5797576904297" y="4.20489501953125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="-6.62451171875" z="-3.5126953125" a="90.30094909667969" y="4.24151611328125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="6.53125" z="-3.5419921875" a="270.0000457763672" y="4.21954345703125"/>
+    <child type="StaticObj_Wall_Tin7_4" spawnsecondary="false" x="4.5244140625" z="8.2607421875" a="180.5797576904297" y="4.21929931640625"/>
+    <child type="StaticObj_Furniture_shelf_1side" spawnsecondary="false" x="2.09423828125" z="7.98828125" a="270.0000457763672" y="3.332550048828125"/>
+    <child type="StaticObj_Furniture_shelf_1side" spawnsecondary="false" x="0.0947265625" z="7.9833984375" a="270.0000457763672" y="3.3359375"/>
+    <child type="StaticObj_Furniture_shelf_1side" spawnsecondary="false" x="-1.927734375" z="7.9580078125" a="270.0000457763672" y="3.34136962890625"/>
+    <child type="StaticObj_Furniture_shelf_1side" spawnsecondary="false" x="-3.943359375" z="7.962890625" a="270.0000457763672" y="3.346710205078125"/>
+    <child type="StaticObj_Furniture_shelf" spawnsecondary="false" x="0.00927734375" z="3.322265625" a="0" y="3.3485107421875"/>
+    <child type="StaticObj_Furniture_shelf" spawnsecondary="false" x="0.0224609375" z="0.7998046875" a="0" y="3.355682373046875"/>
+    <child type="StaticObj_Furniture_shelf" spawnsecondary="false" x="0.0576171875" z="-1.6416015625" a="0" y="3.365264892578125"/>
+    <child type="StaticObj_Furniture_shelf" spawnsecondary="false" x="-0.005859375" z="-4.0908203125" a="0" y="3.367095947265625"/>
+    <child type="StaticObj_Furniture_bar_tap_DZ" spawnsecondary="false" x="-2.7529296875" z="-2.86328125" a="0" y="3.382904052734375"/>
+    <child type="StaticObj_Furniture_yellow_star" spawnsecondary="false" x="-2.38623046875" z="-3.2568359375" a="0" y="3.884918212890625"/>
+    <child type="StaticObj_Furniture_tac_board_posters_level2" spawnsecondary="false" x="-6.326171875" z="-2.4326171875" a="270.0000457763672" y="4.318634033203125"/>
+    <child type="StaticObj_Furniture_tac_board_posters_level1" spawnsecondary="false" x="-6.32470703125" z="3.787109375" a="270.0000457763672" y="4.337158203125"/>
+    <child type="StaticObj_Furniture_bag_DZ" spawnsecondary="false" x="-5.91455078125" z="-5.095703125" a="0" y="3.903289794921875"/>
+    <child type="StaticObj_Furniture_bag_DZ" spawnsecondary="false" x="-5.46142578125" z="-5.1884765625" a="0" y="3.839569091796875"/>
+    <child type="StaticObj_Furniture_bag_DZ" spawnsecondary="false" x="-5.73193359375" z="-4.64453125" a="0" y="3.839202880859375"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.73095703125" z="5.6025390625" a="270.0000457763672" y="3.78070068359375"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.73291015625" z="3.8134765625" a="270.0000457763672" y="3.766632080078125"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.7158203125" z="2.18359375" a="270.0000457763672" y="3.770050048828125"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.7392578125" z="-1.1806640625" a="270.0000457763672" y="3.768341064453125"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.73974609375" z="-2.82421875" a="270.0000457763672" y="3.778350830078125"/>
+    <child type="StaticObj_Misc_Gunrack" spawnsecondary="false" x="4.73876953125" z="0.41796875" a="270.0000457763672" y="3.7706298828125"/>
+    <child type="StaticObj_Misc_MysteriousBell" spawnsecondary="false" x="-0.0673828125" z="-5.80859375" a="1.0145502090454102" y="4.307403564453125"/>
+    <child type="StaticObj_Furniture_school_map" spawnsecondary="false" x="6.26025390625" z="-3.0078125" a="270.0000457763672" y="5.276397705078125"/>
   </group>
   <group name="supplystatichelicrash">
-    <child
-      type="StaticObj_Misc_SupplyBox1_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="4.26611328125"
-      z="5.716796875"
-      a="267.2076950073242"
-      y="-1.415679931640625"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox2_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="1.8486328125"
-      z="8.9111328125"
-      a="337.24668884277344"
-      y="-1.14593505859375"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox3_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="4.3740234375"
-      z="10.609375"
-      a="248.93697357177734"
-      y="-1.149444580078125"
-    />
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="4.26611328125" z="5.716796875" a="267.2076950073242" y="-1.415679931640625"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="1.8486328125" z="8.9111328125" a="337.24668884277344" y="-1.14593505859375"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="4.3740234375" z="10.609375" a="248.93697357177734" y="-1.149444580078125"/>
   </group>
   <group name="supplyuh1yhelicrash">
-    <child
-      type="StaticObj_Misc_SupplyBox1_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="4.26611328125"
-      z="5.716796875"
-      a="267.2076950073242"
-      y="-1.415679931640625"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox2_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="1.8486328125"
-      z="8.9111328125"
-      a="337.24668884277344"
-      y="-1.14593505859375"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox3_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="4.3740234375"
-      z="10.609375"
-      a="248.93697357177734"
-      y="-1.149444580078125"
-    />
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="4.26611328125" z="5.716796875" a="267.2076950073242" y="-1.415679931640625"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="1.8486328125" z="8.9111328125" a="337.24668884277344" y="-1.14593505859375"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="4.3740234375" z="10.609375" a="248.93697357177734" y="-1.149444580078125"/>
   </group>
   <group name="supplymi8helicrash">
-    <child
-      type="StaticObj_Misc_SupplyBox1_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="8.0791015625"
-      z="7.6953125"
-      a="267.2076950073242"
-      y="-0.889404296875"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox2_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="4.9267578125"
-      z="9.8232421875"
-      a="337.2466869354248"
-      y="-0.6201171875"
-    />
-    <child
-      type="StaticObj_Misc_SupplyBox3_DE"
-      deloot="0"
-      lootmax="8"
-      lootmin="4"
-      x="7.4521484375"
-      z="11.521484375"
-      a="248.93697357177734"
-      y="-0.623626708984375"
-    />
+    <child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="8.0791015625" z="7.6953125" a="267.2076950073242" y="-0.889404296875"/>
+    <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="4.9267578125" z="9.8232421875" a="337.2466869354248" y="-0.6201171875"/>
+    <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="7.4521484375" z="11.521484375" a="248.93697357177734" y="-0.623626708984375"/>
   </group>
   <group name="meleewall">
-    <child
-      type="StaticObj_Wall_Tin6_2_4"
-      deloot="1"
-      lootmax="0"
-      lootmin="0"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
+    <child type="StaticObj_Wall_Tin6_2_4" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
   </group>
   <group name="backpackwall">
-    <child
-      type="StaticObj_Wall_Tin7_8"
-      deloot="1"
-      lootmax="0"
-      lootmin="0"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
+    <child type="StaticObj_Wall_Tin7_8" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
   </group>
   <group name="controltower">
-    <child
-      type="Land_Mil_ControlTower"
-      deloot="1"
-      lootmax="0"
-      lootmin="0"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
-    <child
-      type="StaticObj_Wall_GarbCont"
-      spawnsecondary="false"
-      x="0"
-      z="0"
-      a="0"
-      y="-8"
-    />
+    <child type="Land_Mil_ControlTower" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Wall_GarbCont" spawnsecondary="false" x="0" z="0" a="0" y="-8"/>
   </group>
   <group name="specialstore">
-    <child
-      type="Land_Village_Store_East"
-      deloot="0"
-      lootmax="1"
-      lootmin="1"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
-    <child
-      type="StaticObj_Wall_GarbCont"
-      spawnsecondary="false"
-      x="0"
-      z="0"
-      a="0"
-      y="-4"
-    />
+    <child type="Land_Village_Store_East" deloot="0" lootmax="1" lootmin="1" x="0" z="0" a="0" y="0"/>
+    <child type="StaticObj_Wall_GarbCont" spawnsecondary="false" x="0" z="0" a="0" y="-4"/>
     <!-- <child type="Wreck_SantasSleigh" spawnsecondary="false" x="0" z="0" a="0" y="-4"/> -->
   </group>
   <group name="partystore">
-    <child
-      type="Land_City_Stand_News1"
-      deloot="1"
-      lootmax="0"
-      lootmin="0"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
+    <child type="Land_City_Stand_News1" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
   </group>
   <!-- BUILDER EVENT -->
   <group name="BuilderEvent">
-    <child
-      type="CamoNetShelter"
-      deloot="0"
-      lootmax="3"
-      lootmin="1"
-      x="0"
-      z="0"
-      a="270.0000457763672"
-      y="0"
-    />
-    <child
-      type="PileOfWoodenPlanks"
-      spawnsecondary="false"
-      x="-0.216796875"
-      z="-0.22900390625"
-      a="92.66860961914062"
-      y="0.20741796493530273"
-    />
-    <child
-      type="HandSaw"
-      spawnsecondary="false"
-      x="1.5634765625"
-      z="1.64404296875"
-      a="179.99993896484375"
-      y="0.08051204681396484"
-    />
-    <child
-      type="HandSaw"
-      spawnsecondary="false"
-      x="1.5751953125"
-      z="1.373779296875"
-      a="179.9999237060547"
-      y="0.07982301712036133"
-    />
-    <child
-      type="SledgeHammer"
-      spawnsecondary="false"
-      x="1.5029296875"
-      z="1.101318359375"
-      a="0"
-      y="0.18467187881469727"
-    />
-    <child
-      type="SledgeHammer"
-      spawnsecondary="false"
-      x="1.5185546875"
-      z="0.839111328125"
-      a="0"
-      y="0.13319158554077148"
-    />
-    <child
-      type="NailBox"
-      spawnsecondary="false"
-      x="1.9970703125"
-      z="0.640869140625"
-      a="0"
-      y="0.08302116394042969"
-    />
-    <child
-      type="NailBox"
-      spawnsecondary="false"
-      x="2.01171875"
-      z="0.494384765625"
-      a="0"
-      y="0.046442508697509766"
-    />
-    <child
-      type="NailBox"
-      spawnsecondary="false"
-      x="1.78125"
-      z="0.634521484375"
-      a="0"
-      y="0.08096122741699219"
-    />
-    <child
-      type="NailBox"
-      spawnsecondary="false"
-      x="1.7958984375"
-      z="0.488037109375"
-      a="0"
-      y="0.044382572174072266"
-    />
-    <child
-      type="NailBox"
-      spawnsecondary="false"
-      x="1.564453125"
-      z="0.63818359375"
-      a="0"
-      y="0.07896041870117188"
-    />
-    <child
-      type="NailBox"
-      spawnsecondary="false"
-      x="1.5791015625"
-      z="0.49169921875"
-      a="0"
-      y="0.04238176345825195"
-    />
-    <child
-      type="Whetstone"
-      spawnsecondary="false"
-      x="1.3896484375"
-      z="1.5869140625"
-      a="0"
-      y="0.19516468048095703"
-    />
-    <child
-      type="Whetstone"
-      spawnsecondary="false"
-      x="1.4033203125"
-      z="1.39892578125"
-      a="0"
-      y="0.021080970764160156"
-    />
-    <child
-      type="Hammer"
-      spawnsecondary="false"
-      x="1.89453125"
-      z="0.27490234375"
-      a="179.99993896484375"
-      y="0.09152841567993164"
-    />
-    <child
-      type="Hammer"
-      spawnsecondary="false"
-      x="1.5771484375"
-      z="0.26708984375"
-      a="179.9999237060547"
-      y="0.08857011795043945"
-    />
-    <child
-      type="FirefighterAxe_Green"
-      spawnsecondary="false"
-      x="1.361328125"
-      z="-0.8154296875"
-      a="0"
-      y="0.2431035041809082"
-    />
-    <child
-      type="Pliers"
-      spawnsecondary="false"
-      x="1.87109375"
-      z="0.031982421875"
-      a="270.00001525878906"
-      y="0.21994972229003906"
-    />
-    <child
-      type="Pliers"
-      spawnsecondary="false"
-      x="1.54296875"
-      z="0.046875"
-      a="270.00001525878906"
-      y="0.21692848205566406"
-    />
-    <child
-      type="BarbedWire"
-      spawnsecondary="false"
-      x="1.8056640625"
-      z="-0.308349609375"
-      a="0"
-      y="0.016511917114257812"
-    />
-    <child
-      type="MetalWire"
-      spawnsecondary="false"
-      x="1.310546875"
-      z="-0.439453125"
-      a="89.99998474121094"
-      y="0.05740070343017578"
-    />
-    <child
-      type="BarbedWire"
-      spawnsecondary="false"
-      x="1.7353515625"
-      z="-0.391845703125"
-      a="0"
-      y="0.18840932846069336"
-    />
-    <child
-      type="MetalWire"
-      spawnsecondary="false"
-      x="1.240234375"
-      z="-0.52294921875"
-      a="89.99998474121094"
-      y="0.22929811477661133"
-    />
-    <child
-      type="BarbedWire"
-      spawnsecondary="false"
-      x="1.6240234375"
-      z="-0.3740234375"
-      a="0"
-      y="0.18733978271484375"
-    />
-    <child
-      type="MetalWire"
-      spawnsecondary="false"
-      x="1.12890625"
-      z="-0.505126953125"
-      a="89.99998474121094"
-      y="0.22822856903076172"
-    />
-    <child
-      type="BarbedWire"
-      spawnsecondary="false"
-      x="1.71484375"
-      z="-0.284423828125"
-      a="0"
-      y="0.1877894401550293"
-    />
-    <child
-      type="MetalWire"
-      spawnsecondary="false"
-      x="1.2197265625"
-      z="-0.41552734375"
-      a="89.99998474121094"
-      y="0.22867822647094727"
-    />
-    <child
-      type="MetalPlate"
-      spawnsecondary="false"
-      x="1.603515625"
-      z="-1.79736328125"
-      a="0"
-      y="0.02541208267211914"
-    />
-    <child
-      type="WoodenLog"
-      spawnsecondary="false"
-      x="2.8837890625"
-      z="-0.451904296875"
-      a="0.6173456907272339"
-      y="0.04038190841674805"
-    />
-    <child
-      type="WoodenLog"
-      spawnsecondary="false"
-      x="3.0498046875"
-      z="-0.418212890625"
-      a="0.6173315048217773"
-      y="0.007441997528076172"
-    />
-    <child
-      type="WoodenLog"
-      spawnsecondary="false"
-      x="3.2333984375"
-      z="-0.464599609375"
-      a="0.6173315048217773"
-      y="0.041274070739746094"
-    />
-    <child
-      type="WoodenLog"
-      spawnsecondary="false"
-      x="3.3974609375"
-      z="-0.431640625"
-      a="0.6173455715179443"
-      y="0.008334159851074219"
-    />
-    <child
-      type="WoodenLog"
-      spawnsecondary="false"
-      x="3.2158203125"
-      z="-0.44873046875"
-      a="0.6173456907272339"
-      y="0.3253335952758789"
-    />
-    <child
-      type="WoodenLog"
-      spawnsecondary="false"
-      x="2.9755859375"
-      z="-0.406005859375"
-      a="0.6173456907272339"
-      y="0.15684175491333008"
-    />
-    <child
-      type="WoodenLog"
-      spawnsecondary="false"
-      x="3.1552734375"
-      z="-0.4541015625"
-      a="0.6173456907272339"
-      y="0.190673828125"
-    />
-    <child
-      type="WoodenLog"
-      spawnsecondary="false"
-      x="3.3212890625"
-      z="-0.417724609375"
-      a="0.6173456907272339"
-      y="0.15773391723632812"
-    />
-    <child
-      type="WoodenLog"
-      spawnsecondary="false"
-      x="3.041015625"
-      z="-0.444580078125"
-      a="0.6173456907272339"
-      y="0.3183717727661133"
-    />
-    <child
-      type="WoodenLog"
-      spawnsecondary="false"
-      x="3.1455078125"
-      z="-0.4599609375"
-      a="0.6173456907272339"
-      y="0.4543766975402832"
-    />
-    <child
-      type="Pickaxe"
-      spawnsecondary="false"
-      x="3.05078125"
-      z="0.803466796875"
-      a="0"
-      y="0.2680048942565918"
-    />
-    <child
-      type="Pickaxe"
-      spawnsecondary="false"
-      x="2.9638671875"
-      z="1.115478515625"
-      a="0"
-      y="0.2667088508605957"
-    />
+    <child type="CamoNetShelter" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="270.0000457763672" y="0"/>
+    <child type="PileOfWoodenPlanks" spawnsecondary="false" x="-0.216796875" z="-0.22900390625" a="92.66860961914062" y="0.20741796493530273"/>
+    <child type="HandSaw" spawnsecondary="false" x="1.5634765625" z="1.64404296875" a="179.99993896484375" y="0.08051204681396484"/>
+    <child type="HandSaw" spawnsecondary="false" x="1.5751953125" z="1.373779296875" a="179.9999237060547" y="0.07982301712036133"/>
+    <child type="SledgeHammer" spawnsecondary="false" x="1.5029296875" z="1.101318359375" a="0" y="0.18467187881469727"/>
+    <child type="SledgeHammer" spawnsecondary="false" x="1.5185546875" z="0.839111328125" a="0" y="0.13319158554077148"/>
+    <child type="NailBox" spawnsecondary="false" x="1.9970703125" z="0.640869140625" a="0" y="0.08302116394042969"/>
+    <child type="NailBox" spawnsecondary="false" x="2.01171875" z="0.494384765625" a="0" y="0.046442508697509766"/>
+    <child type="NailBox" spawnsecondary="false" x="1.78125" z="0.634521484375" a="0" y="0.08096122741699219"/>
+    <child type="NailBox" spawnsecondary="false" x="1.7958984375" z="0.488037109375" a="0" y="0.044382572174072266"/>
+    <child type="NailBox" spawnsecondary="false" x="1.564453125" z="0.63818359375" a="0" y="0.07896041870117188"/>
+    <child type="NailBox" spawnsecondary="false" x="1.5791015625" z="0.49169921875" a="0" y="0.04238176345825195"/>
+    <child type="Whetstone" spawnsecondary="false" x="1.3896484375" z="1.5869140625" a="0" y="0.19516468048095703"/>
+    <child type="Whetstone" spawnsecondary="false" x="1.4033203125" z="1.39892578125" a="0" y="0.021080970764160156"/>
+    <child type="Hammer" spawnsecondary="false" x="1.89453125" z="0.27490234375" a="179.99993896484375" y="0.09152841567993164"/>
+    <child type="Hammer" spawnsecondary="false" x="1.5771484375" z="0.26708984375" a="179.9999237060547" y="0.08857011795043945"/>
+    <child type="FirefighterAxe_Green" spawnsecondary="false" x="1.361328125" z="-0.8154296875" a="0" y="0.2431035041809082"/>
+    <child type="Pliers" spawnsecondary="false" x="1.87109375" z="0.031982421875" a="270.00001525878906" y="0.21994972229003906"/>
+    <child type="Pliers" spawnsecondary="false" x="1.54296875" z="0.046875" a="270.00001525878906" y="0.21692848205566406"/>
+    <child type="BarbedWire" spawnsecondary="false" x="1.8056640625" z="-0.308349609375" a="0" y="0.016511917114257812"/>
+    <child type="MetalWire" spawnsecondary="false" x="1.310546875" z="-0.439453125" a="89.99998474121094" y="0.05740070343017578"/>
+    <child type="BarbedWire" spawnsecondary="false" x="1.7353515625" z="-0.391845703125" a="0" y="0.18840932846069336"/>
+    <child type="MetalWire" spawnsecondary="false" x="1.240234375" z="-0.52294921875" a="89.99998474121094" y="0.22929811477661133"/>
+    <child type="BarbedWire" spawnsecondary="false" x="1.6240234375" z="-0.3740234375" a="0" y="0.18733978271484375"/>
+    <child type="MetalWire" spawnsecondary="false" x="1.12890625" z="-0.505126953125" a="89.99998474121094" y="0.22822856903076172"/>
+    <child type="BarbedWire" spawnsecondary="false" x="1.71484375" z="-0.284423828125" a="0" y="0.1877894401550293"/>
+    <child type="MetalWire" spawnsecondary="false" x="1.2197265625" z="-0.41552734375" a="89.99998474121094" y="0.22867822647094727"/>
+    <child type="MetalPlate" spawnsecondary="false" x="1.603515625" z="-1.79736328125" a="0" y="0.02541208267211914"/>
+    <child type="WoodenLog" spawnsecondary="false" x="2.8837890625" z="-0.451904296875" a="0.6173456907272339" y="0.04038190841674805"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.0498046875" z="-0.418212890625" a="0.6173315048217773" y="0.007441997528076172"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.2333984375" z="-0.464599609375" a="0.6173315048217773" y="0.041274070739746094"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.3974609375" z="-0.431640625" a="0.6173455715179443" y="0.008334159851074219"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.2158203125" z="-0.44873046875" a="0.6173456907272339" y="0.3253335952758789"/>
+    <child type="WoodenLog" spawnsecondary="false" x="2.9755859375" z="-0.406005859375" a="0.6173456907272339" y="0.15684175491333008"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.1552734375" z="-0.4541015625" a="0.6173456907272339" y="0.190673828125"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.3212890625" z="-0.417724609375" a="0.6173456907272339" y="0.15773391723632812"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.041015625" z="-0.444580078125" a="0.6173456907272339" y="0.3183717727661133"/>
+    <child type="WoodenLog" spawnsecondary="false" x="3.1455078125" z="-0.4599609375" a="0.6173456907272339" y="0.4543766975402832"/>
+    <child type="Pickaxe" spawnsecondary="false" x="3.05078125" z="0.803466796875" a="0" y="0.2680048942565918"/>
+    <child type="Pickaxe" spawnsecondary="false" x="2.9638671875" z="1.115478515625" a="0" y="0.2667088508605957"/>
     <!-- <child type="CombinationLock4" spawnsecondary="false" x="1.1533203125" z="0.20068359375" a="0" y="0.14166831970214844"/> -->
-    <child
-      type="MetalPlate"
-      spawnsecondary="false"
-      x="1.20703125"
-      z="-2.154541015625"
-      a="0"
-      y="0.025817394256591797"
-    />
-    <child
-      type="MetalPlate"
-      spawnsecondary="false"
-      x="1.1044921875"
-      z="-1.6904296875"
-      a="0"
-      y="0.023113250732421875"
-    />
+    <child type="MetalPlate" spawnsecondary="false" x="1.20703125" z="-2.154541015625" a="0" y="0.025817394256591797"/>
+    <child type="MetalPlate" spawnsecondary="false" x="1.1044921875" z="-1.6904296875" a="0" y="0.023113250732421875"/>
   </group>
   <!-- Not Working -->
   <group name="Gun_Racks">
-    <child
-      type="StaticObj_Misc_Gunrack"
-      deloot="1"
-      lootmax="0"
-      lootmin="0"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
+    <child type="StaticObj_Misc_Gunrack" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
   </group>
   <!-- Bear Strike -->
   <group name="BearStrike">
-    <child
-      type="Animal_UrsusArctos"
-      deloot="0"
-      lootmax="6"
-      lootmin="6"
-      x="0"
-      z="0"
-      a="0"
-      y="0"
-    />
-    <child
-      type="Animal_UrsusArctos"
-      deloot="0"
-      lootmax="3"
-      lootmin="1"
-      x="-0.294921875"
-      z="0.324462890625"
-      a="306.00001525878906"
-      y="0.9632673263549805"
-    />
-    <child
-      type="Animal_UrsusArctos"
-      deloot="0"
-      lootmax="3"
-      lootmin="1"
-      x="-0.3349609375"
-      z="-1.35498046875"
-      a="261.00003814697266"
-      y="0.9632625579833984"
-    />
-    <child
-      type="Animal_UrsusArctos"
-      deloot="0"
-      lootmax="3"
-      lootmin="1"
-      x="1.01953125"
-      z="-2.97998046875"
-      a="207.00018310546875"
-      y="0.9632701873779297"
-    />
-    <child
-      type="Animal_UrsusArctos"
-      deloot="0"
-      lootmax="3"
-      lootmin="1"
-      x="3.3046875"
-      z="-2.617431640625"
-      a="144.0000762939453"
-      y="0.9633636474609375"
-    />
-    <child
-      type="Animal_UrsusArctos"
-      deloot="0"
-      lootmax="3"
-      lootmin="1"
-      x="3.5830078125"
-      z="-0.395751953125"
-      a="72.00006866455078"
-      y="0.9632139205932617"
-    />
-    <child
-      type="Animal_UrsusArctos"
-      deloot="0"
-      lootmax="3"
-      lootmin="1"
-      x="1.30859375"
-      z="0.97314453125"
-      a="351"
-      y="0.9632625579833984"
-    />
+    <child type="Animal_UrsusArctos" deloot="0" lootmax="6" lootmin="6" x="0" z="0" a="0" y="0"/>
+    <child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="-0.294921875" z="0.324462890625" a="306.00001525878906" y="0.9632673263549805"/>
+    <child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="-0.3349609375" z="-1.35498046875" a="261.00003814697266" y="0.9632625579833984"/>
+    <child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="1.01953125" z="-2.97998046875" a="207.00018310546875" y="0.9632701873779297"/>
+    <child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="3.3046875" z="-2.617431640625" a="144.0000762939453" y="0.9633636474609375"/>
+    <child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="3.5830078125" z="-0.395751953125" a="72.00006866455078" y="0.9632139205932617"/>
+    <child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="1.30859375" z="0.97314453125" a="351" y="0.9632625579833984"/>
   </group>
   <!-- END MODS -->
   <group name="Scientist">
-    <child
-      type="StaticObj_FrozenScientist_DE"
-      spawnsecondary="false"
-      x="0.0"
-      z="0.0"
-      a="0"
-    />
-    <child
-      type="ScientificBriefcase"
-      spawnsecondary="false"
-      x="0.7"
-      z="-1.25"
-      a="180"
-    />
+    <child type="StaticObj_FrozenScientist_DE" spawnsecondary="false" x="0.0" z="0.0" a="0"/>
+    <child type="ScientificBriefcase" spawnsecondary="false" x="0.7" z="-1.25" a="180"/>
   </group>
 </eventgroupdef>

@@ -39,10 +39,10 @@
           "itemType": "Armband_LivoniaPolice",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -55,10 +55,10 @@
           "itemType": "Mich2001Helmet",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -71,68 +71,72 @@
           "itemType": "M4A1",
           "spawnWeight": 3,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 2,
           "complexChildrenTypes": [
             {
               "itemType": "M4_Suppressor",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "M4_OEBttstck",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "M4_RISHndgrd",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "M4_T3NRDSOptic",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1,
               "simpleChildrenUseDefaultAttributes": false,
-              "simpleChildrenTypes": ["Battery9V"]
+              "simpleChildrenTypes": [
+                "Battery9V"
+              ]
             },
             {
               "itemType": "Mag_CMAG_40Rnd",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
           ],
           "simpleChildrenUseDefaultAttributes": false,
-          "simpleChildrenTypes": ["M9A1_Bayonet"]
+          "simpleChildrenTypes": [
+            "M9A1_Bayonet"
+          ]
         }
       ]
     },
@@ -143,10 +147,10 @@
           "itemType": "PoliceJacketOrel",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -159,34 +163,36 @@
           "itemType": "MilitaryBelt",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "PlateCarrierHolster_Black",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1,
               "complexChildrenTypes": [
                 {
                   "itemType": "Glock19",
                   "attributes": {
-                    "healthMin": 1.0,
-                    "healthMax": 1.0,
-                    "quantityMin": 1.0,
-                    "quantityMax": 1.0
+                    "healthMin": 1,
+                    "healthMax": 1,
+                    "quantityMin": 1,
+                    "quantityMax": 1
                   },
                   "quickBarSlot": 3,
                   "simpleChildrenUseDefaultAttributes": false,
-                  "simpleChildrenTypes": ["Mag_Glock_15Rnd"]
+                  "simpleChildrenTypes": [
+                    "Mag_Glock_15Rnd"
+                  ]
                 }
               ]
             }
@@ -201,10 +207,10 @@
           "itemType": "PolicePantsOrel",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
@@ -228,10 +234,10 @@
           "itemType": "MilitaryBoots_Black",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -244,10 +250,10 @@
           "itemType": "OMNOGloves_Gray",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
@@ -255,10 +261,10 @@
           "itemType": "OMNOGloves_Brown",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -268,10 +274,10 @@
       "itemType": "PoliceVest",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "quickBarSlot": -1,
       "simpleChildrenUseDefaultAttributes": false
@@ -282,49 +288,49 @@
       "name": "Cargo1",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -333,20 +339,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -355,40 +361,40 @@
         {
           "itemType": "Pear",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -397,10 +403,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -410,49 +416,49 @@
       "name": "Cargo2",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -461,20 +467,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -483,40 +489,40 @@
         {
           "itemType": "Apple",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -525,10 +531,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -538,49 +544,49 @@
       "name": "Cargo3",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -589,20 +595,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -611,40 +617,40 @@
         {
           "itemType": "CaninaBerry",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -653,10 +659,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -666,49 +672,49 @@
       "name": "Cargo4",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -717,20 +723,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -739,40 +745,40 @@
         {
           "itemType": "SambucusBerry",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -781,10 +787,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -794,49 +800,49 @@
       "name": "Cargo5",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -845,20 +851,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -867,40 +873,40 @@
         {
           "itemType": "Plum",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -909,10 +915,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -922,49 +928,49 @@
       "name": "Cargo6",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -973,20 +979,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -995,40 +1001,40 @@
         {
           "itemType": "SlicedPumpkin",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1037,10 +1043,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -1050,49 +1056,49 @@
       "name": "Cargo7",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1101,20 +1107,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1123,40 +1129,40 @@
         {
           "itemType": "MacrolepiotaMushroom",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1165,10 +1171,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -1178,49 +1184,49 @@
       "name": "Cargo8",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1229,20 +1235,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1251,40 +1257,40 @@
         {
           "itemType": "LactariusMushroom",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1293,10 +1299,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -1306,49 +1312,49 @@
       "name": "Cargo9",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1357,20 +1363,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1379,40 +1385,40 @@
         {
           "itemType": "Pepper",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1421,10 +1427,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -1434,49 +1440,49 @@
       "name": "Cargo10",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1485,20 +1491,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1507,40 +1513,40 @@
         {
           "itemType": "Tomato",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1549,10 +1555,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -1562,49 +1568,49 @@
       "name": "Cargo11",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1613,20 +1619,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1635,40 +1641,40 @@
         {
           "itemType": "BoletusMushroom",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1677,10 +1683,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
@@ -1690,49 +1696,49 @@
       "name": "Cargo12",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1.0,
-        "healthMax": 1.0,
-        "quantityMin": 1.0,
-        "quantityMax": 1.0
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
       },
       "complexChildrenTypes": [
         {
           "itemType": "Handcuffs",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "HandcuffKeys",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Flashlight",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1741,20 +1747,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1763,40 +1769,40 @@
         {
           "itemType": "AgaricusMushroom",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": 3
         },
         {
           "itemType": "Compass",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "GPSReceiver",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
               },
               "quickBarSlot": -1
             }
@@ -1805,10 +1811,10 @@
         {
           "itemType": "ChernarusMap",
           "attributes": {
-            "healthMin": 1.0,
-            "healthMax": 1.0,
-            "quantityMin": 1.0,
-            "quantityMax": 1.0
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
           },
           "quickBarSlot": -1
         }
