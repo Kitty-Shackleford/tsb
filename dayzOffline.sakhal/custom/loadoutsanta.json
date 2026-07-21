@@ -1,9 +1,7 @@
 {
   "spawnWeight": 1,
   "name": "Player",
-  "characterTypes": [
-    "SurvivorM_Peter"
-  ],
+  "characterTypes": ["SurvivorM_Peter"],
   "attachmentSlotItemSets": [
     {
       "slotName": "Headgear",
@@ -12,10 +10,10 @@
           "itemType": "SantasHat",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -30,8 +28,8 @@
           "attributes": {
             "healthMin": 0.8,
             "healthMax": 0.8,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": true,
@@ -46,10 +44,10 @@
           "itemType": "Armband_Crook",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -62,10 +60,10 @@
           "itemType": "WoolGloves_ChristmasRed",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -78,10 +76,10 @@
           "itemType": "SantasBeard",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -94,10 +92,10 @@
           "itemType": "ParamedicJacket_Crimson",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -110,10 +108,10 @@
           "itemType": "HipPack_Medical",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": true,
@@ -133,10 +131,10 @@
           "itemType": "ParamedicPants_Crimson",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -149,10 +147,10 @@
           "itemType": "MedievalBoots",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -165,7 +163,7 @@
       "spawnWeight": 1,
       "attributes": {
         "healthMin": 0.5,
-        "healthMax": 1,
+        "healthMax": 1.0,
         "quantityMin": 0.6,
         "quantityMax": 0.8
       },
@@ -173,10 +171,10 @@
         {
           "itemType": "FirstAidKit",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": 3,
           "simpleChildrenUseDefaultAttributes": false,
@@ -191,20 +189,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             }
@@ -224,10 +222,10 @@
       "name": "Medic Cargo 2",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1,
-        "healthMax": 1,
-        "quantityMin": 1,
-        "quantityMax": 1
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
       },
       "complexChildrenTypes": [
         {
@@ -251,20 +249,20 @@
         {
           "itemType": "PersonalRadio",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Battery9V",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             }

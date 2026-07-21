@@ -21,10 +21,10 @@
           "itemType": "WitchHat",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -37,10 +37,10 @@
           "itemType": "CrookedNose",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -53,34 +53,32 @@
           "itemType": "VSS",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": 1,
           "complexChildrenTypes": [
             {
               "itemType": "KobraOptic",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1,
               "simpleChildrenUseDefaultAttributes": true,
-              "simpleChildrenTypes": [
-                "Battery9V"
-              ]
+              "simpleChildrenTypes": ["Battery9V"]
             },
             {
               "itemType": "Mag_VAL_20Rnd",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             }
@@ -95,20 +93,20 @@
           "itemType": "LongTorch",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": 2,
           "complexChildrenTypes": [
             {
               "itemType": "Rag",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1,
               "simpleChildrenUseDefaultAttributes": true,
@@ -135,10 +133,10 @@
           "itemType": "Raincoat_Black",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
@@ -157,40 +155,40 @@
           "itemType": "MilitaryBelt",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "Canteen",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": 5
             },
             {
               "itemType": "NylonKnifeSheath",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1,
               "complexChildrenTypes": [
                 {
                   "itemType": "FangeKnife",
                   "attributes": {
-                    "healthMin": 1,
-                    "healthMax": 1,
-                    "quantityMin": 1,
-                    "quantityMax": 1
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
                   },
                   "quickBarSlot": 4
                 }
@@ -199,26 +197,24 @@
             {
               "itemType": "PlateCarrierHolster_Black",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1,
               "complexChildrenTypes": [
                 {
                   "itemType": "Glock19",
                   "attributes": {
-                    "healthMin": 1,
-                    "healthMax": 1,
-                    "quantityMin": 1,
-                    "quantityMax": 1
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
                   },
                   "quickBarSlot": 3,
                   "simpleChildrenUseDefaultAttributes": true,
-                  "simpleChildrenTypes": [
-                    "Mag_Glock_15Rnd"
-                  ]
+                  "simpleChildrenTypes": ["Mag_Glock_15Rnd"]
                 }
               ]
             }
@@ -233,10 +229,10 @@
           "itemType": "CargoPants_Black",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": true,
@@ -259,10 +255,10 @@
           "itemType": "MedievalBoots",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -275,10 +271,10 @@
           "itemType": "PaddedGloves_Brown",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
@@ -286,10 +282,10 @@
           "itemType": "PaddedGloves_Beige",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
@@ -297,10 +293,10 @@
           "itemType": "PaddedGloves_Threat",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -313,10 +309,10 @@
           "itemType": "HighCapacityVest_Black",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -331,8 +327,8 @@
           "attributes": {
             "healthMin": 0.8,
             "healthMax": 0.8,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -345,10 +341,10 @@
           "itemType": "Grenade_ChemGas",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -360,39 +356,39 @@
       "name": "Cargo1",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1,
-        "healthMax": 1,
-        "quantityMin": 1,
-        "quantityMax": 1
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
       },
       "complexChildrenTypes": [
         {
           "itemType": "Grenade_ChemGas",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Grenade_ChemGas",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Grenade_ChemGas",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
@@ -416,48 +412,45 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": [
-        "GlassBottle",
-        "GlassBottle"
-      ]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     },
     {
       "name": "Cargo2",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1,
-        "healthMax": 1,
-        "quantityMin": 1,
-        "quantityMax": 1
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
       },
       "complexChildrenTypes": [
         {
           "itemType": "Grenade_ChemGas",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Grenade_ChemGas",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Grenade_ChemGas",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
@@ -481,48 +474,45 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": [
-        "GlassBottle",
-        "GlassBottle"
-      ]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     },
     {
       "name": "Cargo3",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1,
-        "healthMax": 1,
-        "quantityMin": 1,
-        "quantityMax": 1
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
       },
       "complexChildrenTypes": [
         {
           "itemType": "Grenade_ChemGas",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Grenade_ChemGas",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
         {
           "itemType": "Grenade_ChemGas",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
@@ -546,10 +536,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": [
-        "GlassBottle",
-        "GlassBottle"
-      ]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     }
   ]
 }

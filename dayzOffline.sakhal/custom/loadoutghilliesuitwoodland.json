@@ -39,34 +39,32 @@
           "itemType": "M14",
           "spawnWeight": 3,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": 1,
           "complexChildrenTypes": [
             {
               "itemType": "ACOGOptic",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1,
               "simpleChildrenUseDefaultAttributes": true,
-              "simpleChildrenTypes": [
-                "Battery9V"
-              ]
+              "simpleChildrenTypes": ["Battery9V"]
             },
             {
               "itemType": "Mag_M14_20Rnd",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             }
@@ -81,72 +79,68 @@
           "itemType": "M4A1",
           "spawnWeight": 3,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": 2,
           "complexChildrenTypes": [
             {
               "itemType": "M4_Suppressor",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "M4_OEBttstck",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "M4_RISHndgrd",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "M4_T3NRDSOptic",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1,
               "simpleChildrenUseDefaultAttributes": true,
-              "simpleChildrenTypes": [
-                "Battery9V"
-              ]
+              "simpleChildrenTypes": ["Battery9V"]
             },
             {
               "itemType": "Mag_CMAG_40Rnd",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             }
           ],
           "simpleChildrenUseDefaultAttributes": false,
-          "simpleChildrenTypes": [
-            "M9A1_Bayonet"
-          ]
+          "simpleChildrenTypes": ["M9A1_Bayonet"]
         }
       ]
     },
@@ -157,10 +151,10 @@
           "itemType": "GhillieHood_Woodland",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -173,10 +167,10 @@
           "itemType": "BDUJacket",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -189,84 +183,82 @@
           "itemType": "PlateCarrierVest_Green",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "PlateCarrierHolster_Green",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "FNX45",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": 5,
               "simpleChildrenUseDefaultAttributes": false,
-              "simpleChildrenTypes": [
-                "Mag_FNX45_15Rnd"
-              ]
+              "simpleChildrenTypes": ["Mag_FNX45_15Rnd"]
             },
             {
               "itemType": "PlateCarrierPouches_Green",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "FlashGrenade",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "M18SmokeGrenade_Red",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "M67Grenade",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "M67Grenade",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             }
@@ -283,8 +275,8 @@
           "attributes": {
             "healthMin": 0.8,
             "healthMax": 0.8,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": true,
@@ -303,10 +295,10 @@
           "itemType": "Armband_Pirates",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         },
@@ -314,10 +306,10 @@
           "itemType": "Armband_Snake",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -330,10 +322,10 @@
           "itemType": "TacticalGloves_Green",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -346,10 +338,10 @@
           "itemType": "BalaclavaMask_Green",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -359,26 +351,24 @@
       "itemType": "NVGHeadstrap",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1,
-        "healthMax": 1,
-        "quantityMin": 1,
-        "quantityMax": 1
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
       },
       "quickBarSlot": -1,
       "complexChildrenTypes": [
         {
           "itemType": "NVGoggles",
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": true,
-          "simpleChildrenTypes": [
-            "Battery9V"
-          ]
+          "simpleChildrenTypes": ["Battery9V"]
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
@@ -391,10 +381,10 @@
           "itemType": "EasterEgg",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
@@ -409,54 +399,52 @@
           "itemType": "MilitaryBelt",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1,
           "complexChildrenTypes": [
             {
               "itemType": "PlateCarrierHolster_Green",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "FNX45",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1,
               "simpleChildrenUseDefaultAttributes": false,
-              "simpleChildrenTypes": [
-                "Mag_FNX45_15Rnd"
-              ]
+              "simpleChildrenTypes": ["Mag_FNX45_15Rnd"]
             },
             {
               "itemType": "NylonKnifeSheath",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": -1
             },
             {
               "itemType": "FangeKnife",
               "attributes": {
-                "healthMin": 1,
-                "healthMax": 1,
-                "quantityMin": 1,
-                "quantityMax": 1
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
               },
               "quickBarSlot": 9
             }
@@ -471,10 +459,10 @@
           "itemType": "BDUPants",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
@@ -487,10 +475,10 @@
           "itemType": "JungleBoots_Black",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
-            "quantityMin": 1,
-            "quantityMax": 1
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
           },
           "quickBarSlot": -1
         }
