@@ -4,7 +4,7 @@
   "platform": "dayz",
   "server_id": "15580969",
   "integration_version": "1.0.0",
-  "generated_at": "2026-01-01T00:00:00.000Z",
+  "generated_at": "2026-08-29T01:19:58.757Z",
   "pages_url": null,
   "capabilities": [
     "backup",
@@ -31,8 +31,13 @@
       "name": "Server Monitor",
       "version": "1.0.0",
       "workflow": ".github/workflows/dayz-monitor.yml",
-      "capabilities": ["server_status", "player_count"],
-      "data_outputs": ["dayz/data/current/server-status.json"],
+      "capabilities": [
+        "server_status",
+        "player_count"
+      ],
+      "data_outputs": [
+        "dayz/data/current/server-status.json"
+      ],
       "expected_interval_minutes": 360
     },
     {
@@ -40,8 +45,13 @@
       "name": "Configuration Validator",
       "version": "1.0.0",
       "workflow": ".github/workflows/dayz-validate.yml",
-      "capabilities": ["configuration_validation"],
-      "data_outputs": ["dayz/reports/current/validation.json", "dayz/reports/current/validation.md"],
+      "capabilities": [
+        "configuration_validation"
+      ],
+      "data_outputs": [
+        "dayz/reports/current/validation.json",
+        "dayz/reports/current/validation.md"
+      ],
       "expected_interval_minutes": 1440
     },
     {
@@ -49,7 +59,9 @@
       "name": "Backup",
       "version": "1.0.0",
       "workflow": ".github/workflows/dayz-backup.yml",
-      "capabilities": ["backup"],
+      "capabilities": [
+        "backup"
+      ],
       "data_outputs": []
     },
     {
@@ -57,7 +69,9 @@
       "name": "GitHub Pages",
       "version": "1.0.0",
       "workflow": ".github/workflows/dayz-pages.yml",
-      "capabilities": ["static_reports"],
+      "capabilities": [
+        "static_reports"
+      ],
       "data_outputs": []
     }
   ]
