@@ -26,7 +26,34 @@ const configuredInput = JSON.parse(process.env.DAYZ_BACKUP_PATHS_JSON || '[]');
 if (!Array.isArray(configuredInput) || !configuredInput.length || configuredInput.length > 100) {
   throw new Error('DAYZ_BACKUP_PATHS_JSON must contain 1-100 safe Nitrado file-server paths');
 }
-const configured = configuredInput.map(canonicalRemotePath);
+const configuredAliases = configuredInput.map(canonicalRemotePath);
+const missionAliases = configuredAliases.filter(value => /^\/noftp\/dayz(?:xb|ps|switch)_missions(?:\/|$)/.test(value));
+let configured = configuredAliases;
+if (missionAliases.length) {
+  const body = await nitradoJson(servicePath());
+  const gameserver = body.data?.gameserver;
+  const definitions = {
+    dayzxb: { data: 'dayzxb', missions: 'dayzxb_missions' },
+    dayzps: { data: 'dayzps', missions: 'dayzps_missions' },
+    dayzswitch: { data: 'dayzswitch', missions: 'dayzswitch_missions' },
+  };
+  const definition = definitions[String(gameserver?.game || '').toLowerCase()];
+  const gamePath = typeof gameserver?.game_specific?.path === 'string'
+    ? gameserver.game_specific.path.replace(/\/$/, '')
+    : '';
+  const namespaceMatch = definition && gamePath.match(
+    new RegExp(`^(/games/[A-Za-z0-9._-]+)/noftp/${definition.data}$`)
+  );
+  if (!namespaceMatch) throw new Error('Nitrado returned invalid game path metadata');
+  configured = configuredAliases.map(value => {
+    const aliasMatch = value.match(/^\/noftp\/(dayz(?:xb|ps|switch)_missions)(\/.*)?$/);
+    if (!aliasMatch) return value;
+    if (aliasMatch[1] !== definition.missions) {
+      throw new Error('Configured backup mission path does not match the Nitrado game platform');
+    }
+    return canonicalRemotePath(`${namespaceMatch[1]}${value}`);
+  });
+}
 const configuredRoots = [...new Set(configured)];
 const configuredMaxBytes = Number(process.env.DAYZ_BACKUP_MAX_BYTES || 524288000);
 if (!Number.isFinite(configuredMaxBytes) || configuredMaxBytes < 1) {
