@@ -5,7 +5,7 @@ import { nitradoJson, servicePath } from './nitrado.mjs';
 function normalizeRemotePath(value) {
   if (typeof value !== 'string') return value;
   return value.replace(
-    /\/ftproot\/(dayzxb|dayzps|dayzswitch)(?:_missions)?(?=\/|$)/g,
+    /\/ftproot\/(dayzxb|dayzps|dayzswitch)(?=\/|$)/g,
     match => match.replace('/ftproot/', '/noftp/')
   );
 }
@@ -15,7 +15,7 @@ function isSafeRemotePath(value) {
       || value.split('/').some(part => part === '.' || part === '..')) return false;
   return /^\/noftp\/[^/]+(?:\/.*)?$/.test(value)
     || /^\/ftproot\/dayzstandalone(?:\/.*)?$/.test(value)
-    || /^\/games\/[A-Za-z0-9._-]+\/(?:noftp\/[^/]+|ftproot\/dayzstandalone)(?:\/.*)?$/.test(value);
+    || /^\/games\/[A-Za-z0-9._-]+\/(?:noftp\/[^/]+|ftproot\/(?:dayzstandalone|dayz(?:xb|ps|switch)_missions))(?:\/.*)?$/.test(value);
 }
 function canonicalRemotePath(value) {
   const normalized = normalizeRemotePath(value);
@@ -45,13 +45,21 @@ if (missionAliases.length) {
     new RegExp(`^(/games/[A-Za-z0-9._-]+)/noftp/${definition.data}$`)
   );
   if (!namespaceMatch) throw new Error('Nitrado returned invalid game path metadata');
+  const activeMission = gameserver?.settings?.config?.mission
+    || gameserver?.game_specific?.mission
+    || gameserver?.query?.map;
+  if (typeof activeMission !== 'string' || !/^[A-Za-z0-9._-]{1,128}$/.test(activeMission)
+      || activeMission === '.' || activeMission === '..') {
+    throw new Error('Nitrado returned invalid active mission metadata');
+  }
   configured = configuredAliases.map(value => {
     const aliasMatch = value.match(/^\/noftp\/(dayz(?:xb|ps|switch)_missions)(\/.*)?$/);
     if (!aliasMatch) return value;
     if (aliasMatch[1] !== definition.missions) {
       throw new Error('Configured backup mission path does not match the Nitrado game platform');
     }
-    return canonicalRemotePath(`${namespaceMatch[1]}${value}`);
+    const missionSuffix = aliasMatch[2] || `/${activeMission}`;
+    return canonicalRemotePath(`${namespaceMatch[1]}/ftproot/${definition.missions}${missionSuffix}`);
   });
 }
 const configuredRoots = [...new Set(configured)];
