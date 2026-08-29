@@ -106,8 +106,8 @@ async function collect(remotePath, depth = 0) {
   }
 }
 
-for (const remotePath of configured) await collect(remotePath);
 await fs.mkdir(outputRoot, { recursive: true });
+for (const remotePath of configured) await collect(remotePath);
 await fs.writeFile(path.join(outputRoot, 'backup-metadata.json'), `${JSON.stringify({
   schema_version: 1,
   generated_at: new Date().toISOString(),
