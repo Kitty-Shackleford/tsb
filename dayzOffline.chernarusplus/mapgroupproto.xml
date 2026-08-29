@@ -1114,7 +1114,7 @@
   </group>
   <!-- Contaminated area fix -->
   <group name="Mechanic_Land_Workshop_FuelStation" lootmax="65">
-    <usage name="CarTools"/>
+    <usage name="Cartools"/>
     <usage name="Industrial"/>
     <usage name="Town"/>
     <container name="lootFloor" lootmax="10">
@@ -8858,7 +8858,7 @@
     </container>
   </group>
   <group name="Land_Mil_Tent_Big1_1" lootmax="8">
-    <usage name="Tent"/>
+    <usage name="Military"/>
     <container name="lootFloor">
       <tag name="floor"/>
       <tag name="shelves"/>
@@ -8889,7 +8889,7 @@
     </dispatch>
   </group>
   <group name="Land_Mil_Tent_Big1_4" lootmax="5">
-    <usage name="Tent"/>
+    <usage name="Military"/>
     <container name="lootFloor">
       <tag name="floor"/>
       <tag name="shelves"/>
@@ -8921,7 +8921,7 @@
     </dispatch>
   </group>
   <group name="Land_Mil_Tent_Big1_5" lootmax="5">
-    <usage name="Tent"/>
+    <usage name="Military"/>
     <container name="lootFloor">
       <tag name="floor"/>
       <tag name="shelves"/>
@@ -8950,7 +8950,7 @@
     </dispatch>
   </group>
   <group name="Land_Mil_Tent_Big2_2" lootmax="5">
-    <usage name="Tent"/>
+    <usage name="Military"/>
     <container name="lootFloor">
       <tag name="floor"/>
       <tag name="shelves"/>
@@ -8990,7 +8990,7 @@
     </dispatch>
   </group>
   <group name="Land_Mil_Tent_Big3" lootmax="8">
-    <usage name="Tent"/>
+    <usage name="Military"/>
     <container name="lootFloor" lootmax="8">
       <tag name="floor"/>
       <tag name="shelves"/>
@@ -9023,7 +9023,7 @@
     </dispatch>
   </group>
   <group name="Land_Mil_Tent_Big4" lootmax="8">
-    <usage name="Tent"/>
+    <usage name="Military"/>
     <container name="lootFloor" lootmax="8">
       <tag name="floor"/>
       <tag name="shelves"/>

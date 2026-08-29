@@ -5,7 +5,9 @@ on:
   push:
     paths:
       - 'dayz/config/**'
+      - 'dayzOffline.chernarusplus/**/*.xml'
       - 'dayz/scripts/validate-config.py'
+      - 'dayz/scripts/audit-limits.py'
   schedule:
     - cron: '20 3 * * *'
 
@@ -27,6 +29,8 @@ jobs:
           python-version: '3.12'
       - name: Validate DayZ XML and JSON
         run: python3 dayz/scripts/validate-config.py
+      - name: Audit Chernarus CE limit flags
+        run: python3 dayz/scripts/audit-limits.py dayzOffline.chernarusplus
       - name: Commit validation reports
         if: always()
         run: |
