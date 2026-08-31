@@ -161,4 +161,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
   <ce folder="custom">
     <file name="cfgrandompresets.xml" type="randompresets"/>
   </ce>
+
+    <ce folder="custom"><file name="shop_events.xml" type="events"/></ce>
 </economycore>

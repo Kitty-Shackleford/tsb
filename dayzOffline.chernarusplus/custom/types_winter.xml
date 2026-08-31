@@ -277,9 +277,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Military"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
+    <category name="Military"/>
   </type>
   <type name="GhillieBushrag_Winter">
     <nominal>3</nominal>
@@ -290,10 +288,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="clothes"/>
-    <usage name="Military"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
+    <category name="Military"/>
   </type>
   <type name="GhillieHood_Winter">
     <nominal>3</nominal>
@@ -304,10 +299,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="clothes"/>
-    <usage name="Military"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
+    <category name="Military"/>
   </type>
   <type name="GhillieSuit_Winter">
     <nominal>3</nominal>
@@ -318,10 +310,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="clothes"/>
-    <usage name="Military"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
+    <category name="Military"/>
   </type>
   <type name="GhillieTop_Winter">
     <nominal>3</nominal>
@@ -332,10 +321,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <category name="clothes"/>
-    <usage name="Military"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
+    <category name="Military"/>
   </type>
   <type name="GorkaEJacket_Winter">
     <nominal>18</nominal>
